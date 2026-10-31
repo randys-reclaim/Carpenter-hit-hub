@@ -1,0 +1,1519 @@
+{
+ "meta": {
+  "notice": "001",
+  "slug": "doorbell",
+  "title": "If Your Doorbell Camera Ever Shows You Leaving\u2026 STAY INSIDE"
+ },
+ "lines": [
+  {
+   "line": 1,
+   "cue": 1,
+   "scene": "COLD OPEN",
+   "text": "If your doorbell camera ever shows you leaving\u2026",
+   "raw": "If your doorbell camera ever shows you leaving\u2026 //",
+   "est": 4.75,
+   "img": "frames/16x9/0001.png",
+   "vimg": "frames/9x16/0001.png"
+  },
+  {
+   "line": 2,
+   "cue": 1,
+   "scene": "COLD OPEN",
+   "text": "stay inside.",
+   "raw": "stay inside.",
+   "est": 1.2,
+   "img": "frames/16x9/0002.png",
+   "vimg": "frames/9x16/0002.png"
+  },
+  {
+   "line": 3,
+   "cue": 2,
+   "scene": "COLD OPEN",
+   "text": "Don't watch the clip twice.",
+   "raw": "Don't watch the clip twice. /",
+   "est": 2.98,
+   "img": "frames/16x9/0003.png",
+   "vimg": "frames/9x16/0003.png"
+  },
+  {
+   "line": 4,
+   "cue": 2,
+   "scene": "COLD OPEN",
+   "text": "Don't check the porch.",
+   "raw": "Don't check the porch. /",
+   "est": 2.55,
+   "img": "frames/16x9/0004.png",
+   "vimg": "frames/9x16/0004.png"
+  },
+  {
+   "line": 5,
+   "cue": 2,
+   "scene": "COLD OPEN",
+   "text": "And if it waves at the camera\u2026",
+   "raw": "And if it waves at the camera\u2026 /",
+   "est": 3.83,
+   "img": "frames/16x9/0005.png",
+   "vimg": "frames/9x16/0005.png"
+  },
+  {
+   "line": 6,
+   "cue": 2,
+   "scene": "COLD OPEN",
+   "text": "don't wave back.",
+   "raw": "don't wave back.",
+   "est": 1.63,
+   "img": "frames/16x9/0006.png",
+   "vimg": "frames/9x16/0006.png"
+  },
+  {
+   "line": 7,
+   "cue": 3,
+   "scene": "COLD OPEN",
+   "text": "There are seven rules.",
+   "raw": "There are seven rules. /",
+   "est": 2.55,
+   "img": "frames/16x9/0007.png",
+   "vimg": "frames/9x16/0007.png"
+  },
+  {
+   "line": 8,
+   "cue": 3,
+   "scene": "COLD OPEN",
+   "text": "Six keep you inside.",
+   "raw": "Six keep you inside. /",
+   "est": 2.55,
+   "img": "frames/16x9/0008.png",
+   "vimg": "frames/9x16/0008.png"
+  },
+  {
+   "line": 9,
+   "cue": 3,
+   "scene": "COLD OPEN",
+   "text": "The seventh explains who's been going to work for you.",
+   "raw": "The seventh explains who's been going to work for you.",
+   "est": 4.61,
+   "img": "frames/16x9/0009.png",
+   "vimg": "frames/9x16/0009.png"
+  },
+  {
+   "line": 10,
+   "cue": 4,
+   "scene": "RULE 1: DON'T WATCH IT TWICE",
+   "text": "Rule one. Don't watch it twice.",
+   "raw": "Rule one. / Don't watch it twice.",
+   "est": 3.4,
+   "img": "frames/16x9/0010.png",
+   "vimg": "frames/9x16/0010.png"
+  },
+  {
+   "line": 11,
+   "cue": 5,
+   "scene": "RULE 1: DON'T WATCH IT TWICE",
+   "text": "Most doorbell alerts are nothing.",
+   "raw": "Most doorbell alerts are nothing. /",
+   "est": 2.98,
+   "img": "frames/16x9/0011.png",
+   "vimg": "frames/9x16/0011.png"
+  },
+  {
+   "line": 12,
+   "cue": 5,
+   "scene": "RULE 1: DON'T WATCH IT TWICE",
+   "text": "A moth. Headlights. Heat coming off the driveway.",
+   "raw": "A moth. Headlights. Heat coming off the driveway. /",
+   "est": 4.25,
+   "img": "frames/16x9/0012.png",
+   "vimg": "frames/9x16/0012.png"
+  },
+  {
+   "line": 13,
+   "cue": 5,
+   "scene": "RULE 1: DON'T WATCH IT TWICE",
+   "text": "That part's true. Check your own app.",
+   "raw": "That part's true. Check your own app. //",
+   "est": 4.33,
+   "img": "frames/16x9/0013.png",
+   "vimg": "frames/9x16/0013.png"
+  },
+  {
+   "line": 14,
+   "cue": 5,
+   "scene": "RULE 1: DON'T WATCH IT TWICE",
+   "text": "The rest of them, nobody talks about.",
+   "raw": "The rest of them, nobody talks about.",
+   "est": 3.33,
+   "img": "frames/16x9/0014.png",
+   "vimg": "frames/9x16/0014.png"
+  },
+  {
+   "line": 15,
+   "cue": 6,
+   "scene": "RULE 1: DON'T WATCH IT TWICE",
+   "text": "It'll come at 3:12 in the morning.",
+   "raw": "It'll come at 3:12 in the morning. /",
+   "est": 4.25,
+   "img": "frames/16x9/0015.png",
+   "vimg": "frames/9x16/0015.png"
+  },
+  {
+   "line": 16,
+   "cue": 6,
+   "scene": "RULE 1: DON'T WATCH IT TWICE",
+   "text": "\"Motion detected. Front door.\"",
+   "raw": "\"Motion detected. Front door.\" /",
+   "est": 2.55,
+   "img": "frames/16x9/0016.png",
+   "vimg": "frames/9x16/0016.png"
+  },
+  {
+   "line": 17,
+   "cue": 6,
+   "scene": "RULE 1: DON'T WATCH IT TWICE",
+   "text": "You'll open it half asleep.",
+   "raw": "You'll open it half asleep.",
+   "est": 2.48,
+   "img": "frames/16x9/0017.png",
+   "vimg": "frames/9x16/0017.png"
+  },
+  {
+   "line": 18,
+   "cue": 7,
+   "scene": "RULE 1: DON'T WATCH IT TWICE",
+   "text": "The door opens.",
+   "raw": "The door opens. /",
+   "est": 2.13,
+   "img": "frames/16x9/0018.png",
+   "vimg": "frames/9x16/0018.png"
+  },
+  {
+   "line": 19,
+   "cue": 7,
+   "scene": "RULE 1: DON'T WATCH IT TWICE",
+   "text": "Someone steps out.",
+   "raw": "Someone steps out. /",
+   "est": 2.13,
+   "img": "frames/16x9/0019.png",
+   "vimg": "frames/9x16/0019.png"
+  },
+  {
+   "line": 20,
+   "cue": 7,
+   "scene": "RULE 1: DON'T WATCH IT TWICE",
+   "text": "Your coat. Your shoes. Your walk.",
+   "raw": "Your coat. / Your shoes. / Your walk.",
+   "est": 3.9,
+   "img": "frames/16x9/0020.png",
+   "vimg": "frames/9x16/0020.png"
+  },
+  {
+   "line": 21,
+   "cue": 7,
+   "scene": "RULE 1: DON'T WATCH IT TWICE",
+   "text": "They lock the door behind them.",
+   "raw": "They lock the door behind them. /",
+   "est": 3.4,
+   "img": "frames/16x9/0021.png",
+   "vimg": "frames/9x16/0021.png"
+  },
+  {
+   "line": 22,
+   "cue": 7,
+   "scene": "RULE 1: DON'T WATCH IT TWICE",
+   "text": "With your key.",
+   "raw": "With your key. //",
+   "est": 2.63,
+   "img": "frames/16x9/0022.png",
+   "vimg": "frames/9x16/0022.png"
+  },
+  {
+   "line": 23,
+   "cue": 7,
+   "scene": "RULE 1: DON'T WATCH IT TWICE",
+   "text": "Then they walk down the driveway\u2026 and turn left.",
+   "raw": "Then they walk down the driveway\u2026 and turn left. /",
+   "est": 4.68,
+   "img": "frames/16x9/0023.png",
+   "vimg": "frames/9x16/0023.png"
+  },
+  {
+   "line": 24,
+   "cue": 7,
+   "scene": "RULE 1: DON'T WATCH IT TWICE",
+   "text": "You always turn left.",
+   "raw": "You always turn left.",
+   "est": 2.05,
+   "img": "frames/16x9/0024.png",
+   "vimg": "frames/9x16/0024.png"
+  },
+  {
+   "line": 25,
+   "cue": 8,
+   "scene": "RULE 1: DON'T WATCH IT TWICE",
+   "text": "You'll want to watch it again. To be sure.",
+   "raw": "You'll want to watch it again. To be sure. /",
+   "est": 4.68,
+   "img": "frames/16x9/0025.png",
+   "vimg": "frames/9x16/0025.png"
+  },
+  {
+   "line": 26,
+   "cue": 8,
+   "scene": "RULE 1: DON'T WATCH IT TWICE",
+   "text": "Don't.",
+   "raw": "Don't. //",
+   "est": 1.78,
+   "img": "frames/16x9/0026.png",
+   "vimg": "frames/9x16/0026.png"
+  },
+  {
+   "line": 27,
+   "cue": 8,
+   "scene": "RULE 1: DON'T WATCH IT TWICE",
+   "text": "Every time you play it, it gets a little better at being you.",
+   "raw": "Every time you play it, / it gets a little better at being you.",
+   "est": 6.38,
+   "img": "frames/16x9/0027.png",
+   "vimg": "frames/9x16/0027.png"
+  },
+  {
+   "line": 28,
+   "cue": 9,
+   "scene": "RULE 1: DON'T WATCH IT TWICE",
+   "text": "The first clip, the walk is wrong.",
+   "raw": "The first clip, the walk is wrong. /",
+   "est": 3.83,
+   "img": "frames/16x9/0028.png",
+   "vimg": "frames/9x16/0028.png"
+  },
+  {
+   "line": 29,
+   "cue": 9,
+   "scene": "RULE 1: DON'T WATCH IT TWICE",
+   "text": "Too stiff. Like someone reading instructions.",
+   "raw": "Too stiff. Like someone reading instructions. /",
+   "est": 3.4,
+   "img": "frames/16x9/0029.png",
+   "vimg": "frames/9x16/0029.png"
+  },
+  {
+   "line": 30,
+   "cue": 9,
+   "scene": "RULE 1: DON'T WATCH IT TWICE",
+   "text": "By the fifth one\u2026 it's humming.",
+   "raw": "By the fifth one\u2026 it's humming.",
+   "est": 2.9,
+   "img": "frames/16x9/0030.png",
+   "vimg": "frames/9x16/0030.png"
+  },
+  {
+   "line": 31,
+   "cue": 10,
+   "scene": "RULE 1: DON'T WATCH IT TWICE",
+   "text": "A woman in Tulsa watched hers forty times.",
+   "raw": "A woman in Tulsa watched hers forty times. /",
+   "est": 4.25,
+   "img": "frames/16x9/0031.png",
+   "vimg": "frames/9x16/0031.png"
+  },
+  {
+   "line": 32,
+   "cue": 10,
+   "scene": "RULE 1: DON'T WATCH IT TWICE",
+   "text": "By the end, it patted its pockets for her phone.",
+   "raw": "By the end, it patted its pockets for her phone. //",
+   "est": 5.61,
+   "img": "frames/16x9/0032.png",
+   "vimg": "frames/9x16/0032.png"
+  },
+  {
+   "line": 33,
+   "cue": 10,
+   "scene": "RULE 1: DON'T WATCH IT TWICE",
+   "text": "Exactly the way she does.",
+   "raw": "Exactly the way she does.",
+   "est": 2.48,
+   "img": "frames/16x9/0033.png",
+   "vimg": "frames/9x16/0033.png"
+  },
+  {
+   "line": 34,
+   "cue": 11,
+   "scene": "RULE 2: DON'T DELETE THE CLIP",
+   "text": "Rule two. Don't delete the clip.",
+   "raw": "Rule two. / Don't delete the clip.",
+   "est": 3.4,
+   "img": "frames/16x9/0034.png",
+   "vimg": "frames/9x16/0034.png"
+  },
+  {
+   "line": 35,
+   "cue": 12,
+   "scene": "RULE 2: DON'T DELETE THE CLIP",
+   "text": "You'll want to. Obviously.",
+   "raw": "You'll want to. Obviously. /",
+   "est": 2.55,
+   "img": "frames/16x9/0035.png",
+   "vimg": "frames/9x16/0035.png"
+  },
+  {
+   "line": 36,
+   "cue": 12,
+   "scene": "RULE 2: DON'T DELETE THE CLIP",
+   "text": "The app will ask, \"Are you sure?\"",
+   "raw": "The app will ask, \"Are you sure?\" /",
+   "est": 3.83,
+   "img": "frames/16x9/0036.png",
+   "vimg": "frames/9x16/0036.png"
+  },
+  {
+   "line": 37,
+   "cue": 12,
+   "scene": "RULE 2: DON'T DELETE THE CLIP",
+   "text": "It's asking for a reason.",
+   "raw": "It's asking for a reason.",
+   "est": 2.48,
+   "img": "frames/16x9/0037.png",
+   "vimg": "frames/9x16/0037.png"
+  },
+  {
+   "line": 38,
+   "cue": 13,
+   "scene": "RULE 2: DON'T DELETE THE CLIP",
+   "text": "The clip is proof.",
+   "raw": "The clip is proof. /",
+   "est": 2.55,
+   "img": "frames/16x9/0038.png",
+   "vimg": "frames/9x16/0038.png"
+  },
+  {
+   "line": 39,
+   "cue": 13,
+   "scene": "RULE 2: DON'T DELETE THE CLIP",
+   "text": "As long as it's saved, the camera knows there are two of you.",
+   "raw": "As long as it's saved, the camera knows there are two of you. //",
+   "est": 6.88,
+   "img": "frames/16x9/0039.png",
+   "vimg": "frames/9x16/0039.png"
+  },
+  {
+   "line": 40,
+   "cue": 13,
+   "scene": "RULE 2: DON'T DELETE THE CLIP",
+   "text": "Delete it, and it only remembers one.",
+   "raw": "Delete it, and it only remembers one. /",
+   "est": 3.83,
+   "img": "frames/16x9/0040.png",
+   "vimg": "frames/9x16/0040.png"
+  },
+  {
+   "line": 41,
+   "cue": 13,
+   "scene": "RULE 2: DON'T DELETE THE CLIP",
+   "text": "It won't be the one in bed.",
+   "raw": "It won't be the one in bed.",
+   "est": 3.33,
+   "img": "frames/16x9/0041.png",
+   "vimg": "frames/9x16/0041.png"
+  },
+  {
+   "line": 42,
+   "cue": 14,
+   "scene": "RULE 2: DON'T DELETE THE CLIP",
+   "text": "That's why your cloud storage fills up so fast.",
+   "raw": "That's why your cloud storage fills up so fast. /",
+   "est": 4.68,
+   "img": "frames/16x9/0042.png",
+   "vimg": "frames/9x16/0042.png"
+  },
+  {
+   "line": 43,
+   "cue": 14,
+   "scene": "RULE 2: DON'T DELETE THE CLIP",
+   "text": "You don't record that much.",
+   "raw": "You don't record that much. /",
+   "est": 2.98,
+   "img": "frames/16x9/0043.png",
+   "vimg": "frames/9x16/0043.png"
+  },
+  {
+   "line": 44,
+   "cue": 14,
+   "scene": "RULE 2: DON'T DELETE THE CLIP",
+   "text": "Some of those clips aren't yours.",
+   "raw": "Some of those clips aren't yours.",
+   "est": 2.9,
+   "img": "frames/16x9/0044.png",
+   "vimg": "frames/9x16/0044.png"
+  },
+  {
+   "line": 45,
+   "cue": 14,
+   "scene": "RULE 2: DON'T DELETE THE CLIP",
+   "text": "Leave them.",
+   "raw": "Leave them. /",
+   "est": 1.7,
+   "img": "frames/16x9/0045.png",
+   "vimg": "frames/9x16/0045.png"
+  },
+  {
+   "line": 46,
+   "cue": 14,
+   "scene": "RULE 2: DON'T DELETE THE CLIP",
+   "text": "They're not taking up space.",
+   "raw": "They're not taking up space. //",
+   "est": 3.48,
+   "img": "frames/16x9/0046.png",
+   "vimg": "frames/9x16/0046.png"
+  },
+  {
+   "line": 47,
+   "cue": 14,
+   "scene": "RULE 2: DON'T DELETE THE CLIP",
+   "text": "They're holding it.",
+   "raw": "They're holding it.",
+   "est": 1.63,
+   "img": "frames/16x9/0047.png",
+   "vimg": "frames/9x16/0047.png"
+  },
+  {
+   "line": 48,
+   "cue": 15,
+   "scene": "RULE 3: DON'T CHECK THE PORCH",
+   "text": "Rule three. Don't check the porch.",
+   "raw": "Rule three. / Don't check the porch.",
+   "est": 3.4,
+   "img": "frames/16x9/0048.png",
+   "vimg": "frames/9x16/0048.png"
+  },
+  {
+   "line": 49,
+   "cue": 16,
+   "scene": "RULE 3: DON'T CHECK THE PORCH",
+   "text": "You'll want to look through the peephole.",
+   "raw": "You'll want to look through the peephole. /",
+   "est": 3.83,
+   "img": "frames/16x9/0049.png",
+   "vimg": "frames/9x16/0049.png"
+  },
+  {
+   "line": 50,
+   "cue": 16,
+   "scene": "RULE 3: DON'T CHECK THE PORCH",
+   "text": "The porch light will be off. You leave it on.",
+   "raw": "The porch light will be off. / You leave it on. /",
+   "est": 5.61,
+   "img": "frames/16x9/0050.png",
+   "vimg": "frames/9x16/0050.png"
+  },
+  {
+   "line": 51,
+   "cue": 16,
+   "scene": "RULE 3: DON'T CHECK THE PORCH",
+   "text": "The doormat will be crooked.",
+   "raw": "The doormat will be crooked. //",
+   "est": 3.48,
+   "img": "frames/16x9/0051.png",
+   "vimg": "frames/9x16/0051.png"
+  },
+  {
+   "line": 52,
+   "cue": 16,
+   "scene": "RULE 3: DON'T CHECK THE PORCH",
+   "text": "And there'll be footprints. Wet ones.",
+   "raw": "And there'll be footprints. / Wet ones.",
+   "est": 3.4,
+   "img": "frames/16x9/0052.png",
+   "vimg": "frames/9x16/0052.png"
+  },
+  {
+   "line": 53,
+   "cue": 17,
+   "scene": "RULE 3: DON'T CHECK THE PORCH",
+   "text": "Going out.",
+   "raw": "Going out. //",
+   "est": 2.2,
+   "img": "frames/16x9/0053.png",
+   "vimg": "frames/9x16/0053.png"
+  },
+  {
+   "line": 54,
+   "cue": 17,
+   "scene": "RULE 3: DON'T CHECK THE PORCH",
+   "text": "None coming back.",
+   "raw": "None coming back.",
+   "est": 1.63,
+   "img": "frames/16x9/0054.png",
+   "vimg": "frames/9x16/0054.png"
+  },
+  {
+   "line": 55,
+   "cue": 18,
+   "scene": "RULE 3: DON'T CHECK THE PORCH",
+   "text": "If you open the door now, you're the one who left.",
+   "raw": "If you open the door now, / you're the one who left. /",
+   "est": 6.03,
+   "img": "frames/16x9/0055.png",
+   "vimg": "frames/9x16/0055.png"
+  },
+  {
+   "line": 56,
+   "cue": 18,
+   "scene": "RULE 3: DON'T CHECK THE PORCH",
+   "text": "And someone has to come back in.",
+   "raw": "And someone has to come back in.",
+   "est": 3.33,
+   "img": "frames/16x9/0056.png",
+   "vimg": "frames/9x16/0056.png"
+  },
+  {
+   "line": 57,
+   "cue": 19,
+   "scene": "RULE 3: DON'T CHECK THE PORCH",
+   "text": "A man in Leeds opened his.",
+   "raw": "A man in Leeds opened his. /",
+   "est": 3.4,
+   "img": "frames/16x9/0057.png",
+   "vimg": "frames/9x16/0057.png"
+  },
+  {
+   "line": 58,
+   "cue": 19,
+   "scene": "RULE 3: DON'T CHECK THE PORCH",
+   "text": "Cold air. Empty street.",
+   "raw": "Cold air. Empty street. /",
+   "est": 2.55,
+   "img": "frames/16x9/0058.png",
+   "vimg": "frames/9x16/0058.png"
+  },
+  {
+   "line": 59,
+   "cue": 19,
+   "scene": "RULE 3: DON'T CHECK THE PORCH",
+   "text": "He says nothing happened.",
+   "raw": "He says nothing happened. //",
+   "est": 3.05,
+   "img": "frames/16x9/0059.png",
+   "vimg": "frames/9x16/0059.png"
+  },
+  {
+   "line": 60,
+   "cue": 19,
+   "scene": "RULE 3: DON'T CHECK THE PORCH",
+   "text": "His dog won't sleep in his room anymore.",
+   "raw": "His dog won't sleep in his room anymore. /",
+   "est": 4.25,
+   "img": "frames/16x9/0060.png",
+   "vimg": "frames/9x16/0060.png"
+  },
+  {
+   "line": 61,
+   "cue": 19,
+   "scene": "RULE 3: DON'T CHECK THE PORCH",
+   "text": "Dogs know the difference.",
+   "raw": "Dogs know the difference. /",
+   "est": 2.55,
+   "img": "frames/16x9/0061.png",
+   "vimg": "frames/9x16/0061.png"
+  },
+  {
+   "line": 62,
+   "cue": 19,
+   "scene": "RULE 3: DON'T CHECK THE PORCH",
+   "text": "People mostly don't.",
+   "raw": "People mostly don't.",
+   "est": 1.63,
+   "img": "frames/16x9/0062.png",
+   "vimg": "frames/9x16/0062.png"
+  },
+  {
+   "line": 63,
+   "cue": 20,
+   "scene": "RULE 3: DON'T CHECK THE PORCH",
+   "text": "Go back to bed.",
+   "raw": "Go back to bed. /",
+   "est": 2.55,
+   "img": "frames/16x9/0063.png",
+   "vimg": "frames/9x16/0063.png"
+  },
+  {
+   "line": 64,
+   "cue": 20,
+   "scene": "RULE 3: DON'T CHECK THE PORCH",
+   "text": "The porch will still be there in the morning. Mostly.",
+   "raw": "The porch will still be there in the morning. // Mostly.",
+   "est": 5.61,
+   "img": "frames/16x9/0064.png",
+   "vimg": "frames/9x16/0064.png"
+  },
+  {
+   "line": 65,
+   "cue": 21,
+   "scene": "RULE 4: KEEP NOTIFICATIONS ON",
+   "text": "Rule four. Don't turn off the alerts.",
+   "raw": "Rule four. / Don't turn off the alerts.",
+   "est": 3.83,
+   "img": "frames/16x9/0065.png",
+   "vimg": "frames/9x16/0065.png"
+  },
+  {
+   "line": 66,
+   "cue": 22,
+   "scene": "RULE 4: KEEP NOTIFICATIONS ON",
+   "text": "You'll think, if I don't see it, it isn't happening.",
+   "raw": "You'll think, if I don't see it, it isn't happening. /",
+   "est": 5.11,
+   "img": "frames/16x9/0066.png",
+   "vimg": "frames/9x16/0066.png"
+  },
+  {
+   "line": 67,
+   "cue": 22,
+   "scene": "RULE 4: KEEP NOTIFICATIONS ON",
+   "text": "That's how most people sleep through it.",
+   "raw": "That's how most people sleep through it. /",
+   "est": 3.83,
+   "img": "frames/16x9/0067.png",
+   "vimg": "frames/9x16/0067.png"
+  },
+  {
+   "line": 68,
+   "cue": 22,
+   "scene": "RULE 4: KEEP NOTIFICATIONS ON",
+   "text": "For years.",
+   "raw": "For years.",
+   "est": 1.2,
+   "img": "frames/16x9/0068.png",
+   "vimg": "frames/9x16/0068.png"
+  },
+  {
+   "line": 69,
+   "cue": 22,
+   "scene": "RULE 4: KEEP NOTIFICATIONS ON",
+   "text": "The alerts aren't for you.",
+   "raw": "The alerts aren't for you. /",
+   "est": 2.98,
+   "img": "frames/16x9/0069.png",
+   "vimg": "frames/9x16/0069.png"
+  },
+  {
+   "line": 70,
+   "cue": 22,
+   "scene": "RULE 4: KEEP NOTIFICATIONS ON",
+   "text": "They're a receipt.",
+   "raw": "They're a receipt.",
+   "est": 1.63,
+   "img": "frames/16x9/0070.png",
+   "vimg": "frames/9x16/0070.png"
+  },
+  {
+   "line": 71,
+   "cue": 23,
+   "scene": "RULE 4: KEEP NOTIFICATIONS ON",
+   "text": "At 3:33, the feed goes gray.",
+   "raw": "At 3:33, the feed goes gray. /",
+   "est": 3.83,
+   "img": "frames/16x9/0071.png",
+   "vimg": "frames/9x16/0071.png"
+  },
+  {
+   "line": 72,
+   "cue": 23,
+   "scene": "RULE 4: KEEP NOTIFICATIONS ON",
+   "text": "Sixty seconds.",
+   "raw": "Sixty seconds. //",
+   "est": 2.2,
+   "img": "frames/16x9/0072.png",
+   "vimg": "frames/9x16/0072.png"
+  },
+  {
+   "line": 73,
+   "cue": 23,
+   "scene": "RULE 4: KEEP NOTIFICATIONS ON",
+   "text": "Nobody's on the porch during the gray minute.",
+   "raw": "Nobody's on the porch during the gray minute. /",
+   "est": 4.25,
+   "img": "frames/16x9/0073.png",
+   "vimg": "frames/9x16/0073.png"
+  },
+  {
+   "line": 74,
+   "cue": 23,
+   "scene": "RULE 4: KEEP NOTIFICATIONS ON",
+   "text": "Not even it.",
+   "raw": "Not even it. //",
+   "est": 2.63,
+   "img": "frames/16x9/0074.png",
+   "vimg": "frames/9x16/0074.png"
+  },
+  {
+   "line": 75,
+   "cue": 23,
+   "scene": "RULE 4: KEEP NOTIFICATIONS ON",
+   "text": "Everyone needs a minute.",
+   "raw": "Everyone needs a minute.",
+   "est": 2.05,
+   "img": "frames/16x9/0075.png",
+   "vimg": "frames/9x16/0075.png"
+  },
+  {
+   "line": 76,
+   "cue": 24,
+   "scene": "RULE 4: KEEP NOTIFICATIONS ON",
+   "text": "That's why your phone loses battery overnight, while it's plugged in.",
+   "raw": "That's why your phone loses battery overnight, / while it's plugged in. /",
+   "est": 6.03,
+   "img": "frames/16x9/0076.png",
+   "vimg": "frames/9x16/0076.png"
+  },
+  {
+   "line": 77,
+   "cue": 24,
+   "scene": "RULE 4: KEEP NOTIFICATIONS ON",
+   "text": "It's been streaming. All night.",
+   "raw": "It's been streaming. / All night. //",
+   "est": 3.98,
+   "img": "frames/16x9/0077.png",
+   "vimg": "frames/9x16/0077.png"
+  },
+  {
+   "line": 78,
+   "cue": 24,
+   "scene": "RULE 4: KEEP NOTIFICATIONS ON",
+   "text": "To someone else's phone.",
+   "raw": "To someone else's phone.",
+   "est": 2.05,
+   "img": "frames/16x9/0078.png",
+   "vimg": "frames/9x16/0078.png"
+  },
+  {
+   "line": 79,
+   "cue": 25,
+   "scene": "RULE 5: IF IT WAVES, DON'T WAVE BACK",
+   "text": "Rule five. If it waves, don't wave back.",
+   "raw": "Rule five. / If it waves, / don't wave back.",
+   "est": 4.75,
+   "img": "frames/16x9/0079.png",
+   "vimg": "frames/9x16/0079.png"
+  },
+  {
+   "line": 80,
+   "cue": 26,
+   "scene": "RULE 5: IF IT WAVES, DON'T WAVE BACK",
+   "text": "Some nights it stops at the end of the driveway.",
+   "raw": "Some nights it stops at the end of the driveway. /",
+   "est": 5.11,
+   "img": "frames/16x9/0080.png",
+   "vimg": "frames/9x16/0080.png"
+  },
+  {
+   "line": 81,
+   "cue": 26,
+   "scene": "RULE 5: IF IT WAVES, DON'T WAVE BACK",
+   "text": "Turns around.",
+   "raw": "Turns around. /",
+   "est": 1.7,
+   "img": "frames/16x9/0081.png",
+   "vimg": "frames/9x16/0081.png"
+  },
+  {
+   "line": 82,
+   "cue": 26,
+   "scene": "RULE 5: IF IT WAVES, DON'T WAVE BACK",
+   "text": "Looks straight into the lens.",
+   "raw": "Looks straight into the lens.",
+   "est": 2.48,
+   "img": "frames/16x9/0082.png",
+   "vimg": "frames/9x16/0082.png"
+  },
+  {
+   "line": 83,
+   "cue": 27,
+   "scene": "RULE 5: IF IT WAVES, DON'T WAVE BACK",
+   "text": "It has your face. Mostly.",
+   "raw": "It has your face. // Mostly. /",
+   "est": 3.98,
+   "img": "frames/16x9/0083.png",
+   "vimg": "frames/9x16/0083.png"
+  },
+  {
+   "line": 84,
+   "cue": 27,
+   "scene": "RULE 5: IF IT WAVES, DON'T WAVE BACK",
+   "text": "The eyes are a little too far apart.",
+   "raw": "The eyes are a little too far apart. /",
+   "est": 4.25,
+   "img": "frames/16x9/0084.png",
+   "vimg": "frames/9x16/0084.png"
+  },
+  {
+   "line": 85,
+   "cue": 27,
+   "scene": "RULE 5: IF IT WAVES, DON'T WAVE BACK",
+   "text": "Like a drawing done from memory.",
+   "raw": "Like a drawing done from memory.",
+   "est": 2.9,
+   "img": "frames/16x9/0085.png",
+   "vimg": "frames/9x16/0085.png"
+  },
+  {
+   "line": 86,
+   "cue": 28,
+   "scene": "RULE 5: IF IT WAVES, DON'T WAVE BACK",
+   "text": "Then it lifts one hand\u2026",
+   "raw": "Then it lifts one hand\u2026 /",
+   "est": 2.98,
+   "img": "frames/16x9/0086.png",
+   "vimg": "frames/9x16/0086.png"
+  },
+  {
+   "line": 87,
+   "cue": 28,
+   "scene": "RULE 5: IF IT WAVES, DON'T WAVE BACK",
+   "text": "and waves.",
+   "raw": "and waves. /",
+   "est": 1.7,
+   "img": "frames/16x9/0087.png",
+   "vimg": "frames/9x16/0087.png"
+  },
+  {
+   "line": 88,
+   "cue": 28,
+   "scene": "RULE 5: IF IT WAVES, DON'T WAVE BACK",
+   "text": "Slowly. Like it's being polite.",
+   "raw": "Slowly. / Like it's being polite.",
+   "est": 2.98,
+   "img": "frames/16x9/0088.png",
+   "vimg": "frames/9x16/0088.png"
+  },
+  {
+   "line": 89,
+   "cue": 29,
+   "scene": "RULE 5: IF IT WAVES, DON'T WAVE BACK",
+   "text": "You'll feel your hand start to move.",
+   "raw": "You'll feel your hand start to move. /",
+   "est": 3.83,
+   "img": "frames/16x9/0089.png",
+   "vimg": "frames/9x16/0089.png"
+  },
+  {
+   "line": 90,
+   "cue": 29,
+   "scene": "RULE 5: IF IT WAVES, DON'T WAVE BACK",
+   "text": "Sit on it.",
+   "raw": "Sit on it.",
+   "est": 1.63,
+   "img": "frames/16x9/0090.png",
+   "vimg": "frames/9x16/0090.png"
+  },
+  {
+   "line": 91,
+   "cue": 29,
+   "scene": "RULE 5: IF IT WAVES, DON'T WAVE BACK",
+   "text": "A wave is an agreement.",
+   "raw": "A wave is an agreement. /",
+   "est": 2.98,
+   "img": "frames/16x9/0091.png",
+   "vimg": "frames/9x16/0091.png"
+  },
+  {
+   "line": 92,
+   "cue": 29,
+   "scene": "RULE 5: IF IT WAVES, DON'T WAVE BACK",
+   "text": "It means, \"See you tomorrow.\"",
+   "raw": "It means, \"See you tomorrow.\" //",
+   "est": 3.48,
+   "img": "frames/16x9/0092.png",
+   "vimg": "frames/9x16/0092.png"
+  },
+  {
+   "line": 93,
+   "cue": 29,
+   "scene": "RULE 5: IF IT WAVES, DON'T WAVE BACK",
+   "text": "And it will.",
+   "raw": "And it will.",
+   "est": 1.63,
+   "img": "frames/16x9/0093.png",
+   "vimg": "frames/9x16/0093.png"
+  },
+  {
+   "line": 94,
+   "cue": 30,
+   "scene": "RULE 5: IF IT WAVES, DON'T WAVE BACK",
+   "text": "That's why d\u00e9j\u00e0 vu happens.",
+   "raw": "That's why d\u00e9j\u00e0 vu happens. /",
+   "est": 3.4,
+   "img": "frames/16x9/0094.png",
+   "vimg": "frames/9x16/0094.png"
+  },
+  {
+   "line": 95,
+   "cue": 30,
+   "scene": "RULE 5: IF IT WAVES, DON'T WAVE BACK",
+   "text": "That little feeling you've already done this today.",
+   "raw": "That little feeling you've already done this today. //",
+   "est": 4.75,
+   "img": "frames/16x9/0095.png",
+   "vimg": "frames/9x16/0095.png"
+  },
+  {
+   "line": 96,
+   "cue": 30,
+   "scene": "RULE 5: IF IT WAVES, DON'T WAVE BACK",
+   "text": "You have.",
+   "raw": "You have. /",
+   "est": 1.7,
+   "img": "frames/16x9/0096.png",
+   "vimg": "frames/9x16/0096.png"
+  },
+  {
+   "line": 97,
+   "cue": 30,
+   "scene": "RULE 5: IF IT WAVES, DON'T WAVE BACK",
+   "text": "Just not you you.",
+   "raw": "Just not *you* you.",
+   "est": 2.05,
+   "img": "frames/16x9/0097.png",
+   "vimg": "frames/9x16/0097.png"
+  },
+  {
+   "line": 98,
+   "cue": 31,
+   "scene": "RULE 6: IF THE DOORBELL RINGS, DON'T ANSWER",
+   "text": "Rule six. If the doorbell rings, don't answer.",
+   "raw": "Rule six. / If the doorbell rings, / don't answer.",
+   "est": 4.75,
+   "img": "frames/16x9/0098.png",
+   "vimg": "frames/9x16/0098.png"
+  },
+  {
+   "line": 99,
+   "cue": 32,
+   "scene": "RULE 6: IF THE DOORBELL RINGS, DON'T ANSWER",
+   "text": "Around six, the app pings again.",
+   "raw": "Around six, the app pings again. /",
+   "est": 3.4,
+   "img": "frames/16x9/0099.png",
+   "vimg": "frames/9x16/0099.png"
+  },
+  {
+   "line": 100,
+   "cue": 32,
+   "scene": "RULE 6: IF THE DOORBELL RINGS, DON'T ANSWER",
+   "text": "\"Someone is at your front door.\"",
+   "raw": "\"Someone is at your front door.\" //",
+   "est": 3.9,
+   "img": "frames/16x9/0100.png",
+   "vimg": "frames/9x16/0100.png"
+  },
+  {
+   "line": 101,
+   "cue": 32,
+   "scene": "RULE 6: IF THE DOORBELL RINGS, DON'T ANSWER",
+   "text": "It's back.",
+   "raw": "It's back.",
+   "est": 1.2,
+   "img": "frames/16x9/0101.png",
+   "vimg": "frames/9x16/0101.png"
+  },
+  {
+   "line": 102,
+   "cue": 32,
+   "scene": "RULE 6: IF THE DOORBELL RINGS, DON'T ANSWER",
+   "text": "It doesn't need to ring. It has a key.",
+   "raw": "It doesn't need to ring. / It has a key. /",
+   "est": 5.18,
+   "img": "frames/16x9/0102.png",
+   "vimg": "frames/9x16/0102.png"
+  },
+  {
+   "line": 103,
+   "cue": 32,
+   "scene": "RULE 6: IF THE DOORBELL RINGS, DON'T ANSWER",
+   "text": "It's ringing to see if you'll come.",
+   "raw": "It's ringing to see if you'll come. //",
+   "est": 4.33,
+   "img": "frames/16x9/0103.png",
+   "vimg": "frames/9x16/0103.png"
+  },
+  {
+   "line": 104,
+   "cue": 32,
+   "scene": "RULE 6: IF THE DOORBELL RINGS, DON'T ANSWER",
+   "text": "Whoever opens the door\u2026 goes out next time.",
+   "raw": "Whoever opens the door\u2026 / goes out next time.",
+   "est": 4.25,
+   "img": "frames/16x9/0104.png",
+   "vimg": "frames/9x16/0104.png"
+  },
+  {
+   "line": 105,
+   "cue": 33,
+   "scene": "RULE 6: IF THE DOORBELL RINGS, DON'T ANSWER",
+   "text": "Stay under the blanket.",
+   "raw": "Stay under the blanket. /",
+   "est": 2.55,
+   "img": "frames/16x9/0105.png",
+   "vimg": "frames/9x16/0105.png"
+  },
+  {
+   "line": 106,
+   "cue": 33,
+   "scene": "RULE 6: IF THE DOORBELL RINGS, DON'T ANSWER",
+   "text": "It'll ring twice.",
+   "raw": "It'll ring twice. /",
+   "est": 2.13,
+   "img": "frames/16x9/0106.png",
+   "vimg": "frames/9x16/0106.png"
+  },
+  {
+   "line": 107,
+   "cue": 33,
+   "scene": "RULE 6: IF THE DOORBELL RINGS, DON'T ANSWER",
+   "text": "Then it'll try the keypad on the side door.",
+   "raw": "Then it'll try the keypad on the side door.",
+   "est": 4.18,
+   "img": "frames/16x9/0107.png",
+   "vimg": "frames/9x16/0107.png"
+  },
+  {
+   "line": 108,
+   "cue": 34,
+   "scene": "RULE 6: IF THE DOORBELL RINGS, DON'T ANSWER",
+   "text": "It knows the code.",
+   "raw": "It knows the code. /",
+   "est": 2.55,
+   "img": "frames/16x9/0108.png",
+   "vimg": "frames/9x16/0108.png"
+  },
+  {
+   "line": 109,
+   "cue": 34,
+   "scene": "RULE 6: IF THE DOORBELL RINGS, DON'T ANSWER",
+   "text": "It's your birthday.",
+   "raw": "It's your birthday. //",
+   "est": 2.63,
+   "img": "frames/16x9/0109.png",
+   "vimg": "frames/9x16/0109.png"
+  },
+  {
+   "line": 110,
+   "cue": 34,
+   "scene": "RULE 6: IF THE DOORBELL RINGS, DON'T ANSWER",
+   "text": "Everyone's code is their birthday.",
+   "raw": "Everyone's code is their birthday. /",
+   "est": 2.98,
+   "img": "frames/16x9/0110.png",
+   "vimg": "frames/9x16/0110.png"
+  },
+  {
+   "line": 111,
+   "cue": 34,
+   "scene": "RULE 6: IF THE DOORBELL RINGS, DON'T ANSWER",
+   "text": "Change that, by the way.",
+   "raw": "Change that, by the way.",
+   "est": 2.48,
+   "img": "frames/16x9/0111.png",
+   "vimg": "frames/9x16/0111.png"
+  },
+  {
+   "line": 112,
+   "cue": 35,
+   "scene": "RULE 6: IF THE DOORBELL RINGS, DON'T ANSWER",
+   "text": "At 6:12 your alarm goes off.",
+   "raw": "At 6:12 your alarm goes off. /",
+   "est": 3.83,
+   "img": "frames/16x9/0112.png",
+   "vimg": "frames/9x16/0112.png"
+  },
+  {
+   "line": 113,
+   "cue": 35,
+   "scene": "RULE 6: IF THE DOORBELL RINGS, DON'T ANSWER",
+   "text": "Downstairs, the kettle's already on.",
+   "raw": "Downstairs, / the kettle's already on.",
+   "est": 2.98,
+   "img": "frames/16x9/0113.png",
+   "vimg": "frames/9x16/0113.png"
+  },
+  {
+   "line": 114,
+   "cue": 36,
+   "scene": "RULE 6: IF THE DOORBELL RINGS, DON'T ANSWER",
+   "text": "That's why your car seat sometimes feels moved.",
+   "raw": "That's why your car seat sometimes feels moved. /",
+   "est": 4.25,
+   "img": "frames/16x9/0114.png",
+   "vimg": "frames/9x16/0114.png"
+  },
+  {
+   "line": 115,
+   "cue": 36,
+   "scene": "RULE 6: IF THE DOORBELL RINGS, DON'T ANSWER",
+   "text": "Why your step count is higher than it should be.",
+   "raw": "Why your step count is higher than it should be. /",
+   "est": 5.11,
+   "img": "frames/16x9/0115.png",
+   "vimg": "frames/9x16/0115.png"
+  },
+  {
+   "line": 116,
+   "cue": 36,
+   "scene": "RULE 6: IF THE DOORBELL RINGS, DON'T ANSWER",
+   "text": "Why a coworker says, \"You seemed different on Tuesday.\"",
+   "raw": "Why a coworker says, \"You seemed different on Tuesday.\" //",
+   "est": 5.18,
+   "img": "frames/16x9/0116.png",
+   "vimg": "frames/9x16/0116.png"
+  },
+  {
+   "line": 117,
+   "cue": 36,
+   "scene": "RULE 6: IF THE DOORBELL RINGS, DON'T ANSWER",
+   "text": "You were.",
+   "raw": "You were.",
+   "est": 1.2,
+   "img": "frames/16x9/0117.png",
+   "vimg": "frames/9x16/0117.png"
+  },
+  {
+   "line": 118,
+   "cue": 37,
+   "scene": "RULE 7: SHARED USERS (THE TWIST)",
+   "text": "Rule seven.",
+   "raw": "Rule seven. //",
+   "est": 2.2,
+   "img": "frames/16x9/0118.png",
+   "vimg": "frames/9x16/0118.png"
+  },
+  {
+   "line": 119,
+   "cue": 37,
+   "scene": "RULE 7: SHARED USERS (THE TWIST)",
+   "text": "Open the app.",
+   "raw": "Open the app.",
+   "est": 1.63,
+   "img": "frames/16x9/0119.png",
+   "vimg": "frames/9x16/0119.png"
+  },
+  {
+   "line": 120,
+   "cue": 38,
+   "scene": "RULE 7: SHARED USERS (THE TWIST)",
+   "text": "Go to settings. Shared users.",
+   "raw": "Go to settings. / Shared users. /",
+   "est": 3.48,
+   "img": "frames/16x9/0120.png",
+   "vimg": "frames/9x16/0120.png"
+  },
+  {
+   "line": 121,
+   "cue": 38,
+   "scene": "RULE 7: SHARED USERS (THE TWIST)",
+   "text": "There should be one name there. Yours.",
+   "raw": "There should be one name there. / Yours. //",
+   "est": 4.83,
+   "img": "frames/16x9/0121.png",
+   "vimg": "frames/9x16/0121.png"
+  },
+  {
+   "line": 122,
+   "cue": 38,
+   "scene": "RULE 7: SHARED USERS (THE TWIST)",
+   "text": "There are two.",
+   "raw": "There are two.",
+   "est": 1.63,
+   "img": "frames/16x9/0122.png",
+   "vimg": "frames/9x16/0122.png"
+  },
+  {
+   "line": 123,
+   "cue": 39,
+   "scene": "RULE 7: SHARED USERS (THE TWIST)",
+   "text": "The second one is also you.",
+   "raw": "The second one is also you. /",
+   "est": 3.4,
+   "img": "frames/16x9/0123.png",
+   "vimg": "frames/9x16/0123.png"
+  },
+  {
+   "line": 124,
+   "cue": 39,
+   "scene": "RULE 7: SHARED USERS (THE TWIST)",
+   "text": "Same name. Same photo.",
+   "raw": "Same name. Same photo. /",
+   "est": 2.55,
+   "img": "frames/16x9/0124.png",
+   "vimg": "frames/9x16/0124.png"
+  },
+  {
+   "line": 125,
+   "cue": 39,
+   "scene": "RULE 7: SHARED USERS (THE TWIST)",
+   "text": "Added three years ago.",
+   "raw": "Added three years ago.",
+   "est": 2.05,
+   "img": "frames/16x9/0125.png",
+   "vimg": "frames/9x16/0125.png"
+  },
+  {
+   "line": 126,
+   "cue": 40,
+   "scene": "RULE 7: SHARED USERS (THE TWIST)",
+   "text": "It's been watching too.",
+   "raw": "It's been watching too. /",
+   "est": 2.55,
+   "img": "frames/16x9/0126.png",
+   "vimg": "frames/9x16/0126.png"
+  },
+  {
+   "line": 127,
+   "cue": 40,
+   "scene": "RULE 7: SHARED USERS (THE TWIST)",
+   "text": "Every night.",
+   "raw": "Every night. /",
+   "est": 1.7,
+   "img": "frames/16x9/0127.png",
+   "vimg": "frames/9x16/0127.png"
+  },
+  {
+   "line": 128,
+   "cue": 40,
+   "scene": "RULE 7: SHARED USERS (THE TWIST)",
+   "text": "Watching you sleep.",
+   "raw": "Watching you sleep. //",
+   "est": 2.63,
+   "img": "frames/16x9/0128.png",
+   "vimg": "frames/9x16/0128.png"
+  },
+  {
+   "line": 129,
+   "cue": 40,
+   "scene": "RULE 7: SHARED USERS (THE TWIST)",
+   "text": "That's how it learned to walk like you.",
+   "raw": "That's how it learned to walk like you.",
+   "est": 3.75,
+   "img": "frames/16x9/0129.png",
+   "vimg": "frames/9x16/0129.png"
+  },
+  {
+   "line": 130,
+   "cue": 41,
+   "scene": "RULE 7: SHARED USERS (THE TWIST)",
+   "text": "You get the bed. The quiet house. The weekends.",
+   "raw": "You get the bed. / The quiet house. / The weekends. /",
+   "est": 5.68,
+   "img": "frames/16x9/0130.png",
+   "vimg": "frames/9x16/0130.png"
+  },
+  {
+   "line": 131,
+   "cue": 41,
+   "scene": "RULE 7: SHARED USERS (THE TWIST)",
+   "text": "It gets everything else.",
+   "raw": "It gets everything else. /",
+   "est": 2.55,
+   "img": "frames/16x9/0131.png",
+   "vimg": "frames/9x16/0131.png"
+  },
+  {
+   "line": 132,
+   "cue": 41,
+   "scene": "RULE 7: SHARED USERS (THE TWIST)",
+   "text": "The commute. The meetings. The six a.m. alarm.",
+   "raw": "The commute. The meetings. The six a.m. alarm. //",
+   "est": 5.18,
+   "img": "frames/16x9/0132.png",
+   "vimg": "frames/9x16/0132.png"
+  },
+  {
+   "line": 133,
+   "cue": 41,
+   "scene": "RULE 7: SHARED USERS (THE TWIST)",
+   "text": "That's the arrangement.",
+   "raw": "That's the arrangement.",
+   "est": 1.63,
+   "img": "frames/16x9/0133.png",
+   "vimg": "frames/9x16/0133.png"
+  },
+  {
+   "line": 134,
+   "cue": 42,
+   "scene": "RULE 7: SHARED USERS (THE TWIST)",
+   "text": "You'll say you never agreed to that.",
+   "raw": "You'll say you never agreed to that. /",
+   "est": 3.83,
+   "img": "frames/16x9/0134.png",
+   "vimg": "frames/9x16/0134.png"
+  },
+  {
+   "line": 135,
+   "cue": 42,
+   "scene": "RULE 7: SHARED USERS (THE TWIST)",
+   "text": "Scroll to the oldest clip.",
+   "raw": "Scroll to the oldest clip.",
+   "est": 2.48,
+   "img": "frames/16x9/0135.png",
+   "vimg": "frames/9x16/0135.png"
+  },
+  {
+   "line": 136,
+   "cue": 43,
+   "scene": "RULE 7: SHARED USERS (THE TWIST)",
+   "text": "Three years ago. 3:12 a.m.",
+   "raw": "Three years ago. 3:12 a.m. /",
+   "est": 3.83,
+   "img": "frames/16x9/0136.png",
+   "vimg": "frames/9x16/0136.png"
+  },
+  {
+   "line": 137,
+   "cue": 43,
+   "scene": "RULE 7: SHARED USERS (THE TWIST)",
+   "text": "It's on the porch, waving.",
+   "raw": "It's on the porch, waving. //",
+   "est": 3.48,
+   "img": "frames/16x9/0137.png",
+   "vimg": "frames/9x16/0137.png"
+  },
+  {
+   "line": 138,
+   "cue": 43,
+   "scene": "RULE 7: SHARED USERS (THE TWIST)",
+   "text": "And behind it, in the upstairs window\u2026",
+   "raw": "And behind it, in the upstairs window\u2026 //",
+   "est": 4.33,
+   "img": "frames/16x9/0138.png",
+   "vimg": "frames/9x16/0138.png"
+  },
+  {
+   "line": 139,
+   "cue": 43,
+   "scene": "RULE 7: SHARED USERS (THE TWIST)",
+   "text": "someone waves back.",
+   "raw": "someone waves back.",
+   "est": 1.63,
+   "img": "frames/16x9/0139.png",
+   "vimg": "frames/9x16/0139.png"
+  },
+  {
+   "line": 140,
+   "cue": 44,
+   "scene": "RULE 7: SHARED USERS (THE TWIST)",
+   "text": "So, rule seven.",
+   "raw": "So, rule seven. /",
+   "est": 2.13,
+   "img": "frames/16x9/0140.png",
+   "vimg": "frames/9x16/0140.png"
+  },
+  {
+   "line": 141,
+   "cue": 44,
+   "scene": "RULE 7: SHARED USERS (THE TWIST)",
+   "text": "Don't remove the shared user.",
+   "raw": "Don't remove the shared user. //",
+   "est": 3.48,
+   "img": "frames/16x9/0141.png",
+   "vimg": "frames/9x16/0141.png"
+  },
+  {
+   "line": 142,
+   "cue": 44,
+   "scene": "RULE 7: SHARED USERS (THE TWIST)",
+   "text": "If it stops coming back\u2026",
+   "raw": "If it stops coming back\u2026 /",
+   "est": 2.98,
+   "img": "frames/16x9/0142.png",
+   "vimg": "frames/9x16/0142.png"
+  },
+  {
+   "line": 143,
+   "cue": 44,
+   "scene": "RULE 7: SHARED USERS (THE TWIST)",
+   "text": "someone has to go to work.",
+   "raw": "someone has to go to work.",
+   "est": 2.9,
+   "img": "frames/16x9/0143.png",
+   "vimg": "frames/9x16/0143.png"
+  },
+  {
+   "line": 144,
+   "cue": 45,
+   "scene": "RULE 7: SHARED USERS (THE TWIST)",
+   "text": "And if tonight, at 3:12, the clip shows someone walking in\u2026",
+   "raw": "And if tonight, at 3:12, / the clip shows someone walking *in*\u2026 //",
+   "est": 6.96,
+   "img": "frames/16x9/0144.png",
+   "vimg": "frames/9x16/0144.png"
+  },
+  {
+   "line": 145,
+   "cue": 45,
+   "scene": "RULE 7: SHARED USERS (THE TWIST)",
+   "text": "that isn't it coming home.",
+   "raw": "that isn't it coming home. //",
+   "est": 3.48,
+   "img": "frames/16x9/0145.png",
+   "vimg": "frames/9x16/0145.png"
+  },
+  {
+   "line": 146,
+   "cue": 45,
+   "scene": "RULE 7: SHARED USERS (THE TWIST)",
+   "text": "That's the next one. Learning you.",
+   "raw": "That's the next one. / Learning you.",
+   "est": 3.4,
+   "img": "frames/16x9/0146.png",
+   "vimg": "frames/9x16/0146.png"
+  },
+  {
+   "line": 147,
+   "cue": 46,
+   "scene": "SIGN-OFF",
+   "text": "Stay inside.",
+   "raw": "Stay inside. /",
+   "est": 1.7,
+   "img": "frames/16x9/0147.png",
+   "vimg": "frames/9x16/0147.png"
+  },
+  {
+   "line": 148,
+   "cue": 46,
+   "scene": "SIGN-OFF",
+   "text": "Keep the alerts on.",
+   "raw": "Keep the alerts on. /",
+   "est": 2.55,
+   "img": "frames/16x9/0148.png",
+   "vimg": "frames/9x16/0148.png"
+  },
+  {
+   "line": 149,
+   "cue": 46,
+   "scene": "SIGN-OFF",
+   "text": "And when you hear the kettle in the morning\u2026 say thank you.",
+   "raw": "And when you hear the kettle in the morning\u2026 / say thank you.",
+   "est": 5.96,
+   "img": "frames/16x9/0149.png",
+   "vimg": "frames/9x16/0149.png"
+  },
+  {
+   "line": 150,
+   "cue": 47,
+   "scene": "SIGN-OFF",
+   "text": "This account is monitored.",
+   "raw": "This account is monitored. //",
+   "est": 3.05,
+   "img": "frames/16x9/0150.png",
+   "vimg": "frames/9x16/0150.png"
+  },
+  {
+   "line": 151,
+   "cue": 47,
+   "scene": "SIGN-OFF",
+   "text": "\u2014 The Residents' Office.",
+   "raw": "\u2014 The Residents' Office.",
+   "est": 1.63,
+   "img": "frames/16x9/0151.png",
+   "vimg": "frames/9x16/0151.png"
+  }
+ ]
+}

@@ -1,0 +1,1469 @@
+{
+ "meta": {
+  "notice": "004",
+  "slug": "tire-light",
+  "title": "If Your Tire Pressure Light Ever Comes On\u2026 DON'T PULL OVER"
+ },
+ "lines": [
+  {
+   "line": 1,
+   "cue": 1,
+   "scene": "COLD OPEN",
+   "text": "If your tire pressure light ever comes on\u2026",
+   "raw": "If your tire pressure light ever comes on\u2026 //",
+   "est": 4.75,
+   "img": "frames/16x9/0001.png",
+   "vimg": "frames/9x16/0001.png"
+  },
+  {
+   "line": 2,
+   "cue": 1,
+   "scene": "COLD OPEN",
+   "text": "don't pull over.",
+   "raw": "don't pull over.",
+   "est": 1.63,
+   "img": "frames/16x9/0002.png",
+   "vimg": "frames/9x16/0002.png"
+  },
+  {
+   "line": 3,
+   "cue": 2,
+   "scene": "COLD OPEN",
+   "text": "Don't check which tire.",
+   "raw": "Don't check which tire. /",
+   "est": 2.55,
+   "img": "frames/16x9/0003.png",
+   "vimg": "frames/9x16/0003.png"
+  },
+  {
+   "line": 4,
+   "cue": 2,
+   "scene": "COLD OPEN",
+   "text": "Don't fill them to the line.",
+   "raw": "Don't fill them to the line. /",
+   "est": 3.4,
+   "img": "frames/16x9/0004.png",
+   "vimg": "frames/9x16/0004.png"
+  },
+  {
+   "line": 5,
+   "cue": 2,
+   "scene": "COLD OPEN",
+   "text": "And if the wheel pulls toward the air machine\u2026",
+   "raw": "And if the wheel pulls toward the air machine\u2026 /",
+   "est": 4.68,
+   "img": "frames/16x9/0005.png",
+   "vimg": "frames/9x16/0005.png"
+  },
+  {
+   "line": 6,
+   "cue": 2,
+   "scene": "COLD OPEN",
+   "text": "keep it straight.",
+   "raw": "keep it straight.",
+   "est": 1.63,
+   "img": "frames/16x9/0006.png",
+   "vimg": "frames/9x16/0006.png"
+  },
+  {
+   "line": 7,
+   "cue": 3,
+   "scene": "COLD OPEN",
+   "text": "There are seven rules.",
+   "raw": "There are seven rules. /",
+   "est": 2.55,
+   "img": "frames/16x9/0007.png",
+   "vimg": "frames/9x16/0007.png"
+  },
+  {
+   "line": 8,
+   "cue": 3,
+   "scene": "COLD OPEN",
+   "text": "Six get you home.",
+   "raw": "Six get you home. /",
+   "est": 2.55,
+   "img": "frames/16x9/0008.png",
+   "vimg": "frames/9x16/0008.png"
+  },
+  {
+   "line": 9,
+   "cue": 3,
+   "scene": "COLD OPEN",
+   "text": "The seventh explains why you always stop.",
+   "raw": "The seventh explains why you always stop.",
+   "est": 3.33,
+   "img": "frames/16x9/0009.png",
+   "vimg": "frames/9x16/0009.png"
+  },
+  {
+   "line": 10,
+   "cue": 4,
+   "scene": "RULE 1: DON'T CHECK WHICH TIRE",
+   "text": "Rule one. Don't check which tire.",
+   "raw": "Rule one. / Don't check which tire.",
+   "est": 3.4,
+   "img": "frames/16x9/0010.png",
+   "vimg": "frames/9x16/0010.png"
+  },
+  {
+   "line": 11,
+   "cue": 5,
+   "scene": "RULE 1: DON'T CHECK WHICH TIRE",
+   "text": "Here's the official version.",
+   "raw": "Here's the official version. /",
+   "est": 2.55,
+   "img": "frames/16x9/0011.png",
+   "vimg": "frames/9x16/0011.png"
+  },
+  {
+   "line": 12,
+   "cue": 5,
+   "scene": "RULE 1: DON'T CHECK WHICH TIRE",
+   "text": "Air shrinks in the cold.",
+   "raw": "Air shrinks in the cold. /",
+   "est": 2.98,
+   "img": "frames/16x9/0012.png",
+   "vimg": "frames/9x16/0012.png"
+  },
+  {
+   "line": 13,
+   "cue": 5,
+   "scene": "RULE 1: DON'T CHECK WHICH TIRE",
+   "text": "About one PSI for every ten degrees.",
+   "raw": "About one PSI for every ten degrees. /",
+   "est": 3.83,
+   "img": "frames/16x9/0013.png",
+   "vimg": "frames/9x16/0013.png"
+  },
+  {
+   "line": 14,
+   "cue": 5,
+   "scene": "RULE 1: DON'T CHECK WHICH TIRE",
+   "text": "That's real. Look on your door jamb, then look outside.",
+   "raw": "That's real. / Look on your door jamb, then look outside.",
+   "est": 5.11,
+   "img": "frames/16x9/0014.png",
+   "vimg": "frames/9x16/0014.png"
+  },
+  {
+   "line": 15,
+   "cue": 6,
+   "scene": "RULE 1: DON'T CHECK WHICH TIRE",
+   "text": "So the light comes on at sunrise.",
+   "raw": "So the light comes on at sunrise. /",
+   "est": 3.83,
+   "img": "frames/16x9/0015.png",
+   "vimg": "frames/9x16/0015.png"
+  },
+  {
+   "line": 16,
+   "cue": 6,
+   "scene": "RULE 1: DON'T CHECK WHICH TIRE",
+   "text": "And by lunch, it's off.",
+   "raw": "And by lunch, / it's off. //",
+   "est": 3.98,
+   "img": "frames/16x9/0016.png",
+   "vimg": "frames/9x16/0016.png"
+  },
+  {
+   "line": 17,
+   "cue": 6,
+   "scene": "RULE 1: DON'T CHECK WHICH TIRE",
+   "text": "Nobody did anything.",
+   "raw": "Nobody did anything.",
+   "est": 1.63,
+   "img": "frames/16x9/0017.png",
+   "vimg": "frames/9x16/0017.png"
+  },
+  {
+   "line": 18,
+   "cue": 7,
+   "scene": "RULE 1: DON'T CHECK WHICH TIRE",
+   "text": "You'll walk around the car.",
+   "raw": "You'll walk around the car. /",
+   "est": 2.98,
+   "img": "frames/16x9/0018.png",
+   "vimg": "frames/9x16/0018.png"
+  },
+  {
+   "line": 19,
+   "cue": 7,
+   "scene": "RULE 1: DON'T CHECK WHICH TIRE",
+   "text": "You'll kick each one.",
+   "raw": "You'll kick each one. /",
+   "est": 2.55,
+   "img": "frames/16x9/0019.png",
+   "vimg": "frames/9x16/0019.png"
+  },
+  {
+   "line": 20,
+   "cue": 7,
+   "scene": "RULE 1: DON'T CHECK WHICH TIRE",
+   "text": "They all feel the same.",
+   "raw": "They all feel the same. //",
+   "est": 3.48,
+   "img": "frames/16x9/0020.png",
+   "vimg": "frames/9x16/0020.png"
+  },
+  {
+   "line": 21,
+   "cue": 7,
+   "scene": "RULE 1: DON'T CHECK WHICH TIRE",
+   "text": "They always do.",
+   "raw": "They always do.",
+   "est": 1.63,
+   "img": "frames/16x9/0021.png",
+   "vimg": "frames/9x16/0021.png"
+  },
+  {
+   "line": 22,
+   "cue": 8,
+   "scene": "RULE 1: DON'T CHECK WHICH TIRE",
+   "text": "They're not low.",
+   "raw": "They're not low. /",
+   "est": 2.13,
+   "img": "frames/16x9/0022.png",
+   "vimg": "frames/9x16/0022.png"
+  },
+  {
+   "line": 23,
+   "cue": 8,
+   "scene": "RULE 1: DON'T CHECK WHICH TIRE",
+   "text": "They're always whining.",
+   "raw": "They're always whining. /",
+   "est": 2.13,
+   "img": "frames/16x9/0023.png",
+   "vimg": "frames/9x16/0023.png"
+  },
+  {
+   "line": 24,
+   "cue": 8,
+   "scene": "RULE 1: DON'T CHECK WHICH TIRE",
+   "text": "They're needy.",
+   "raw": "They're needy.",
+   "est": 1.2,
+   "img": "frames/16x9/0024.png",
+   "vimg": "frames/9x16/0024.png"
+  },
+  {
+   "line": 25,
+   "cue": 9,
+   "scene": "RULE 1: DON'T CHECK WHICH TIRE",
+   "text": "A man in Duluth checked all four at six a.m. with a gauge.",
+   "raw": "A man in Duluth checked all four at six a.m. / with a gauge. /",
+   "est": 7.31,
+   "img": "frames/16x9/0025.png",
+   "vimg": "frames/9x16/0025.png"
+  },
+  {
+   "line": 26,
+   "cue": 9,
+   "scene": "RULE 1: DON'T CHECK WHICH TIRE",
+   "text": "Every tire read perfect.",
+   "raw": "Every tire read perfect. //",
+   "est": 3.05,
+   "img": "frames/16x9/0026.png",
+   "vimg": "frames/9x16/0026.png"
+  },
+  {
+   "line": 27,
+   "cue": 9,
+   "scene": "RULE 1: DON'T CHECK WHICH TIRE",
+   "text": "The light stayed on until he said, out loud, \"Okay, okay.\"",
+   "raw": "The light stayed on until he said, out loud, / \"Okay, okay.\"",
+   "est": 5.53,
+   "img": "frames/16x9/0027.png",
+   "vimg": "frames/9x16/0027.png"
+  },
+  {
+   "line": 28,
+   "cue": 10,
+   "scene": "RULE 1: DON'T CHECK WHICH TIRE",
+   "text": "He doesn't check anymore.",
+   "raw": "He doesn't check anymore. /",
+   "est": 2.55,
+   "img": "frames/16x9/0028.png",
+   "vimg": "frames/9x16/0028.png"
+  },
+  {
+   "line": 29,
+   "cue": 10,
+   "scene": "RULE 1: DON'T CHECK WHICH TIRE",
+   "text": "The light comes on every Tuesday.",
+   "raw": "The light comes on every Tuesday. /",
+   "est": 3.4,
+   "img": "frames/16x9/0029.png",
+   "vimg": "frames/9x16/0029.png"
+  },
+  {
+   "line": 30,
+   "cue": 10,
+   "scene": "RULE 1: DON'T CHECK WHICH TIRE",
+   "text": "He says \"okay, okay\" from the kitchen.",
+   "raw": "He says \"okay, okay\" from the kitchen. //",
+   "est": 4.33,
+   "img": "frames/16x9/0030.png",
+   "vimg": "frames/9x16/0030.png"
+  },
+  {
+   "line": 31,
+   "cue": 10,
+   "scene": "RULE 1: DON'T CHECK WHICH TIRE",
+   "text": "That's usually enough.",
+   "raw": "That's usually enough.",
+   "est": 1.63,
+   "img": "frames/16x9/0031.png",
+   "vimg": "frames/9x16/0031.png"
+  },
+  {
+   "line": 32,
+   "cue": 11,
+   "scene": "RULE 2: DON'T FILL THEM TO THE LINE",
+   "text": "Rule two. Don't fill them to the line.",
+   "raw": "Rule two. / Don't fill them to the line.",
+   "est": 4.25,
+   "img": "frames/16x9/0032.png",
+   "vimg": "frames/9x16/0032.png"
+  },
+  {
+   "line": 33,
+   "cue": 12,
+   "scene": "RULE 2: DON'T FILL THEM TO THE LINE",
+   "text": "There's a number on your door.",
+   "raw": "There's a number on your door. /",
+   "est": 3.4,
+   "img": "frames/16x9/0033.png",
+   "vimg": "frames/9x16/0033.png"
+  },
+  {
+   "line": 34,
+   "cue": 12,
+   "scene": "RULE 2: DON'T FILL THEM TO THE LINE",
+   "text": "You'll want to hit it exactly.",
+   "raw": "You'll want to hit it exactly. //",
+   "est": 3.9,
+   "img": "frames/16x9/0034.png",
+   "vimg": "frames/9x16/0034.png"
+  },
+  {
+   "line": 35,
+   "cue": 12,
+   "scene": "RULE 2: DON'T FILL THEM TO THE LINE",
+   "text": "Don't.",
+   "raw": "Don't.",
+   "est": 0.78,
+   "img": "frames/16x9/0035.png",
+   "vimg": "frames/9x16/0035.png"
+  },
+  {
+   "line": 36,
+   "cue": 13,
+   "scene": "RULE 2: DON'T FILL THEM TO THE LINE",
+   "text": "Because as soon as you pamper them, it never stops.",
+   "raw": "Because as soon as you pamper them, / it never stops. /",
+   "est": 5.61,
+   "img": "frames/16x9/0036.png",
+   "vimg": "frames/9x16/0036.png"
+  },
+  {
+   "line": 37,
+   "cue": 13,
+   "scene": "RULE 2: DON'T FILL THEM TO THE LINE",
+   "text": "They'll be quiet for a week.",
+   "raw": "They'll be quiet for a week. /",
+   "est": 3.4,
+   "img": "frames/16x9/0037.png",
+   "vimg": "frames/9x16/0037.png"
+  },
+  {
+   "line": 38,
+   "cue": 13,
+   "scene": "RULE 2: DON'T FILL THEM TO THE LINE",
+   "text": "Thirty days, max.",
+   "raw": "Thirty days, max. //",
+   "est": 2.63,
+   "img": "frames/16x9/0038.png",
+   "vimg": "frames/9x16/0038.png"
+  },
+  {
+   "line": 39,
+   "cue": 13,
+   "scene": "RULE 2: DON'T FILL THEM TO THE LINE",
+   "text": "Then the light's back.",
+   "raw": "Then the light's back.",
+   "est": 2.05,
+   "img": "frames/16x9/0039.png",
+   "vimg": "frames/9x16/0039.png"
+  },
+  {
+   "line": 40,
+   "cue": 14,
+   "scene": "RULE 2: DON'T FILL THEM TO THE LINE",
+   "text": "That part's real too.",
+   "raw": "That part's real too. /",
+   "est": 2.55,
+   "img": "frames/16x9/0040.png",
+   "vimg": "frames/9x16/0040.png"
+  },
+  {
+   "line": 41,
+   "cue": 14,
+   "scene": "RULE 2: DON'T FILL THEM TO THE LINE",
+   "text": "Tires lose about a pound a month, straight through the rubber.",
+   "raw": "Tires lose about a pound a month, / straight through the rubber. /",
+   "est": 6.03,
+   "img": "frames/16x9/0041.png",
+   "vimg": "frames/9x16/0041.png"
+  },
+  {
+   "line": 42,
+   "cue": 14,
+   "scene": "RULE 2: DON'T FILL THEM TO THE LINE",
+   "text": "Nobody poked a hole.",
+   "raw": "Nobody poked a hole. //",
+   "est": 3.05,
+   "img": "frames/16x9/0042.png",
+   "vimg": "frames/9x16/0042.png"
+  },
+  {
+   "line": 43,
+   "cue": 14,
+   "scene": "RULE 2: DON'T FILL THEM TO THE LINE",
+   "text": "They let it out themselves.",
+   "raw": "They let it out themselves.",
+   "est": 2.48,
+   "img": "frames/16x9/0043.png",
+   "vimg": "frames/9x16/0043.png"
+  },
+  {
+   "line": 44,
+   "cue": 14,
+   "scene": "RULE 2: DON'T FILL THEM TO THE LINE",
+   "text": "A tire at the right pressure has nothing to complain about.",
+   "raw": "A tire at the right pressure / has nothing to complain about. //",
+   "est": 6.53,
+   "img": "frames/16x9/0044.png",
+   "vimg": "frames/9x16/0044.png"
+  },
+  {
+   "line": 45,
+   "cue": 14,
+   "scene": "RULE 2: DON'T FILL THEM TO THE LINE",
+   "text": "They can't have that.",
+   "raw": "They can't have that.",
+   "est": 2.05,
+   "img": "frames/16x9/0045.png",
+   "vimg": "frames/9x16/0045.png"
+  },
+  {
+   "line": 46,
+   "cue": 15,
+   "scene": "RULE 2: DON'T FILL THEM TO THE LINE",
+   "text": "They know you'll come back.",
+   "raw": "They know you'll come back. /",
+   "est": 2.98,
+   "img": "frames/16x9/0046.png",
+   "vimg": "frames/9x16/0046.png"
+  },
+  {
+   "line": 47,
+   "cue": 15,
+   "scene": "RULE 2: DON'T FILL THEM TO THE LINE",
+   "text": "You always come back.",
+   "raw": "You always come back.",
+   "est": 2.05,
+   "img": "frames/16x9/0047.png",
+   "vimg": "frames/9x16/0047.png"
+  },
+  {
+   "line": 48,
+   "cue": 16,
+   "scene": "RULE 3: DON'T PLAN YOUR ROUTE AROUND FREE AIR",
+   "text": "Rule three. Don't plan your route around free air.",
+   "raw": "Rule three. / Don't plan your route around free air.",
+   "est": 4.68,
+   "img": "frames/16x9/0048.png",
+   "vimg": "frames/9x16/0048.png"
+  },
+  {
+   "line": 49,
+   "cue": 17,
+   "scene": "RULE 3: DON'T PLAN YOUR ROUTE AROUND FREE AIR",
+   "text": "Think about it.",
+   "raw": "Think about it. /",
+   "est": 2.13,
+   "img": "frames/16x9/0049.png",
+   "vimg": "frames/9x16/0049.png"
+  },
+  {
+   "line": 50,
+   "cue": 17,
+   "scene": "RULE 3: DON'T PLAN YOUR ROUTE AROUND FREE AIR",
+   "text": "Your entire route is planned out by where free air is.",
+   "raw": "Your entire route is planned out / by where free air is. //",
+   "est": 6.53,
+   "img": "frames/16x9/0050.png",
+   "vimg": "frames/9x16/0050.png"
+  },
+  {
+   "line": 51,
+   "cue": 17,
+   "scene": "RULE 3: DON'T PLAN YOUR ROUTE AROUND FREE AIR",
+   "text": "You know which stations have it.",
+   "raw": "You know which stations have it. /",
+   "est": 3.4,
+   "img": "frames/16x9/0051.png",
+   "vimg": "frames/9x16/0051.png"
+  },
+  {
+   "line": 52,
+   "cue": 17,
+   "scene": "RULE 3: DON'T PLAN YOUR ROUTE AROUND FREE AIR",
+   "text": "You know which ones are broken.",
+   "raw": "You know which ones are broken. /",
+   "est": 3.4,
+   "img": "frames/16x9/0052.png",
+   "vimg": "frames/9x16/0052.png"
+  },
+  {
+   "line": 53,
+   "cue": 17,
+   "scene": "RULE 3: DON'T PLAN YOUR ROUTE AROUND FREE AIR",
+   "text": "You know which one takes quarters and which one wants a card.",
+   "raw": "You know which one takes quarters / and which one wants a card.",
+   "est": 5.96,
+   "img": "frames/16x9/0053.png",
+   "vimg": "frames/9x16/0053.png"
+  },
+  {
+   "line": 54,
+   "cue": 18,
+   "scene": "RULE 3: DON'T PLAN YOUR ROUTE AROUND FREE AIR",
+   "text": "In California and Connecticut, it's the law.",
+   "raw": "In California and Connecticut, / it's the law. /",
+   "est": 4.33,
+   "img": "frames/16x9/0054.png",
+   "vimg": "frames/9x16/0054.png"
+  },
+  {
+   "line": 55,
+   "cue": 18,
+   "scene": "RULE 3: DON'T PLAN YOUR ROUTE AROUND FREE AIR",
+   "text": "If you buy gas, the air is free.",
+   "raw": "If you buy gas, / the air is free. //",
+   "est": 5.25,
+   "img": "frames/16x9/0055.png",
+   "vimg": "frames/9x16/0055.png"
+  },
+  {
+   "line": 56,
+   "cue": 18,
+   "scene": "RULE 3: DON'T PLAN YOUR ROUTE AROUND FREE AIR",
+   "text": "Somebody pushed for that.",
+   "raw": "Somebody pushed for that. //",
+   "est": 3.05,
+   "img": "frames/16x9/0056.png",
+   "vimg": "frames/9x16/0056.png"
+  },
+  {
+   "line": 57,
+   "cue": 18,
+   "scene": "RULE 3: DON'T PLAN YOUR ROUTE AROUND FREE AIR",
+   "text": "Four somebodies per car.",
+   "raw": "Four somebodies per car.",
+   "est": 2.05,
+   "img": "frames/16x9/0057.png",
+   "vimg": "frames/9x16/0057.png"
+  },
+  {
+   "line": 58,
+   "cue": 19,
+   "scene": "RULE 3: DON'T PLAN YOUR ROUTE AROUND FREE AIR",
+   "text": "You'll tell yourself it's on the way.",
+   "raw": "You'll tell yourself it's on the way. //",
+   "est": 4.33,
+   "img": "frames/16x9/0058.png",
+   "vimg": "frames/9x16/0058.png"
+  },
+  {
+   "line": 59,
+   "cue": 19,
+   "scene": "RULE 3: DON'T PLAN YOUR ROUTE AROUND FREE AIR",
+   "text": "It wasn't. Until they made it.",
+   "raw": "It wasn't. / Until they made it.",
+   "est": 3.4,
+   "img": "frames/16x9/0059.png",
+   "vimg": "frames/9x16/0059.png"
+  },
+  {
+   "line": 60,
+   "cue": 20,
+   "scene": "RULE 3: DON'T PLAN YOUR ROUTE AROUND FREE AIR",
+   "text": "A woman in Bakersfield moved across town.",
+   "raw": "A woman in Bakersfield moved across town. /",
+   "est": 3.83,
+   "img": "frames/16x9/0060.png",
+   "vimg": "frames/9x16/0060.png"
+  },
+  {
+   "line": 61,
+   "cue": 20,
+   "scene": "RULE 3: DON'T PLAN YOUR ROUTE AROUND FREE AIR",
+   "text": "Within a week, she knew where the free air was.",
+   "raw": "Within a week, / she knew where the free air was. //",
+   "est": 6.11,
+   "img": "frames/16x9/0061.png",
+   "vimg": "frames/9x16/0061.png"
+  },
+  {
+   "line": 62,
+   "cue": 20,
+   "scene": "RULE 3: DON'T PLAN YOUR ROUTE AROUND FREE AIR",
+   "text": "She still doesn't know where the post office is.",
+   "raw": "She still doesn't know where the post office is.",
+   "est": 4.18,
+   "img": "frames/16x9/0062.png",
+   "vimg": "frames/9x16/0062.png"
+  },
+  {
+   "line": 63,
+   "cue": 21,
+   "scene": "RULE 4: DON'T TRUST THE HISS",
+   "text": "Rule four. Don't trust the hiss.",
+   "raw": "Rule four. / Don't trust the hiss.",
+   "est": 3.4,
+   "img": "frames/16x9/0063.png",
+   "vimg": "frames/9x16/0063.png"
+  },
+  {
+   "line": 64,
+   "cue": 22,
+   "scene": "RULE 4: DON'T TRUST THE HISS",
+   "text": "Two dollars. Four minutes.",
+   "raw": "Two dollars. / Four minutes. /",
+   "est": 3.05,
+   "img": "frames/16x9/0064.png",
+   "vimg": "frames/9x16/0064.png"
+  },
+  {
+   "line": 65,
+   "cue": 22,
+   "scene": "RULE 4: DON'T TRUST THE HISS",
+   "text": "The hose has a crack near the handle.",
+   "raw": "The hose has a crack near the handle. /",
+   "est": 4.25,
+   "img": "frames/16x9/0065.png",
+   "vimg": "frames/9x16/0065.png"
+  },
+  {
+   "line": 66,
+   "cue": 22,
+   "scene": "RULE 4: DON'T TRUST THE HISS",
+   "text": "It hisses the whole time.",
+   "raw": "It hisses the whole time.",
+   "est": 2.48,
+   "img": "frames/16x9/0066.png",
+   "vimg": "frames/9x16/0066.png"
+  },
+  {
+   "line": 67,
+   "cue": 23,
+   "scene": "RULE 4: DON'T TRUST THE HISS",
+   "text": "You'll think you're wasting it.",
+   "raw": "You'll think you're wasting it. /",
+   "est": 2.98,
+   "img": "frames/16x9/0067.png",
+   "vimg": "frames/9x16/0067.png"
+  },
+  {
+   "line": 68,
+   "cue": 23,
+   "scene": "RULE 4: DON'T TRUST THE HISS",
+   "text": "Don't let the leaking air hose fool ya.",
+   "raw": "Don't let the leaking air hose fool ya. //",
+   "est": 4.75,
+   "img": "frames/16x9/0068.png",
+   "vimg": "frames/9x16/0068.png"
+  },
+  {
+   "line": 69,
+   "cue": 23,
+   "scene": "RULE 4: DON'T TRUST THE HISS",
+   "text": "You're getting air.",
+   "raw": "You're getting air.",
+   "est": 1.63,
+   "img": "frames/16x9/0069.png",
+   "vimg": "frames/9x16/0069.png"
+  },
+  {
+   "line": 70,
+   "cue": 24,
+   "scene": "RULE 4: DON'T TRUST THE HISS",
+   "text": "Listen closer.",
+   "raw": "Listen closer. /",
+   "est": 1.7,
+   "img": "frames/16x9/0070.png",
+   "vimg": "frames/9x16/0070.png"
+  },
+  {
+   "line": 71,
+   "cue": 24,
+   "scene": "RULE 4: DON'T TRUST THE HISS",
+   "text": "The hiss isn't coming from the hose.",
+   "raw": "The hiss isn't coming from the hose. //",
+   "est": 4.33,
+   "img": "frames/16x9/0071.png",
+   "vimg": "frames/9x16/0071.png"
+  },
+  {
+   "line": 72,
+   "cue": 24,
+   "scene": "RULE 4: DON'T TRUST THE HISS",
+   "text": "It's coming from the valve.",
+   "raw": "It's coming from the valve. /",
+   "est": 2.98,
+   "img": "frames/16x9/0072.png",
+   "vimg": "frames/9x16/0072.png"
+  },
+  {
+   "line": 73,
+   "cue": 24,
+   "scene": "RULE 4: DON'T TRUST THE HISS",
+   "text": "That's the sound they make when they're getting what they want.",
+   "raw": "That's the sound they make / when they're getting what they want.",
+   "est": 5.53,
+   "img": "frames/16x9/0073.png",
+   "vimg": "frames/9x16/0073.png"
+  },
+  {
+   "line": 74,
+   "cue": 24,
+   "scene": "RULE 4: DON'T TRUST THE HISS",
+   "text": "Pull the chuck off early and they'll drop a pound out of spite.",
+   "raw": "Pull the chuck off early / and they'll drop a pound out of spite. /",
+   "est": 6.88,
+   "img": "frames/16x9/0074.png",
+   "vimg": "frames/9x16/0074.png"
+  },
+  {
+   "line": 75,
+   "cue": 24,
+   "scene": "RULE 4: DON'T TRUST THE HISS",
+   "text": "Put it back.",
+   "raw": "Put it back. //",
+   "est": 2.63,
+   "img": "frames/16x9/0075.png",
+   "vimg": "frames/9x16/0075.png"
+  },
+  {
+   "line": 76,
+   "cue": 24,
+   "scene": "RULE 4: DON'T TRUST THE HISS",
+   "text": "Finish the four minutes.",
+   "raw": "Finish the four minutes.",
+   "est": 2.05,
+   "img": "frames/16x9/0076.png",
+   "vimg": "frames/9x16/0076.png"
+  },
+  {
+   "line": 77,
+   "cue": 25,
+   "scene": "RULE 4: DON'T TRUST THE HISS",
+   "text": "At four minutes, the machine stops.",
+   "raw": "At four minutes, the machine stops. /",
+   "est": 3.4,
+   "img": "frames/16x9/0077.png",
+   "vimg": "frames/9x16/0077.png"
+  },
+  {
+   "line": 78,
+   "cue": 25,
+   "scene": "RULE 4: DON'T TRUST THE HISS",
+   "text": "That's the break.",
+   "raw": "That's the break. //",
+   "est": 2.63,
+   "img": "frames/16x9/0078.png",
+   "vimg": "frames/9x16/0078.png"
+  },
+  {
+   "line": 79,
+   "cue": 25,
+   "scene": "RULE 4: DON'T TRUST THE HISS",
+   "text": "Everybody needs a minute.",
+   "raw": "Everybody needs a minute.",
+   "est": 2.05,
+   "img": "frames/16x9/0079.png",
+   "vimg": "frames/9x16/0079.png"
+  },
+  {
+   "line": 80,
+   "cue": 26,
+   "scene": "RULE 5: WATCH OUT FOR THE WATER",
+   "text": "Rule five. Watch out for the water.",
+   "raw": "Rule five. / Watch out for the water.",
+   "est": 3.83,
+   "img": "frames/16x9/0080.png",
+   "vimg": "frames/9x16/0080.png"
+  },
+  {
+   "line": 81,
+   "cue": 27,
+   "scene": "RULE 5: WATCH OUT FOR THE WATER",
+   "text": "Air machines make water.",
+   "raw": "Air machines make water. /",
+   "est": 2.55,
+   "img": "frames/16x9/0081.png",
+   "vimg": "frames/9x16/0081.png"
+  },
+  {
+   "line": 82,
+   "cue": 27,
+   "scene": "RULE 5: WATCH OUT FOR THE WATER",
+   "text": "That's real. Squeeze air and the moisture falls out.",
+   "raw": "That's real. / Squeeze air and the moisture falls out. //",
+   "est": 5.68,
+   "img": "frames/16x9/0082.png",
+   "vimg": "frames/9x16/0082.png"
+  },
+  {
+   "line": 83,
+   "cue": 27,
+   "scene": "RULE 5: WATCH OUT FOR THE WATER",
+   "text": "Sometimes it comes out the hose.",
+   "raw": "Sometimes it comes out the hose.",
+   "est": 2.9,
+   "img": "frames/16x9/0083.png",
+   "vimg": "frames/9x16/0083.png"
+  },
+  {
+   "line": 84,
+   "cue": 28,
+   "scene": "RULE 5: WATCH OUT FOR THE WATER",
+   "text": "So watch out for the water.",
+   "raw": "So watch out for the water. //",
+   "est": 3.9,
+   "img": "frames/16x9/0084.png",
+   "vimg": "frames/9x16/0084.png"
+  },
+  {
+   "line": 85,
+   "cue": 28,
+   "scene": "RULE 5: WATCH OUT FOR THE WATER",
+   "text": "It's free with the air.",
+   "raw": "It's free with the air.",
+   "est": 2.48,
+   "img": "frames/16x9/0085.png",
+   "vimg": "frames/9x16/0085.png"
+  },
+  {
+   "line": 86,
+   "cue": 29,
+   "scene": "RULE 5: WATCH OUT FOR THE WATER",
+   "text": "You'll hear it on the highway.",
+   "raw": "You'll hear it on the highway. /",
+   "est": 3.4,
+   "img": "frames/16x9/0086.png",
+   "vimg": "frames/9x16/0086.png"
+  },
+  {
+   "line": 87,
+   "cue": 29,
+   "scene": "RULE 5: WATCH OUT FOR THE WATER",
+   "text": "A slosh, every time you brake.",
+   "raw": "A slosh, every time you brake. /",
+   "est": 3.4,
+   "img": "frames/16x9/0087.png",
+   "vimg": "frames/9x16/0087.png"
+  },
+  {
+   "line": 88,
+   "cue": 29,
+   "scene": "RULE 5: WATCH OUT FOR THE WATER",
+   "text": "You'll tell yourself it's the cupholder.",
+   "raw": "You'll tell yourself it's the cupholder.",
+   "est": 2.9,
+   "img": "frames/16x9/0088.png",
+   "vimg": "frames/9x16/0088.png"
+  },
+  {
+   "line": 89,
+   "cue": 30,
+   "scene": "RULE 5: WATCH OUT FOR THE WATER",
+   "text": "It's not an accident.",
+   "raw": "It's not an accident. /",
+   "est": 2.55,
+   "img": "frames/16x9/0089.png",
+   "vimg": "frames/9x16/0089.png"
+  },
+  {
+   "line": 90,
+   "cue": 30,
+   "scene": "RULE 5: WATCH OUT FOR THE WATER",
+   "text": "Air keeps them up.",
+   "raw": "Air keeps them up. //",
+   "est": 3.05,
+   "img": "frames/16x9/0090.png",
+   "vimg": "frames/9x16/0090.png"
+  },
+  {
+   "line": 91,
+   "cue": 30,
+   "scene": "RULE 5: WATCH OUT FOR THE WATER",
+   "text": "Water keeps them coming back.",
+   "raw": "Water keeps them coming back.",
+   "est": 2.48,
+   "img": "frames/16x9/0091.png",
+   "vimg": "frames/9x16/0091.png"
+  },
+  {
+   "line": 92,
+   "cue": 31,
+   "scene": "RULE 5: WATCH OUT FOR THE WATER",
+   "text": "Mechanics will tell you water rusts the rim.",
+   "raw": "Mechanics will tell you water rusts the rim. /",
+   "est": 4.25,
+   "img": "frames/16x9/0092.png",
+   "vimg": "frames/9x16/0092.png"
+  },
+  {
+   "line": 93,
+   "cue": 31,
+   "scene": "RULE 5: WATCH OUT FOR THE WATER",
+   "text": "They're right.",
+   "raw": "They're right. //",
+   "est": 2.2,
+   "img": "frames/16x9/0093.png",
+   "vimg": "frames/9x16/0093.png"
+  },
+  {
+   "line": 94,
+   "cue": 31,
+   "scene": "RULE 5: WATCH OUT FOR THE WATER",
+   "text": "Nobody asks why the tires don't mind.",
+   "raw": "Nobody asks why the tires don't mind.",
+   "est": 3.33,
+   "img": "frames/16x9/0094.png",
+   "vimg": "frames/9x16/0094.png"
+  },
+  {
+   "line": 95,
+   "cue": 32,
+   "scene": "RULE 6: DON'T SWITCH TO NITROGEN",
+   "text": "Rule six. Don't switch to nitrogen.",
+   "raw": "Rule six. / Don't switch to nitrogen.",
+   "est": 3.4,
+   "img": "frames/16x9/0095.png",
+   "vimg": "frames/9x16/0095.png"
+  },
+  {
+   "line": 96,
+   "cue": 33,
+   "scene": "RULE 6: DON'T SWITCH TO NITROGEN",
+   "text": "Tire shops will offer it.",
+   "raw": "Tire shops will offer it. /",
+   "est": 2.98,
+   "img": "frames/16x9/0096.png",
+   "vimg": "frames/9x16/0096.png"
+  },
+  {
+   "line": 97,
+   "cue": 33,
+   "scene": "RULE 6: DON'T SWITCH TO NITROGEN",
+   "text": "Green caps. Leaks slower. Fewer trips.",
+   "raw": "Green caps. / Leaks slower. / Fewer trips. //",
+   "est": 4.9,
+   "img": "frames/16x9/0097.png",
+   "vimg": "frames/9x16/0097.png"
+  },
+  {
+   "line": 98,
+   "cue": 33,
+   "scene": "RULE 6: DON'T SWITCH TO NITROGEN",
+   "text": "Sounds like a fix.",
+   "raw": "Sounds like a fix.",
+   "est": 2.05,
+   "img": "frames/16x9/0098.png",
+   "vimg": "frames/9x16/0098.png"
+  },
+  {
+   "line": 99,
+   "cue": 34,
+   "scene": "RULE 6: DON'T SWITCH TO NITROGEN",
+   "text": "They hate it.",
+   "raw": "They hate it. /",
+   "est": 2.13,
+   "img": "frames/16x9/0099.png",
+   "vimg": "frames/9x16/0099.png"
+  },
+  {
+   "line": 100,
+   "cue": 34,
+   "scene": "RULE 6: DON'T SWITCH TO NITROGEN",
+   "text": "Nitrogen tires don't whine.",
+   "raw": "Nitrogen tires don't whine. //",
+   "est": 3.05,
+   "img": "frames/16x9/0100.png",
+   "vimg": "frames/9x16/0100.png"
+  },
+  {
+   "line": 101,
+   "cue": 34,
+   "scene": "RULE 6: DON'T SWITCH TO NITROGEN",
+   "text": "They sulk.",
+   "raw": "They sulk.",
+   "est": 1.2,
+   "img": "frames/16x9/0101.png",
+   "vimg": "frames/9x16/0101.png"
+  },
+  {
+   "line": 102,
+   "cue": 35,
+   "scene": "RULE 6: DON'T SWITCH TO NITROGEN",
+   "text": "A man in Tucson switched all four.",
+   "raw": "A man in Tucson switched all four. /",
+   "est": 3.83,
+   "img": "frames/16x9/0102.png",
+   "vimg": "frames/9x16/0102.png"
+  },
+  {
+   "line": 103,
+   "cue": 35,
+   "scene": "RULE 6: DON'T SWITCH TO NITROGEN",
+   "text": "Eighteen months, the light never came on once.",
+   "raw": "Eighteen months, / the light never came on once. //",
+   "est": 5.25,
+   "img": "frames/16x9/0103.png",
+   "vimg": "frames/9x16/0103.png"
+  },
+  {
+   "line": 104,
+   "cue": 35,
+   "scene": "RULE 6: DON'T SWITCH TO NITROGEN",
+   "text": "He missed it.",
+   "raw": "He missed it. /",
+   "est": 2.13,
+   "img": "frames/16x9/0104.png",
+   "vimg": "frames/9x16/0104.png"
+  },
+  {
+   "line": 105,
+   "cue": 35,
+   "scene": "RULE 6: DON'T SWITCH TO NITROGEN",
+   "text": "He went back to regular air in the spring.",
+   "raw": "He went back to regular air in the spring. /",
+   "est": 4.68,
+   "img": "frames/16x9/0105.png",
+   "vimg": "frames/9x16/0105.png"
+  },
+  {
+   "line": 106,
+   "cue": 35,
+   "scene": "RULE 6: DON'T SWITCH TO NITROGEN",
+   "text": "He says it felt like coming home.",
+   "raw": "He says it felt like coming home.",
+   "est": 3.33,
+   "img": "frames/16x9/0106.png",
+   "vimg": "frames/9x16/0106.png"
+  },
+  {
+   "line": 107,
+   "cue": 36,
+   "scene": "RULE 6: DON'T SWITCH TO NITROGEN",
+   "text": "The light starts coming on for no reason.",
+   "raw": "The light starts coming on for no reason. /",
+   "est": 4.25,
+   "img": "frames/16x9/0107.png",
+   "vimg": "frames/9x16/0107.png"
+  },
+  {
+   "line": 108,
+   "cue": 36,
+   "scene": "RULE 6: DON'T SWITCH TO NITROGEN",
+   "text": "Bitching and whining about nothing.",
+   "raw": "Bitching and whining / about nothing. /",
+   "est": 3.48,
+   "img": "frames/16x9/0108.png",
+   "vimg": "frames/9x16/0108.png"
+  },
+  {
+   "line": 109,
+   "cue": 36,
+   "scene": "RULE 6: DON'T SWITCH TO NITROGEN",
+   "text": "Just to see if you still care.",
+   "raw": "Just to see if you still care.",
+   "est": 3.33,
+   "img": "frames/16x9/0109.png",
+   "vimg": "frames/9x16/0109.png"
+  },
+  {
+   "line": 110,
+   "cue": 37,
+   "scene": "RULE 6: DON'T SWITCH TO NITROGEN",
+   "text": "And then the car starts to pull.",
+   "raw": "And then the car starts to pull. /",
+   "est": 3.83,
+   "img": "frames/16x9/0110.png",
+   "vimg": "frames/9x16/0110.png"
+  },
+  {
+   "line": 111,
+   "cue": 37,
+   "scene": "RULE 6: DON'T SWITCH TO NITROGEN",
+   "text": "A little to the right.",
+   "raw": "A little to the right. /",
+   "est": 2.98,
+   "img": "frames/16x9/0111.png",
+   "vimg": "frames/9x16/0111.png"
+  },
+  {
+   "line": 112,
+   "cue": 37,
+   "scene": "RULE 6: DON'T SWITCH TO NITROGEN",
+   "text": "Toward the station.",
+   "raw": "Toward the station. //",
+   "est": 2.63,
+   "img": "frames/16x9/0112.png",
+   "vimg": "frames/9x16/0112.png"
+  },
+  {
+   "line": 113,
+   "cue": 37,
+   "scene": "RULE 6: DON'T SWITCH TO NITROGEN",
+   "text": "You'll think it's alignment.",
+   "raw": "You'll think it's alignment. //",
+   "est": 3.05,
+   "img": "frames/16x9/0113.png",
+   "vimg": "frames/9x16/0113.png"
+  },
+  {
+   "line": 114,
+   "cue": 37,
+   "scene": "RULE 6: DON'T SWITCH TO NITROGEN",
+   "text": "That's a suggestion.",
+   "raw": "That's a suggestion.",
+   "est": 1.63,
+   "img": "frames/16x9/0114.png",
+   "vimg": "frames/9x16/0114.png"
+  },
+  {
+   "line": 115,
+   "cue": 38,
+   "scene": "RULE 7: DON'T PULL OVER (THE TWIST)",
+   "text": "Rule seven.",
+   "raw": "Rule seven. //",
+   "est": 2.2,
+   "img": "frames/16x9/0115.png",
+   "vimg": "frames/9x16/0115.png"
+  },
+  {
+   "line": 116,
+   "cue": 38,
+   "scene": "RULE 7: DON'T PULL OVER (THE TWIST)",
+   "text": "And the light?",
+   "raw": "And the light? /",
+   "est": 2.13,
+   "img": "frames/16x9/0116.png",
+   "vimg": "frames/9x16/0116.png"
+  },
+  {
+   "line": 117,
+   "cue": 39,
+   "scene": "RULE 7: DON'T PULL OVER (THE TWIST)",
+   "text": "The light was never about pressure.",
+   "raw": "The light was never about pressure. //",
+   "est": 3.9,
+   "img": "frames/16x9/0117.png",
+   "vimg": "frames/9x16/0117.png"
+  },
+  {
+   "line": 118,
+   "cue": 39,
+   "scene": "RULE 7: DON'T PULL OVER (THE TWIST)",
+   "text": "The light is how they call you.",
+   "raw": "The light is how they call you.",
+   "est": 3.33,
+   "img": "frames/16x9/0118.png",
+   "vimg": "frames/9x16/0118.png"
+  },
+  {
+   "line": 119,
+   "cue": 40,
+   "scene": "RULE 7: DON'T PULL OVER (THE TWIST)",
+   "text": "Like a bell on a counter.",
+   "raw": "Like a bell on a counter. /",
+   "est": 3.4,
+   "img": "frames/16x9/0119.png",
+   "vimg": "frames/9x16/0119.png"
+  },
+  {
+   "line": 120,
+   "cue": 40,
+   "scene": "RULE 7: DON'T PULL OVER (THE TWIST)",
+   "text": "And you come.",
+   "raw": "And you come. //",
+   "est": 2.63,
+   "img": "frames/16x9/0120.png",
+   "vimg": "frames/9x16/0120.png"
+  },
+  {
+   "line": 121,
+   "cue": 40,
+   "scene": "RULE 7: DON'T PULL OVER (THE TWIST)",
+   "text": "Every time.",
+   "raw": "Every time.",
+   "est": 1.2,
+   "img": "frames/16x9/0121.png",
+   "vimg": "frames/9x16/0121.png"
+  },
+  {
+   "line": 122,
+   "cue": 41,
+   "scene": "RULE 7: DON'T PULL OVER (THE TWIST)",
+   "text": "Every cold morning the light came on.",
+   "raw": "Every cold morning the light came on. /",
+   "est": 3.83,
+   "img": "frames/16x9/0122.png",
+   "vimg": "frames/9x16/0122.png"
+  },
+  {
+   "line": 123,
+   "cue": 41,
+   "scene": "RULE 7: DON'T PULL OVER (THE TWIST)",
+   "text": "Every time you kicked a tire to see which one.",
+   "raw": "Every time you kicked a tire to see which one. /",
+   "est": 5.11,
+   "img": "frames/16x9/0123.png",
+   "vimg": "frames/9x16/0123.png"
+  },
+  {
+   "line": 124,
+   "cue": 41,
+   "scene": "RULE 7: DON'T PULL OVER (THE TWIST)",
+   "text": "Every hiss from a gauge.",
+   "raw": "Every hiss from a gauge. /",
+   "est": 2.98,
+   "img": "frames/16x9/0124.png",
+   "vimg": "frames/9x16/0124.png"
+  },
+  {
+   "line": 125,
+   "cue": 41,
+   "scene": "RULE 7: DON'T PULL OVER (THE TWIST)",
+   "text": "Every cracked hose at a gas station at night.",
+   "raw": "Every cracked hose at a gas station at night. /",
+   "est": 4.68,
+   "img": "frames/16x9/0125.png",
+   "vimg": "frames/9x16/0125.png"
+  },
+  {
+   "line": 126,
+   "cue": 41,
+   "scene": "RULE 7: DON'T PULL OVER (THE TWIST)",
+   "text": "Every slosh on the highway you told yourself was the cupholder.",
+   "raw": "Every slosh on the highway you told yourself was the cupholder. /",
+   "est": 5.53,
+   "img": "frames/16x9/0126.png",
+   "vimg": "frames/9x16/0126.png"
+  },
+  {
+   "line": 127,
+   "cue": 41,
+   "scene": "RULE 7: DON'T PULL OVER (THE TWIST)",
+   "text": "Every long way home.",
+   "raw": "Every long way home.",
+   "est": 2.05,
+   "img": "frames/16x9/0127.png",
+   "vimg": "frames/9x16/0127.png"
+  },
+  {
+   "line": 128,
+   "cue": 42,
+   "scene": "RULE 7: DON'T PULL OVER (THE TWIST)",
+   "text": "They were always whining.",
+   "raw": "They were always whining. //",
+   "est": 3.05,
+   "img": "frames/16x9/0128.png",
+   "vimg": "frames/9x16/0128.png"
+  },
+  {
+   "line": 129,
+   "cue": 42,
+   "scene": "RULE 7: DON'T PULL OVER (THE TWIST)",
+   "text": "You were always listening.",
+   "raw": "You were always listening.",
+   "est": 2.05,
+   "img": "frames/16x9/0129.png",
+   "vimg": "frames/9x16/0129.png"
+  },
+  {
+   "line": 130,
+   "cue": 43,
+   "scene": "RULE 7: DON'T PULL OVER (THE TWIST)",
+   "text": "So tonight, when the light comes on\u2026",
+   "raw": "So tonight, / when the light comes on\u2026 /",
+   "est": 4.33,
+   "img": "frames/16x9/0130.png",
+   "vimg": "frames/9x16/0130.png"
+  },
+  {
+   "line": 131,
+   "cue": 43,
+   "scene": "RULE 7: DON'T PULL OVER (THE TWIST)",
+   "text": "don't pull over.",
+   "raw": "don't pull over. /",
+   "est": 2.13,
+   "img": "frames/16x9/0131.png",
+   "vimg": "frames/9x16/0131.png"
+  },
+  {
+   "line": 132,
+   "cue": 43,
+   "scene": "RULE 7: DON'T PULL OVER (THE TWIST)",
+   "text": "Drive past the free air.",
+   "raw": "Drive past the free air. /",
+   "est": 2.98,
+   "img": "frames/16x9/0132.png",
+   "vimg": "frames/9x16/0132.png"
+  },
+  {
+   "line": 133,
+   "cue": 43,
+   "scene": "RULE 7: DON'T PULL OVER (THE TWIST)",
+   "text": "Don't look at it.",
+   "raw": "Don't look at it.",
+   "est": 2.05,
+   "img": "frames/16x9/0133.png",
+   "vimg": "frames/9x16/0133.png"
+  },
+  {
+   "line": 134,
+   "cue": 44,
+   "scene": "RULE 7: DON'T PULL OVER (THE TWIST)",
+   "text": "The light will flash.",
+   "raw": "The light will flash. /",
+   "est": 2.55,
+   "img": "frames/16x9/0134.png",
+   "vimg": "frames/9x16/0134.png"
+  },
+  {
+   "line": 135,
+   "cue": 44,
+   "scene": "RULE 7: DON'T PULL OVER (THE TWIST)",
+   "text": "The wheel will pull.",
+   "raw": "The wheel will pull. /",
+   "est": 2.55,
+   "img": "frames/16x9/0135.png",
+   "vimg": "frames/9x16/0135.png"
+  },
+  {
+   "line": 136,
+   "cue": 44,
+   "scene": "RULE 7: DON'T PULL OVER (THE TWIST)",
+   "text": "Keep it straight.",
+   "raw": "Keep it straight.",
+   "est": 1.63,
+   "img": "frames/16x9/0136.png",
+   "vimg": "frames/9x16/0136.png"
+  },
+  {
+   "line": 137,
+   "cue": 45,
+   "scene": "RULE 7: DON'T PULL OVER (THE TWIST)",
+   "text": "If you make it home without stopping\u2026",
+   "raw": "If you make it home without stopping\u2026 /",
+   "est": 3.83,
+   "img": "frames/16x9/0137.png",
+   "vimg": "frames/9x16/0137.png"
+  },
+  {
+   "line": 138,
+   "cue": 45,
+   "scene": "RULE 7: DON'T PULL OVER (THE TWIST)",
+   "text": "check your tires in the morning.",
+   "raw": "check your tires in the morning. //",
+   "est": 3.9,
+   "img": "frames/16x9/0138.png",
+   "vimg": "frames/9x16/0138.png"
+  },
+  {
+   "line": 139,
+   "cue": 45,
+   "scene": "RULE 7: DON'T PULL OVER (THE TWIST)",
+   "text": "All four will be full.",
+   "raw": "All four will be full.",
+   "est": 2.48,
+   "img": "frames/16x9/0139.png",
+   "vimg": "frames/9x16/0139.png"
+  },
+  {
+   "line": 140,
+   "cue": 45,
+   "scene": "RULE 7: DON'T PULL OVER (THE TWIST)",
+   "text": "They can fill themselves.",
+   "raw": "They can fill themselves. /",
+   "est": 2.55,
+   "img": "frames/16x9/0140.png",
+   "vimg": "frames/9x16/0140.png"
+  },
+  {
+   "line": 141,
+   "cue": 45,
+   "scene": "RULE 7: DON'T PULL OVER (THE TWIST)",
+   "text": "They always could.",
+   "raw": "They always could. //",
+   "est": 2.63,
+   "img": "frames/16x9/0141.png",
+   "vimg": "frames/9x16/0141.png"
+  },
+  {
+   "line": 142,
+   "cue": 45,
+   "scene": "RULE 7: DON'T PULL OVER (THE TWIST)",
+   "text": "They just like it when you do it.",
+   "raw": "They just like it when you do it.",
+   "est": 3.75,
+   "img": "frames/16x9/0142.png",
+   "vimg": "frames/9x16/0142.png"
+  },
+  {
+   "line": 143,
+   "cue": 46,
+   "scene": "SIGN-OFF",
+   "text": "This has been a roadside notice from [YOUR AGENCY NAME].",
+   "raw": "This has been a roadside notice / from [YOUR AGENCY NAME]. //",
+   "est": 6.11,
+   "img": "frames/16x9/0143.png",
+   "vimg": "frames/9x16/0143.png"
+  },
+  {
+   "line": 144,
+   "cue": 46,
+   "scene": "SIGN-OFF",
+   "text": "You think you're needy about air.",
+   "raw": "You think you're needy about air. /",
+   "est": 3.4,
+   "img": "frames/16x9/0144.png",
+   "vimg": "frames/9x16/0144.png"
+  },
+  {
+   "line": 145,
+   "cue": 46,
+   "scene": "SIGN-OFF",
+   "text": "They're needy about you.",
+   "raw": "They're needy about you. //",
+   "est": 3.05,
+   "img": "frames/16x9/0145.png",
+   "vimg": "frames/9x16/0145.png"
+  },
+  {
+   "line": 146,
+   "cue": 46,
+   "scene": "SIGN-OFF",
+   "text": "Thank you for your cooperation.",
+   "raw": "Thank you for your cooperation.",
+   "est": 2.48,
+   "img": "frames/16x9/0146.png",
+   "vimg": "frames/9x16/0146.png"
+  }
+ ]
+}

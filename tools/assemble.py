@@ -143,6 +143,34 @@ def normalize(src, dst, seconds=None):
     run(cmd + [dst])
 
 
+# Punch-in framings cycled through within each clip: (zoom, vertical focus 0=top..1=bottom).
+# Wide -> close on faces (upper third) -> medium. Faking cuts this way lets one 8s
+# generation read like 3-4 shots.
+PUNCH_FRAMES = [(1.0, 0.5), (1.4, 0.3), (1.18, 0.4)]
+
+
+def punch_in(src, dst, every, tmp_prefix):
+    """Split a normalized clip into `every`-second chunks with alternating crops."""
+    total = duration(src)
+    n = max(1, round(total / every))
+    seg = total / n
+    parts = []
+    for i in range(n):
+        z, fy = PUNCH_FRAMES[i % len(PUNCH_FRAMES)]
+        cw, ch = int(W / z) // 2 * 2, int(H / z) // 2 * 2
+        x, y = (W - cw) // 2, int((H - ch) * fy)
+        part = f"{tmp_prefix}_p{i:02}.mp4"
+        run(["ffmpeg", "-v", "error", "-y", "-ss", f"{i * seg:.3f}", "-t", f"{seg:.3f}",
+             "-i", src, "-vf", f"crop={cw}:{ch}:{x}:{y},scale={W}:{H},setsar=1,format=yuv420p",
+             "-c:v", "libx264", "-preset", "veryfast", "-crf", "18",
+             "-c:a", "aac", "-ar", "48000", "-ac", "2", part])
+        parts.append(part)
+    lst = f"{tmp_prefix}_parts.txt"
+    with open(lst, "w") as f:
+        f.writelines(f"file '{os.path.abspath(p)}'\n" for p in parts)
+    run(["ffmpeg", "-v", "error", "-y", "-f", "concat", "-safe", "0", "-i", lst, "-c", "copy", dst])
+
+
 def build_reveal(main_video, real_video, seconds, dst):
     """White flash, then frozen last frame of ours beside the real clip."""
     half_w, half_h = W // 2, H // 2
@@ -180,6 +208,9 @@ def main():
     ap.add_argument("--watermark", default="HEARTWARMING HOLLY")
     ap.add_argument("--clip-volume", type=float, default=0.15,
                     help="volume of the clips' own sound under the VO (0 = mute)")
+    ap.add_argument("--punch", type=float, default=0,
+                    help="fake a cut every N seconds inside each clip by switching "
+                         "between wide/close/medium crops (try 2). 0 = off")
     a = ap.parse_args()
 
     proj = a.project
@@ -201,6 +232,10 @@ def main():
     for i, c in enumerate(clips):
         d = os.path.join(tmp, f"n{i:02}.mp4")
         normalize(c, d)
+        if a.punch:
+            pd = os.path.join(tmp, f"pn{i:02}.mp4")
+            punch_in(d, pd, a.punch, os.path.join(tmp, f"c{i:02}"))
+            d = pd
         norm.append(d)
     total_clip = sum(duration(n) for n in norm)
     if total_clip < story_len:

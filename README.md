@@ -19,6 +19,8 @@ Starting from her frames copies her shots exactly, which is more likely to get f
 2. In Flow, use **Ingredients to Video** with those character images and the scene prompt. In Higgsfield, use image-to-video with the character image as the start frame.
 3. Generate each 8s clip. The characters stay the same, and the shots are your own.
 
+See `guides/pizza-walkthrough.md` for one short done start to finish.
+
 ## Tools
 
 ### Break down a reference video
@@ -44,7 +46,7 @@ Output in `projects/towel-boy/out/`:
 - `final.mp4`: 1080x1920 at 30fps, ready to post
 - `captions.srt`: for CapCut, if you'd rather finish there
 
-Options: `--reveal-seconds 3`, `--watermark "HEARTWARMING HOLLY"`, `--clip-volume 0.15` (clip sound under the VO; set 0 to mute).
+Options: `--punch 2` (fake a cut every 2s inside each clip), `--reveal-seconds 3`, `--watermark "HEARTWARMING HOLLY"`, `--clip-volume 0.15` (clip sound under the VO; set 0 to mute).
 
 Caption timing is estimated from the script. It's close, but check it once.
 

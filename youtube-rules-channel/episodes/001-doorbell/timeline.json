@@ -13,7 +13,9 @@
    "raw": "If your doorbell camera ever shows you leaving\u2026 //",
    "est": 4.75,
    "img": "frames/16x9/0001.png",
-   "vimg": "frames/9x16/0001.png"
+   "vimg": "frames/9x16/0001.png",
+   "audio": "audio/0001.mp3",
+   "audio_dur": 3.5
   },
   {
    "line": 2,
@@ -23,7 +25,9 @@
    "raw": "stay inside.",
    "est": 1.2,
    "img": "frames/16x9/0002.png",
-   "vimg": "frames/9x16/0002.png"
+   "vimg": "frames/9x16/0002.png",
+   "audio": "audio/0002.mp3",
+   "audio_dur": 1.228
   },
   {
    "line": 3,
@@ -33,7 +37,9 @@
    "raw": "Don't watch the clip twice. /",
    "est": 2.98,
    "img": "frames/16x9/0003.png",
-   "vimg": "frames/9x16/0003.png"
+   "vimg": "frames/9x16/0003.png",
+   "audio": "audio/0003.mp3",
+   "audio_dur": 3.291
   },
   {
    "line": 4,
@@ -43,7 +49,9 @@
    "raw": "Don't check the porch. /",
    "est": 2.55,
    "img": "frames/16x9/0004.png",
-   "vimg": "frames/9x16/0004.png"
+   "vimg": "frames/9x16/0004.png",
+   "audio": "audio/0004.mp3",
+   "audio_dur": 1.62
   },
   {
    "line": 5,
@@ -53,7 +61,9 @@
    "raw": "And if it waves at the camera\u2026 /",
    "est": 3.83,
    "img": "frames/16x9/0005.png",
-   "vimg": "frames/9x16/0005.png"
+   "vimg": "frames/9x16/0005.png",
+   "audio": "audio/0005.mp3",
+   "audio_dur": 2.351
   },
   {
    "line": 6,
@@ -63,7 +73,9 @@
    "raw": "don't wave back.",
    "est": 1.63,
    "img": "frames/16x9/0006.png",
-   "vimg": "frames/9x16/0006.png"
+   "vimg": "frames/9x16/0006.png",
+   "audio": "audio/0006.mp3",
+   "audio_dur": 2.429
   },
   {
    "line": 7,
@@ -73,7 +85,9 @@
    "raw": "There are seven rules. /",
    "est": 2.55,
    "img": "frames/16x9/0007.png",
-   "vimg": "frames/9x16/0007.png"
+   "vimg": "frames/9x16/0007.png",
+   "audio": "audio/0007.mp3",
+   "audio_dur": 1.515
   },
   {
    "line": 8,
@@ -83,7 +97,9 @@
    "raw": "Six keep you inside. /",
    "est": 2.55,
    "img": "frames/16x9/0008.png",
-   "vimg": "frames/9x16/0008.png"
+   "vimg": "frames/9x16/0008.png",
+   "audio": "audio/0008.mp3",
+   "audio_dur": 2.299
   },
   {
    "line": 9,
@@ -93,7 +109,9 @@
    "raw": "The seventh explains who's been going to work for you.",
    "est": 4.61,
    "img": "frames/16x9/0009.png",
-   "vimg": "frames/9x16/0009.png"
+   "vimg": "frames/9x16/0009.png",
+   "audio": "audio/0009.mp3",
+   "audio_dur": 2.56
   },
   {
    "line": 10,
@@ -103,7 +121,9 @@
    "raw": "Rule one. / Don't watch it twice.",
    "est": 3.4,
    "img": "frames/16x9/0010.png",
-   "vimg": "frames/9x16/0010.png"
+   "vimg": "frames/9x16/0010.png",
+   "audio": "audio/0010.mp3",
+   "audio_dur": 3.082
   },
   {
    "line": 11,
@@ -113,7 +133,9 @@
    "raw": "Most doorbell alerts are nothing. /",
    "est": 2.98,
    "img": "frames/16x9/0011.png",
-   "vimg": "frames/9x16/0011.png"
+   "vimg": "frames/9x16/0011.png",
+   "audio": "audio/0011.mp3",
+   "audio_dur": 1.776
   },
   {
    "line": 12,
@@ -123,7 +145,9 @@
    "raw": "A moth. Headlights. Heat coming off the driveway. /",
    "est": 4.25,
    "img": "frames/16x9/0012.png",
-   "vimg": "frames/9x16/0012.png"
+   "vimg": "frames/9x16/0012.png",
+   "audio": "audio/0012.mp3",
+   "audio_dur": 3.5
   },
   {
    "line": 13,
@@ -133,7 +157,9 @@
    "raw": "That part's true. Check your own app. //",
    "est": 4.33,
    "img": "frames/16x9/0013.png",
-   "vimg": "frames/9x16/0013.png"
+   "vimg": "frames/9x16/0013.png",
+   "audio": "audio/0013.mp3",
+   "audio_dur": 2.403
   },
   {
    "line": 14,
@@ -143,7 +169,9 @@
    "raw": "The rest of them, nobody talks about.",
    "est": 3.33,
    "img": "frames/16x9/0014.png",
-   "vimg": "frames/9x16/0014.png"
+   "vimg": "frames/9x16/0014.png",
+   "audio": "audio/0014.mp3",
+   "audio_dur": 2.325
   },
   {
    "line": 15,
@@ -153,7 +181,9 @@
    "raw": "It'll come at 3:12 in the morning. /",
    "est": 4.25,
    "img": "frames/16x9/0015.png",
-   "vimg": "frames/9x16/0015.png"
+   "vimg": "frames/9x16/0015.png",
+   "audio": "audio/0015.mp3",
+   "audio_dur": 1.829
   },
   {
    "line": 16,
@@ -163,7 +193,9 @@
    "raw": "\"Motion detected. Front door.\" /",
    "est": 2.55,
    "img": "frames/16x9/0016.png",
-   "vimg": "frames/9x16/0016.png"
+   "vimg": "frames/9x16/0016.png",
+   "audio": "audio/0016.mp3",
+   "audio_dur": 1.829
   },
   {
    "line": 17,
@@ -173,7 +205,9 @@
    "raw": "You'll open it half asleep.",
    "est": 2.48,
    "img": "frames/16x9/0017.png",
-   "vimg": "frames/9x16/0017.png"
+   "vimg": "frames/9x16/0017.png",
+   "audio": "audio/0017.mp3",
+   "audio_dur": 1.332
   },
   {
    "line": 18,
@@ -183,7 +217,9 @@
    "raw": "The door opens. /",
    "est": 2.13,
    "img": "frames/16x9/0018.png",
-   "vimg": "frames/9x16/0018.png"
+   "vimg": "frames/9x16/0018.png",
+   "audio": "audio/0018.mp3",
+   "audio_dur": 1.123
   },
   {
    "line": 19,
@@ -193,7 +229,9 @@
    "raw": "Someone steps out. /",
    "est": 2.13,
    "img": "frames/16x9/0019.png",
-   "vimg": "frames/9x16/0019.png"
+   "vimg": "frames/9x16/0019.png",
+   "audio": "audio/0019.mp3",
+   "audio_dur": 1.176
   },
   {
    "line": 20,
@@ -203,7 +241,9 @@
    "raw": "Your coat. / Your shoes. / Your walk.",
    "est": 3.9,
    "img": "frames/16x9/0020.png",
-   "vimg": "frames/9x16/0020.png"
+   "vimg": "frames/9x16/0020.png",
+   "audio": "audio/0020.mp3",
+   "audio_dur": 2.351
   },
   {
    "line": 21,
@@ -213,7 +253,9 @@
    "raw": "They lock the door behind them. /",
    "est": 3.4,
    "img": "frames/16x9/0021.png",
-   "vimg": "frames/9x16/0021.png"
+   "vimg": "frames/9x16/0021.png",
+   "audio": "audio/0021.mp3",
+   "audio_dur": 1.489
   },
   {
    "line": 22,
@@ -223,7 +265,9 @@
    "raw": "With your key. //",
    "est": 2.63,
    "img": "frames/16x9/0022.png",
-   "vimg": "frames/9x16/0022.png"
+   "vimg": "frames/9x16/0022.png",
+   "audio": "audio/0022.mp3",
+   "audio_dur": 0.94
   },
   {
    "line": 23,
@@ -233,7 +277,9 @@
    "raw": "Then they walk down the driveway\u2026 and turn left. /",
    "est": 4.68,
    "img": "frames/16x9/0023.png",
-   "vimg": "frames/9x16/0023.png"
+   "vimg": "frames/9x16/0023.png",
+   "audio": "audio/0023.mp3",
+   "audio_dur": 3.422
   },
   {
    "line": 24,
@@ -243,7 +289,9 @@
    "raw": "You always turn left.",
    "est": 2.05,
    "img": "frames/16x9/0024.png",
-   "vimg": "frames/9x16/0024.png"
+   "vimg": "frames/9x16/0024.png",
+   "audio": "audio/0024.mp3",
+   "audio_dur": 1.28
   },
   {
    "line": 25,
@@ -253,7 +301,9 @@
    "raw": "You'll want to watch it again. To be sure. /",
    "est": 4.68,
    "img": "frames/16x9/0025.png",
-   "vimg": "frames/9x16/0025.png"
+   "vimg": "frames/9x16/0025.png",
+   "audio": "audio/0025.mp3",
+   "audio_dur": 2.168
   },
   {
    "line": 26,
@@ -263,7 +313,9 @@
    "raw": "Don't. //",
    "est": 1.78,
    "img": "frames/16x9/0026.png",
-   "vimg": "frames/9x16/0026.png"
+   "vimg": "frames/9x16/0026.png",
+   "audio": "audio/0026.mp3",
+   "audio_dur": 0.758
   },
   {
    "line": 27,
@@ -273,7 +325,9 @@
    "raw": "Every time you play it, / it gets a little better at being you.",
    "est": 6.38,
    "img": "frames/16x9/0027.png",
-   "vimg": "frames/9x16/0027.png"
+   "vimg": "frames/9x16/0027.png",
+   "audio": "audio/0027.mp3",
+   "audio_dur": 2.795
   },
   {
    "line": 28,
@@ -283,7 +337,9 @@
    "raw": "The first clip, the walk is wrong. /",
    "est": 3.83,
    "img": "frames/16x9/0028.png",
-   "vimg": "frames/9x16/0028.png"
+   "vimg": "frames/9x16/0028.png",
+   "audio": "audio/0028.mp3",
+   "audio_dur": 2.22
   },
   {
    "line": 29,
@@ -293,7 +349,9 @@
    "raw": "Too stiff. Like someone reading instructions. /",
    "est": 3.4,
    "img": "frames/16x9/0029.png",
-   "vimg": "frames/9x16/0029.png"
+   "vimg": "frames/9x16/0029.png",
+   "audio": "audio/0029.mp3",
+   "audio_dur": 3.187
   },
   {
    "line": 30,
@@ -303,7 +361,9 @@
    "raw": "By the fifth one\u2026 it's humming.",
    "est": 2.9,
    "img": "frames/16x9/0030.png",
-   "vimg": "frames/9x16/0030.png"
+   "vimg": "frames/9x16/0030.png",
+   "audio": "audio/0030.mp3",
+   "audio_dur": 2.299
   },
   {
    "line": 31,
@@ -313,7 +373,9 @@
    "raw": "A woman in Tulsa watched hers forty times. /",
    "est": 4.25,
    "img": "frames/16x9/0031.png",
-   "vimg": "frames/9x16/0031.png"
+   "vimg": "frames/9x16/0031.png",
+   "audio": "audio/0031.mp3",
+   "audio_dur": 3.918
   },
   {
    "line": 32,
@@ -323,7 +385,9 @@
    "raw": "By the end, it patted its pockets for her phone. //",
    "est": 5.61,
    "img": "frames/16x9/0032.png",
-   "vimg": "frames/9x16/0032.png"
+   "vimg": "frames/9x16/0032.png",
+   "audio": "audio/0032.mp3",
+   "audio_dur": 2.638
   },
   {
    "line": 33,
@@ -333,7 +397,9 @@
    "raw": "Exactly the way she does.",
    "est": 2.48,
    "img": "frames/16x9/0033.png",
-   "vimg": "frames/9x16/0033.png"
+   "vimg": "frames/9x16/0033.png",
+   "audio": "audio/0033.mp3",
+   "audio_dur": 1.515
   },
   {
    "line": 34,
@@ -343,7 +409,9 @@
    "raw": "Rule two. / Don't delete the clip.",
    "est": 3.4,
    "img": "frames/16x9/0034.png",
-   "vimg": "frames/9x16/0034.png"
+   "vimg": "frames/9x16/0034.png",
+   "audio": "audio/0034.mp3",
+   "audio_dur": 3.109
   },
   {
    "line": 35,
@@ -353,7 +421,9 @@
    "raw": "You'll want to. Obviously. /",
    "est": 2.55,
    "img": "frames/16x9/0035.png",
-   "vimg": "frames/9x16/0035.png"
+   "vimg": "frames/9x16/0035.png",
+   "audio": "audio/0035.mp3",
+   "audio_dur": 2.011
   },
   {
    "line": 36,
@@ -363,7 +433,9 @@
    "raw": "The app will ask, \"Are you sure?\" /",
    "est": 3.83,
    "img": "frames/16x9/0036.png",
-   "vimg": "frames/9x16/0036.png"
+   "vimg": "frames/9x16/0036.png",
+   "audio": "audio/0036.mp3",
+   "audio_dur": 1.959
   },
   {
    "line": 37,
@@ -373,7 +445,9 @@
    "raw": "It's asking for a reason.",
    "est": 2.48,
    "img": "frames/16x9/0037.png",
-   "vimg": "frames/9x16/0037.png"
+   "vimg": "frames/9x16/0037.png",
+   "audio": "audio/0037.mp3",
+   "audio_dur": 1.358
   },
   {
    "line": 38,
@@ -383,7 +457,9 @@
    "raw": "The clip is proof. /",
    "est": 2.55,
    "img": "frames/16x9/0038.png",
-   "vimg": "frames/9x16/0038.png"
+   "vimg": "frames/9x16/0038.png",
+   "audio": "audio/0038.mp3",
+   "audio_dur": 1.176
   },
   {
    "line": 39,
@@ -393,7 +469,9 @@
    "raw": "As long as it's saved, the camera knows there are two of you. //",
    "est": 6.88,
    "img": "frames/16x9/0039.png",
-   "vimg": "frames/9x16/0039.png"
+   "vimg": "frames/9x16/0039.png",
+   "audio": "audio/0039.mp3",
+   "audio_dur": 2.847
   },
   {
    "line": 40,
@@ -403,7 +481,9 @@
    "raw": "Delete it, and it only remembers one. /",
    "est": 3.83,
    "img": "frames/16x9/0040.png",
-   "vimg": "frames/9x16/0040.png"
+   "vimg": "frames/9x16/0040.png",
+   "audio": "audio/0040.mp3",
+   "audio_dur": 2.821
   },
   {
    "line": 41,
@@ -413,7 +493,9 @@
    "raw": "It won't be the one in bed.",
    "est": 3.33,
    "img": "frames/16x9/0041.png",
-   "vimg": "frames/9x16/0041.png"
+   "vimg": "frames/9x16/0041.png",
+   "audio": "audio/0041.mp3",
+   "audio_dur": 1.463
   },
   {
    "line": 42,
@@ -423,7 +505,9 @@
    "raw": "That's why your cloud storage fills up so fast. /",
    "est": 4.68,
    "img": "frames/16x9/0042.png",
-   "vimg": "frames/9x16/0042.png"
+   "vimg": "frames/9x16/0042.png",
+   "audio": "audio/0042.mp3",
+   "audio_dur": 2.456
   },
   {
    "line": 43,
@@ -433,7 +517,9 @@
    "raw": "You don't record that much. /",
    "est": 2.98,
    "img": "frames/16x9/0043.png",
-   "vimg": "frames/9x16/0043.png"
+   "vimg": "frames/9x16/0043.png",
+   "audio": "audio/0043.mp3",
+   "audio_dur": 1.802
   },
   {
    "line": 44,
@@ -443,7 +529,9 @@
    "raw": "Some of those clips aren't yours.",
    "est": 2.9,
    "img": "frames/16x9/0044.png",
-   "vimg": "frames/9x16/0044.png"
+   "vimg": "frames/9x16/0044.png",
+   "audio": "audio/0044.mp3",
+   "audio_dur": 1.855
   },
   {
    "line": 45,
@@ -453,7 +541,9 @@
    "raw": "Leave them. /",
    "est": 1.7,
    "img": "frames/16x9/0045.png",
-   "vimg": "frames/9x16/0045.png"
+   "vimg": "frames/9x16/0045.png",
+   "audio": "audio/0045.mp3",
+   "audio_dur": 0.627
   },
   {
    "line": 46,
@@ -463,7 +553,9 @@
    "raw": "They're not taking up space. //",
    "est": 3.48,
    "img": "frames/16x9/0046.png",
-   "vimg": "frames/9x16/0046.png"
+   "vimg": "frames/9x16/0046.png",
+   "audio": "audio/0046.mp3",
+   "audio_dur": 1.541
   },
   {
    "line": 47,
@@ -473,7 +565,9 @@
    "raw": "They're holding it.",
    "est": 1.63,
    "img": "frames/16x9/0047.png",
-   "vimg": "frames/9x16/0047.png"
+   "vimg": "frames/9x16/0047.png",
+   "audio": "audio/0047.mp3",
+   "audio_dur": 1.149
   },
   {
    "line": 48,
@@ -483,7 +577,9 @@
    "raw": "Rule three. / Don't check the porch.",
    "est": 3.4,
    "img": "frames/16x9/0048.png",
-   "vimg": "frames/9x16/0048.png"
+   "vimg": "frames/9x16/0048.png",
+   "audio": "audio/0048.mp3",
+   "audio_dur": 2.873
   },
   {
    "line": 49,
@@ -493,7 +589,9 @@
    "raw": "You'll want to look through the peephole. /",
    "est": 3.83,
    "img": "frames/16x9/0049.png",
-   "vimg": "frames/9x16/0049.png"
+   "vimg": "frames/9x16/0049.png",
+   "audio": "audio/0049.mp3",
+   "audio_dur": 1.698
   },
   {
    "line": 50,
@@ -503,7 +601,9 @@
    "raw": "The porch light will be off. / You leave it on. /",
    "est": 5.61,
    "img": "frames/16x9/0050.png",
-   "vimg": "frames/9x16/0050.png"
+   "vimg": "frames/9x16/0050.png",
+   "audio": "audio/0050.mp3",
+   "audio_dur": 2.351
   },
   {
    "line": 51,
@@ -513,7 +613,9 @@
    "raw": "The doormat will be crooked. //",
    "est": 3.48,
    "img": "frames/16x9/0051.png",
-   "vimg": "frames/9x16/0051.png"
+   "vimg": "frames/9x16/0051.png",
+   "audio": "audio/0051.mp3",
+   "audio_dur": 1.593
   },
   {
    "line": 52,
@@ -523,7 +625,9 @@
    "raw": "And there'll be footprints. / Wet ones.",
    "est": 3.4,
    "img": "frames/16x9/0052.png",
-   "vimg": "frames/9x16/0052.png"
+   "vimg": "frames/9x16/0052.png",
+   "audio": "audio/0052.mp3",
+   "audio_dur": 2.377
   },
   {
    "line": 53,
@@ -533,7 +637,9 @@
    "raw": "Going out. //",
    "est": 2.2,
    "img": "frames/16x9/0053.png",
-   "vimg": "frames/9x16/0053.png"
+   "vimg": "frames/9x16/0053.png",
+   "audio": "audio/0053.mp3",
+   "audio_dur": 0.94
   },
   {
    "line": 54,
@@ -543,7 +649,9 @@
    "raw": "None coming back.",
    "est": 1.63,
    "img": "frames/16x9/0054.png",
-   "vimg": "frames/9x16/0054.png"
+   "vimg": "frames/9x16/0054.png",
+   "audio": "audio/0054.mp3",
+   "audio_dur": 1.097
   },
   {
    "line": 55,
@@ -553,7 +661,9 @@
    "raw": "If you open the door now, / you're the one who left. /",
    "est": 6.03,
    "img": "frames/16x9/0055.png",
-   "vimg": "frames/9x16/0055.png"
+   "vimg": "frames/9x16/0055.png",
+   "audio": "audio/0055.mp3",
+   "audio_dur": 2.429
   },
   {
    "line": 56,
@@ -563,7 +673,9 @@
    "raw": "And someone has to come back in.",
    "est": 3.33,
    "img": "frames/16x9/0056.png",
-   "vimg": "frames/9x16/0056.png"
+   "vimg": "frames/9x16/0056.png",
+   "audio": "audio/0056.mp3",
+   "audio_dur": 1.515
   },
   {
    "line": 57,
@@ -573,7 +685,9 @@
    "raw": "A man in Leeds opened his. /",
    "est": 3.4,
    "img": "frames/16x9/0057.png",
-   "vimg": "frames/9x16/0057.png"
+   "vimg": "frames/9x16/0057.png",
+   "audio": "audio/0057.mp3",
+   "audio_dur": 1.855
   },
   {
    "line": 58,
@@ -583,7 +697,9 @@
    "raw": "Cold air. Empty street. /",
    "est": 2.55,
    "img": "frames/16x9/0058.png",
-   "vimg": "frames/9x16/0058.png"
+   "vimg": "frames/9x16/0058.png",
+   "audio": "audio/0058.mp3",
+   "audio_dur": 2.691
   },
   {
    "line": 59,
@@ -593,7 +709,9 @@
    "raw": "He says nothing happened. //",
    "est": 3.05,
    "img": "frames/16x9/0059.png",
-   "vimg": "frames/9x16/0059.png"
+   "vimg": "frames/9x16/0059.png",
+   "audio": "audio/0059.mp3",
+   "audio_dur": 1.463
   },
   {
    "line": 60,
@@ -603,7 +721,9 @@
    "raw": "His dog won't sleep in his room anymore. /",
    "est": 4.25,
    "img": "frames/16x9/0060.png",
-   "vimg": "frames/9x16/0060.png"
+   "vimg": "frames/9x16/0060.png",
+   "audio": "audio/0060.mp3",
+   "audio_dur": 2.142
   },
   {
    "line": 61,
@@ -613,7 +733,9 @@
    "raw": "Dogs know the difference. /",
    "est": 2.55,
    "img": "frames/16x9/0061.png",
-   "vimg": "frames/9x16/0061.png"
+   "vimg": "frames/9x16/0061.png",
+   "audio": "audio/0061.mp3",
+   "audio_dur": 1.411
   },
   {
    "line": 62,
@@ -623,7 +745,9 @@
    "raw": "People mostly don't.",
    "est": 1.63,
    "img": "frames/16x9/0062.png",
-   "vimg": "frames/9x16/0062.png"
+   "vimg": "frames/9x16/0062.png",
+   "audio": "audio/0062.mp3",
+   "audio_dur": 1.384
   },
   {
    "line": 63,
@@ -633,7 +757,9 @@
    "raw": "Go back to bed. /",
    "est": 2.55,
    "img": "frames/16x9/0063.png",
-   "vimg": "frames/9x16/0063.png"
+   "vimg": "frames/9x16/0063.png",
+   "audio": "audio/0063.mp3",
+   "audio_dur": 1.071
   },
   {
    "line": 64,
@@ -643,7 +769,9 @@
    "raw": "The porch will still be there in the morning. // Mostly.",
    "est": 5.61,
    "img": "frames/16x9/0064.png",
-   "vimg": "frames/9x16/0064.png"
+   "vimg": "frames/9x16/0064.png",
+   "audio": "audio/0064.mp3",
+   "audio_dur": 2.821
   },
   {
    "line": 65,
@@ -653,7 +781,9 @@
    "raw": "Rule four. / Don't turn off the alerts.",
    "est": 3.83,
    "img": "frames/16x9/0065.png",
-   "vimg": "frames/9x16/0065.png"
+   "vimg": "frames/9x16/0065.png",
+   "audio": "audio/0065.mp3",
+   "audio_dur": 3.631
   },
   {
    "line": 66,
@@ -663,7 +793,9 @@
    "raw": "You'll think, if I don't see it, it isn't happening. /",
    "est": 5.11,
    "img": "frames/16x9/0066.png",
-   "vimg": "frames/9x16/0066.png"
+   "vimg": "frames/9x16/0066.png",
+   "audio": "audio/0066.mp3",
+   "audio_dur": 2.952
   },
   {
    "line": 67,
@@ -673,7 +805,9 @@
    "raw": "That's how most people sleep through it. /",
    "est": 3.83,
    "img": "frames/16x9/0067.png",
-   "vimg": "frames/9x16/0067.png"
+   "vimg": "frames/9x16/0067.png",
+   "audio": "audio/0067.mp3",
+   "audio_dur": 1.907
   },
   {
    "line": 68,
@@ -683,7 +817,9 @@
    "raw": "For years.",
    "est": 1.2,
    "img": "frames/16x9/0068.png",
-   "vimg": "frames/9x16/0068.png"
+   "vimg": "frames/9x16/0068.png",
+   "audio": "audio/0068.mp3",
+   "audio_dur": 1.228
   },
   {
    "line": 69,
@@ -693,7 +829,9 @@
    "raw": "The alerts aren't for you. /",
    "est": 2.98,
    "img": "frames/16x9/0069.png",
-   "vimg": "frames/9x16/0069.png"
+   "vimg": "frames/9x16/0069.png",
+   "audio": "audio/0069.mp3",
+   "audio_dur": 1.437
   },
   {
    "line": 70,
@@ -703,7 +841,9 @@
    "raw": "They're a receipt.",
    "est": 1.63,
    "img": "frames/16x9/0070.png",
-   "vimg": "frames/9x16/0070.png"
+   "vimg": "frames/9x16/0070.png",
+   "audio": "audio/0070.mp3",
+   "audio_dur": 1.437
   },
   {
    "line": 71,
@@ -713,7 +853,9 @@
    "raw": "At 3:33, the feed goes gray. /",
    "est": 3.83,
    "img": "frames/16x9/0071.png",
-   "vimg": "frames/9x16/0071.png"
+   "vimg": "frames/9x16/0071.png",
+   "audio": "audio/0071.mp3",
+   "audio_dur": 2.978
   },
   {
    "line": 72,
@@ -723,7 +865,9 @@
    "raw": "Sixty seconds. //",
    "est": 2.2,
    "img": "frames/16x9/0072.png",
-   "vimg": "frames/9x16/0072.png"
+   "vimg": "frames/9x16/0072.png",
+   "audio": "audio/0072.mp3",
+   "audio_dur": 1.411
   },
   {
    "line": 73,
@@ -733,7 +877,9 @@
    "raw": "Nobody's on the porch during the gray minute. /",
    "est": 4.25,
    "img": "frames/16x9/0073.png",
-   "vimg": "frames/9x16/0073.png"
+   "vimg": "frames/9x16/0073.png",
+   "audio": "audio/0073.mp3",
+   "audio_dur": 2.325
   },
   {
    "line": 74,
@@ -743,7 +889,9 @@
    "raw": "Not even it. //",
    "est": 2.63,
    "img": "frames/16x9/0074.png",
-   "vimg": "frames/9x16/0074.png"
+   "vimg": "frames/9x16/0074.png",
+   "audio": "audio/0074.mp3",
+   "audio_dur": 1.019
   },
   {
    "line": 75,
@@ -753,7 +901,9 @@
    "raw": "Everyone needs a minute.",
    "est": 2.05,
    "img": "frames/16x9/0075.png",
-   "vimg": "frames/9x16/0075.png"
+   "vimg": "frames/9x16/0075.png",
+   "audio": "audio/0075.mp3",
+   "audio_dur": 1.411
   },
   {
    "line": 76,
@@ -763,7 +913,9 @@
    "raw": "That's why your phone loses battery overnight, / while it's plugged in. /",
    "est": 6.03,
    "img": "frames/16x9/0076.png",
-   "vimg": "frames/9x16/0076.png"
+   "vimg": "frames/9x16/0076.png",
+   "audio": "audio/0076.mp3",
+   "audio_dur": 3.448
   },
   {
    "line": 77,
@@ -773,7 +925,9 @@
    "raw": "It's been streaming. / All night. //",
    "est": 3.98,
    "img": "frames/16x9/0077.png",
-   "vimg": "frames/9x16/0077.png"
+   "vimg": "frames/9x16/0077.png",
+   "audio": "audio/0077.mp3",
+   "audio_dur": 2.194
   },
   {
    "line": 78,
@@ -783,7 +937,9 @@
    "raw": "To someone else's phone.",
    "est": 2.05,
    "img": "frames/16x9/0078.png",
-   "vimg": "frames/9x16/0078.png"
+   "vimg": "frames/9x16/0078.png",
+   "audio": "audio/0078.mp3",
+   "audio_dur": 1.437
   },
   {
    "line": 79,
@@ -793,7 +949,9 @@
    "raw": "Rule five. / If it waves, / don't wave back.",
    "est": 4.75,
    "img": "frames/16x9/0079.png",
-   "vimg": "frames/9x16/0079.png"
+   "vimg": "frames/9x16/0079.png",
+   "audio": "audio/0079.mp3",
+   "audio_dur": 3.762
   },
   {
    "line": 80,
@@ -803,7 +961,9 @@
    "raw": "Some nights it stops at the end of the driveway. /",
    "est": 5.11,
    "img": "frames/16x9/0080.png",
-   "vimg": "frames/9x16/0080.png"
+   "vimg": "frames/9x16/0080.png",
+   "audio": "audio/0080.mp3",
+   "audio_dur": 2.194
   },
   {
    "line": 81,
@@ -813,7 +973,9 @@
    "raw": "Turns around. /",
    "est": 1.7,
    "img": "frames/16x9/0081.png",
-   "vimg": "frames/9x16/0081.png"
+   "vimg": "frames/9x16/0081.png",
+   "audio": "audio/0081.mp3",
+   "audio_dur": 0.94
   },
   {
    "line": 82,
@@ -823,7 +985,9 @@
    "raw": "Looks straight into the lens.",
    "est": 2.48,
    "img": "frames/16x9/0082.png",
-   "vimg": "frames/9x16/0082.png"
+   "vimg": "frames/9x16/0082.png",
+   "audio": "audio/0082.mp3",
+   "audio_dur": 1.515
   },
   {
    "line": 83,
@@ -833,7 +997,9 @@
    "raw": "It has your face. // Mostly. /",
    "est": 3.98,
    "img": "frames/16x9/0083.png",
-   "vimg": "frames/9x16/0083.png"
+   "vimg": "frames/9x16/0083.png",
+   "audio": "audio/0083.mp3",
+   "audio_dur": 2.586
   },
   {
    "line": 84,
@@ -843,7 +1009,9 @@
    "raw": "The eyes are a little too far apart. /",
    "est": 4.25,
    "img": "frames/16x9/0084.png",
-   "vimg": "frames/9x16/0084.png"
+   "vimg": "frames/9x16/0084.png",
+   "audio": "audio/0084.mp3",
+   "audio_dur": 1.802
   },
   {
    "line": 85,
@@ -853,7 +1021,9 @@
    "raw": "Like a drawing done from memory.",
    "est": 2.9,
    "img": "frames/16x9/0085.png",
-   "vimg": "frames/9x16/0085.png"
+   "vimg": "frames/9x16/0085.png",
+   "audio": "audio/0085.mp3",
+   "audio_dur": 1.829
   },
   {
    "line": 86,
@@ -863,7 +1033,9 @@
    "raw": "Then it lifts one hand\u2026 /",
    "est": 2.98,
    "img": "frames/16x9/0086.png",
-   "vimg": "frames/9x16/0086.png"
+   "vimg": "frames/9x16/0086.png",
+   "audio": "audio/0086.mp3",
+   "audio_dur": 1.62
   },
   {
    "line": 87,
@@ -873,7 +1045,9 @@
    "raw": "and waves. /",
    "est": 1.7,
    "img": "frames/16x9/0087.png",
-   "vimg": "frames/9x16/0087.png"
+   "vimg": "frames/9x16/0087.png",
+   "audio": "audio/0087.mp3",
+   "audio_dur": 1.071
   },
   {
    "line": 88,
@@ -883,7 +1057,9 @@
    "raw": "Slowly. / Like it's being polite.",
    "est": 2.98,
    "img": "frames/16x9/0088.png",
-   "vimg": "frames/9x16/0088.png"
+   "vimg": "frames/9x16/0088.png",
+   "audio": "audio/0088.mp3",
+   "audio_dur": 2.769
   },
   {
    "line": 89,
@@ -893,7 +1069,9 @@
    "raw": "You'll feel your hand start to move. /",
    "est": 3.83,
    "img": "frames/16x9/0089.png",
-   "vimg": "frames/9x16/0089.png"
+   "vimg": "frames/9x16/0089.png",
+   "audio": "audio/0089.mp3",
+   "audio_dur": 1.776
   },
   {
    "line": 90,
@@ -903,7 +1081,9 @@
    "raw": "Sit on it.",
    "est": 1.63,
    "img": "frames/16x9/0090.png",
-   "vimg": "frames/9x16/0090.png"
+   "vimg": "frames/9x16/0090.png",
+   "audio": "audio/0090.mp3",
+   "audio_dur": 0.94
   },
   {
    "line": 91,
@@ -913,7 +1093,9 @@
    "raw": "A wave is an agreement. /",
    "est": 2.98,
    "img": "frames/16x9/0091.png",
-   "vimg": "frames/9x16/0091.png"
+   "vimg": "frames/9x16/0091.png",
+   "audio": "audio/0091.mp3",
+   "audio_dur": 1.358
   },
   {
    "line": 92,
@@ -923,7 +1105,9 @@
    "raw": "It means, \"See you tomorrow.\" //",
    "est": 3.48,
    "img": "frames/16x9/0092.png",
-   "vimg": "frames/9x16/0092.png"
+   "vimg": "frames/9x16/0092.png",
+   "audio": "audio/0092.mp3",
+   "audio_dur": 2.377
   },
   {
    "line": 93,
@@ -933,7 +1117,9 @@
    "raw": "And it will.",
    "est": 1.63,
    "img": "frames/16x9/0093.png",
-   "vimg": "frames/9x16/0093.png"
+   "vimg": "frames/9x16/0093.png",
+   "audio": "audio/0093.mp3",
+   "audio_dur": 0.94
   },
   {
    "line": 94,
@@ -943,7 +1129,9 @@
    "raw": "That's why d\u00e9j\u00e0 vu happens. /",
    "est": 3.4,
    "img": "frames/16x9/0094.png",
-   "vimg": "frames/9x16/0094.png"
+   "vimg": "frames/9x16/0094.png",
+   "audio": "audio/0094.mp3",
+   "audio_dur": 1.776
   },
   {
    "line": 95,
@@ -953,7 +1141,9 @@
    "raw": "That little feeling you've already done this today. //",
    "est": 4.75,
    "img": "frames/16x9/0095.png",
-   "vimg": "frames/9x16/0095.png"
+   "vimg": "frames/9x16/0095.png",
+   "audio": "audio/0095.mp3",
+   "audio_dur": 2.038
   },
   {
    "line": 96,
@@ -963,7 +1153,9 @@
    "raw": "You have. /",
    "est": 1.7,
    "img": "frames/16x9/0096.png",
-   "vimg": "frames/9x16/0096.png"
+   "vimg": "frames/9x16/0096.png",
+   "audio": "audio/0096.mp3",
+   "audio_dur": 0.862
   },
   {
    "line": 97,
@@ -973,7 +1165,9 @@
    "raw": "Just not *you* you.",
    "est": 2.05,
    "img": "frames/16x9/0097.png",
-   "vimg": "frames/9x16/0097.png"
+   "vimg": "frames/9x16/0097.png",
+   "audio": "audio/0097.mp3",
+   "audio_dur": 1.62
   },
   {
    "line": 98,
@@ -983,7 +1177,9 @@
    "raw": "Rule six. / If the doorbell rings, / don't answer.",
    "est": 4.75,
    "img": "frames/16x9/0098.png",
-   "vimg": "frames/9x16/0098.png"
+   "vimg": "frames/9x16/0098.png",
+   "audio": "audio/0098.mp3",
+   "audio_dur": 3.84
   },
   {
    "line": 99,
@@ -993,7 +1189,9 @@
    "raw": "Around six, the app pings again. /",
    "est": 3.4,
    "img": "frames/16x9/0099.png",
-   "vimg": "frames/9x16/0099.png"
+   "vimg": "frames/9x16/0099.png",
+   "audio": "audio/0099.mp3",
+   "audio_dur": 1.829
   },
   {
    "line": 100,
@@ -1003,7 +1201,9 @@
    "raw": "\"Someone is at your front door.\" //",
    "est": 3.9,
    "img": "frames/16x9/0100.png",
-   "vimg": "frames/9x16/0100.png"
+   "vimg": "frames/9x16/0100.png",
+   "audio": "audio/0100.mp3",
+   "audio_dur": 1.515
   },
   {
    "line": 101,
@@ -1013,7 +1213,9 @@
    "raw": "It's back.",
    "est": 1.2,
    "img": "frames/16x9/0101.png",
-   "vimg": "frames/9x16/0101.png"
+   "vimg": "frames/9x16/0101.png",
+   "audio": "audio/0101.mp3",
+   "audio_dur": 0.862
   },
   {
    "line": 102,
@@ -1023,7 +1225,9 @@
    "raw": "It doesn't need to ring. / It has a key. /",
    "est": 5.18,
    "img": "frames/16x9/0102.png",
-   "vimg": "frames/9x16/0102.png"
+   "vimg": "frames/9x16/0102.png",
+   "audio": "audio/0102.mp3",
+   "audio_dur": 1.881
   },
   {
    "line": 103,
@@ -1033,7 +1237,9 @@
    "raw": "It's ringing to see if you'll come. //",
    "est": 4.33,
    "img": "frames/16x9/0103.png",
-   "vimg": "frames/9x16/0103.png"
+   "vimg": "frames/9x16/0103.png",
+   "audio": "audio/0103.mp3",
+   "audio_dur": 1.75
   },
   {
    "line": 104,
@@ -1043,7 +1249,9 @@
    "raw": "Whoever opens the door\u2026 / goes out next time.",
    "est": 4.25,
    "img": "frames/16x9/0104.png",
-   "vimg": "frames/9x16/0104.png"
+   "vimg": "frames/9x16/0104.png",
+   "audio": "audio/0104.mp3",
+   "audio_dur": 3.082
   },
   {
    "line": 105,
@@ -1053,7 +1261,9 @@
    "raw": "Stay under the blanket. /",
    "est": 2.55,
    "img": "frames/16x9/0105.png",
-   "vimg": "frames/9x16/0105.png"
+   "vimg": "frames/9x16/0105.png",
+   "audio": "audio/0105.mp3",
+   "audio_dur": 1.202
   },
   {
    "line": 106,
@@ -1063,7 +1273,9 @@
    "raw": "It'll ring twice. /",
    "est": 2.13,
    "img": "frames/16x9/0106.png",
-   "vimg": "frames/9x16/0106.png"
+   "vimg": "frames/9x16/0106.png",
+   "audio": "audio/0106.mp3",
+   "audio_dur": 1.228
   },
   {
    "line": 107,
@@ -1073,7 +1285,9 @@
    "raw": "Then it'll try the keypad on the side door.",
    "est": 4.18,
    "img": "frames/16x9/0107.png",
-   "vimg": "frames/9x16/0107.png"
+   "vimg": "frames/9x16/0107.png",
+   "audio": "audio/0107.mp3",
+   "audio_dur": 2.168
   },
   {
    "line": 108,
@@ -1083,7 +1297,9 @@
    "raw": "It knows the code. /",
    "est": 2.55,
    "img": "frames/16x9/0108.png",
-   "vimg": "frames/9x16/0108.png"
+   "vimg": "frames/9x16/0108.png",
+   "audio": "audio/0108.mp3",
+   "audio_dur": 1.28
   },
   {
    "line": 109,
@@ -1093,7 +1309,9 @@
    "raw": "It's your birthday. //",
    "est": 2.63,
    "img": "frames/16x9/0109.png",
-   "vimg": "frames/9x16/0109.png"
+   "vimg": "frames/9x16/0109.png",
+   "audio": "audio/0109.mp3",
+   "audio_dur": 1.202
   },
   {
    "line": 110,
@@ -1103,7 +1321,9 @@
    "raw": "Everyone's code is their birthday. /",
    "est": 2.98,
    "img": "frames/16x9/0110.png",
-   "vimg": "frames/9x16/0110.png"
+   "vimg": "frames/9x16/0110.png",
+   "audio": "audio/0110.mp3",
+   "audio_dur": 1.724
   },
   {
    "line": 111,
@@ -1113,7 +1333,9 @@
    "raw": "Change that, by the way.",
    "est": 2.48,
    "img": "frames/16x9/0111.png",
-   "vimg": "frames/9x16/0111.png"
+   "vimg": "frames/9x16/0111.png",
+   "audio": "audio/0111.mp3",
+   "audio_dur": 1.306
   },
   {
    "line": 112,
@@ -1123,7 +1345,9 @@
    "raw": "At 6:12 your alarm goes off. /",
    "est": 3.83,
    "img": "frames/16x9/0112.png",
-   "vimg": "frames/9x16/0112.png"
+   "vimg": "frames/9x16/0112.png",
+   "audio": "audio/0112.mp3",
+   "audio_dur": 2.064
   },
   {
    "line": 113,
@@ -1133,7 +1357,9 @@
    "raw": "Downstairs, / the kettle's already on.",
    "est": 2.98,
    "img": "frames/16x9/0113.png",
-   "vimg": "frames/9x16/0113.png"
+   "vimg": "frames/9x16/0113.png",
+   "audio": "audio/0113.mp3",
+   "audio_dur": 1.829
   },
   {
    "line": 114,
@@ -1143,7 +1369,9 @@
    "raw": "That's why your car seat sometimes feels moved. /",
    "est": 4.25,
    "img": "frames/16x9/0114.png",
-   "vimg": "frames/9x16/0114.png"
+   "vimg": "frames/9x16/0114.png",
+   "audio": "audio/0114.mp3",
+   "audio_dur": 2.508
   },
   {
    "line": 115,
@@ -1153,7 +1381,9 @@
    "raw": "Why your step count is higher than it should be. /",
    "est": 5.11,
    "img": "frames/16x9/0115.png",
-   "vimg": "frames/9x16/0115.png"
+   "vimg": "frames/9x16/0115.png",
+   "audio": "audio/0115.mp3",
+   "audio_dur": 2.821
   },
   {
    "line": 116,
@@ -1163,7 +1393,9 @@
    "raw": "Why a coworker says, \"You seemed different on Tuesday.\" //",
    "est": 5.18,
    "img": "frames/16x9/0116.png",
-   "vimg": "frames/9x16/0116.png"
+   "vimg": "frames/9x16/0116.png",
+   "audio": "audio/0116.mp3",
+   "audio_dur": 3.84
   },
   {
    "line": 117,
@@ -1173,7 +1405,9 @@
    "raw": "You were.",
    "est": 1.2,
    "img": "frames/16x9/0117.png",
-   "vimg": "frames/9x16/0117.png"
+   "vimg": "frames/9x16/0117.png",
+   "audio": "audio/0117.mp3",
+   "audio_dur": 1.019
   },
   {
    "line": 118,
@@ -1183,7 +1417,9 @@
    "raw": "Rule seven. //",
    "est": 2.2,
    "img": "frames/16x9/0118.png",
-   "vimg": "frames/9x16/0118.png"
+   "vimg": "frames/9x16/0118.png",
+   "audio": "audio/0118.mp3",
+   "audio_dur": 1.176
   },
   {
    "line": 119,
@@ -1193,7 +1429,9 @@
    "raw": "Open the app.",
    "est": 1.63,
    "img": "frames/16x9/0119.png",
-   "vimg": "frames/9x16/0119.png"
+   "vimg": "frames/9x16/0119.png",
+   "audio": "audio/0119.mp3",
+   "audio_dur": 1.097
   },
   {
    "line": 120,
@@ -1203,7 +1441,9 @@
    "raw": "Go to settings. / Shared users. /",
    "est": 3.48,
    "img": "frames/16x9/0120.png",
-   "vimg": "frames/9x16/0120.png"
+   "vimg": "frames/9x16/0120.png",
+   "audio": "audio/0120.mp3",
+   "audio_dur": 2.743
   },
   {
    "line": 121,
@@ -1213,7 +1453,9 @@
    "raw": "There should be one name there. / Yours. //",
    "est": 4.83,
    "img": "frames/16x9/0121.png",
-   "vimg": "frames/9x16/0121.png"
+   "vimg": "frames/9x16/0121.png",
+   "audio": "audio/0121.mp3",
+   "audio_dur": 2.612
   },
   {
    "line": 122,
@@ -1223,7 +1465,9 @@
    "raw": "There are two.",
    "est": 1.63,
    "img": "frames/16x9/0122.png",
-   "vimg": "frames/9x16/0122.png"
+   "vimg": "frames/9x16/0122.png",
+   "audio": "audio/0122.mp3",
+   "audio_dur": 0.914
   },
   {
    "line": 123,
@@ -1233,7 +1477,9 @@
    "raw": "The second one is also you. /",
    "est": 3.4,
    "img": "frames/16x9/0123.png",
-   "vimg": "frames/9x16/0123.png"
+   "vimg": "frames/9x16/0123.png",
+   "audio": "audio/0123.mp3",
+   "audio_dur": 1.698
   },
   {
    "line": 124,
@@ -1243,7 +1489,9 @@
    "raw": "Same name. Same photo. /",
    "est": 2.55,
    "img": "frames/16x9/0124.png",
-   "vimg": "frames/9x16/0124.png"
+   "vimg": "frames/9x16/0124.png",
+   "audio": "audio/0124.mp3",
+   "audio_dur": 2.168
   },
   {
    "line": 125,
@@ -1253,7 +1501,9 @@
    "raw": "Added three years ago.",
    "est": 2.05,
    "img": "frames/16x9/0125.png",
-   "vimg": "frames/9x16/0125.png"
+   "vimg": "frames/9x16/0125.png",
+   "audio": "audio/0125.mp3",
+   "audio_dur": 1.75
   },
   {
    "line": 126,
@@ -1263,7 +1513,9 @@
    "raw": "It's been watching too. /",
    "est": 2.55,
    "img": "frames/16x9/0126.png",
-   "vimg": "frames/9x16/0126.png"
+   "vimg": "frames/9x16/0126.png",
+   "audio": "audio/0126.mp3",
+   "audio_dur": 1.097
   },
   {
    "line": 127,
@@ -1273,7 +1525,9 @@
    "raw": "Every night. /",
    "est": 1.7,
    "img": "frames/16x9/0127.png",
-   "vimg": "frames/9x16/0127.png"
+   "vimg": "frames/9x16/0127.png",
+   "audio": "audio/0127.mp3",
+   "audio_dur": 0.862
   },
   {
    "line": 128,
@@ -1283,7 +1537,9 @@
    "raw": "Watching you sleep. //",
    "est": 2.63,
    "img": "frames/16x9/0128.png",
-   "vimg": "frames/9x16/0128.png"
+   "vimg": "frames/9x16/0128.png",
+   "audio": "audio/0128.mp3",
+   "audio_dur": 1.176
   },
   {
    "line": 129,
@@ -1293,7 +1549,9 @@
    "raw": "That's how it learned to walk like you.",
    "est": 3.75,
    "img": "frames/16x9/0129.png",
-   "vimg": "frames/9x16/0129.png"
+   "vimg": "frames/9x16/0129.png",
+   "audio": "audio/0129.mp3",
+   "audio_dur": 1.515
   },
   {
    "line": 130,
@@ -1303,7 +1561,9 @@
    "raw": "You get the bed. / The quiet house. / The weekends. /",
    "est": 5.68,
    "img": "frames/16x9/0130.png",
-   "vimg": "frames/9x16/0130.png"
+   "vimg": "frames/9x16/0130.png",
+   "audio": "audio/0130.mp3",
+   "audio_dur": 3.709
   },
   {
    "line": 131,
@@ -1313,7 +1573,9 @@
    "raw": "It gets everything else. /",
    "est": 2.55,
    "img": "frames/16x9/0131.png",
-   "vimg": "frames/9x16/0131.png"
+   "vimg": "frames/9x16/0131.png",
+   "audio": "audio/0131.mp3",
+   "audio_dur": 1.176
   },
   {
    "line": 132,
@@ -1323,7 +1585,9 @@
    "raw": "The commute. The meetings. The six a.m. alarm. //",
    "est": 5.18,
    "img": "frames/16x9/0132.png",
-   "vimg": "frames/9x16/0132.png"
+   "vimg": "frames/9x16/0132.png",
+   "audio": "audio/0132.mp3",
+   "audio_dur": 3.239
   },
   {
    "line": 133,
@@ -1333,7 +1597,9 @@
    "raw": "That's the arrangement.",
    "est": 1.63,
    "img": "frames/16x9/0133.png",
-   "vimg": "frames/9x16/0133.png"
+   "vimg": "frames/9x16/0133.png",
+   "audio": "audio/0133.mp3",
+   "audio_dur": 1.254
   },
   {
    "line": 134,
@@ -1343,7 +1609,9 @@
    "raw": "You'll say you never agreed to that. /",
    "est": 3.83,
    "img": "frames/16x9/0134.png",
-   "vimg": "frames/9x16/0134.png"
+   "vimg": "frames/9x16/0134.png",
+   "audio": "audio/0134.mp3",
+   "audio_dur": 1.541
   },
   {
    "line": 135,
@@ -1353,7 +1621,9 @@
    "raw": "Scroll to the oldest clip.",
    "est": 2.48,
    "img": "frames/16x9/0135.png",
-   "vimg": "frames/9x16/0135.png"
+   "vimg": "frames/9x16/0135.png",
+   "audio": "audio/0135.mp3",
+   "audio_dur": 1.384
   },
   {
    "line": 136,
@@ -1363,7 +1633,9 @@
    "raw": "Three years ago. 3:12 a.m. /",
    "est": 3.83,
    "img": "frames/16x9/0136.png",
-   "vimg": "frames/9x16/0136.png"
+   "vimg": "frames/9x16/0136.png",
+   "audio": "audio/0136.mp3",
+   "audio_dur": 3.213
   },
   {
    "line": 137,
@@ -1373,7 +1645,9 @@
    "raw": "It's on the porch, waving. //",
    "est": 3.48,
    "img": "frames/16x9/0137.png",
-   "vimg": "frames/9x16/0137.png"
+   "vimg": "frames/9x16/0137.png",
+   "audio": "audio/0137.mp3",
+   "audio_dur": 1.933
   },
   {
    "line": 138,
@@ -1383,7 +1657,9 @@
    "raw": "And behind it, in the upstairs window\u2026 //",
    "est": 4.33,
    "img": "frames/16x9/0138.png",
-   "vimg": "frames/9x16/0138.png"
+   "vimg": "frames/9x16/0138.png",
+   "audio": "audio/0138.mp3",
+   "audio_dur": 2.377
   },
   {
    "line": 139,
@@ -1393,7 +1669,9 @@
    "raw": "someone waves back.",
    "est": 1.63,
    "img": "frames/16x9/0139.png",
-   "vimg": "frames/9x16/0139.png"
+   "vimg": "frames/9x16/0139.png",
+   "audio": "audio/0139.mp3",
+   "audio_dur": 1.437
   },
   {
    "line": 140,
@@ -1403,7 +1681,9 @@
    "raw": "So, rule seven. /",
    "est": 2.13,
    "img": "frames/16x9/0140.png",
-   "vimg": "frames/9x16/0140.png"
+   "vimg": "frames/9x16/0140.png",
+   "audio": "audio/0140.mp3",
+   "audio_dur": 1.489
   },
   {
    "line": 141,
@@ -1413,7 +1693,9 @@
    "raw": "Don't remove the shared user. //",
    "est": 3.48,
    "img": "frames/16x9/0141.png",
-   "vimg": "frames/9x16/0141.png"
+   "vimg": "frames/9x16/0141.png",
+   "audio": "audio/0141.mp3",
+   "audio_dur": 2.429
   },
   {
    "line": 142,
@@ -1423,7 +1705,9 @@
    "raw": "If it stops coming back\u2026 /",
    "est": 2.98,
    "img": "frames/16x9/0142.png",
-   "vimg": "frames/9x16/0142.png"
+   "vimg": "frames/9x16/0142.png",
+   "audio": "audio/0142.mp3",
+   "audio_dur": 1.541
   },
   {
    "line": 143,
@@ -1433,7 +1717,9 @@
    "raw": "someone has to go to work.",
    "est": 2.9,
    "img": "frames/16x9/0143.png",
-   "vimg": "frames/9x16/0143.png"
+   "vimg": "frames/9x16/0143.png",
+   "audio": "audio/0143.mp3",
+   "audio_dur": 1.593
   },
   {
    "line": 144,
@@ -1443,7 +1729,9 @@
    "raw": "And if tonight, at 3:12, / the clip shows someone walking *in*\u2026 //",
    "est": 6.96,
    "img": "frames/16x9/0144.png",
-   "vimg": "frames/9x16/0144.png"
+   "vimg": "frames/9x16/0144.png",
+   "audio": "audio/0144.mp3",
+   "audio_dur": 4.31
   },
   {
    "line": 145,
@@ -1453,7 +1741,9 @@
    "raw": "that isn't it coming home. //",
    "est": 3.48,
    "img": "frames/16x9/0145.png",
-   "vimg": "frames/9x16/0145.png"
+   "vimg": "frames/9x16/0145.png",
+   "audio": "audio/0145.mp3",
+   "audio_dur": 1.411
   },
   {
    "line": 146,
@@ -1463,7 +1753,9 @@
    "raw": "That's the next one. / Learning you.",
    "est": 3.4,
    "img": "frames/16x9/0146.png",
-   "vimg": "frames/9x16/0146.png"
+   "vimg": "frames/9x16/0146.png",
+   "audio": "audio/0146.mp3",
+   "audio_dur": 2.194
   },
   {
    "line": 147,
@@ -1473,7 +1765,9 @@
    "raw": "Stay inside. /",
    "est": 1.7,
    "img": "frames/16x9/0147.png",
-   "vimg": "frames/9x16/0147.png"
+   "vimg": "frames/9x16/0147.png",
+   "audio": "audio/0147.mp3",
+   "audio_dur": 1.097
   },
   {
    "line": 148,
@@ -1483,7 +1777,9 @@
    "raw": "Keep the alerts on. /",
    "est": 2.55,
    "img": "frames/16x9/0148.png",
-   "vimg": "frames/9x16/0148.png"
+   "vimg": "frames/9x16/0148.png",
+   "audio": "audio/0148.mp3",
+   "audio_dur": 1.28
   },
   {
    "line": 149,
@@ -1493,7 +1789,9 @@
    "raw": "And when you hear the kettle in the morning\u2026 / say thank you.",
    "est": 5.96,
    "img": "frames/16x9/0149.png",
-   "vimg": "frames/9x16/0149.png"
+   "vimg": "frames/9x16/0149.png",
+   "audio": "audio/0149.mp3",
+   "audio_dur": 3.5
   },
   {
    "line": 150,
@@ -1503,7 +1801,9 @@
    "raw": "This account is monitored. //",
    "est": 3.05,
    "img": "frames/16x9/0150.png",
-   "vimg": "frames/9x16/0150.png"
+   "vimg": "frames/9x16/0150.png",
+   "audio": "audio/0150.mp3",
+   "audio_dur": 1.802
   },
   {
    "line": 151,
@@ -1513,7 +1813,9 @@
    "raw": "\u2014 The Residents' Office.",
    "est": 1.63,
    "img": "frames/16x9/0151.png",
-   "vimg": "frames/9x16/0151.png"
+   "vimg": "frames/9x16/0151.png",
+   "audio": "audio/0151.mp3",
+   "audio_dur": 1.358
   }
  ]
 }

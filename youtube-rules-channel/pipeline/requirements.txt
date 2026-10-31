@@ -1,3 +1,4 @@
+pocketsphinx>=5.0                # align_recording.py
 anthropic>=2.3.0                 # write_script.py
 google-api-python-client>=2.0    # upload_youtube.py
 google-auth-oauthlib>=1.0        # upload_youtube.py

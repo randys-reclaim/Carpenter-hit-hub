@@ -58,7 +58,7 @@ The shot names a template in `art.py` (33 scenes: doorbell cam, bedroom, phone s
 ## Narration choices
 
 - **ElevenLabs (automatic):** set the key and a voice ID. Pick one calm, flat voice and keep it for every episode.
-- **Your own voice:** read `../voiceover/<episode>-voiceover.txt` top to bottom in one take, pausing about a second between lines. Then `python split_recording.py ../episodes/<episode> recording.m4a` cuts it into one clip per line, and `python assemble.py ../episodes/<episode>` builds the narrated videos.
+- **Your own voice:** read `../voiceover/<episode>-voiceover.txt` top to bottom in one take, pausing about a second between lines. Then `python split_recording.py ../episodes/<episode> recording.m4a` (or several files in order, such as the ElevenLabs website parts from `voiceover/*-elevenlabs-part*.txt`) cuts it into one clip per line, and `python assemble.py ../episodes/<episode>` builds the narrated videos.
 - **No voice:** the videos still build, timed from word counts, which is handy for checking the edit.
 
 ## Automating further

@@ -4,6 +4,7 @@ Read the voiceover/*.txt script top to bottom with a short pause (about a
 second) between lines, then:
 
   python split_recording.py ../episodes/001-doorbell my-recording.m4a
+  python split_recording.py ../episodes/001-doorbell part1.mp3 part2.mp3   # several parts, in order
 
 The recording is cut at the longest pauses, exactly as many cuts as there
 are lines, and saved as audio/0001.mp3, 0002.mp3... Then run
@@ -23,8 +24,16 @@ def duration(path):
     r = subprocess.run(["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", str(path)], capture_output=True, text=True)
     return float(r.stdout.strip())
 
-def run(ep_dir, recording):
-    ep_dir, recording = Path(ep_dir), Path(recording)
+def run(ep_dir, *recordings):
+    ep_dir = Path(ep_dir)
+    if len(recordings) > 1:  # several parts (e.g. ElevenLabs downloads): join them in order with a pause between
+        recording = ep_dir / "voiceover-joined.wav"
+        ins = sum((["-i", str(r)] for r in recordings), [])
+        graph = "".join(f"[{i}:a]aformat=sample_rates=44100:channel_layouts=mono,apad=pad_dur=1.2[p{i}];" for i in range(len(recordings)))
+        graph += "".join(f"[p{i}]" for i in range(len(recordings))) + f"concat=n={len(recordings)}:v=0:a=1[a]"
+        subprocess.run(["ffmpeg", "-v", "error", "-y", *ins, "-filter_complex", graph, "-map", "[a]", str(recording)], check=True)
+    else:
+        recording = Path(recordings[0])
     lines = json.loads((ep_dir / "timeline.json").read_text())["lines"]
     total = duration(recording)
     gaps = [(s, e) for s, e in silences(recording) if s > 0.2 and e < total - 0.2]
@@ -49,4 +58,4 @@ def run(ep_dir, recording):
         print(f"  {ln['line']:4d}  {a:7.2f}-{b:7.2f}s  {ln['text'][:50]}")
 
 if __name__ == "__main__":
-    run(sys.argv[1], sys.argv[2])
+    run(sys.argv[1], *sys.argv[2:])

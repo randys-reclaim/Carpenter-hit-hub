@@ -1,5 +1,7 @@
 # Script: "If Your Doorbell Camera Ever Shows You Leaving… STAY INSIDE"
 
+<!-- episode: notice=001 slug=doorbell -->
+
 **Runtime target:** 8:00–8:15 · **VO:** about 850 words at 135–140 wpm (about 6:10) plus about 2 minutes of scripted pauses and visual holds, for about 8:05 total
 **Format:** 7 rules · cold open · mid-video "break" · twist on Rule 7 · institutional sign-off
 **Narrator identity (yours, not his):** *The Residents' Office.* Sign-off: **"This account is monitored."**
@@ -45,11 +47,16 @@
 ### COLD OPEN (0:00–0:18)
 
 **[VISUAL]** Hero image: a doorbell-cam fisheye frame with the front door open and a white figure stepping out. `MOTION DETECTED` notification banner slides down. The title text pulses in yellow.
+<!-- shot: doorcam fig=stepout door=1 notif="Motion detected|Front Door · 3:12 AM" -->
+<!-- shot: title l1=STAY l2=INSIDE -->
 
 If your doorbell camera ever shows you leaving… //
 stay inside.
 
 **[VISUAL]** One-second hard cuts, one icon each: a play button with ✕ · porch light · a hand mid-wave
+<!-- shot: icons items=playx -->
+<!-- shot: icons items=porchlight -->
+<!-- shot: icons items=wave -->
 
 Don't watch the clip twice. /
 Don't check the porch. /
@@ -57,6 +64,7 @@ And if it waves at the camera… /
 don't wave back.
 
 **[VISUAL]** Seven house icons in a row; the seventh glows yellow.
+<!-- shot: houses n=7 lit=7 -->
 
 There are seven rules. /
 Six keep you inside. /
@@ -67,10 +75,15 @@ The seventh explains who's been going to work for you.
 ### RULE 1: DON'T WATCH IT TWICE (0:18–1:20)
 
 **[VISUAL]** Rule card: `RULE 1 · DON'T WATCH IT TWICE` with progress pips ■□□□□□□
+<!-- shot: rule n=1 text="Don't watch it twice" -->
 
 Rule one. / Don't watch it twice.
 
 **[VISUAL]** Doorbell cam: a moth flutters, car headlights sweep, heat shimmer
+<!-- shot: doorcam moth=1 ts="11:48:10 PM" -->
+<!-- shot: doorcam moth=1 headlights=1 shimmer=1 ts="11:52:31 PM" -->
+<!-- shot: doorcam moth=1 headlights=1 shimmer=1 ts="11:52:31 PM" -->
+<!-- shot: doorcam ts="03:12:00 AM" -->
 
 Most doorbell alerts are nothing. /
 A moth. Headlights. Heat coming off the driveway. /
@@ -78,12 +91,22 @@ That part's true. Check your own app. //
 The rest of them, nobody talks about.
 
 **[VISUAL]** Dark bedroom; the phone on the nightstand lights up. `3:12 AM · Motion detected · Front Door`
+<!-- shot: bedroom glow=1 notif="Motion detected|Front Door · 3:12 AM" -->
+<!-- shot: bedroom glow=1 notif="Motion detected|Front Door · 3:12 AM" -->
+<!-- shot: bedroom person=awake glow=1 -->
 
 It'll come at 3:12 in the morning. /
 "Motion detected. Front door." /
 You'll open it half asleep.
 
 **[VISUAL]** Phone close-up showing the clip. The front door opens and a white figure steps out.
+<!-- shot: phone screen=clip -->
+<!-- shot: doorcam door=1 -->
+<!-- shot: doorcam fig=stepout door=1 -->
+<!-- shot: doorcam fig=stepout door=1 -->
+<!-- shot: doorcam fig=stepout -->
+<!-- shot: doorcam fig=walkaway -->
+<!-- shot: doorcam fig=walkaway -->
 
 The door opens. /
 Someone steps out. /
@@ -95,18 +118,21 @@ Then they walk down the driveway… and turn left. /
 You always turn left.
 
 **[VISUAL]** A thumb hovers over the replay button. A yellow ✕ appears.
+<!-- shot: phone screen=replay -->
 
 You'll want to watch it again. To be sure. /
 Don't. //
 Every time you play it, / it gets a little better at being you.
 
 **[VISUAL]** Split screen of clip #1 (stiff, robotic walk) and clip #5 (smooth, natural)
+<!-- shot: split mode=walk -->
 
 The first clip, the walk is wrong. /
 Too stiff. Like someone reading instructions. /
 By the fifth one… it's humming.
 
 **[VISUAL]** Map pin: TULSA. A woman on a couch with her phone.
+<!-- shot: pin city=Tulsa extra=couch -->
 
 A woman in Tulsa watched hers forty times. /
 By the end, it patted its pockets for her phone. //
@@ -117,16 +143,22 @@ Exactly the way she does.
 ### RULE 2: DON'T DELETE THE CLIP (1:20–2:15)
 
 **[VISUAL]** `RULE 2 · DON'T DELETE THE CLIP` ■■□□□□□
+<!-- shot: rule n=2 text="Don't delete the clip" -->
 
 Rule two. / Don't delete the clip.
 
 **[VISUAL]** App pop-up: "Delete this event? Are you sure?" The YES button is grayed out.
+<!-- shot: phone screen=delete -->
 
 You'll want to. Obviously. /
 The app will ask, "Are you sure?" /
 It's asking for a reason.
 
 **[VISUAL]** Two identical stick figures side by side; one fades out.
+<!-- shot: split mode=figs fade=1 -->
+<!-- shot: split mode=figs fade=1 -->
+<!-- shot: split mode=figs fade=0.15 -->
+<!-- shot: bedroom person=sleep -->
 
 The clip is proof. /
 As long as it's saved, the camera knows there are two of you. //
@@ -134,6 +166,7 @@ Delete it, and it only remembers one. /
 It won't be the one in bed.
 
 **[VISUAL]** Cloud storage bar filling to 98%. Rows of clip thumbnails, all timestamped 3:12.
+<!-- shot: phone screen=storage -->
 
 That's why your cloud storage fills up so fast. /
 You don't record that much. /
@@ -148,10 +181,15 @@ They're holding it.
 ### RULE 3: DON'T CHECK THE PORCH (2:15–3:10)
 
 **[VISUAL]** `RULE 3 · DON'T CHECK THE PORCH` ■■■□□□□
+<!-- shot: rule n=3 text="Don't check the porch" -->
 
 Rule three. / Don't check the porch.
 
 **[VISUAL]** POV through a peephole: a fisheye view of a dark porch
+<!-- shot: peephole -->
+<!-- shot: peephole -->
+<!-- shot: peephole -->
+<!-- shot: peephole prints=1 -->
 
 You'll want to look through the peephole. /
 The porch light will be off. / You leave it on. /
@@ -159,16 +197,19 @@ The doormat will be crooked. //
 And there'll be footprints. / Wet ones.
 
 **[VISUAL]** Footprints drawn in white, all pointing away from the door
+<!-- shot: footprints -->
 
 Going out. //
 None coming back.
 
 **[VISUAL]** A hand on the doorknob. The knob glows yellow.
+<!-- shot: doorknob -->
 
 If you open the door now, / you're the one who left. /
 And someone has to come back in.
 
 **[VISUAL]** Map pin: LEEDS. A man in an open doorway, with a dog in the background backing away.
+<!-- shot: pin city=Leeds extra=doorway -->
 
 A man in Leeds opened his. /
 Cold air. Empty street. /
@@ -178,6 +219,8 @@ Dogs know the difference. /
 People mostly don't.
 
 **[VISUAL]** The figure climbs back into bed.
+<!-- shot: bedroom person=climb -->
+<!-- shot: bedroom person=lump -->
 
 Go back to bed. /
 The porch will still be there in the morning. // Mostly.
@@ -187,10 +230,12 @@ The porch will still be there in the morning. // Mostly.
 ### RULE 4: KEEP NOTIFICATIONS ON (3:10–4:00)
 
 **[VISUAL]** `RULE 4 · KEEP NOTIFICATIONS ON` ■■■■□□□
+<!-- shot: rule n=4 text="Keep notifications on" -->
 
 Rule four. / Don't turn off the alerts.
 
 **[VISUAL]** Settings toggle: "Motion Alerts". A finger hovers and pulls away.
+<!-- shot: phone screen=toggle -->
 
 You'll think, if I don't see it, it isn't happening. /
 That's how most people sleep through it. /
@@ -200,6 +245,10 @@ The alerts aren't for you. /
 They're a receipt.
 
 **[VISUAL]** *The break.* The doorbell feed goes flat gray with a `03:33` timestamp and a 60-second countdown. Near-silence, just room tone.
+<!-- shot: gray count=0:60 -->
+<!-- shot: gray count=0:42 -->
+<!-- shot: gray count=0:21 -->
+<!-- shot: gray count=0:08 -->
 
 At 3:33, the feed goes gray. /
 Sixty seconds. //
@@ -208,6 +257,9 @@ Not even it. //
 Everyone needs a minute.
 
 **[VISUAL]** Phone on a charger. The battery icon *drops* from 80% to 41%. A thin dotted line goes from the phone out the window.
+<!-- shot: phone screen=battery pct=80 -->
+<!-- shot: phone screen=battery pct=63 -->
+<!-- shot: phone screen=battery pct=41 -->
 
 That's why your phone loses battery overnight, / while it's plugged in. /
 It's been streaming. / All night. //
@@ -218,28 +270,33 @@ To someone else's phone.
 ### RULE 5: IF IT WAVES, DON'T WAVE BACK (4:00–5:00)
 
 **[VISUAL]** `RULE 5 · DON'T WAVE BACK` ■■■■■□□
+<!-- shot: rule n=5 text="Don't wave back" -->
 
 Rule five. / If it waves, / don't wave back.
 
 **[VISUAL]** Doorbell cam: the figure stops at the end of the driveway and slowly turns toward the lens.
+<!-- shot: doorcam fig=turn ts="03:14:02 AM" -->
 
 Some nights it stops at the end of the driveway. /
 Turns around. /
 Looks straight into the lens.
 
 **[VISUAL]** Zoom on the face: your avatar's face, but the eyes are spaced slightly too far apart.
+<!-- shot: face -->
 
 It has your face. // Mostly. /
 The eyes are a little too far apart. /
 Like a drawing done from memory.
 
 **[VISUAL]** It raises one hand. A slow wave.
+<!-- shot: doorcam fig=wave ts="03:14:07 AM" -->
 
 Then it lifts one hand… /
 and waves. /
 Slowly. / Like it's being polite.
 
 **[VISUAL]** In bed, the viewer's hand twitches under the blanket. A yellow ✕ appears.
+<!-- shot: bedroom person=lump x=1 -->
 
 You'll feel your hand start to move. /
 Sit on it.
@@ -249,6 +306,7 @@ It means, "See you tomorrow." //
 And it will.
 
 **[VISUAL]** Two identical days side by side: same kitchen, same mug, same clock.
+<!-- shot: split mode=days -->
 
 That's why déjà vu happens. /
 That little feeling you've already done this today. //
@@ -260,10 +318,14 @@ Just not *you* you.
 ### RULE 6: IF THE DOORBELL RINGS, DON'T ANSWER (5:00–6:05)
 
 **[VISUAL]** `RULE 6 · DON'T ANSWER THE DOOR` ■■■■■■□
+<!-- shot: rule n=6 text="Don't answer the door" -->
 
 Rule six. / If the doorbell rings, / don't answer.
 
 **[VISUAL]** Notification: `6:01 AM · Someone is at your front door`
+<!-- shot: phone screen=notif time=6:01 notif="Someone is at your door|Front Door · 6:01 AM" -->
+<!-- shot: phone screen=notif time=6:01 notif="Someone is at your door|Front Door · 6:01 AM" -->
+<!-- shot: doorcam fig=stand ts="06:01:12 AM" -->
 
 Around six, the app pings again. /
 "Someone is at your front door." //
@@ -274,12 +336,17 @@ It's ringing to see if you'll come. //
 Whoever opens the door… / goes out next time.
 
 **[VISUAL]** A lump under the blanket. Ding-dong, a pause, then ding-dong.
+<!-- shot: bedroom person=lump -->
 
 Stay under the blanket. /
 It'll ring twice. /
 Then it'll try the keypad on the side door.
 
 **[VISUAL]** Keypad close-up: digits light up one by one.
+<!-- shot: keypad -->
+<!-- shot: keypad lit=0419 -->
+<!-- shot: keypad lit=0419 -->
+<!-- shot: keypad lit=0419 -->
 
 It knows the code. /
 It's your birthday. //
@@ -287,11 +354,15 @@ Everyone's code is their birthday. /
 Change that, by the way.
 
 **[VISUAL]** Alarm clock reads 6:12. Downstairs, a kettle steams with a warm yellow glow.
+<!-- shot: bedroom device=clock clock=6:12 person=awake kettle=1 -->
 
 At 6:12 your alarm goes off. /
 Downstairs, / the kettle's already on.
 
 **[VISUAL]** Quick montage, one per line: a car seat pushed back · step counter 11,402 · a coworker's speech bubble
+<!-- shot: icons items=carseat -->
+<!-- shot: icons items=steps -->
+<!-- shot: icons items=speech -->
 
 That's why your car seat sometimes feels moved. /
 Why your step count is higher than it should be. /
@@ -303,23 +374,27 @@ You were.
 ### RULE 7: SHARED USERS (THE TWIST) (6:05–7:40)
 
 **[VISUAL]** `RULE 7` ■■■■■■■. The card glitches and holds longer than the others.
+<!-- shot: rule n=7 glitch=1 -->
 
 Rule seven. //
 Open the app.
 
 **[VISUAL]** Phone UI: Settings → **Shared Users**
+<!-- shot: phone screen=shared -->
 
 Go to settings. / Shared users. /
 There should be one name there. / Yours. //
 There are two.
 
 **[VISUAL]** Two identical profile rows: same name, same photo. The second reads "Added 3 years ago".
+<!-- shot: phone screen=shared2 -->
 
 The second one is also you. /
 Same name. Same photo. /
 Added three years ago.
 
 **[VISUAL]** The doorbell feed shown from the *other* user's phone: the bedroom window, with you asleep.
+<!-- shot: phone screen=feed -->
 
 It's been watching too. /
 Every night. /
@@ -327,6 +402,7 @@ Watching you sleep. //
 That's how it learned to walk like you.
 
 **[VISUAL]** Split screen. Left: you in bed, a quiet house, a weekend sun icon. Right: the figure in traffic, a meeting, an alarm clock.
+<!-- shot: split mode=life -->
 
 You get the bed. / The quiet house. / The weekends. /
 It gets everything else. /
@@ -334,11 +410,13 @@ The commute. The meetings. The six a.m. alarm. //
 That's the arrangement.
 
 **[VISUAL]** Clip list scrolls fast to the bottom, to the oldest clip, dated 3 years ago, 3:12 AM.
+<!-- shot: phone screen=clips -->
 
 You'll say you never agreed to that. /
 Scroll to the oldest clip.
 
 **[VISUAL]** That clip plays. The figure stands on the porch and waves at the camera. Behind it, in the upstairs window, a small white hand *waves back*. Hold. Silence.
+<!-- shot: doorcam fig=porchwave ts="3 YEARS AGO · 03:12 AM" -->
 
 Three years ago. 3:12 a.m. /
 It's on the porch, waving. //
@@ -346,6 +424,7 @@ And behind it, in the upstairs window… //
 someone waves back.
 
 **[VISUAL]** "Remove user?" button, then a slow yellow ✕.
+<!-- shot: phone screen=remove -->
 
 So, rule seven. /
 Don't remove the shared user. //
@@ -353,6 +432,7 @@ If it stops coming back… /
 someone has to go to work.
 
 **[VISUAL]** Callback to the cold open: a new notification, `3:12 AM · Motion detected`. Now the clip shows a figure walking **in**.
+<!-- shot: doorcam fig=walkin notif="Motion detected|Front Door · 3:12 AM" -->
 
 And if tonight, at 3:12, / the clip shows someone walking *in*… //
 that isn't it coming home. //
@@ -363,12 +443,15 @@ That's the next one. / Learning you.
 ### SIGN-OFF (7:40–8:05)
 
 **[VISUAL]** Black screen. Your channel's narrator mascot appears. Yellow underline.
+<!-- shot: mascot -->
 
 Stay inside. /
 Keep the alerts on. /
 And when you hear the kettle in the morning… / say thank you.
 
 **[VISUAL]** Text types out: `THIS ACCOUNT IS MONITORED.` Then the end screen: two video tiles and a subscribe circle.
+<!-- shot: mascot text="This account is monitored." -->
+<!-- shot: mascot text="This account is monitored." sub="The Residents' Office" -->
 
 This account is monitored. //
 — The Residents' Office.

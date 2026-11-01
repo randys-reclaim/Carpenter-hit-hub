@@ -29,6 +29,7 @@ import subprocess
 import sys
 
 W, H, FPS = 1080, 1920, 30
+IMAGE_SECONDS = 2.5  # how long a still image in clips/ is held
 WORDS_PER_CAPTION = 3
 RED = "&H003B3BFF&"    # ASS colors are &HBBGGRR&
 TEAL = "&H00E6E61E&"
@@ -133,8 +134,17 @@ def normalize(src, dst, seconds=None):
     """Scale/crop any clip to 1080x1920 30fps with a stereo audio track."""
     vf = (f"scale={W}:{H}:force_original_aspect_ratio=increase,crop={W}:{H},"
           f"fps={FPS},setsar=1,format=yuv420p")
-    cmd = ["ffmpeg", "-v", "error", "-y", "-i", src]
-    if not has_audio(src):
+    is_image = src.lower().endswith((".png", ".jpg", ".jpeg", ".webp"))
+    if is_image:
+        # Still image (e.g. a close-up of a note): hold it with a slow push-in.
+        seconds = seconds or IMAGE_SECONDS
+        vf = (f"scale={W * 2}:{H * 2}:force_original_aspect_ratio=increase,crop={W * 2}:{H * 2},"
+              f"zoompan=z='1+0.0015*on':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':"
+              f"d=1:s={W}x{H}:fps={FPS},setsar=1,format=yuv420p")
+        cmd = ["ffmpeg", "-v", "error", "-y", "-loop", "1", "-framerate", str(FPS), "-i", src]
+    else:
+        cmd = ["ffmpeg", "-v", "error", "-y", "-i", src]
+    if is_image or not has_audio(src):
         cmd += ["-f", "lavfi", "-i", "anullsrc=r=48000:cl=stereo", "-shortest"]
     cmd += ["-vf", vf, "-c:v", "libx264", "-preset", "veryfast", "-crf", "18",
             "-c:a", "aac", "-ar", "48000", "-ac", "2"]
@@ -232,7 +242,7 @@ def main():
     for i, c in enumerate(clips):
         d = os.path.join(tmp, f"n{i:02}.mp4")
         normalize(c, d)
-        if a.punch:
+        if a.punch and not c.lower().endswith((".png", ".jpg", ".jpeg", ".webp")):
             pd = os.path.join(tmp, f"pn{i:02}.mp4")
             punch_in(d, pd, a.punch, os.path.join(tmp, f"c{i:02}"))
             d = pd

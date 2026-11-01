@@ -34,7 +34,7 @@ Outputs `clip_starts/` (one frame per clip), `every_second/`, `sheet.jpg` (for r
 Folder layout:
 ```
 projects/towel-boy/
-  clips/01.mp4 02.mp4 03.mp4    # your generated clips, in order
+  clips/01.mp4 02.mp4 03.mp4    # your generated clips, in order (a .png/.jpg is held 2.5s, e.g. a note close-up)
   vo.mp3                        # your voiceover
   script.txt                    # VO text; !word = red keyword, +word = teal keyword
 ```

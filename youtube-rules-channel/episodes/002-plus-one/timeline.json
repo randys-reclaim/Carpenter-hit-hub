@@ -1,0 +1,1219 @@
+{
+ "meta": {
+  "notice": "002",
+  "slug": "plus-one",
+  "title": "If Your Furnace Ever Turns On In July\u2026 DON'T TOUCH THE THERMOSTAT"
+ },
+ "lines": [
+  {
+   "line": 1,
+   "cue": 1,
+   "scene": "COLD OPEN",
+   "text": "If your furnace ever turns on in July\u2026",
+   "raw": "If your furnace ever turns on in July\u2026 //",
+   "est": 4.75,
+   "img": "frames/16x9/0001.png",
+   "vimg": "frames/9x16/0001.png"
+  },
+  {
+   "line": 2,
+   "cue": 1,
+   "scene": "COLD OPEN",
+   "text": "leave it.",
+   "raw": "*leave it*.",
+   "est": 1.2,
+   "img": "frames/16x9/0002.png",
+   "vimg": "frames/9x16/0002.png"
+  },
+  {
+   "line": 3,
+   "cue": 2,
+   "scene": "COLD OPEN",
+   "text": "Don't touch the thermostat.",
+   "raw": "Don't touch the thermostat. /",
+   "est": 2.55,
+   "img": "frames/16x9/0003.png",
+   "vimg": "frames/9x16/0003.png"
+  },
+  {
+   "line": 4,
+   "cue": 2,
+   "scene": "COLD OPEN",
+   "text": "Don't open the fridge after midnight.",
+   "raw": "Don't open the fridge after midnight. /",
+   "est": 3.4,
+   "img": "frames/16x9/0004.png",
+   "vimg": "frames/9x16/0004.png"
+  },
+  {
+   "line": 5,
+   "cue": 2,
+   "scene": "COLD OPEN",
+   "text": "And if there's a breaker in your panel you didn't label\u2026 don't flip it.",
+   "raw": "And if there's a breaker in your panel you didn't label\u2026 / don't flip it.",
+   "est": 6.81,
+   "img": "frames/16x9/0005.png",
+   "vimg": "frames/9x16/0005.png"
+  },
+  {
+   "line": 6,
+   "cue": 3,
+   "scene": "COLD OPEN",
+   "text": "Seven rules.",
+   "raw": "Seven rules. /",
+   "est": 1.7,
+   "img": "frames/16x9/0006.png",
+   "vimg": "frames/9x16/0006.png"
+  },
+  {
+   "line": 7,
+   "cue": 3,
+   "scene": "COLD OPEN",
+   "text": "The seventh explains why your house was built for one more person than lives in it.",
+   "raw": "The seventh explains why your house was built for *one more person* than lives in it.",
+   "est": 7.16,
+   "img": "frames/16x9/0007.png",
+   "vimg": "frames/9x16/0007.png"
+  },
+  {
+   "line": 8,
+   "cue": 4,
+   "scene": "RULE 1: DON'T TOUCH THE THERMOSTAT",
+   "text": "Rule one. Don't touch the thermostat.",
+   "raw": "Rule one. / Don't touch the thermostat.",
+   "est": 3.4,
+   "img": "frames/16x9/0008.png",
+   "vimg": "frames/9x16/0008.png"
+  },
+  {
+   "line": 9,
+   "cue": 5,
+   "scene": "RULE 1: DON'T TOUCH THE THERMOSTAT",
+   "text": "It's ninety-four degrees outside.",
+   "raw": "It's ninety-four degrees outside. /",
+   "est": 2.98,
+   "img": "frames/16x9/0009.png",
+   "vimg": "frames/9x16/0009.png"
+  },
+  {
+   "line": 10,
+   "cue": 5,
+   "scene": "RULE 1: DON'T TOUCH THE THERMOSTAT",
+   "text": "At 2:10 a.m., you'll hear it start.",
+   "raw": "At *2:10* a.m., you'll hear it start. /",
+   "est": 4.68,
+   "img": "frames/16x9/0010.png",
+   "vimg": "frames/9x16/0010.png"
+  },
+  {
+   "line": 11,
+   "cue": 5,
+   "scene": "RULE 1: DON'T TOUCH THE THERMOSTAT",
+   "text": "A click in the wall. A hum. That's the inducer motor clearing the flue.",
+   "raw": "A click in the wall. A hum. / That's the inducer motor clearing the flue. /",
+   "est": 7.31,
+   "img": "frames/16x9/0011.png",
+   "vimg": "frames/9x16/0011.png"
+  },
+  {
+   "line": 12,
+   "cue": 5,
+   "scene": "RULE 1: DON'T TOUCH THE THERMOSTAT",
+   "text": "A ticking. That's the igniter.",
+   "raw": "A ticking. / That's the igniter. /",
+   "est": 3.48,
+   "img": "frames/16x9/0012.png",
+   "vimg": "frames/9x16/0012.png"
+  },
+  {
+   "line": 13,
+   "cue": 5,
+   "scene": "RULE 1: DON'T TOUCH THE THERMOSTAT",
+   "text": "Then the whoosh.",
+   "raw": "Then the whoosh.",
+   "est": 1.63,
+   "img": "frames/16x9/0013.png",
+   "vimg": "frames/9x16/0013.png"
+  },
+  {
+   "line": 14,
+   "cue": 6,
+   "scene": "RULE 1: DON'T TOUCH THE THERMOSTAT",
+   "text": "That's all real. Any HVAC man can tell you the order.",
+   "raw": "That's all real. Any HVAC man can tell you the order. /",
+   "est": 5.53,
+   "img": "frames/16x9/0014.png",
+   "vimg": "frames/9x16/0014.png"
+  },
+  {
+   "line": 15,
+   "cue": 6,
+   "scene": "RULE 1: DON'T TOUCH THE THERMOSTAT",
+   "text": "What they'll also tell you is the blower waits about a minute before it pushes air.",
+   "raw": "What they'll also tell you is the blower waits about a minute before it pushes air. /",
+   "est": 7.66,
+   "img": "frames/16x9/0015.png",
+   "vimg": "frames/9x16/0015.png"
+  },
+  {
+   "line": 16,
+   "cue": 6,
+   "scene": "RULE 1: DON'T TOUCH THE THERMOSTAT",
+   "text": "So it doesn't blow cold on you.",
+   "raw": "So it doesn't blow cold on you. /",
+   "est": 3.83,
+   "img": "frames/16x9/0016.png",
+   "vimg": "frames/9x16/0016.png"
+  },
+  {
+   "line": 17,
+   "cue": 6,
+   "scene": "RULE 1: DON'T TOUCH THE THERMOSTAT",
+   "text": "That's the official reason.",
+   "raw": "That's the official reason. //",
+   "est": 3.05,
+   "img": "frames/16x9/0017.png",
+   "vimg": "frames/9x16/0017.png"
+  },
+  {
+   "line": 18,
+   "cue": 6,
+   "scene": "RULE 1: DON'T TOUCH THE THERMOSTAT",
+   "text": "The real reason is it's warming up the room first.",
+   "raw": "The real reason is it's warming up the room first. //",
+   "est": 5.61,
+   "img": "frames/16x9/0018.png",
+   "vimg": "frames/9x16/0018.png"
+  },
+  {
+   "line": 19,
+   "cue": 6,
+   "scene": "RULE 1: DON'T TOUCH THE THERMOSTAT",
+   "text": "Not your room.",
+   "raw": "*Not your room*.",
+   "est": 1.63,
+   "img": "frames/16x9/0019.png",
+   "vimg": "frames/9x16/0019.png"
+  },
+  {
+   "line": 20,
+   "cue": 7,
+   "scene": "RULE 1: DON'T TOUCH THE THERMOSTAT",
+   "text": "You'll want to turn it off.",
+   "raw": "You'll want to turn it off. /",
+   "est": 3.4,
+   "img": "frames/16x9/0020.png",
+   "vimg": "frames/9x16/0020.png"
+  },
+  {
+   "line": 21,
+   "cue": 7,
+   "scene": "RULE 1: DON'T TOUCH THE THERMOSTAT",
+   "text": "The thermostat will already say OFF.",
+   "raw": "The thermostat will already say *OFF*. //",
+   "est": 3.9,
+   "img": "frames/16x9/0021.png",
+   "vimg": "frames/9x16/0021.png"
+  },
+  {
+   "line": 22,
+   "cue": 7,
+   "scene": "RULE 1: DON'T TOUCH THE THERMOSTAT",
+   "text": "It's been saying OFF since May.",
+   "raw": "It's been saying OFF since May.",
+   "est": 2.9,
+   "img": "frames/16x9/0022.png",
+   "vimg": "frames/9x16/0022.png"
+  },
+  {
+   "line": 23,
+   "cue": 8,
+   "scene": "RULE 1: DON'T TOUCH THE THERMOSTAT",
+   "text": "A woman in Mesquite pulled the wire off the wall.",
+   "raw": "A woman in Mesquite pulled the wire off the wall. /",
+   "est": 5.11,
+   "img": "frames/16x9/0023.png",
+   "vimg": "frames/9x16/0023.png"
+  },
+  {
+   "line": 24,
+   "cue": 8,
+   "scene": "RULE 1: DON'T TOUCH THE THERMOSTAT",
+   "text": "The furnace kept running.",
+   "raw": "The furnace kept running. //",
+   "est": 3.05,
+   "img": "frames/16x9/0024.png",
+   "vimg": "frames/9x16/0024.png"
+  },
+  {
+   "line": 25,
+   "cue": 8,
+   "scene": "RULE 1: DON'T TOUCH THE THERMOSTAT",
+   "text": "In the morning, every vent in her house was cold.",
+   "raw": "In the morning, every vent in her house was cold. /",
+   "est": 5.11,
+   "img": "frames/16x9/0025.png",
+   "vimg": "frames/9x16/0025.png"
+  },
+  {
+   "line": 26,
+   "cue": 8,
+   "scene": "RULE 1: DON'T TOUCH THE THERMOSTAT",
+   "text": "Except one. In a closet.",
+   "raw": "Except one. / In a closet. /",
+   "est": 3.48,
+   "img": "frames/16x9/0026.png",
+   "vimg": "frames/9x16/0026.png"
+  },
+  {
+   "line": 27,
+   "cue": 8,
+   "scene": "RULE 1: DON'T TOUCH THE THERMOSTAT",
+   "text": "She doesn't use that closet.",
+   "raw": "She doesn't use that closet. //",
+   "est": 3.48,
+   "img": "frames/16x9/0027.png",
+   "vimg": "frames/9x16/0027.png"
+  },
+  {
+   "line": 28,
+   "cue": 8,
+   "scene": "RULE 1: DON'T TOUCH THE THERMOSTAT",
+   "text": "She found a blanket in there. Folded.",
+   "raw": "She found a blanket in there. // *Folded*.",
+   "est": 4.33,
+   "img": "frames/16x9/0028.png",
+   "vimg": "frames/9x16/0028.png"
+  },
+  {
+   "line": 29,
+   "cue": 9,
+   "scene": "RULE 2: DON'T OPEN THE FRIDGE AFTER MIDNIGHT",
+   "text": "Rule two. Don't open the fridge after midnight.",
+   "raw": "Rule two. / Don't open the fridge after midnight.",
+   "est": 4.25,
+   "img": "frames/16x9/0029.png",
+   "vimg": "frames/9x16/0029.png"
+  },
+  {
+   "line": 30,
+   "cue": 10,
+   "scene": "RULE 2: DON'T OPEN THE FRIDGE AFTER MIDNIGHT",
+   "text": "Every eight to twelve hours, your fridge heats itself.",
+   "raw": "Every eight to twelve hours, your fridge heats itself. /",
+   "est": 4.68,
+   "img": "frames/16x9/0030.png",
+   "vimg": "frames/9x16/0030.png"
+  },
+  {
+   "line": 31,
+   "cue": 10,
+   "scene": "RULE 2: DON'T OPEN THE FRIDGE AFTER MIDNIGHT",
+   "text": "A little element melts the frost off the coils.",
+   "raw": "A little element melts the frost off the coils. /",
+   "est": 4.68,
+   "img": "frames/16x9/0031.png",
+   "vimg": "frames/9x16/0031.png"
+  },
+  {
+   "line": 32,
+   "cue": 10,
+   "scene": "RULE 2: DON'T OPEN THE FRIDGE AFTER MIDNIGHT",
+   "text": "You'll hear dripping. A sizzle.",
+   "raw": "You'll hear dripping. A sizzle. /",
+   "est": 2.98,
+   "img": "frames/16x9/0032.png",
+   "vimg": "frames/9x16/0032.png"
+  },
+  {
+   "line": 33,
+   "cue": 10,
+   "scene": "RULE 2: DON'T OPEN THE FRIDGE AFTER MIDNIGHT",
+   "text": "It's called the defrost cycle. It's in your manual.",
+   "raw": "It's called the defrost cycle. It's in your manual. //",
+   "est": 5.18,
+   "img": "frames/16x9/0033.png",
+   "vimg": "frames/9x16/0033.png"
+  },
+  {
+   "line": 34,
+   "cue": 10,
+   "scene": "RULE 2: DON'T OPEN THE FRIDGE AFTER MIDNIGHT",
+   "text": "The manual doesn't say what it's thawing.",
+   "raw": "The manual doesn't say what it's *thawing*.",
+   "est": 3.33,
+   "img": "frames/16x9/0034.png",
+   "vimg": "frames/9x16/0034.png"
+  },
+  {
+   "line": 35,
+   "cue": 11,
+   "scene": "RULE 2: DON'T OPEN THE FRIDGE AFTER MIDNIGHT",
+   "text": "You'll hear it hum. Then stop. Then hum again. In a rhythm. In. Out.",
+   "raw": "You'll hear it hum. / Then stop. / Then hum again. / In a rhythm. / In. / Out. //",
+   "est": 9.81,
+   "img": "frames/16x9/0035.png",
+   "vimg": "frames/9x16/0035.png"
+  },
+  {
+   "line": 36,
+   "cue": 11,
+   "scene": "RULE 2: DON'T OPEN THE FRIDGE AFTER MIDNIGHT",
+   "text": "Your fridge doesn't breathe.",
+   "raw": "Your fridge doesn't breathe. //",
+   "est": 3.05,
+   "img": "frames/16x9/0036.png",
+   "vimg": "frames/9x16/0036.png"
+  },
+  {
+   "line": 37,
+   "cue": 11,
+   "scene": "RULE 2: DON'T OPEN THE FRIDGE AFTER MIDNIGHT",
+   "text": "Something standing behind it does. The hum is to cover it.",
+   "raw": "Something standing *behind it* does. / The hum is to cover it.",
+   "est": 5.53,
+   "img": "frames/16x9/0037.png",
+   "vimg": "frames/9x16/0037.png"
+  },
+  {
+   "line": 38,
+   "cue": 12,
+   "scene": "RULE 2: DON'T OPEN THE FRIDGE AFTER MIDNIGHT",
+   "text": "If you open the door, the light comes on.",
+   "raw": "If you open the door, the light comes on. /",
+   "est": 4.68,
+   "img": "frames/16x9/0038.png",
+   "vimg": "frames/9x16/0038.png"
+  },
+  {
+   "line": 39,
+   "cue": 12,
+   "scene": "RULE 2: DON'T OPEN THE FRIDGE AFTER MIDNIGHT",
+   "text": "The light reaches the floor. The floor reaches the gap behind the fridge.",
+   "raw": "The light reaches the floor. / The floor reaches the gap behind the fridge. /",
+   "est": 6.88,
+   "img": "frames/16x9/0039.png",
+   "vimg": "frames/9x16/0039.png"
+  },
+  {
+   "line": 40,
+   "cue": 12,
+   "scene": "RULE 2: DON'T OPEN THE FRIDGE AFTER MIDNIGHT",
+   "text": "The gap is about four inches. That's enough. That's always been enough.",
+   "raw": "The gap is about *four inches*. // That's enough. // That's always been enough.",
+   "est": 7.46,
+   "img": "frames/16x9/0040.png",
+   "vimg": "frames/9x16/0040.png"
+  },
+  {
+   "line": 41,
+   "cue": 13,
+   "scene": "RULE 2: DON'T OPEN THE FRIDGE AFTER MIDNIGHT",
+   "text": "Close your bedroom door.",
+   "raw": "Close your bedroom door. /",
+   "est": 2.55,
+   "img": "frames/16x9/0041.png",
+   "vimg": "frames/9x16/0041.png"
+  },
+  {
+   "line": 42,
+   "cue": 13,
+   "scene": "RULE 2: DON'T OPEN THE FRIDGE AFTER MIDNIGHT",
+   "text": "In the morning, the milk will be in the back. You didn't put it there.",
+   "raw": "In the morning, the milk will be in the back. / You didn't put it there. //",
+   "est": 8.23,
+   "img": "frames/16x9/0042.png",
+   "vimg": "frames/9x16/0042.png"
+  },
+  {
+   "line": 43,
+   "cue": 13,
+   "scene": "RULE 2: DON'T OPEN THE FRIDGE AFTER MIDNIGHT",
+   "text": "It doesn't like the light either.",
+   "raw": "It doesn't like the light *either*.",
+   "est": 2.9,
+   "img": "frames/16x9/0043.png",
+   "vimg": "frames/9x16/0043.png"
+  },
+  {
+   "line": 44,
+   "cue": 14,
+   "scene": "RULE 3: DON'T FOLLOW THE TICKING",
+   "text": "Rule three. Don't follow the ticking in the ducts.",
+   "raw": "Rule three. / Don't follow the ticking in the ducts.",
+   "est": 4.68,
+   "img": "frames/16x9/0044.png",
+   "vimg": "frames/9x16/0044.png"
+  },
+  {
+   "line": 45,
+   "cue": 15,
+   "scene": "RULE 3: DON'T FOLLOW THE TICKING",
+   "text": "Metal ductwork grows when it heats up and shrinks when it cools.",
+   "raw": "Metal ductwork grows when it heats up and shrinks when it cools. /",
+   "est": 5.96,
+   "img": "frames/16x9/0045.png",
+   "vimg": "frames/9x16/0045.png"
+  },
+  {
+   "line": 46,
+   "cue": 15,
+   "scene": "RULE 3: DON'T FOLLOW THE TICKING",
+   "text": "It pops. It ticks. It bangs. Contractors call it oil canning. It's normal.",
+   "raw": "It pops. It ticks. It bangs. / Contractors call it oil canning. / It's normal.",
+   "est": 6.88,
+   "img": "frames/16x9/0046.png",
+   "vimg": "frames/9x16/0046.png"
+  },
+  {
+   "line": 47,
+   "cue": 16,
+   "scene": "RULE 3: DON'T FOLLOW THE TICKING",
+   "text": "What's not normal is when the ticking moves.",
+   "raw": "What's not normal is when the ticking *moves*. /",
+   "est": 4.25,
+   "img": "frames/16x9/0047.png",
+   "vimg": "frames/9x16/0047.png"
+  },
+  {
+   "line": 48,
+   "cue": 16,
+   "scene": "RULE 3: DON'T FOLLOW THE TICKING",
+   "text": "Kitchen. Hallway.",
+   "raw": "Kitchen. / Hallway. /",
+   "est": 2.2,
+   "img": "frames/16x9/0048.png",
+   "vimg": "frames/9x16/0048.png"
+  },
+  {
+   "line": 49,
+   "cue": 16,
+   "scene": "RULE 3: DON'T FOLLOW THE TICKING",
+   "text": "The vent over your bed.",
+   "raw": "The vent over your bed. //",
+   "est": 3.48,
+   "img": "frames/16x9/0049.png",
+   "vimg": "frames/9x16/0049.png"
+  },
+  {
+   "line": 50,
+   "cue": 16,
+   "scene": "RULE 3: DON'T FOLLOW THE TICKING",
+   "text": "It stops there.",
+   "raw": "It stops there. //",
+   "est": 2.63,
+   "img": "frames/16x9/0050.png",
+   "vimg": "frames/9x16/0050.png"
+  },
+  {
+   "line": 51,
+   "cue": 16,
+   "scene": "RULE 3: DON'T FOLLOW THE TICKING",
+   "text": "Ducts don't stop.",
+   "raw": "Ducts don't stop.",
+   "est": 1.63,
+   "img": "frames/16x9/0051.png",
+   "vimg": "frames/9x16/0051.png"
+  },
+  {
+   "line": 52,
+   "cue": 17,
+   "scene": "RULE 3: DON'T FOLLOW THE TICKING",
+   "text": "A man in Tulsa took the cover off his bedroom register with a screwdriver. Just to look.",
+   "raw": "A man in Tulsa took the cover off his bedroom register with a screwdriver. / Just to look. /",
+   "est": 8.58,
+   "img": "frames/16x9/0052.png",
+   "vimg": "frames/9x16/0052.png"
+  },
+  {
+   "line": 53,
+   "cue": 17,
+   "scene": "RULE 3: DON'T FOLLOW THE TICKING",
+   "text": "He said the duct was warm. Like a hand.",
+   "raw": "He said the duct was warm. // *Like a hand*. /",
+   "est": 5.68,
+   "img": "frames/16x9/0053.png",
+   "vimg": "frames/9x16/0053.png"
+  },
+  {
+   "line": 54,
+   "cue": 17,
+   "scene": "RULE 3: DON'T FOLLOW THE TICKING",
+   "text": "He put the cover back on.",
+   "raw": "He put the cover back on. /",
+   "est": 3.4,
+   "img": "frames/16x9/0054.png",
+   "vimg": "frames/9x16/0054.png"
+  },
+  {
+   "line": 55,
+   "cue": 17,
+   "scene": "RULE 3: DON'T FOLLOW THE TICKING",
+   "text": "In the morning, all four screws were tighter than he left them.",
+   "raw": "In the morning, all four screws were tighter than he left them. //",
+   "est": 6.46,
+   "img": "frames/16x9/0055.png",
+   "vimg": "frames/9x16/0055.png"
+  },
+  {
+   "line": 56,
+   "cue": 17,
+   "scene": "RULE 3: DON'T FOLLOW THE TICKING",
+   "text": "From the inside.",
+   "raw": "*From the inside*.",
+   "est": 1.63,
+   "img": "frames/16x9/0056.png",
+   "vimg": "frames/9x16/0056.png"
+  },
+  {
+   "line": 57,
+   "cue": 18,
+   "scene": "RULE 4: DON'T WIPE UP THE DRIP",
+   "text": "Rule four. If the AC drips inside, don't wipe it up.",
+   "raw": "Rule four. / If the AC drips inside, don't wipe it up.",
+   "est": 5.53,
+   "img": "frames/16x9/0057.png",
+   "vimg": "frames/9x16/0057.png"
+  },
+  {
+   "line": 58,
+   "cue": 19,
+   "scene": "RULE 4: DON'T WIPE UP THE DRIP",
+   "text": "Your air conditioner pulls water out of the air. Gallons a day.",
+   "raw": "Your air conditioner pulls water out of the air. / Gallons a day. /",
+   "est": 6.46,
+   "img": "frames/16x9/0058.png",
+   "vimg": "frames/9x16/0058.png"
+  },
+  {
+   "line": 59,
+   "cue": 19,
+   "scene": "RULE 4: DON'T WIPE UP THE DRIP",
+   "text": "It runs down a little pipe called the condensate line.",
+   "raw": "It runs down a little pipe called the condensate line. /",
+   "est": 5.11,
+   "img": "frames/16x9/0059.png",
+   "vimg": "frames/9x16/0059.png"
+  },
+  {
+   "line": 60,
+   "cue": 19,
+   "scene": "RULE 4: DON'T WIPE UP THE DRIP",
+   "text": "When that line clogs, water backs up into your house.",
+   "raw": "When that line clogs, water backs up into your house. /",
+   "est": 5.11,
+   "img": "frames/16x9/0060.png",
+   "vimg": "frames/9x16/0060.png"
+  },
+  {
+   "line": 61,
+   "cue": 19,
+   "scene": "RULE 4: DON'T WIPE UP THE DRIP",
+   "text": "That's the most common service call in Texas. Look it up.",
+   "raw": "That's the most common service call in Texas. / Look it up.",
+   "est": 5.53,
+   "img": "frames/16x9/0061.png",
+   "vimg": "frames/9x16/0061.png"
+  },
+  {
+   "line": 62,
+   "cue": 20,
+   "scene": "RULE 4: DON'T WIPE UP THE DRIP",
+   "text": "What techs don't put on the ticket is what's in the water.",
+   "raw": "What techs don't put on the ticket is what's in the water. //",
+   "est": 6.46,
+   "img": "frames/16x9/0062.png",
+   "vimg": "frames/9x16/0062.png"
+  },
+  {
+   "line": 63,
+   "cue": 20,
+   "scene": "RULE 4: DON'T WIPE UP THE DRIP",
+   "text": "Footprints. Bare. Wet. From the air handler to your bedroom door. Then back.",
+   "raw": "Footprints. / Bare. / Wet. / From the air handler to your bedroom door. / Then back. //",
+   "est": 8.88,
+   "img": "frames/16x9/0063.png",
+   "vimg": "frames/9x16/0063.png"
+  },
+  {
+   "line": 64,
+   "cue": 20,
+   "scene": "RULE 4: DON'T WIPE UP THE DRIP",
+   "text": "They're smaller than yours.",
+   "raw": "They're *smaller* than yours. //",
+   "est": 3.05,
+   "img": "frames/16x9/0064.png",
+   "vimg": "frames/9x16/0064.png"
+  },
+  {
+   "line": 65,
+   "cue": 20,
+   "scene": "RULE 4: DON'T WIPE UP THE DRIP",
+   "text": "They're getting bigger.",
+   "raw": "They're getting *bigger*.",
+   "est": 1.63,
+   "img": "frames/16x9/0065.png",
+   "vimg": "frames/9x16/0065.png"
+  },
+  {
+   "line": 66,
+   "cue": 21,
+   "scene": "RULE 4: DON'T WIPE UP THE DRIP",
+   "text": "If you wipe them up, it'll know you saw them.",
+   "raw": "If you wipe them up, it'll know you saw them. /",
+   "est": 5.11,
+   "img": "frames/16x9/0066.png",
+   "vimg": "frames/9x16/0066.png"
+  },
+  {
+   "line": 67,
+   "cue": 21,
+   "scene": "RULE 4: DON'T WIPE UP THE DRIP",
+   "text": "Leave the towel where it is.",
+   "raw": "Leave the towel where it is. //",
+   "est": 3.9,
+   "img": "frames/16x9/0067.png",
+   "vimg": "frames/9x16/0067.png"
+  },
+  {
+   "line": 68,
+   "cue": 21,
+   "scene": "RULE 4: DON'T WIPE UP THE DRIP",
+   "text": "It dries faster than water should.",
+   "raw": "It dries faster than water should.",
+   "est": 2.9,
+   "img": "frames/16x9/0068.png",
+   "vimg": "frames/9x16/0068.png"
+  },
+  {
+   "line": 69,
+   "cue": 22,
+   "scene": "MIDPOINT TURN",
+   "text": "You've noticed all of this before.",
+   "raw": "You've noticed all of this before. /",
+   "est": 3.4,
+   "img": "frames/16x9/0069.png",
+   "vimg": "frames/9x16/0069.png"
+  },
+  {
+   "line": 70,
+   "cue": 22,
+   "scene": "MIDPOINT TURN",
+   "text": "You called it an old house. You called it a new house.",
+   "raw": "You called it an old house. / You called it a new house. /",
+   "est": 6.46,
+   "img": "frames/16x9/0070.png",
+   "vimg": "frames/9x16/0070.png"
+  },
+  {
+   "line": 71,
+   "cue": 22,
+   "scene": "MIDPOINT TURN",
+   "text": "You called a guy.",
+   "raw": "You called a guy. //",
+   "est": 3.05,
+   "img": "frames/16x9/0071.png",
+   "vimg": "frames/9x16/0071.png"
+  },
+  {
+   "line": 72,
+   "cue": 22,
+   "scene": "MIDPOINT TURN",
+   "text": "We sent the guy.",
+   "raw": "*We sent the guy*.",
+   "est": 2.05,
+   "img": "frames/16x9/0072.png",
+   "vimg": "frames/9x16/0072.png"
+  },
+  {
+   "line": 73,
+   "cue": 23,
+   "scene": "RULE 5: LEAVE THE WATER HEATER ALONE",
+   "text": "Rule five. Leave the water heater alone.",
+   "raw": "Rule five. / Leave the water heater alone.",
+   "est": 3.83,
+   "img": "frames/16x9/0073.png",
+   "vimg": "frames/9x16/0073.png"
+  },
+  {
+   "line": 74,
+   "cue": 24,
+   "scene": "RULE 5: LEAVE THE WATER HEATER ALONE",
+   "text": "Hard water leaves sediment at the bottom of the tank. When the burner heats it, it pops. Like knocking.",
+   "raw": "Hard water leaves sediment at the bottom of the tank. / When the burner heats it, it pops. / Like knocking. /",
+   "est": 9.94,
+   "img": "frames/16x9/0074.png",
+   "vimg": "frames/9x16/0074.png"
+  },
+  {
+   "line": 75,
+   "cue": 24,
+   "scene": "RULE 5: LEAVE THE WATER HEATER ALONE",
+   "text": "The manual says drain it once a year. Don't.",
+   "raw": "The manual says drain it once a year. // *Don't*. /",
+   "est": 5.68,
+   "img": "frames/16x9/0075.png",
+   "vimg": "frames/9x16/0075.png"
+  },
+  {
+   "line": 76,
+   "cue": 24,
+   "scene": "RULE 5: LEAVE THE WATER HEATER ALONE",
+   "text": "Count the knocks. One for every person home.",
+   "raw": "Count the knocks. / One for every person home. //",
+   "est": 5.25,
+   "img": "frames/16x9/0076.png",
+   "vimg": "frames/9x16/0076.png"
+  },
+  {
+   "line": 77,
+   "cue": 24,
+   "scene": "RULE 5: LEAVE THE WATER HEATER ALONE",
+   "text": "You live alone. It knocks twice.",
+   "raw": "You live alone. // It knocks *twice*.",
+   "est": 3.9,
+   "img": "frames/16x9/0077.png",
+   "vimg": "frames/9x16/0077.png"
+  },
+  {
+   "line": 78,
+   "cue": 25,
+   "scene": "RULE 5: LEAVE THE WATER HEATER ALONE",
+   "text": "A family in Lubbock drained theirs.",
+   "raw": "A family in Lubbock drained theirs. /",
+   "est": 3.4,
+   "img": "frames/16x9/0078.png",
+   "vimg": "frames/9x16/0078.png"
+  },
+  {
+   "line": 79,
+   "cue": 25,
+   "scene": "RULE 5: LEAVE THE WATER HEATER ALONE",
+   "text": "The sediment came out gray. In the bucket, it moved.",
+   "raw": "The sediment came out gray. // In the bucket, *it moved*. //",
+   "est": 6.61,
+   "img": "frames/16x9/0079.png",
+   "vimg": "frames/9x16/0079.png"
+  },
+  {
+   "line": 80,
+   "cue": 25,
+   "scene": "RULE 5: LEAVE THE WATER HEATER ALONE",
+   "text": "Their water's been hot ever since.",
+   "raw": "Their water's been hot ever since. //",
+   "est": 3.9,
+   "img": "frames/16x9/0080.png",
+   "vimg": "frames/9x16/0080.png"
+  },
+  {
+   "line": 81,
+   "cue": 25,
+   "scene": "RULE 5: LEAVE THE WATER HEATER ALONE",
+   "text": "They never turn on the heater.",
+   "raw": "They never turn on the heater.",
+   "est": 2.9,
+   "img": "frames/16x9/0081.png",
+   "vimg": "frames/9x16/0081.png"
+  },
+  {
+   "line": 82,
+   "cue": 26,
+   "scene": "RULE 6: DON'T FLIP THE BREAKER YOU DIDN'T LABEL",
+   "text": "Rule six. Don't flip the breaker you didn't label.",
+   "raw": "Rule six. / Don't flip the breaker you didn't label.",
+   "est": 4.68,
+   "img": "frames/16x9/0082.png",
+   "vimg": "frames/9x16/0082.png"
+  },
+  {
+   "line": 83,
+   "cue": 27,
+   "scene": "RULE 6: DON'T FLIP THE BREAKER YOU DIDN'T LABEL",
+   "text": "Open your panel. The labels are in somebody's handwriting.",
+   "raw": "Open your panel. / The labels are in somebody's handwriting. /",
+   "est": 5.18,
+   "img": "frames/16x9/0083.png",
+   "vimg": "frames/9x16/0083.png"
+  },
+  {
+   "line": 84,
+   "cue": 27,
+   "scene": "RULE 6: DON'T FLIP THE BREAKER YOU DIDN'T LABEL",
+   "text": "Kitchen. Dryer. Master.",
+   "raw": "Kitchen. Dryer. Master. /",
+   "est": 2.13,
+   "img": "frames/16x9/0084.png",
+   "vimg": "frames/9x16/0084.png"
+  },
+  {
+   "line": 85,
+   "cue": 27,
+   "scene": "RULE 6: DON'T FLIP THE BREAKER YOU DIDN'T LABEL",
+   "text": "One says HIS ROOM.",
+   "raw": "One says *HIS ROOM*. //",
+   "est": 3.05,
+   "img": "frames/16x9/0085.png",
+   "vimg": "frames/9x16/0085.png"
+  },
+  {
+   "line": 86,
+   "cue": 27,
+   "scene": "RULE 6: DON'T FLIP THE BREAKER YOU DIDN'T LABEL",
+   "text": "Your house doesn't have his room.",
+   "raw": "Your house doesn't have his room. /",
+   "est": 3.4,
+   "img": "frames/16x9/0086.png",
+   "vimg": "frames/9x16/0086.png"
+  },
+  {
+   "line": 87,
+   "cue": 27,
+   "scene": "RULE 6: DON'T FLIP THE BREAKER YOU DIDN'T LABEL",
+   "text": "That breaker is always warm.",
+   "raw": "That breaker is always *warm*.",
+   "est": 2.48,
+   "img": "frames/16x9/0087.png",
+   "vimg": "frames/9x16/0087.png"
+  },
+  {
+   "line": 88,
+   "cue": 28,
+   "scene": "RULE 6: DON'T FLIP THE BREAKER YOU DIDN'T LABEL",
+   "text": "If you flip it, the house goes quiet. No fridge. No furnace. No AC. Nothing.",
+   "raw": "If you flip it, the house goes quiet. / No fridge. No furnace. No AC. Nothing. //",
+   "est": 8.23,
+   "img": "frames/16x9/0088.png",
+   "vimg": "frames/9x16/0088.png"
+  },
+  {
+   "line": 89,
+   "cue": 28,
+   "scene": "RULE 6: DON'T FLIP THE BREAKER YOU DIDN'T LABEL",
+   "text": "That's the first time you'll hear it.",
+   "raw": "That's the first time you'll hear it. //",
+   "est": 4.33,
+   "img": "frames/16x9/0089.png",
+   "vimg": "frames/9x16/0089.png"
+  },
+  {
+   "line": 90,
+   "cue": 28,
+   "scene": "RULE 6: DON'T FLIP THE BREAKER YOU DIDN'T LABEL",
+   "text": "It was never the appliances making noise.",
+   "raw": "It was never the appliances making noise. /",
+   "est": 3.83,
+   "img": "frames/16x9/0090.png",
+   "vimg": "frames/9x16/0090.png"
+  },
+  {
+   "line": 91,
+   "cue": 28,
+   "scene": "RULE 6: DON'T FLIP THE BREAKER YOU DIDN'T LABEL",
+   "text": "The appliances were the only thing keeping it quiet.",
+   "raw": "The appliances were the only thing keeping it *quiet*.",
+   "est": 4.18,
+   "img": "frames/16x9/0091.png",
+   "vimg": "frames/9x16/0091.png"
+  },
+  {
+   "line": 92,
+   "cue": 29,
+   "scene": "RULE 6: DON'T FLIP THE BREAKER YOU DIDN'T LABEL",
+   "text": "A landlord in Waco flipped it to rewire. He lasted four minutes. He flipped it back.",
+   "raw": "A landlord in Waco flipped it to rewire. / He lasted four minutes. / He flipped it back. /",
+   "est": 8.66,
+   "img": "frames/16x9/0092.png",
+   "vimg": "frames/9x16/0092.png"
+  },
+  {
+   "line": 93,
+   "cue": 29,
+   "scene": "RULE 6: DON'T FLIP THE BREAKER YOU DIDN'T LABEL",
+   "text": "He never rented that unit again.",
+   "raw": "He never rented that unit again. /",
+   "est": 3.4,
+   "img": "frames/16x9/0093.png",
+   "vimg": "frames/9x16/0093.png"
+  },
+  {
+   "line": 94,
+   "cue": 29,
+   "scene": "RULE 6: DON'T FLIP THE BREAKER YOU DIDN'T LABEL",
+   "text": "He still pays the electric on it. Three hundred dollars a month.",
+   "raw": "He still pays the electric on it. / *Three hundred dollars* a month. //",
+   "est": 6.96,
+   "img": "frames/16x9/0094.png",
+   "vimg": "frames/9x16/0094.png"
+  },
+  {
+   "line": 95,
+   "cue": 29,
+   "scene": "RULE 6: DON'T FLIP THE BREAKER YOU DIDN'T LABEL",
+   "text": "Nobody lives there.",
+   "raw": "Nobody lives there.",
+   "est": 1.63,
+   "img": "frames/16x9/0095.png",
+   "vimg": "frames/9x16/0095.png"
+  },
+  {
+   "line": 96,
+   "cue": 30,
+   "scene": "THE REALITY DROP",
+   "text": "When a contractor sizes your heating and air, he uses a form. It's called Manual J.",
+   "raw": "When a contractor sizes your heating and air, he uses a form. / It's called *Manual J*. /",
+   "est": 8.16,
+   "img": "frames/16x9/0096.png",
+   "vimg": "frames/9x16/0096.png"
+  },
+  {
+   "line": 97,
+   "cue": 30,
+   "scene": "THE REALITY DROP",
+   "text": "It counts square feet. Windows. Insulation. And people.",
+   "raw": "It counts square feet. Windows. Insulation. / And people. /",
+   "est": 4.75,
+   "img": "frames/16x9/0097.png",
+   "vimg": "frames/9x16/0097.png"
+  },
+  {
+   "line": 98,
+   "cue": 30,
+   "scene": "THE REALITY DROP",
+   "text": "The rule is bedrooms, plus one. A three-bedroom house is sized for four. Every house in America.",
+   "raw": "The rule is *bedrooms, plus one*. / A three-bedroom house is sized for four. / Every house in America. //",
+   "est": 10.01,
+   "img": "frames/16x9/0098.png",
+   "vimg": "frames/9x16/0098.png"
+  },
+  {
+   "line": 99,
+   "cue": 30,
+   "scene": "THE REALITY DROP",
+   "text": "That's real. Ask your HVAC guy.",
+   "raw": "That's real. / Ask your HVAC guy. //",
+   "est": 4.4,
+   "img": "frames/16x9/0099.png",
+   "vimg": "frames/9x16/0099.png"
+  },
+  {
+   "line": 100,
+   "cue": 30,
+   "scene": "THE REALITY DROP",
+   "text": "Ask him who the plus one is.",
+   "raw": "Ask him who the *plus one* is. /",
+   "est": 3.83,
+   "img": "frames/16x9/0100.png",
+   "vimg": "frames/9x16/0100.png"
+  },
+  {
+   "line": 101,
+   "cue": 30,
+   "scene": "THE REALITY DROP",
+   "text": "He'll say it's a guest. Watch his face when he says it.",
+   "raw": "He'll say it's a guest. // Watch his face when he says it.",
+   "est": 6.46,
+   "img": "frames/16x9/0101.png",
+   "vimg": "frames/9x16/0101.png"
+  },
+  {
+   "line": 102,
+   "cue": 31,
+   "scene": "RULE 7: KEEP THE HOUSE WARM",
+   "text": "Rule seven. Keep the house warm.",
+   "raw": "Rule seven. // Keep the house warm.",
+   "est": 3.9,
+   "img": "frames/16x9/0102.png",
+   "vimg": "frames/9x16/0102.png"
+  },
+  {
+   "line": 103,
+   "cue": 32,
+   "scene": "RULE 7: KEEP THE HOUSE WARM",
+   "text": "It was here before the house. The house was built around it.",
+   "raw": "It was here before the house. / The house was built around it. /",
+   "est": 6.46,
+   "img": "frames/16x9/0103.png",
+   "vimg": "frames/9x16/0103.png"
+  },
+  {
+   "line": 104,
+   "cue": 32,
+   "scene": "RULE 7: KEEP THE HOUSE WARM",
+   "text": "The furnace is for it. The fridge hum is for it.",
+   "raw": "The furnace is for it. / The fridge hum is for it. /",
+   "est": 6.03,
+   "img": "frames/16x9/0104.png",
+   "vimg": "frames/9x16/0104.png"
+  },
+  {
+   "line": 105,
+   "cue": 32,
+   "scene": "RULE 7: KEEP THE HOUSE WARM",
+   "text": "The ticking is it, moving room to room to stay near the heat.",
+   "raw": "The ticking is it, / moving room to room to stay near the heat.",
+   "est": 6.38,
+   "img": "frames/16x9/0105.png",
+   "vimg": "frames/9x16/0105.png"
+  },
+  {
+   "line": 106,
+   "cue": 33,
+   "scene": "RULE 7: KEEP THE HOUSE WARM",
+   "text": "It doesn't want you. It wants warm.",
+   "raw": "It doesn't want you. // It wants *warm*. /",
+   "est": 4.83,
+   "img": "frames/16x9/0106.png",
+   "vimg": "frames/9x16/0106.png"
+  },
+  {
+   "line": 107,
+   "cue": 33,
+   "scene": "RULE 7: KEEP THE HOUSE WARM",
+   "text": "As long as the house is warm, it stays in the walls.",
+   "raw": "As long as the house is warm, it stays in the walls. /",
+   "est": 5.96,
+   "img": "frames/16x9/0107.png",
+   "vimg": "frames/9x16/0107.png"
+  },
+  {
+   "line": 108,
+   "cue": 33,
+   "scene": "RULE 7: KEEP THE HOUSE WARM",
+   "text": "When the house gets cold, it finds the warmest thing inside.",
+   "raw": "When the house gets cold, it finds the warmest thing inside. //",
+   "est": 6.03,
+   "img": "frames/16x9/0108.png",
+   "vimg": "frames/9x16/0108.png"
+  },
+  {
+   "line": 109,
+   "cue": 33,
+   "scene": "RULE 7: KEEP THE HOUSE WARM",
+   "text": "That's why some nights you can't get warm. Under three blankets. Shaking.",
+   "raw": "That's why some nights you can't get warm. / Under three blankets. / Shaking. //",
+   "est": 7.46,
+   "img": "frames/16x9/0109.png",
+   "vimg": "frames/9x16/0109.png"
+  },
+  {
+   "line": 110,
+   "cue": 33,
+   "scene": "RULE 7: KEEP THE HOUSE WARM",
+   "text": "That's not a fever.",
+   "raw": "That's not a fever. //",
+   "est": 3.05,
+   "img": "frames/16x9/0110.png",
+   "vimg": "frames/9x16/0110.png"
+  },
+  {
+   "line": 111,
+   "cue": 33,
+   "scene": "RULE 7: KEEP THE HOUSE WARM",
+   "text": "That's company.",
+   "raw": "That's *company*.",
+   "est": 1.2,
+   "img": "frames/16x9/0111.png",
+   "vimg": "frames/9x16/0111.png"
+  },
+  {
+   "line": 112,
+   "cue": 34,
+   "scene": "CALLBACK SWEEP",
+   "text": "Every click at 2 a.m. Every tick in the ceiling.",
+   "raw": "Every click at 2 a.m. / Every tick in the ceiling. /",
+   "est": 6.03,
+   "img": "frames/16x9/0112.png",
+   "vimg": "frames/9x16/0112.png"
+  },
+  {
+   "line": 113,
+   "cue": 34,
+   "scene": "CALLBACK SWEEP",
+   "text": "Every milk carton that moved to the back.",
+   "raw": "Every milk carton that moved to the back. /",
+   "est": 4.25,
+   "img": "frames/16x9/0113.png",
+   "vimg": "frames/9x16/0113.png"
+  },
+  {
+   "line": 114,
+   "cue": 34,
+   "scene": "CALLBACK SWEEP",
+   "text": "Every electric bill higher than your neighbor's.",
+   "raw": "Every electric bill higher than your neighbor's. /",
+   "est": 3.83,
+   "img": "frames/16x9/0114.png",
+   "vimg": "frames/9x16/0114.png"
+  },
+  {
+   "line": 115,
+   "cue": 34,
+   "scene": "CALLBACK SWEEP",
+   "text": "Same size house. Same street.",
+   "raw": "Same size house. Same street. //",
+   "est": 3.48,
+   "img": "frames/16x9/0115.png",
+   "vimg": "frames/9x16/0115.png"
+  },
+  {
+   "line": 116,
+   "cue": 34,
+   "scene": "CALLBACK SWEEP",
+   "text": "You've been heating for two.",
+   "raw": "You've been heating for *two*.",
+   "est": 2.48,
+   "img": "frames/16x9/0116.png",
+   "vimg": "frames/9x16/0116.png"
+  },
+  {
+   "line": 117,
+   "cue": 35,
+   "scene": "KICKER",
+   "text": "If your power ever goes out in winter\u2026 and the house goes completely silent\u2026",
+   "raw": "If your power ever goes out in winter\u2026 / and the house goes completely silent\u2026 /",
+   "est": 7.31,
+   "img": "frames/16x9/0117.png",
+   "vimg": "frames/9x16/0117.png"
+  },
+  {
+   "line": 118,
+   "cue": 35,
+   "scene": "KICKER",
+   "text": "don't light a candle. Don't open the fridge. Sit still. And hum. Low. Steady. Like a fridge.",
+   "raw": "don't light a candle. / Don't open the fridge. / Sit still. // And *hum*. / Low. / Steady. / Like a fridge. //",
+   "est": 12.08,
+   "img": "frames/16x9/0118.png",
+   "vimg": "frames/9x16/0118.png"
+  },
+  {
+   "line": 119,
+   "cue": 35,
+   "scene": "KICKER",
+   "text": "It'll think the house is still running. It'll stay where it is.",
+   "raw": "It'll think the house is still running. // It'll stay where it is.",
+   "est": 6.46,
+   "img": "frames/16x9/0119.png",
+   "vimg": "frames/9x16/0119.png"
+  },
+  {
+   "line": 120,
+   "cue": 36,
+   "scene": "SIGN-OFF",
+   "text": "This has been a notice from the Residents' Office. We size the system. We don't ask who it's for. Keep it running.",
+   "raw": "This has been a notice from the Residents' Office. / We size the system. / We don't ask who it's for. // Keep it running. //",
+   "est": 12.71,
+   "img": "frames/16x9/0120.png",
+   "vimg": "frames/9x16/0120.png"
+  },
+  {
+   "line": 121,
+   "cue": 36,
+   "scene": "SIGN-OFF",
+   "text": "This account is monitored.",
+   "raw": "This account is monitored.",
+   "est": 2.05,
+   "img": "frames/16x9/0121.png",
+   "vimg": "frames/9x16/0121.png"
+  }
+ ]
+}

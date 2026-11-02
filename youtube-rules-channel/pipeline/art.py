@@ -694,3 +694,195 @@ def svg(scene_name, params):
     fn = SCENES.get(scene_name)
     body = fn(params) if fn else text(960, 470, f"[{scene_name}]", 60, GRAY)
     return f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" width="100%" height="100%">{DEFS}{body}</svg>'
+
+# ---- plus-one episode (furnace in July)
+
+@scene("furnace")
+def furnace_scene(p):
+    """Furnace cutaway: cabinet, burners, igniter. lit=1 flames, igniter=1 glowing igniter, fan=1 blower lines."""
+    out = floor()
+    out += f'<rect x="760" y="140" width="400" height="{FLOOR-140}" rx="10" fill="{BG}" stroke="{INK}" stroke-width="8"/>'
+    out += f'<rect x="800" y="180" width="320" height="230" fill="#141417" stroke="{GRAY}" stroke-width="5"/>'
+    out += f'<rect x="800" y="450" width="320" height="260" fill="#141417" stroke="{GRAY}" stroke-width="5"/>'
+    out += f'<rect x="900" y="60" width="120" height="80" fill="{BG}" stroke="{INK}" stroke-width="7"/>'  # flue
+    if on(p, "igniter"):
+        out += glow(860, 330, 70, ACC, 0.7) + f'<rect x="840" y="300" width="40" height="70" rx="8" fill="{ACC}" filter="url(#glow)"/>'
+    if on(p, "lit"):
+        out += glow(960, 330, 150, ACC, 0.35) + "".join(f'<path d="M{880+i*60} 390 q-22 -50 0 -100 q22 50 0 100Z" fill="{ACC}" filter="url(#glow)"/>' for i in range(4))
+    if on(p, "fan"):
+        out += f'<circle cx="960" cy="580" r="90" fill="none" stroke="{INK}" stroke-width="6"/>' + "".join(f'<path d="M960 580 L{960+80*math.cos(a)} {580+80*math.sin(a)}" stroke="{INK}" stroke-width="10"/>' for a in (0, 2.1, 4.2))
+    if p.get("label"):
+        out += text(1500, 300, p["label"].upper(), 44, GRAY, 500, font="mono", ls=4)
+    if p.get("clock"):
+        out += text(1500, 420, p["clock"], 90, INK, 500, font="mono")
+    if p.get("temp"):
+        out += text(420, 300, p["temp"], 120, ACC, 900) + text(420, 370, "OUTSIDE", 34, GRAY, 800, ls=6)
+    return out
+
+@scene("thermostat")
+def thermostat_scene(p):
+    """Wall thermostat close-up. mode=OFF, temp, wire=1 pulled wires, x=1 yellow cross."""
+    out = f'<rect x="640" y="130" width="640" height="560" rx="60" fill="{BG}" stroke="{INK}" stroke-width="10"/>'
+    out += f'<rect x="720" y="220" width="480" height="260" rx="20" fill="#141417" stroke="{GRAY}" stroke-width="5"/>'
+    out += text(960, 400, p.get("temp", "72°"), 150, INK, 500, font="mono")
+    out += text(960, 600, "MODE: " + p.get("mode", "OFF"), 52, ACC if p.get("mode", "OFF") == "OFF" else INK, 800, ls=6)
+    if on(p, "wire"):
+        out += f'<path d="M700 700 C640 780 560 760 520 830 M760 700 C740 800 680 800 660 860" stroke="{INK}" stroke-width="10" fill="none"/><path d="M700 700 C640 780 560 760 520 830" stroke="{REC}" stroke-width="4" fill="none"/>'
+    if on(p, "x"):
+        out += cross(1400, 200, 0.7)
+    if p.get("months"):
+        out += text(960, 820, p["months"].upper(), 40, GRAY, 500, font="mono", ls=6)
+    return out
+
+@scene("closet")
+def closet_scene(p):
+    """Closet with the only warm vent, folded blanket."""
+    out = floor() + f'<rect x="660" y="120" width="600" height="{FLOOR-120}" fill="#141417" stroke="{INK}" stroke-width="8"/>'
+    out += f'<line x1="680" y1="260" x2="1240" y2="260" stroke="{GRAY}" stroke-width="6"/>'
+    out += glow(960, FLOOR - 40, 160, ACC, 0.45) + f'<rect x="880" y="{FLOOR-30}" width="160" height="22" fill="{ACC}" filter="url(#glow)"/>'
+    out += "".join(f'<line x1="{896+i*26}" y1="{FLOOR-28}" x2="{896+i*26}" y2="{FLOOR-10}" stroke="{BG}" stroke-width="6"/>' for i in range(6))
+    if on(p, "blanket"):
+        out += "".join(f'<rect x="{800}" y="{FLOOR-120-i*28}" width="320" height="26" rx="10" fill="{INK if i%2 else GRAY}"/>' for i in range(3))
+    if on(p, "cold"):
+        out += text(420, 400, "COLD", 60, GRAY, 800, ls=8) + text(1500, 400, "COLD", 60, GRAY, 800, ls=8)
+    return out
+
+@scene("fridge")
+def fridge_scene(p):
+    """Fridge side view with the gap behind it. open=1 door open with light on floor, gap=1 dimension line,
+    breath=1 hum lines, milk=1 milk carton at the back."""
+    out = floor() + f'<rect x="1500" y="120" width="40" height="{FLOOR-120}" fill="{DIM}"/>'  # wall
+    out += f'<rect x="1000" y="140" width="400" height="{FLOOR-140}" rx="16" fill="{BG}" stroke="{INK}" stroke-width="8"/><line x1="1000" y1="380" x2="1400" y2="380" stroke="{INK}" stroke-width="6"/>'
+    if on(p, "gap"):
+        out += f'<rect x="1410" y="140" width="80" height="{FLOOR-140}" fill="#050505"/>' + f'<circle cx="1440" cy="250" r="6" fill="{INK}"/><circle cx="1462" cy="250" r="6" fill="{INK}"/>'
+        out += f'<path d="M1410 100 H1490 M1410 80 v40 M1490 80 v40" stroke="{ACC}" stroke-width="6"/>' + text(1450, 70, '4"', 54, ACC, 900)
+    if on(p, "breath"):
+        out += "".join(f'<path d="M{1420+i*20} {520-i*40} q30 -20 0 -40" stroke="{GRAY}" stroke-width="5" fill="none"/>' for i in range(3)) + text(1200, 830, "IN · OUT · IN · OUT", 40, GRAY, 500, font="mono", ls=6)
+    if on(p, "open"):
+        out += f'<path d="M1000 140 L760 220 L760 {FLOOR-40} L1000 {FLOOR}Z" fill="{BG}" stroke="{INK}" stroke-width="7"/>'
+        out += f'<path d="M1010 200 L1390 200 L1700 {FLOOR} L700 {FLOOR}Z" fill="{ACC}" opacity=".18"/>' + glow(1200, 300, 120, ACC, 0.5)
+    if on(p, "milk"):
+        out += f'<path d="M1300 310 h60 v-70 l-30 -30 l-30 30Z" fill="{INK}"/>' + text(1180, 330, "BACK", 30, ACC, 800, font="mono", ls=4)
+    if on(p, "defrost"):
+        out += "".join(f'<ellipse cx="{1080+i*90}" cy="{430+(i%2)*30}" rx="8" ry="14" fill="{INK}"/>' for i in range(4)) + text(560, 300, "DEFROST", 50, GRAY, 500, font="mono", ls=6) + text(560, 370, "8–12 HRS", 50, ACC, 500, font="mono", ls=6)
+    return out
+
+@scene("duct")
+def duct_scene(p):
+    """Duct run through a house cross-section; at= kitchen|hall|bed shows the lump, stop=1 lump glowing over the bed."""
+    out = f'<rect x="200" y="200" width="1520" height="90" rx="10" fill="#141417" stroke="{INK}" stroke-width="7"/>'
+    rooms = (("KITCHEN", 420), ("HALLWAY", 960), ("BEDROOM", 1500))
+    for nm, x in rooms:
+        out += f'<rect x="{x-60}" y="290" width="120" height="40" fill="{BG}" stroke="{GRAY}" stroke-width="5"/>' + text(x, 420, nm, 40, GRAY, 800, ls=6)
+        out += f'<line x1="{x+270}" y1="320" x2="{x+270}" y2="{FLOOR}" stroke="{DIM}" stroke-width="5"/>' if x < 1500 else ""
+    out += floor()
+    at = p.get("at", "")
+    pos = {"kitchen": 420, "hall": 960, "bed": 1500}
+    if at in pos:
+        x = pos[at]
+        out += glow(x, 245, 90, ACC, 0.5 if on(p, "stop") else 0.25) + f'<ellipse cx="{x}" cy="245" rx="70" ry="38" fill="{ACC if on(p, "stop") else INK}"/>'
+        out += text(x, 160, "TICK", 40, ACC, 800, font="mono", ls=6)
+    if on(p, "bed"):
+        out += bed(1180, FLOOR, "sleep")
+    if on(p, "pop"):
+        out += "".join(text(x, 160, "POP", 44, INK, 900) for x in (520, 1100, 1600))
+    return out
+
+@scene("vent")
+def vent_scene(p):
+    """Register cover close-up with four screws. tight=1 screws glow, driver=1 screwdriver, warm=1 glow through slats."""
+    out = f'<rect x="560" y="160" width="800" height="520" rx="12" fill="{BG}" stroke="{INK}" stroke-width="10"/>'
+    if on(p, "warm"):
+        out += glow(960, 420, 220, ACC, 0.35)
+    out += "".join(f'<rect x="620" y="{210+i*44}" width="680" height="22" rx="6" fill="{GRAY}"/>' for i in range(10))
+    for x, y in ((600, 200), (1320, 200), (600, 640), (1320, 640)):
+        out += (glow(x, y, 40, ACC, 0.7) if on(p, "tight") else "") + f'<circle cx="{x}" cy="{y}" r="22" fill="{ACC if on(p, "tight") else INK}"/><line x1="{x-14}" y1="{y}" x2="{x+14}" y2="{y}" stroke="{BG}" stroke-width="6"/>'
+    if on(p, "driver"):
+        out += f'<path d="M1330 650 L1600 860" stroke="{INK}" stroke-width="14" stroke-linecap="round"/><rect x="1560" y="820" width="140" height="56" rx="22" fill="{INK}" transform="rotate(38 1630 848)"/>'
+    if p.get("label"):
+        out += text(960, 800, p["label"].upper(), 44, ACC, 800, font="mono", ls=6)
+    return out
+
+@scene("drip")
+def drip_scene(p):
+    """Air handler leaking condensate; prints=1 small wet footprints to the bedroom door, towel=1."""
+    out = floor() + f'<rect x="200" y="200" width="300" height="{FLOOR-200}" rx="10" fill="{BG}" stroke="{INK}" stroke-width="8"/>' + text(350, 300, "AC", 60, GRAY, 900)
+    out += f'<path d="M500 600 H620 V{FLOOR-10}" stroke="{INK}" stroke-width="12" fill="none"/>' + "".join(f'<ellipse cx="620" cy="{FLOOR-60+i*20}" rx="8" ry="12" fill="{INK}" opacity=".7"/>' for i in range(2))
+    out += f'<path d="M560 {FLOOR+4} Q760 {FLOOR-20} 900 {FLOOR+4}" fill="{GRAY}" opacity=".5"/>'
+    out += door(1500, FLOOR - 380, 170, 380)
+    if on(p, "prints"):
+        out += "".join(f'<ellipse cx="{760+i*130}" cy="{FLOOR+40+(18 if i%2 else -18)}" rx="{14+i*1.5}" ry="{24+i*2}" fill="{INK}" opacity=".85" transform="rotate(90 {760+i*130} {FLOOR+40})"/>' for i in range(6))
+        out += text(1150, 920 - 50, "SMALLER THAN YOURS", 36, ACC, 800, font="mono", ls=4) if on(p, "small") else ""
+    if on(p, "towel"):
+        out += f'<rect x="980" y="{FLOOR-6}" width="260" height="22" rx="6" fill="{INK}"/>' + cross(1110, 520, 0.5)
+    return out
+
+@scene("waterheater")
+def waterheater_scene(p):
+    """Water heater tank; knocks=N shows N knock marks, sediment=1 gray grit at the bottom, bucket=1."""
+    out = floor() + f'<rect x="780" y="120" width="360" height="{FLOOR-160}" rx="60" fill="{BG}" stroke="{INK}" stroke-width="8"/><rect x="900" y="{FLOOR-40}" width="120" height="40" fill="{INK}"/>'
+    out += glow(960, FLOOR - 90, 120, ACC, 0.35) + f'<path d="M880 {FLOOR-70} q20 -40 40 0 q20 -40 40 0 q20 -40 40 0 q20 -40 40 0" stroke="{ACC}" stroke-width="8" fill="none"/>'
+    if on(p, "sediment"):
+        out += "".join(f'<circle cx="{820+(i*37)%300}" cy="{FLOOR-130-(i*13)%40}" r="{6+i%3*3}" fill="{GRAY}"/>' for i in range(16))
+    k = int(p.get("knocks", 0))
+    if k:
+        out += "".join(text(1400, 260 + i * 140, "KNOCK", 64, INK, 900) for i in range(k)) + text(480, 340, "YOU LIVE", 44, GRAY, 800, ls=6) + text(480, 420, "ALONE", 70, ACC, 900, ls=6)
+    if on(p, "bucket"):
+        out += f'<path d="M1300 {FLOOR} L1280 {FLOOR-180} L1520 {FLOOR-180} L1500 {FLOOR}Z" fill="{BG}" stroke="{INK}" stroke-width="7"/><ellipse cx="1400" cy="{FLOOR-170}" rx="110" ry="18" fill="{GRAY}"/><path d="M1360 {FLOOR-172} q20 -24 40 0" stroke="{ACC}" stroke-width="6" fill="none"/>'
+    return out
+
+@scene("panel")
+def panel_scene(p):
+    """Breaker panel with handwritten labels. hot=1 HIS ROOM glows, flipped=1 everything goes dark."""
+    labels = ["KITCHEN", "DRYER", "MASTER", "BATH", "AC", "HIS ROOM", "FRIDGE", "FURNACE"]
+    dark = on(p, "flipped")
+    out = f'<rect x="560" y="80" width="800" height="760" rx="16" fill="{BG}" stroke="{INK if not dark else DIM}" stroke-width="10"/>'
+    for i, lb in enumerate(labels):
+        col, row = i % 2, i // 2
+        x, y = 640 + col * 360, 160 + row * 170
+        hot = lb == "HIS ROOM"
+        if hot and on(p, "hot"):
+            out += glow(x + 140, y + 50, 110, ACC, 0.55)
+        c = ACC if hot and (on(p, "hot") or dark) else (DIM if dark else INK)
+        out += f'<rect x="{x}" y="{y}" width="120" height="90" rx="10" fill="{BG}" stroke="{c}" stroke-width="6"/><rect x="{x+35 if hot and dark else x+65}" y="{y+20}" width="20" height="50" rx="4" fill="{c}"/>'
+        out += text(x + 140, y + 60, lb, 34, c, 600, "start", extra='font-style="italic"')
+    if dark:
+        out += text(960, 900 - 30, "SILENCE", 46, GRAY, 500, font="mono", ls=12)
+    return out
+
+@scene("form")
+def form_scene(p):
+    """Manual J load-calc form with BEDROOMS + 1 circled."""
+    out = f'<rect x="560" y="80" width="800" height="760" fill="{INK}"/>' + text(960, 170, "MANUAL J · LOAD CALCULATION", 36, BG, 900, ls=3)
+    rows = [("SQ FT", "1,850"), ("WINDOWS", "14"), ("INSULATION", "R-30"), ("BEDROOMS", "3"), ("OCCUPANTS", "BEDROOMS + 1")]
+    for i, (k, v) in enumerate(rows):
+        y = 280 + i * 110
+        out += f'<line x1="620" y1="{y+20}" x2="1300" y2="{y+20}" stroke="{GRAY}" stroke-width="3"/>' + text(640, y, k, 40, BG, 800, "start", ls=3) + text(1280, y, v, 40, BG, 600, "end", font="mono")
+    if on(p, "circle"):
+        out += f'<ellipse cx="1150" cy="{280+4*110-14}" rx="190" ry="60" fill="none" stroke="{REC}" stroke-width="8"/>' + text(1450, 720, "+1", 140, REC, 900)
+    return out
+
+@scene("bill")
+def bill_scene(p):
+    """Two identical houses, your electric bill much higher."""
+    out = floor(700) + house(380, 700, 1.4, lit=False) + house(1220, 700, 1.4, lit=True)
+    out += text(530, 790, p.get("a", "$142"), 70, GRAY, 800, font="mono") + text(1370, 790, p.get("b", "$298"), 80, ACC, 900, font="mono")
+    out += text(530, 860, "NEIGHBOR", 32, GRAY, 800, ls=6) + text(1370, 860, "YOU", 32, ACC, 800, ls=6)
+    return out
+
+@scene("shiver")
+def shiver_scene(p):
+    """Person in bed under three blankets, shaking."""
+    out = floor() + bed(560, FLOOR, "sleep") + "".join(f'<rect x="{600}" y="{FLOOR-150-i*26}" width="560" height="24" rx="10" fill="{INK if i%2 else GRAY}"/>' for i in range(3))
+    out += "".join(f'<path d="M{560+i*14} {FLOOR-260} l-8 -20 M{1180-i*14} {FLOOR-260} l8 -20" stroke="{ACC}" stroke-width="6"/>' for i in range(3))
+    if p.get("label"):
+        out += text(960, 860 - 40, p["label"].upper(), 44, ACC, 800, font="mono", ls=6)
+    return out
+
+@scene("hum")
+def hum_scene(p):
+    """Dark silent house, a figure sitting still and humming."""
+    out = floor() + window(1400, 200, 230, 280, moon=True) + fig(900, FLOOR, 1.1, "sit", "eyes")
+    out += "".join(f'<path d="M{1000+i*40} {500-i*10} q20 -20 0 -40" stroke="{ACC}" stroke-width="6" fill="none" opacity="{1-i*0.25}"/>' for i in range(4))
+    out += text(960, 860 - 30, "HMMMMMMMMM", 44, GRAY, 500, font="mono", ls=10)
+    return out

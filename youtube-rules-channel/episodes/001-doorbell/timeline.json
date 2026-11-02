@@ -14,8 +14,8 @@
    "est": 4.75,
    "img": "frames/16x9/0001.png",
    "vimg": "frames/9x16/0001.png",
-   "audio": "audio/0001.mp3",
-   "audio_dur": 3.344
+   "start": 5.42,
+   "end": 7.98
   },
   {
    "line": 2,
@@ -26,8 +26,8 @@
    "est": 1.2,
    "img": "frames/16x9/0002.png",
    "vimg": "frames/9x16/0002.png",
-   "audio": "audio/0002.mp3",
-   "audio_dur": 1.515
+   "start": 8.58,
+   "end": 9.56
   },
   {
    "line": 3,
@@ -38,8 +38,8 @@
    "est": 2.98,
    "img": "frames/16x9/0003.png",
    "vimg": "frames/9x16/0003.png",
-   "audio": "audio/0003.mp3",
-   "audio_dur": 1.593
+   "start": 10.38,
+   "end": 11.4
   },
   {
    "line": 4,
@@ -50,8 +50,8 @@
    "est": 2.55,
    "img": "frames/16x9/0004.png",
    "vimg": "frames/9x16/0004.png",
-   "audio": "audio/0004.mp3",
-   "audio_dur": 1.176
+   "start": 12.16,
+   "end": 12.98
   },
   {
    "line": 5,
@@ -62,8 +62,8 @@
    "est": 3.83,
    "img": "frames/16x9/0005.png",
    "vimg": "frames/9x16/0005.png",
-   "audio": "audio/0005.mp3",
-   "audio_dur": 3.109
+   "start": 13.72,
+   "end": 15.06
   },
   {
    "line": 6,
@@ -74,8 +74,8 @@
    "est": 1.63,
    "img": "frames/16x9/0006.png",
    "vimg": "frames/9x16/0006.png",
-   "audio": "audio/0006.mp3",
-   "audio_dur": 1.62
+   "start": 15.46,
+   "end": 16.44
   },
   {
    "line": 7,
@@ -86,8 +86,8 @@
    "est": 2.55,
    "img": "frames/16x9/0007.png",
    "vimg": "frames/9x16/0007.png",
-   "audio": "audio/0007.mp3",
-   "audio_dur": 2.873
+   "start": 17.38,
+   "end": 18.32
   },
   {
    "line": 8,
@@ -98,8 +98,8 @@
    "est": 2.55,
    "img": "frames/16x9/0008.png",
    "vimg": "frames/9x16/0008.png",
-   "audio": "audio/0008.mp3",
-   "audio_dur": 1.202
+   "start": 19.2,
+   "end": 20.2
   },
   {
    "line": 9,
@@ -110,8 +110,8 @@
    "est": 4.61,
    "img": "frames/16x9/0009.png",
    "vimg": "frames/9x16/0009.png",
-   "audio": "audio/0009.mp3",
-   "audio_dur": 3.918
+   "start": 21.08,
+   "end": 23.78
   },
   {
    "line": 10,
@@ -122,8 +122,8 @@
    "est": 3.4,
    "img": "frames/16x9/0010.png",
    "vimg": "frames/9x16/0010.png",
-   "audio": "audio/0010.mp3",
-   "audio_dur": 4.18
+   "start": 24.64,
+   "end": 26.76
   },
   {
    "line": 11,
@@ -134,8 +134,8 @@
    "est": 2.98,
    "img": "frames/16x9/0011.png",
    "vimg": "frames/9x16/0011.png",
-   "audio": "audio/0011.mp3",
-   "audio_dur": 3.187
+   "start": 27.46,
+   "end": 29.4
   },
   {
    "line": 12,
@@ -146,8 +146,8 @@
    "est": 4.25,
    "img": "frames/16x9/0012.png",
    "vimg": "frames/9x16/0012.png",
-   "audio": "audio/0012.mp3",
-   "audio_dur": 3.37
+   "start": 29.96,
+   "end": 32.62
   },
   {
    "line": 13,
@@ -158,8 +158,8 @@
    "est": 4.33,
    "img": "frames/16x9/0013.png",
    "vimg": "frames/9x16/0013.png",
-   "audio": "audio/0013.mp3",
-   "audio_dur": 2.377
+   "start": 33.38,
+   "end": 35.4
   },
   {
    "line": 14,
@@ -170,8 +170,8 @@
    "est": 3.33,
    "img": "frames/16x9/0014.png",
    "vimg": "frames/9x16/0014.png",
-   "audio": "audio/0014.mp3",
-   "audio_dur": 2.482
+   "start": 36.02,
+   "end": 38.0
   },
   {
    "line": 15,
@@ -182,8 +182,8 @@
    "est": 4.25,
    "img": "frames/16x9/0015.png",
    "vimg": "frames/9x16/0015.png",
-   "audio": "audio/0015.mp3",
-   "audio_dur": 2.482
+   "start": 38.82,
+   "end": 40.64
   },
   {
    "line": 16,
@@ -194,8 +194,8 @@
    "est": 2.55,
    "img": "frames/16x9/0016.png",
    "vimg": "frames/9x16/0016.png",
-   "audio": "audio/0016.mp3",
-   "audio_dur": 2.247
+   "start": 41.24,
+   "end": 43.04
   },
   {
    "line": 17,
@@ -206,8 +206,8 @@
    "est": 2.48,
    "img": "frames/16x9/0017.png",
    "vimg": "frames/9x16/0017.png",
-   "audio": "audio/0017.mp3",
-   "audio_dur": 1.802
+   "start": 43.8,
+   "end": 44.84
   },
   {
    "line": 18,
@@ -218,8 +218,8 @@
    "est": 2.13,
    "img": "frames/16x9/0018.png",
    "vimg": "frames/9x16/0018.png",
-   "audio": "audio/0018.mp3",
-   "audio_dur": 1.306
+   "start": 45.7,
+   "end": 46.28
   },
   {
    "line": 19,
@@ -230,8 +230,8 @@
    "est": 2.13,
    "img": "frames/16x9/0019.png",
    "vimg": "frames/9x16/0019.png",
-   "audio": "audio/0019.mp3",
-   "audio_dur": 1.567
+   "start": 46.84,
+   "end": 47.92
   },
   {
    "line": 20,
@@ -242,8 +242,8 @@
    "est": 3.9,
    "img": "frames/16x9/0020.png",
    "vimg": "frames/9x16/0020.png",
-   "audio": "audio/0020.mp3",
-   "audio_dur": 2.9
+   "start": 48.6,
+   "end": 50.8
   },
   {
    "line": 21,
@@ -254,8 +254,8 @@
    "est": 3.4,
    "img": "frames/16x9/0021.png",
    "vimg": "frames/9x16/0021.png",
-   "audio": "audio/0021.mp3",
-   "audio_dur": 1.802
+   "start": 51.6,
+   "end": 52.88
   },
   {
    "line": 22,
@@ -266,8 +266,8 @@
    "est": 2.63,
    "img": "frames/16x9/0022.png",
    "vimg": "frames/9x16/0022.png",
-   "audio": "audio/0022.mp3",
-   "audio_dur": 1.202
+   "start": 52.88,
+   "end": 54.06
   },
   {
    "line": 23,
@@ -278,8 +278,8 @@
    "est": 4.68,
    "img": "frames/16x9/0023.png",
    "vimg": "frames/9x16/0023.png",
-   "audio": "audio/0023.mp3",
-   "audio_dur": 3.422
+   "start": 54.76,
+   "end": 57.54
   },
   {
    "line": 24,
@@ -290,8 +290,8 @@
    "est": 2.05,
    "img": "frames/16x9/0024.png",
    "vimg": "frames/9x16/0024.png",
-   "audio": "audio/0024.mp3",
-   "audio_dur": 1.802
+   "start": 58.24,
+   "end": 59.5
   },
   {
    "line": 25,
@@ -302,8 +302,8 @@
    "est": 4.68,
    "img": "frames/16x9/0025.png",
    "vimg": "frames/9x16/0025.png",
-   "audio": "audio/0025.mp3",
-   "audio_dur": 2.534
+   "start": 60.2,
+   "end": 62.32
   },
   {
    "line": 26,
@@ -314,8 +314,8 @@
    "est": 1.78,
    "img": "frames/16x9/0026.png",
    "vimg": "frames/9x16/0026.png",
-   "audio": "audio/0026.mp3",
-   "audio_dur": 0.758
+   "start": 62.96,
+   "end": 63.46
   },
   {
    "line": 27,
@@ -326,8 +326,8 @@
    "est": 6.38,
    "img": "frames/16x9/0027.png",
    "vimg": "frames/9x16/0027.png",
-   "audio": "audio/0027.mp3",
-   "audio_dur": 4.023
+   "start": 63.88,
+   "end": 67.26
   },
   {
    "line": 28,
@@ -338,8 +338,8 @@
    "est": 3.83,
    "img": "frames/16x9/0028.png",
    "vimg": "frames/9x16/0028.png",
-   "audio": "audio/0028.mp3",
-   "audio_dur": 2.56
+   "start": 67.92,
+   "end": 69.78
   },
   {
    "line": 29,
@@ -350,8 +350,8 @@
    "est": 3.4,
    "img": "frames/16x9/0029.png",
    "vimg": "frames/9x16/0029.png",
-   "audio": "audio/0029.mp3",
-   "audio_dur": 3.004
+   "start": 70.34,
+   "end": 72.46
   },
   {
    "line": 30,
@@ -362,8 +362,8 @@
    "est": 2.9,
    "img": "frames/16x9/0030.png",
    "vimg": "frames/9x16/0030.png",
-   "audio": "audio/0030.mp3",
-   "audio_dur": 2.325
+   "start": 73.34,
+   "end": 75.12
   },
   {
    "line": 31,
@@ -374,8 +374,8 @@
    "est": 4.25,
    "img": "frames/16x9/0031.png",
    "vimg": "frames/9x16/0031.png",
-   "audio": "audio/0031.mp3",
-   "audio_dur": 3.291
+   "start": 75.98,
+   "end": 78.66
   },
   {
    "line": 32,
@@ -386,8 +386,8 @@
    "est": 5.61,
    "img": "frames/16x9/0032.png",
    "vimg": "frames/9x16/0032.png",
-   "audio": "audio/0032.mp3",
-   "audio_dur": 3.03
+   "start": 79.22,
+   "end": 81.8
   },
   {
    "line": 33,
@@ -398,8 +398,8 @@
    "est": 2.48,
    "img": "frames/16x9/0033.png",
    "vimg": "frames/9x16/0033.png",
-   "audio": "audio/0033.mp3",
-   "audio_dur": 1.933
+   "start": 81.8,
+   "end": 83.62
   },
   {
    "line": 34,
@@ -410,8 +410,8 @@
    "est": 3.4,
    "img": "frames/16x9/0034.png",
    "vimg": "frames/9x16/0034.png",
-   "audio": "audio/0034.mp3",
-   "audio_dur": 2.873
+   "start": 84.38,
+   "end": 86.94
   },
   {
    "line": 35,
@@ -422,8 +422,8 @@
    "est": 2.55,
    "img": "frames/16x9/0035.png",
    "vimg": "frames/9x16/0035.png",
-   "audio": "audio/0035.mp3",
-   "audio_dur": 1.907
+   "start": 87.64,
+   "end": 88.86
   },
   {
    "line": 36,
@@ -434,8 +434,8 @@
    "est": 3.83,
    "img": "frames/16x9/0036.png",
    "vimg": "frames/9x16/0036.png",
-   "audio": "audio/0036.mp3",
-   "audio_dur": 2.142
+   "start": 89.64,
+   "end": 91.32
   },
   {
    "line": 37,
@@ -446,8 +446,8 @@
    "est": 2.48,
    "img": "frames/16x9/0037.png",
    "vimg": "frames/9x16/0037.png",
-   "audio": "audio/0037.mp3",
-   "audio_dur": 1.646
+   "start": 91.9,
+   "end": 93.22
   },
   {
    "line": 38,
@@ -458,8 +458,8 @@
    "est": 2.55,
    "img": "frames/16x9/0038.png",
    "vimg": "frames/9x16/0038.png",
-   "audio": "audio/0038.mp3",
-   "audio_dur": 1.698
+   "start": 93.88,
+   "end": 94.88
   },
   {
    "line": 39,
@@ -470,8 +470,8 @@
    "est": 6.88,
    "img": "frames/16x9/0039.png",
    "vimg": "frames/9x16/0039.png",
-   "audio": "audio/0039.mp3",
-   "audio_dur": 3.448
+   "start": 95.56,
+   "end": 98.76
   },
   {
    "line": 40,
@@ -482,8 +482,8 @@
    "est": 3.83,
    "img": "frames/16x9/0040.png",
    "vimg": "frames/9x16/0040.png",
-   "audio": "audio/0040.mp3",
-   "audio_dur": 2.56
+   "start": 99.16,
+   "end": 101.24
   },
   {
    "line": 41,
@@ -494,8 +494,8 @@
    "est": 3.33,
    "img": "frames/16x9/0041.png",
    "vimg": "frames/9x16/0041.png",
-   "audio": "audio/0041.mp3",
-   "audio_dur": 1.62
+   "start": 101.9,
+   "end": 102.94
   },
   {
    "line": 42,
@@ -506,8 +506,8 @@
    "est": 4.68,
    "img": "frames/16x9/0042.png",
    "vimg": "frames/9x16/0042.png",
-   "audio": "audio/0042.mp3",
-   "audio_dur": 2.952
+   "start": 103.72,
+   "end": 106.18
   },
   {
    "line": 43,
@@ -518,8 +518,8 @@
    "est": 2.98,
    "img": "frames/16x9/0043.png",
    "vimg": "frames/9x16/0043.png",
-   "audio": "audio/0043.mp3",
-   "audio_dur": 1.62
+   "start": 106.68,
+   "end": 107.8
   },
   {
    "line": 44,
@@ -530,8 +530,8 @@
    "est": 2.9,
    "img": "frames/16x9/0044.png",
    "vimg": "frames/9x16/0044.png",
-   "audio": "audio/0044.mp3",
-   "audio_dur": 2.168
+   "start": 108.38,
+   "end": 109.74
   },
   {
    "line": 45,
@@ -542,8 +542,8 @@
    "est": 1.7,
    "img": "frames/16x9/0045.png",
    "vimg": "frames/9x16/0045.png",
-   "audio": "audio/0045.mp3",
-   "audio_dur": 0.888
+   "start": 110.5,
+   "end": 110.88
   },
   {
    "line": 46,
@@ -554,8 +554,8 @@
    "est": 3.48,
    "img": "frames/16x9/0046.png",
    "vimg": "frames/9x16/0046.png",
-   "audio": "audio/0046.mp3",
-   "audio_dur": 1.672
+   "start": 111.22,
+   "end": 112.22
   },
   {
    "line": 47,
@@ -566,8 +566,8 @@
    "est": 1.63,
    "img": "frames/16x9/0047.png",
    "vimg": "frames/9x16/0047.png",
-   "audio": "audio/0047.mp3",
-   "audio_dur": 1.202
+   "start": 112.88,
+   "end": 113.64
   },
   {
    "line": 48,
@@ -578,8 +578,8 @@
    "est": 3.4,
    "img": "frames/16x9/0048.png",
    "vimg": "frames/9x16/0048.png",
-   "audio": "audio/0048.mp3",
-   "audio_dur": 2.926
+   "start": 114.62,
+   "end": 116.98
   },
   {
    "line": 49,
@@ -590,8 +590,8 @@
    "est": 3.83,
    "img": "frames/16x9/0049.png",
    "vimg": "frames/9x16/0049.png",
-   "audio": "audio/0049.mp3",
-   "audio_dur": 1.933
+   "start": 117.8,
+   "end": 118.88
   },
   {
    "line": 50,
@@ -602,8 +602,8 @@
    "est": 5.61,
    "img": "frames/16x9/0050.png",
    "vimg": "frames/9x16/0050.png",
-   "audio": "audio/0050.mp3",
-   "audio_dur": 2.952
+   "start": 119.68,
+   "end": 122.26
   },
   {
    "line": 51,
@@ -614,8 +614,8 @@
    "est": 3.48,
    "img": "frames/16x9/0051.png",
    "vimg": "frames/9x16/0051.png",
-   "audio": "audio/0051.mp3",
-   "audio_dur": 1.776
+   "start": 122.88,
+   "end": 123.98
   },
   {
    "line": 52,
@@ -626,8 +626,8 @@
    "est": 3.4,
    "img": "frames/16x9/0052.png",
    "vimg": "frames/9x16/0052.png",
-   "audio": "audio/0052.mp3",
-   "audio_dur": 2.534
+   "start": 123.98,
+   "end": 126.4
   },
   {
    "line": 53,
@@ -638,8 +638,8 @@
    "est": 2.2,
    "img": "frames/16x9/0053.png",
    "vimg": "frames/9x16/0053.png",
-   "audio": "audio/0053.mp3",
-   "audio_dur": 0.967
+   "start": 126.84,
+   "end": 127.36
   },
   {
    "line": 54,
@@ -650,8 +650,8 @@
    "est": 1.63,
    "img": "frames/16x9/0054.png",
    "vimg": "frames/9x16/0054.png",
-   "audio": "audio/0054.mp3",
-   "audio_dur": 1.411
+   "start": 127.8,
+   "end": 128.7
   },
   {
    "line": 55,
@@ -662,8 +662,8 @@
    "est": 6.03,
    "img": "frames/16x9/0055.png",
    "vimg": "frames/9x16/0055.png",
-   "audio": "audio/0055.mp3",
-   "audio_dur": 3.109
+   "start": 129.34,
+   "end": 131.84
   },
   {
    "line": 56,
@@ -674,8 +674,8 @@
    "est": 3.33,
    "img": "frames/16x9/0056.png",
    "vimg": "frames/9x16/0056.png",
-   "audio": "audio/0056.mp3",
-   "audio_dur": 2.038
+   "start": 131.84,
+   "end": 133.82
   },
   {
    "line": 57,
@@ -686,8 +686,8 @@
    "est": 3.4,
    "img": "frames/16x9/0057.png",
    "vimg": "frames/9x16/0057.png",
-   "audio": "audio/0057.mp3",
-   "audio_dur": 2.194
+   "start": 134.38,
+   "end": 136.0
   },
   {
    "line": 58,
@@ -698,8 +698,8 @@
    "est": 2.55,
    "img": "frames/16x9/0058.png",
    "vimg": "frames/9x16/0058.png",
-   "audio": "audio/0058.mp3",
-   "audio_dur": 2.194
+   "start": 136.0,
+   "end": 138.3
   },
   {
    "line": 59,
@@ -710,8 +710,8 @@
    "est": 3.05,
    "img": "frames/16x9/0059.png",
    "vimg": "frames/9x16/0059.png",
-   "audio": "audio/0059.mp3",
-   "audio_dur": 1.541
+   "start": 138.9,
+   "end": 139.9
   },
   {
    "line": 60,
@@ -722,8 +722,8 @@
    "est": 4.25,
    "img": "frames/16x9/0060.png",
    "vimg": "frames/9x16/0060.png",
-   "audio": "audio/0060.mp3",
-   "audio_dur": 2.22
+   "start": 140.58,
+   "end": 142.16
   },
   {
    "line": 61,
@@ -734,8 +734,8 @@
    "est": 2.55,
    "img": "frames/16x9/0061.png",
    "vimg": "frames/9x16/0061.png",
-   "audio": "audio/0061.mp3",
-   "audio_dur": 1.62
+   "start": 142.88,
+   "end": 143.92
   },
   {
    "line": 62,
@@ -746,8 +746,8 @@
    "est": 1.63,
    "img": "frames/16x9/0062.png",
    "vimg": "frames/9x16/0062.png",
-   "audio": "audio/0062.mp3",
-   "audio_dur": 1.698
+   "start": 144.58,
+   "end": 145.88
   },
   {
    "line": 63,
@@ -758,8 +758,8 @@
    "est": 2.55,
    "img": "frames/16x9/0063.png",
    "vimg": "frames/9x16/0063.png",
-   "audio": "audio/0063.mp3",
-   "audio_dur": 1.149
+   "start": 146.36,
+   "end": 147.1
   },
   {
    "line": 64,
@@ -770,8 +770,8 @@
    "est": 5.61,
    "img": "frames/16x9/0064.png",
    "vimg": "frames/9x16/0064.png",
-   "audio": "audio/0064.mp3",
-   "audio_dur": 3.056
+   "start": 147.58,
+   "end": 149.82
   },
   {
    "line": 65,
@@ -782,8 +782,8 @@
    "est": 3.83,
    "img": "frames/16x9/0065.png",
    "vimg": "frames/9x16/0065.png",
-   "audio": "audio/0065.mp3",
-   "audio_dur": 3.109
+   "start": 150.9,
+   "end": 153.5
   },
   {
    "line": 66,
@@ -794,8 +794,8 @@
    "est": 5.11,
    "img": "frames/16x9/0066.png",
    "vimg": "frames/9x16/0066.png",
-   "audio": "audio/0066.mp3",
-   "audio_dur": 3.03
+   "start": 154.5,
+   "end": 156.98
   },
   {
    "line": 67,
@@ -806,8 +806,8 @@
    "est": 3.83,
    "img": "frames/16x9/0067.png",
    "vimg": "frames/9x16/0067.png",
-   "audio": "audio/0067.mp3",
-   "audio_dur": 2.064
+   "start": 157.6,
+   "end": 159.28
   },
   {
    "line": 68,
@@ -818,8 +818,8 @@
    "est": 1.2,
    "img": "frames/16x9/0068.png",
    "vimg": "frames/9x16/0068.png",
-   "audio": "audio/0068.mp3",
-   "audio_dur": 1.202
+   "start": 159.28,
+   "end": 160.06
   },
   {
    "line": 69,
@@ -830,8 +830,8 @@
    "est": 2.98,
    "img": "frames/16x9/0069.png",
    "vimg": "frames/9x16/0069.png",
-   "audio": "audio/0069.mp3",
-   "audio_dur": 1.907
+   "start": 160.76,
+   "end": 162.18
   },
   {
    "line": 70,
@@ -842,8 +842,8 @@
    "est": 1.63,
    "img": "frames/16x9/0070.png",
    "vimg": "frames/9x16/0070.png",
-   "audio": "audio/0070.mp3",
-   "audio_dur": 1.202
+   "start": 162.58,
+   "end": 163.26
   },
   {
    "line": 71,
@@ -854,8 +854,8 @@
    "est": 3.83,
    "img": "frames/16x9/0071.png",
    "vimg": "frames/9x16/0071.png",
-   "audio": "audio/0071.mp3",
-   "audio_dur": 3.109
+   "start": 164.0,
+   "end": 166.08
   },
   {
    "line": 72,
@@ -866,8 +866,8 @@
    "est": 2.2,
    "img": "frames/16x9/0072.png",
    "vimg": "frames/9x16/0072.png",
-   "audio": "audio/0072.mp3",
-   "audio_dur": 1.411
+   "start": 167.32,
+   "end": 167.74
   },
   {
    "line": 73,
@@ -878,8 +878,8 @@
    "est": 4.25,
    "img": "frames/16x9/0073.png",
    "vimg": "frames/9x16/0073.png",
-   "audio": "audio/0073.mp3",
-   "audio_dur": 2.534
+   "start": 168.4,
+   "end": 170.4
   },
   {
    "line": 74,
@@ -890,8 +890,8 @@
    "est": 2.63,
    "img": "frames/16x9/0074.png",
    "vimg": "frames/9x16/0074.png",
-   "audio": "audio/0074.mp3",
-   "audio_dur": 1.071
+   "start": 170.74,
+   "end": 171.42
   },
   {
    "line": 75,
@@ -902,8 +902,8 @@
    "est": 2.05,
    "img": "frames/16x9/0075.png",
    "vimg": "frames/9x16/0075.png",
-   "audio": "audio/0075.mp3",
-   "audio_dur": 1.489
+   "start": 171.94,
+   "end": 172.98
   },
   {
    "line": 76,
@@ -914,8 +914,8 @@
    "est": 6.03,
    "img": "frames/16x9/0076.png",
    "vimg": "frames/9x16/0076.png",
-   "audio": "audio/0076.mp3",
-   "audio_dur": 4.206
+   "start": 173.4,
+   "end": 177.3
   },
   {
    "line": 77,
@@ -926,8 +926,8 @@
    "est": 3.98,
    "img": "frames/16x9/0077.png",
    "vimg": "frames/9x16/0077.png",
-   "audio": "audio/0077.mp3",
-   "audio_dur": 2.56
+   "start": 177.78,
+   "end": 179.74
   },
   {
    "line": 78,
@@ -938,8 +938,8 @@
    "est": 2.05,
    "img": "frames/16x9/0078.png",
    "vimg": "frames/9x16/0078.png",
-   "audio": "audio/0078.mp3",
-   "audio_dur": 1.567
+   "start": 179.74,
+   "end": 181.5
   },
   {
    "line": 79,
@@ -950,8 +950,8 @@
    "est": 4.75,
    "img": "frames/16x9/0079.png",
    "vimg": "frames/9x16/0079.png",
-   "audio": "audio/0079.mp3",
-   "audio_dur": 3.944
+   "start": 182.26,
+   "end": 185.72
   },
   {
    "line": 80,
@@ -962,8 +962,8 @@
    "est": 5.11,
    "img": "frames/16x9/0080.png",
    "vimg": "frames/9x16/0080.png",
-   "audio": "audio/0080.mp3",
-   "audio_dur": 3.082
+   "start": 186.36,
+   "end": 188.76
   },
   {
    "line": 81,
@@ -974,8 +974,8 @@
    "est": 1.7,
    "img": "frames/16x9/0081.png",
    "vimg": "frames/9x16/0081.png",
-   "audio": "audio/0081.mp3",
-   "audio_dur": 1.176
+   "start": 189.46,
+   "end": 190.18
   },
   {
    "line": 82,
@@ -986,8 +986,8 @@
    "est": 2.48,
    "img": "frames/16x9/0082.png",
    "vimg": "frames/9x16/0082.png",
-   "audio": "audio/0082.mp3",
-   "audio_dur": 2.038
+   "start": 190.78,
+   "end": 192.16
   },
   {
    "line": 83,
@@ -998,8 +998,8 @@
    "est": 3.98,
    "img": "frames/16x9/0083.png",
    "vimg": "frames/9x16/0083.png",
-   "audio": "audio/0083.mp3",
-   "audio_dur": 2.299
+   "start": 193.02,
+   "end": 194.62
   },
   {
    "line": 84,
@@ -1010,8 +1010,8 @@
    "est": 4.25,
    "img": "frames/16x9/0084.png",
    "vimg": "frames/9x16/0084.png",
-   "audio": "audio/0084.mp3",
-   "audio_dur": 2.612
+   "start": 195.4,
+   "end": 197.36
   },
   {
    "line": 85,
@@ -1022,8 +1022,8 @@
    "est": 2.9,
    "img": "frames/16x9/0085.png",
    "vimg": "frames/9x16/0085.png",
-   "audio": "audio/0085.mp3",
-   "audio_dur": 2.011
+   "start": 197.98,
+   "end": 199.58
   },
   {
    "line": 86,
@@ -1034,8 +1034,8 @@
    "est": 2.98,
    "img": "frames/16x9/0086.png",
    "vimg": "frames/9x16/0086.png",
-   "audio": "audio/0086.mp3",
-   "audio_dur": 2.142
+   "start": 200.36,
+   "end": 201.9
   },
   {
    "line": 87,
@@ -1046,8 +1046,8 @@
    "est": 1.7,
    "img": "frames/16x9/0087.png",
    "vimg": "frames/9x16/0087.png",
-   "audio": "audio/0087.mp3",
-   "audio_dur": 1.123
+   "start": 201.9,
+   "end": 203.1
   },
   {
    "line": 88,
@@ -1058,8 +1058,8 @@
    "est": 2.98,
    "img": "frames/16x9/0088.png",
    "vimg": "frames/9x16/0088.png",
-   "audio": "audio/0088.mp3",
-   "audio_dur": 2.56
+   "start": 203.1,
+   "end": 205.78
   },
   {
    "line": 89,
@@ -1070,8 +1070,8 @@
    "est": 3.83,
    "img": "frames/16x9/0089.png",
    "vimg": "frames/9x16/0089.png",
-   "audio": "audio/0089.mp3",
-   "audio_dur": 2.403
+   "start": 206.7,
+   "end": 208.62
   },
   {
    "line": 90,
@@ -1082,8 +1082,8 @@
    "est": 1.63,
    "img": "frames/16x9/0090.png",
    "vimg": "frames/9x16/0090.png",
-   "audio": "audio/0090.mp3",
-   "audio_dur": 1.045
+   "start": 209.3,
+   "end": 209.9
   },
   {
    "line": 91,
@@ -1094,8 +1094,8 @@
    "est": 2.98,
    "img": "frames/16x9/0091.png",
    "vimg": "frames/9x16/0091.png",
-   "audio": "audio/0091.mp3",
-   "audio_dur": 1.959
+   "start": 210.46,
+   "end": 211.68
   },
   {
    "line": 92,
@@ -1106,8 +1106,8 @@
    "est": 3.48,
    "img": "frames/16x9/0092.png",
    "vimg": "frames/9x16/0092.png",
-   "audio": "audio/0092.mp3",
-   "audio_dur": 1.907
+   "start": 212.36,
+   "end": 213.74
   },
   {
    "line": 93,
@@ -1118,8 +1118,8 @@
    "est": 1.63,
    "img": "frames/16x9/0093.png",
    "vimg": "frames/9x16/0093.png",
-   "audio": "audio/0093.mp3",
-   "audio_dur": 1.019
+   "start": 214.3,
+   "end": 214.84
   },
   {
    "line": 94,
@@ -1130,8 +1130,8 @@
    "est": 3.4,
    "img": "frames/16x9/0094.png",
    "vimg": "frames/9x16/0094.png",
-   "audio": "audio/0094.mp3",
-   "audio_dur": 2.194
+   "start": 215.46,
+   "end": 217.04
   },
   {
    "line": 95,
@@ -1142,8 +1142,8 @@
    "est": 4.75,
    "img": "frames/16x9/0095.png",
    "vimg": "frames/9x16/0095.png",
-   "audio": "audio/0095.mp3",
-   "audio_dur": 3.161
+   "start": 217.66,
+   "end": 220.42
   },
   {
    "line": 96,
@@ -1154,8 +1154,8 @@
    "est": 1.7,
    "img": "frames/16x9/0096.png",
    "vimg": "frames/9x16/0096.png",
-   "audio": "audio/0096.mp3",
-   "audio_dur": 0.862
+   "start": 221.06,
+   "end": 221.42
   },
   {
    "line": 97,
@@ -1166,8 +1166,8 @@
    "est": 2.05,
    "img": "frames/16x9/0097.png",
    "vimg": "frames/9x16/0097.png",
-   "audio": "audio/0097.mp3",
-   "audio_dur": 1.698
+   "start": 221.98,
+   "end": 223.38
   },
   {
    "line": 98,
@@ -1178,8 +1178,8 @@
    "est": 4.75,
    "img": "frames/16x9/0098.png",
    "vimg": "frames/9x16/0098.png",
-   "audio": "audio/0098.mp3",
-   "audio_dur": 3.866
+   "start": 224.0,
+   "end": 227.56
   },
   {
    "line": 99,
@@ -1190,8 +1190,8 @@
    "est": 3.4,
    "img": "frames/16x9/0099.png",
    "vimg": "frames/9x16/0099.png",
-   "audio": "audio/0099.mp3",
-   "audio_dur": 2.743
+   "start": 228.42,
+   "end": 230.62
   },
   {
    "line": 100,
@@ -1202,8 +1202,8 @@
    "est": 3.9,
    "img": "frames/16x9/0100.png",
    "vimg": "frames/9x16/0100.png",
-   "audio": "audio/0100.mp3",
-   "audio_dur": 1.881
+   "start": 231.16,
+   "end": 232.62
   },
   {
    "line": 101,
@@ -1214,8 +1214,8 @@
    "est": 1.2,
    "img": "frames/16x9/0101.png",
    "vimg": "frames/9x16/0101.png",
-   "audio": "audio/0101.mp3",
-   "audio_dur": 1.019
+   "start": 233.24,
+   "end": 233.66
   },
   {
    "line": 102,
@@ -1226,8 +1226,8 @@
    "est": 5.18,
    "img": "frames/16x9/0102.png",
    "vimg": "frames/9x16/0102.png",
-   "audio": "audio/0102.mp3",
-   "audio_dur": 2.612
+   "start": 234.3,
+   "end": 236.38
   },
   {
    "line": 103,
@@ -1238,8 +1238,8 @@
    "est": 4.33,
    "img": "frames/16x9/0103.png",
    "vimg": "frames/9x16/0103.png",
-   "audio": "audio/0103.mp3",
-   "audio_dur": 2.09
+   "start": 237.02,
+   "end": 238.6
   },
   {
    "line": 104,
@@ -1250,8 +1250,8 @@
    "est": 4.25,
    "img": "frames/16x9/0104.png",
    "vimg": "frames/9x16/0104.png",
-   "audio": "audio/0104.mp3",
-   "audio_dur": 3.239
+   "start": 239.18,
+   "end": 241.92
   },
   {
    "line": 105,
@@ -1262,8 +1262,8 @@
    "est": 2.55,
    "img": "frames/16x9/0105.png",
    "vimg": "frames/9x16/0105.png",
-   "audio": "audio/0105.mp3",
-   "audio_dur": 1.802
+   "start": 242.48,
+   "end": 243.64
   },
   {
    "line": 106,
@@ -1274,8 +1274,8 @@
    "est": 2.13,
    "img": "frames/16x9/0106.png",
    "vimg": "frames/9x16/0106.png",
-   "audio": "audio/0106.mp3",
-   "audio_dur": 1.437
+   "start": 244.22,
+   "end": 244.96
   },
   {
    "line": 107,
@@ -1286,8 +1286,8 @@
    "est": 4.18,
    "img": "frames/16x9/0107.png",
    "vimg": "frames/9x16/0107.png",
-   "audio": "audio/0107.mp3",
-   "audio_dur": 2.534
+   "start": 245.72,
+   "end": 247.88
   },
   {
    "line": 108,
@@ -1298,8 +1298,8 @@
    "est": 2.55,
    "img": "frames/16x9/0108.png",
    "vimg": "frames/9x16/0108.png",
-   "audio": "audio/0108.mp3",
-   "audio_dur": 1.306
+   "start": 248.42,
+   "end": 249.2
   },
   {
    "line": 109,
@@ -1310,8 +1310,8 @@
    "est": 2.63,
    "img": "frames/16x9/0109.png",
    "vimg": "frames/9x16/0109.png",
-   "audio": "audio/0109.mp3",
-   "audio_dur": 1.306
+   "start": 249.96,
+   "end": 250.46
   },
   {
    "line": 110,
@@ -1322,8 +1322,8 @@
    "est": 2.98,
    "img": "frames/16x9/0110.png",
    "vimg": "frames/9x16/0110.png",
-   "audio": "audio/0110.mp3",
-   "audio_dur": 2.064
+   "start": 251.32,
+   "end": 252.86
   },
   {
    "line": 111,
@@ -1334,8 +1334,8 @@
    "est": 2.48,
    "img": "frames/16x9/0111.png",
    "vimg": "frames/9x16/0111.png",
-   "audio": "audio/0111.mp3",
-   "audio_dur": 1.28
+   "start": 253.32,
+   "end": 254.38
   },
   {
    "line": 112,
@@ -1346,8 +1346,8 @@
    "est": 3.83,
    "img": "frames/16x9/0112.png",
    "vimg": "frames/9x16/0112.png",
-   "audio": "audio/0112.mp3",
-   "audio_dur": 2.56
+   "start": 254.96,
+   "end": 256.98
   },
   {
    "line": 113,
@@ -1358,8 +1358,8 @@
    "est": 2.98,
    "img": "frames/16x9/0113.png",
    "vimg": "frames/9x16/0113.png",
-   "audio": "audio/0113.mp3",
-   "audio_dur": 2.482
+   "start": 257.54,
+   "end": 259.46
   },
   {
    "line": 114,
@@ -1370,8 +1370,8 @@
    "est": 4.25,
    "img": "frames/16x9/0114.png",
    "vimg": "frames/9x16/0114.png",
-   "audio": "audio/0114.mp3",
-   "audio_dur": 3.056
+   "start": 260.04,
+   "end": 262.62
   },
   {
    "line": 115,
@@ -1382,8 +1382,8 @@
    "est": 5.11,
    "img": "frames/16x9/0115.png",
    "vimg": "frames/9x16/0115.png",
-   "audio": "audio/0115.mp3",
-   "audio_dur": 2.586
+   "start": 263.14,
+   "end": 265.34
   },
   {
    "line": 116,
@@ -1394,8 +1394,8 @@
    "est": 5.18,
    "img": "frames/16x9/0116.png",
    "vimg": "frames/9x16/0116.png",
-   "audio": "audio/0116.mp3",
-   "audio_dur": 3.5
+   "start": 265.72,
+   "end": 268.8
   },
   {
    "line": 117,
@@ -1406,8 +1406,8 @@
    "est": 1.2,
    "img": "frames/16x9/0117.png",
    "vimg": "frames/9x16/0117.png",
-   "audio": "audio/0117.mp3",
-   "audio_dur": 0.653
+   "start": 269.74,
+   "end": 270.06
   },
   {
    "line": 118,
@@ -1418,8 +1418,8 @@
    "est": 2.2,
    "img": "frames/16x9/0118.png",
    "vimg": "frames/9x16/0118.png",
-   "audio": "audio/0118.mp3",
-   "audio_dur": 1.071
+   "start": 270.78,
+   "end": 271.58
   },
   {
    "line": 119,
@@ -1430,8 +1430,8 @@
    "est": 1.63,
    "img": "frames/16x9/0119.png",
    "vimg": "frames/9x16/0119.png",
-   "audio": "audio/0119.mp3",
-   "audio_dur": 1.097
+   "start": 272.06,
+   "end": 272.76
   },
   {
    "line": 120,
@@ -1442,8 +1442,8 @@
    "est": 3.48,
    "img": "frames/16x9/0120.png",
    "vimg": "frames/9x16/0120.png",
-   "audio": "audio/0120.mp3",
-   "audio_dur": 2.612
+   "start": 273.1,
+   "end": 275.04
   },
   {
    "line": 121,
@@ -1454,8 +1454,8 @@
    "est": 4.83,
    "img": "frames/16x9/0121.png",
    "vimg": "frames/9x16/0121.png",
-   "audio": "audio/0121.mp3",
-   "audio_dur": 2.769
+   "start": 275.72,
+   "end": 277.8
   },
   {
    "line": 122,
@@ -1466,8 +1466,8 @@
    "est": 1.63,
    "img": "frames/16x9/0122.png",
    "vimg": "frames/9x16/0122.png",
-   "audio": "audio/0122.mp3",
-   "audio_dur": 1.019
+   "start": 278.52,
+   "end": 279.12
   },
   {
    "line": 123,
@@ -1478,8 +1478,8 @@
    "est": 3.4,
    "img": "frames/16x9/0123.png",
    "vimg": "frames/9x16/0123.png",
-   "audio": "audio/0123.mp3",
-   "audio_dur": 2.116
+   "start": 279.66,
+   "end": 281.58
   },
   {
    "line": 124,
@@ -1490,8 +1490,8 @@
    "est": 2.55,
    "img": "frames/16x9/0124.png",
    "vimg": "frames/9x16/0124.png",
-   "audio": "audio/0124.mp3",
-   "audio_dur": 2.142
+   "start": 282.18,
+   "end": 283.58
   },
   {
    "line": 125,
@@ -1502,8 +1502,8 @@
    "est": 2.05,
    "img": "frames/16x9/0125.png",
    "vimg": "frames/9x16/0125.png",
-   "audio": "audio/0125.mp3",
-   "audio_dur": 1.62
+   "start": 284.04,
+   "end": 285.4
   },
   {
    "line": 126,
@@ -1514,8 +1514,8 @@
    "est": 2.55,
    "img": "frames/16x9/0126.png",
    "vimg": "frames/9x16/0126.png",
-   "audio": "audio/0126.mp3",
-   "audio_dur": 1.567
+   "start": 285.9,
+   "end": 286.58
   },
   {
    "line": 127,
@@ -1526,8 +1526,8 @@
    "est": 1.7,
    "img": "frames/16x9/0127.png",
    "vimg": "frames/9x16/0127.png",
-   "audio": "audio/0127.mp3",
-   "audio_dur": 1.097
+   "start": 286.94,
+   "end": 288.08
   },
   {
    "line": 128,
@@ -1538,8 +1538,8 @@
    "est": 2.63,
    "img": "frames/16x9/0128.png",
    "vimg": "frames/9x16/0128.png",
-   "audio": "audio/0128.mp3",
-   "audio_dur": 1.306
+   "start": 288.54,
+   "end": 289.32
   },
   {
    "line": 129,
@@ -1550,8 +1550,8 @@
    "est": 3.75,
    "img": "frames/16x9/0129.png",
    "vimg": "frames/9x16/0129.png",
-   "audio": "audio/0129.mp3",
-   "audio_dur": 2.194
+   "start": 289.94,
+   "end": 291.64
   },
   {
    "line": 130,
@@ -1562,8 +1562,8 @@
    "est": 5.68,
    "img": "frames/16x9/0130.png",
    "vimg": "frames/9x16/0130.png",
-   "audio": "audio/0130.mp3",
-   "audio_dur": 3.448
+   "start": 291.64,
+   "end": 294.84
   },
   {
    "line": 131,
@@ -1574,8 +1574,8 @@
    "est": 2.55,
    "img": "frames/16x9/0131.png",
    "vimg": "frames/9x16/0131.png",
-   "audio": "audio/0131.mp3",
-   "audio_dur": 1.907
+   "start": 295.58,
+   "end": 296.78
   },
   {
    "line": 132,
@@ -1586,8 +1586,8 @@
    "est": 5.18,
    "img": "frames/16x9/0132.png",
    "vimg": "frames/9x16/0132.png",
-   "audio": "audio/0132.mp3",
-   "audio_dur": 3.396
+   "start": 297.36,
+   "end": 299.94
   },
   {
    "line": 133,
@@ -1598,8 +1598,8 @@
    "est": 1.63,
    "img": "frames/16x9/0133.png",
    "vimg": "frames/9x16/0133.png",
-   "audio": "audio/0133.mp3",
-   "audio_dur": 1.358
+   "start": 300.5,
+   "end": 301.18
   },
   {
    "line": 134,
@@ -1610,8 +1610,8 @@
    "est": 3.83,
    "img": "frames/16x9/0134.png",
    "vimg": "frames/9x16/0134.png",
-   "audio": "audio/0134.mp3",
-   "audio_dur": 2.194
+   "start": 302.06,
+   "end": 304.02
   },
   {
    "line": 135,
@@ -1622,8 +1622,8 @@
    "est": 2.48,
    "img": "frames/16x9/0135.png",
    "vimg": "frames/9x16/0135.png",
-   "audio": "audio/0135.mp3",
-   "audio_dur": 1.985
+   "start": 304.6,
+   "end": 306.06
   },
   {
    "line": 136,
@@ -1634,8 +1634,8 @@
    "est": 3.83,
    "img": "frames/16x9/0136.png",
    "vimg": "frames/9x16/0136.png",
-   "audio": "audio/0136.mp3",
-   "audio_dur": 2.691
+   "start": 306.06,
+   "end": 308.86
   },
   {
    "line": 137,
@@ -1646,8 +1646,8 @@
    "est": 3.48,
    "img": "frames/16x9/0137.png",
    "vimg": "frames/9x16/0137.png",
-   "audio": "audio/0137.mp3",
-   "audio_dur": 1.959
+   "start": 309.36,
+   "end": 310.76
   },
   {
    "line": 138,
@@ -1658,8 +1658,8 @@
    "est": 4.33,
    "img": "frames/16x9/0138.png",
    "vimg": "frames/9x16/0138.png",
-   "audio": "audio/0138.mp3",
-   "audio_dur": 2.456
+   "start": 311.46,
+   "end": 313.44
   },
   {
    "line": 139,
@@ -1670,8 +1670,8 @@
    "est": 1.63,
    "img": "frames/16x9/0139.png",
    "vimg": "frames/9x16/0139.png",
-   "audio": "audio/0139.mp3",
-   "audio_dur": 1.567
+   "start": 313.9,
+   "end": 314.96
   },
   {
    "line": 140,
@@ -1682,8 +1682,8 @@
    "est": 2.13,
    "img": "frames/16x9/0140.png",
    "vimg": "frames/9x16/0140.png",
-   "audio": "audio/0140.mp3",
-   "audio_dur": 1.672
+   "start": 315.76,
+   "end": 316.98
   },
   {
    "line": 141,
@@ -1694,8 +1694,8 @@
    "est": 3.48,
    "img": "frames/16x9/0141.png",
    "vimg": "frames/9x16/0141.png",
-   "audio": "audio/0141.mp3",
-   "audio_dur": 2.011
+   "start": 317.56,
+   "end": 319.12
   },
   {
    "line": 142,
@@ -1706,8 +1706,8 @@
    "est": 2.98,
    "img": "frames/16x9/0142.png",
    "vimg": "frames/9x16/0142.png",
-   "audio": "audio/0142.mp3",
-   "audio_dur": 1.672
+   "start": 319.76,
+   "end": 320.86
   },
   {
    "line": 143,
@@ -1718,8 +1718,8 @@
    "est": 2.9,
    "img": "frames/16x9/0143.png",
    "vimg": "frames/9x16/0143.png",
-   "audio": "audio/0143.mp3",
-   "audio_dur": 1.881
+   "start": 321.38,
+   "end": 322.74
   },
   {
    "line": 144,
@@ -1730,8 +1730,8 @@
    "est": 6.96,
    "img": "frames/16x9/0144.png",
    "vimg": "frames/9x16/0144.png",
-   "audio": "audio/0144.mp3",
-   "audio_dur": 4.153
+   "start": 323.36,
+   "end": 327.14
   },
   {
    "line": 145,
@@ -1742,8 +1742,8 @@
    "est": 3.48,
    "img": "frames/16x9/0145.png",
    "vimg": "frames/9x16/0145.png",
-   "audio": "audio/0145.mp3",
-   "audio_dur": 1.881
+   "start": 327.52,
+   "end": 329.06
   },
   {
    "line": 146,
@@ -1754,8 +1754,8 @@
    "est": 3.4,
    "img": "frames/16x9/0146.png",
    "vimg": "frames/9x16/0146.png",
-   "audio": "audio/0146.mp3",
-   "audio_dur": 2.429
+   "start": 329.62,
+   "end": 331.6
   },
   {
    "line": 147,
@@ -1766,8 +1766,8 @@
    "est": 1.7,
    "img": "frames/16x9/0147.png",
    "vimg": "frames/9x16/0147.png",
-   "audio": "audio/0147.mp3",
-   "audio_dur": 1.384
+   "start": 332.24,
+   "end": 332.62
   },
   {
    "line": 148,
@@ -1778,8 +1778,8 @@
    "est": 2.55,
    "img": "frames/16x9/0148.png",
    "vimg": "frames/9x16/0148.png",
-   "audio": "audio/0148.mp3",
-   "audio_dur": 1.411
+   "start": 333.3,
+   "end": 334.3
   },
   {
    "line": 149,
@@ -1790,8 +1790,8 @@
    "est": 5.96,
    "img": "frames/16x9/0149.png",
    "vimg": "frames/9x16/0149.png",
-   "audio": "audio/0149.mp3",
-   "audio_dur": 3.082
+   "start": 334.68,
+   "end": 337.48
   },
   {
    "line": 150,
@@ -1802,8 +1802,8 @@
    "est": 3.05,
    "img": "frames/16x9/0150.png",
    "vimg": "frames/9x16/0150.png",
-   "audio": "audio/0150.mp3",
-   "audio_dur": 1.881
+   "start": 337.48,
+   "end": 339.28
   },
   {
    "line": 151,
@@ -1814,8 +1814,12 @@
    "est": 1.63,
    "img": "frames/16x9/0151.png",
    "vimg": "frames/9x16/0151.png",
-   "audio": "audio/0151.mp3",
-   "audio_dur": 1.384
+   "start": 340.0,
+   "end": 340.92
   }
- ]
+ ],
+ "narration": {
+  "file": "narration.mp3",
+  "duration": 341.394
+ }
 }

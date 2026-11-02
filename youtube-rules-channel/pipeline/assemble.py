@@ -17,6 +17,13 @@ def pause_after(raw):
     return 1.0 if r.endswith("//") else 0.5 if r.endswith("/") else 0.3
 
 def timings(tl):
+    if tl.get("narration"):  # one continuous recording: each line lasts until the next one starts
+        ls = tl["lines"]
+        for k, ln in enumerate(ls):
+            a = 0.0 if k == 0 else ln["start"]
+            b = ls[k + 1]["start"] if k + 1 < len(ls) else tl["narration"]["duration"] + 1.0
+            ln["dur"] = round(max(0.1, b - a), 3)
+        return ls
     for ln in tl["lines"]:
         ln["dur"] = round(ln["audio_dur"] + pause_after(ln["raw"]), 3) if "audio_dur" in ln else ln["est"]
     return tl["lines"]
@@ -42,9 +49,14 @@ def cue_clip(ep, items, out, size):
     Path(lst).unlink()
     return frames / FPS
 
-def soundtrack(ep, lines, total, out):
+def soundtrack(ep, lines, total, out, narration=None, voice_end=None):
     """Narration (if any) laid over low room tone."""
     tone = f"anoisesrc=color=brown:amplitude=0.035:duration={total},lowpass=f=180,volume=0.6"
+    if narration:  # continuous recording, played untouched from the start
+        graph = (f"[0:a]aformat=sample_rates=44100:channel_layouts=mono,atrim=0:{voice_end or total},afade=t=out:st={max(0,(voice_end or total)-0.25)}:d=0.25,apad=whole_dur={total}[voice];"
+                 f"{tone}[tone];[voice][tone]amix=inputs=2:duration=longest:normalize=0,loudnorm=I=-14:TP=-1.5[out]")
+        ff("-i", str(ep / narration), "-filter_complex", graph, "-map", "[out]", "-t", f"{total}", "-c:a", "aac", "-b:a", "192k", str(out))
+        return
     if not all("audio" in l for l in lines):
         ff("-f", "lavfi", "-i", tone, "-c:a", "aac", "-b:a", "160k", str(out))
         return
@@ -58,7 +70,7 @@ def soundtrack(ep, lines, total, out):
     graph += f"{tone}[tone];[voice][tone]amix=inputs=2:duration=longest:normalize=0,loudnorm=I=-14:TP=-1.5[out]"
     ff(*inputs, "-filter_complex", graph, "-map", "[out]", "-c:a", "aac", "-b:a", "192k", str(out))
 
-def build(ep, lines, key, size, out_name, tail=None):
+def build(ep, lines, key, size, out_name, tail=None, narration=None, voice_end=None):
     ep = Path(ep)
     work = ep / "work"
     work.mkdir(exist_ok=True)
@@ -81,7 +93,7 @@ def build(ep, lines, key, size, out_name, tail=None):
     silent = work / f"{out_name}-video.mp4"
     ff("-f", "concat", "-safe", "0", "-i", str(lst), "-c", "copy", str(silent))
     audio = work / f"{out_name}.m4a"
-    soundtrack(ep, lines, total, audio)
+    soundtrack(ep, lines, total, audio, narration, voice_end)
     final = ep / f"{out_name}.mp4"
     ff("-i", str(silent), "-i", str(audio), "-c:v", "copy", "-c:a", "copy", "-shortest", "-movflags", "+faststart", str(final))
     for p in clips + [lst, silent, audio]:
@@ -93,8 +105,9 @@ def run(ep, which=("full", "short")):
     ep = Path(ep)
     tl = json.loads((ep / "timeline.json").read_text())
     lines = timings(tl)
+    nar = tl.get("narration", {}).get("file")
     if "full" in which:
-        build(ep, lines, "img", (1920, 1080), "video-16x9")
+        build(ep, lines, "img", (1920, 1080), "video-16x9", narration=nar)
     if "short" in which:
         picked, t = [], 0.0
         for l in lines:
@@ -102,7 +115,9 @@ def run(ep, which=("full", "short")):
                 break
             picked.append(l)
             t += l["dur"]
-        build(ep, picked, "vimg", (1080, 1920), "short-9x16", tail=("frames/9x16/end.png", 3.0))
+        # with a continuous recording, the short's voice stops where its last line ends; the end card plays over room tone
+        build(ep, picked, "vimg", (1080, 1920), "short-9x16", tail=("frames/9x16/end.png", 3.0), narration=nar,
+              voice_end=sum(l["dur"] for l in picked) if nar else None)
 
 if __name__ == "__main__":
     run(sys.argv[1], sys.argv[2:] or ("full", "short"))

@@ -41,11 +41,15 @@ def cue_clip(ep, items, out, size):
             f.write(f"file '{(ep / img).resolve()}'\nduration {d}\n")
         f.write(f"file '{(ep / items[-1][0]).resolve()}'\n")
         lst = f.name
-    zoom = f"1+0.035*on/{frames}"
-    vf = (f"fps={FPS},scale={w*2}:{h*2}:flags=lanczos,"
-          f"zoompan=z='{zoom}':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':d=1:s={w}x{h}:fps={FPS},format=yuv420p")
+    # smooth push-in: rescale every frame with lanczos (sub-pixel), then crop the centre.
+    # zoompan snaps to whole pixels, which made text shimmer and look soft.
+    z = f"(1+0.035*n/{frames})"
+    vf = (f"fps={FPS},scale=w='trunc({w}*{z}/2)*2':h='trunc({h}*{z}/2)*2':eval=frame:flags=lanczos+accurate_rnd+full_chroma_int,"
+          f"crop={w}:{h},scale=out_color_matrix=bt709:out_range=tv:flags=lanczos,format=yuv420p")
     ff("-f", "concat", "-safe", "0", "-i", lst, "-vf", vf, "-frames:v", str(frames),
-       "-c:v", "libx264", "-preset", "veryfast", "-crf", "21", "-r", str(FPS), str(out))
+       "-c:v", "libx264", "-preset", "slow", "-crf", "16", "-tune", "animation",
+       "-colorspace", "bt709", "-color_primaries", "bt709", "-color_trc", "bt709", "-color_range", "tv",
+       "-r", str(FPS), str(out))
     Path(lst).unlink()
     return frames / FPS
 

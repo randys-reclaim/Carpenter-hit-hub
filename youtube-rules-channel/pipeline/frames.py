@@ -13,8 +13,8 @@ import art, episode
 HERE = Path(__file__).parent
 CH = json.loads((HERE / "channel.json").read_text())
 
-OVERLAY = ('<div style="position:absolute;inset:0;pointer-events:none;background:radial-gradient(ellipse at center,transparent 55%,rgba(0,0,0,.6) 100%),'
-           'repeating-linear-gradient(0deg,rgba(255,255,255,.022) 0 1px,transparent 1px 3px)"></div>')
+# light vignette only; it stays clear of the caption area so white text stays white
+OVERLAY = '<div style="position:absolute;inset:0;pointer-events:none;background:radial-gradient(ellipse at center,transparent 70%,rgba(0,0,0,.28) 100%)"></div>'
 
 def caption_html(t):
     t = html.escape(t)
@@ -23,7 +23,7 @@ def caption_html(t):
 def pips(rule):
     if not rule:
         return ""
-    cells = "".join(f'<i style="display:block;width:22px;height:12px;border-radius:3px;border:2px solid {"#F2F2F2" if i <= rule else "#6d6d72"};background:{"#F2F2F2" if i <= rule else "transparent"}"></i>' for i in range(1, 8))
+    cells = "".join(f'<i style="display:block;width:22px;height:12px;border-radius:3px;border:2px solid {"#FFFFFF" if i <= rule else "#6d6d72"};background:{"#FFFFFF" if i <= rule else "transparent"}"></i>' for i in range(1, 8))
     return f'<div style="display:flex;gap:8px">{cells}</div>'
 
 def hud(notice, tc, rule, w):
@@ -37,7 +37,7 @@ def hud(notice, tc, rule, w):
 
 def frame16(svg, notice, tc, rule, cap):
     c = (f'<div style="position:absolute;left:160px;right:160px;bottom:74px;text-align:center;font:800 52px/1.25 Montserrat,sans-serif;'
-         f'letter-spacing:.03em;text-transform:uppercase;color:#F2F2F2;text-wrap:balance">{caption_html(cap)}</div>') if cap else ""
+         f'letter-spacing:.03em;text-transform:uppercase;color:#FFFFFF;text-wrap:balance">{caption_html(cap)}</div>') if cap else ""
     return f'<div style="position:relative;width:1920px;height:1080px;background:#0B0B0C;overflow:hidden">{svg}{hud(notice, tc, rule, 1920)}{c}{OVERLAY}</div>'
 
 def frame9(svg, notice, tc, rule, cap):
@@ -45,7 +45,7 @@ def frame9(svg, notice, tc, rule, cap):
             f'{hud(notice, tc, rule, 1080)}'
             f'<div style="position:absolute;left:0;top:430px;width:1080px;height:608px">{svg}</div>'
             f'<div style="position:absolute;left:70px;right:70px;top:1150px;text-align:center;font:800 66px/1.2 Montserrat,sans-serif;letter-spacing:.02em;'
-            f'text-transform:uppercase;color:#F2F2F2;text-wrap:balance">{caption_html(cap)}</div>'
+            f'text-transform:uppercase;color:#FFFFFF;text-wrap:balance">{caption_html(cap)}</div>'
             f'<div style="position:absolute;left:0;right:0;bottom:120px;text-align:center;font:500 26px JetBrains Mono,monospace;letter-spacing:.2em;color:#6d6d72">{html.escape(CH["handle"].upper())}</div>'
             f'{OVERLAY}</div>')
 

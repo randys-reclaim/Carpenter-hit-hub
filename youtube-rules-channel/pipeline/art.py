@@ -7,7 +7,7 @@ script) and returning SVG markup. Add new templates with @scene("name").
 """
 import html, math
 
-BG, INK, GRAY, DIM, ACC, REC = "#0B0B0C", "#F2F2F2", "#8E8E93", "#3A3A3E", "#FFC400", "#FF3B30"
+BG, INK, GRAY, DIM, ACC, REC = "#0B0B0C", "#FFFFFF", "#8E8E93", "#3A3A3E", "#FFC400", "#FF3B30"
 GREEN = "#34C759"
 FLOOR = 760
 

@@ -13,7 +13,9 @@
    "raw": "If your tire pressure light ever comes on\u2026 //",
    "est": 4.75,
    "img": "frames/16x9/0001.png",
-   "vimg": "frames/9x16/0001.png"
+   "vimg": "frames/9x16/0001.png",
+   "start": 0.0,
+   "end": 2.08
   },
   {
    "line": 2,
@@ -23,7 +25,9 @@
    "raw": "don't pull over.",
    "est": 1.63,
    "img": "frames/16x9/0002.png",
-   "vimg": "frames/9x16/0002.png"
+   "vimg": "frames/9x16/0002.png",
+   "start": 2.5,
+   "end": 3.52
   },
   {
    "line": 3,
@@ -33,7 +37,9 @@
    "raw": "Don't check which tire. /",
    "est": 2.55,
    "img": "frames/16x9/0003.png",
-   "vimg": "frames/9x16/0003.png"
+   "vimg": "frames/9x16/0003.png",
+   "start": 3.96,
+   "end": 5.1
   },
   {
    "line": 4,
@@ -43,7 +49,9 @@
    "raw": "Don't fill them to the line. /",
    "est": 3.4,
    "img": "frames/16x9/0004.png",
-   "vimg": "frames/9x16/0004.png"
+   "vimg": "frames/9x16/0004.png",
+   "start": 5.46,
+   "end": 6.9
   },
   {
    "line": 5,
@@ -53,7 +61,9 @@
    "raw": "And if the wheel pulls toward the air machine\u2026 /",
    "est": 4.68,
    "img": "frames/16x9/0005.png",
-   "vimg": "frames/9x16/0005.png"
+   "vimg": "frames/9x16/0005.png",
+   "start": 7.32,
+   "end": 9.38
   },
   {
    "line": 6,
@@ -63,7 +73,9 @@
    "raw": "keep it straight.",
    "est": 1.63,
    "img": "frames/16x9/0006.png",
-   "vimg": "frames/9x16/0006.png"
+   "vimg": "frames/9x16/0006.png",
+   "start": 9.76,
+   "end": 10.58
   },
   {
    "line": 7,
@@ -73,7 +85,9 @@
    "raw": "There are seven rules. /",
    "est": 2.55,
    "img": "frames/16x9/0007.png",
-   "vimg": "frames/9x16/0007.png"
+   "vimg": "frames/9x16/0007.png",
+   "start": 11.38,
+   "end": 12.14
   },
   {
    "line": 8,
@@ -83,7 +97,9 @@
    "raw": "Six get you home. /",
    "est": 2.55,
    "img": "frames/16x9/0008.png",
-   "vimg": "frames/9x16/0008.png"
+   "vimg": "frames/9x16/0008.png",
+   "start": 12.86,
+   "end": 13.8
   },
   {
    "line": 9,
@@ -93,7 +109,9 @@
    "raw": "The seventh explains why you always stop.",
    "est": 3.33,
    "img": "frames/16x9/0009.png",
-   "vimg": "frames/9x16/0009.png"
+   "vimg": "frames/9x16/0009.png",
+   "start": 14.28,
+   "end": 16.84
   },
   {
    "line": 10,
@@ -103,7 +121,9 @@
    "raw": "Rule one. / Don't check which tire.",
    "est": 3.4,
    "img": "frames/16x9/0010.png",
-   "vimg": "frames/9x16/0010.png"
+   "vimg": "frames/9x16/0010.png",
+   "start": 17.64,
+   "end": 19.86
   },
   {
    "line": 11,
@@ -113,7 +133,9 @@
    "raw": "Here's the official version. /",
    "est": 2.55,
    "img": "frames/16x9/0011.png",
-   "vimg": "frames/9x16/0011.png"
+   "vimg": "frames/9x16/0011.png",
+   "start": 20.52,
+   "end": 21.6
   },
   {
    "line": 12,
@@ -123,7 +145,9 @@
    "raw": "Air shrinks in the cold. /",
    "est": 2.98,
    "img": "frames/16x9/0012.png",
-   "vimg": "frames/9x16/0012.png"
+   "vimg": "frames/9x16/0012.png",
+   "start": 22.28,
+   "end": 23.66
   },
   {
    "line": 13,
@@ -133,7 +157,9 @@
    "raw": "About one PSI for every ten degrees. /",
    "est": 3.83,
    "img": "frames/16x9/0013.png",
-   "vimg": "frames/9x16/0013.png"
+   "vimg": "frames/9x16/0013.png",
+   "start": 23.66,
+   "end": 26.52
   },
   {
    "line": 14,
@@ -143,7 +169,9 @@
    "raw": "That's real. / Look on your door jamb, then look outside.",
    "est": 5.11,
    "img": "frames/16x9/0014.png",
-   "vimg": "frames/9x16/0014.png"
+   "vimg": "frames/9x16/0014.png",
+   "start": 27.2,
+   "end": 30.04
   },
   {
    "line": 15,
@@ -153,7 +181,9 @@
    "raw": "So the light comes on at sunrise. /",
    "est": 3.83,
    "img": "frames/16x9/0015.png",
-   "vimg": "frames/9x16/0015.png"
+   "vimg": "frames/9x16/0015.png",
+   "start": 30.9,
+   "end": 32.22
   },
   {
    "line": 16,
@@ -163,7 +193,9 @@
    "raw": "And by lunch, / it's off. //",
    "est": 3.98,
    "img": "frames/16x9/0016.png",
-   "vimg": "frames/9x16/0016.png"
+   "vimg": "frames/9x16/0016.png",
+   "start": 32.42,
+   "end": 34.24
   },
   {
    "line": 17,
@@ -173,7 +205,9 @@
    "raw": "Nobody did anything.",
    "est": 1.63,
    "img": "frames/16x9/0017.png",
-   "vimg": "frames/9x16/0017.png"
+   "vimg": "frames/9x16/0017.png",
+   "start": 34.62,
+   "end": 35.7
   },
   {
    "line": 18,
@@ -183,7 +217,9 @@
    "raw": "You'll walk around the car. /",
    "est": 2.98,
    "img": "frames/16x9/0018.png",
-   "vimg": "frames/9x16/0018.png"
+   "vimg": "frames/9x16/0018.png",
+   "start": 36.36,
+   "end": 37.54
   },
   {
    "line": 19,
@@ -193,7 +229,9 @@
    "raw": "You'll kick each one. /",
    "est": 2.55,
    "img": "frames/16x9/0019.png",
-   "vimg": "frames/9x16/0019.png"
+   "vimg": "frames/9x16/0019.png",
+   "start": 37.94,
+   "end": 39.06
   },
   {
    "line": 20,
@@ -203,7 +241,9 @@
    "raw": "They all feel the same. //",
    "est": 3.48,
    "img": "frames/16x9/0020.png",
-   "vimg": "frames/9x16/0020.png"
+   "vimg": "frames/9x16/0020.png",
+   "start": 39.42,
+   "end": 40.42
   },
   {
    "line": 21,
@@ -213,7 +253,9 @@
    "raw": "They always do.",
    "est": 1.63,
    "img": "frames/16x9/0021.png",
-   "vimg": "frames/9x16/0021.png"
+   "vimg": "frames/9x16/0021.png",
+   "start": 40.74,
+   "end": 41.46
   },
   {
    "line": 22,
@@ -223,7 +265,9 @@
    "raw": "They're not low. /",
    "est": 2.13,
    "img": "frames/16x9/0022.png",
-   "vimg": "frames/9x16/0022.png"
+   "vimg": "frames/9x16/0022.png",
+   "start": 41.86,
+   "end": 42.52
   },
   {
    "line": 23,
@@ -233,7 +277,9 @@
    "raw": "They're always whining. /",
    "est": 2.13,
    "img": "frames/16x9/0023.png",
-   "vimg": "frames/9x16/0023.png"
+   "vimg": "frames/9x16/0023.png",
+   "start": 43.06,
+   "end": 43.9
   },
   {
    "line": 24,
@@ -243,7 +289,9 @@
    "raw": "They're needy.",
    "est": 1.2,
    "img": "frames/16x9/0024.png",
-   "vimg": "frames/9x16/0024.png"
+   "vimg": "frames/9x16/0024.png",
+   "start": 44.44,
+   "end": 44.92
   },
   {
    "line": 25,
@@ -253,7 +301,9 @@
    "raw": "A man in Duluth checked all four at six a.m. / with a gauge. /",
    "est": 7.31,
    "img": "frames/16x9/0025.png",
-   "vimg": "frames/9x16/0025.png"
+   "vimg": "frames/9x16/0025.png",
+   "start": 45.7,
+   "end": 49.0
   },
   {
    "line": 26,
@@ -263,7 +313,9 @@
    "raw": "Every tire read perfect. //",
    "est": 3.05,
    "img": "frames/16x9/0026.png",
-   "vimg": "frames/9x16/0026.png"
+   "vimg": "frames/9x16/0026.png",
+   "start": 49.64,
+   "end": 51.18
   },
   {
    "line": 27,
@@ -273,7 +325,9 @@
    "raw": "The light stayed on until he said, out loud, / \"Okay, okay.\"",
    "est": 5.53,
    "img": "frames/16x9/0027.png",
-   "vimg": "frames/9x16/0027.png"
+   "vimg": "frames/9x16/0027.png",
+   "start": 51.18,
+   "end": 55.74
   },
   {
    "line": 28,
@@ -283,7 +337,9 @@
    "raw": "He doesn't check anymore. /",
    "est": 2.55,
    "img": "frames/16x9/0028.png",
-   "vimg": "frames/9x16/0028.png"
+   "vimg": "frames/9x16/0028.png",
+   "start": 56.16,
+   "end": 57.4
   },
   {
    "line": 29,
@@ -293,7 +349,9 @@
    "raw": "The light comes on every Tuesday. /",
    "est": 3.4,
    "img": "frames/16x9/0029.png",
-   "vimg": "frames/9x16/0029.png"
+   "vimg": "frames/9x16/0029.png",
+   "start": 58.0,
+   "end": 59.52
   },
   {
    "line": 30,
@@ -303,7 +361,9 @@
    "raw": "He says \"okay, okay\" from the kitchen. //",
    "est": 4.33,
    "img": "frames/16x9/0030.png",
-   "vimg": "frames/9x16/0030.png"
+   "vimg": "frames/9x16/0030.png",
+   "start": 60.2,
+   "end": 62.46
   },
   {
    "line": 31,
@@ -313,7 +373,9 @@
    "raw": "That's usually enough.",
    "est": 1.63,
    "img": "frames/16x9/0031.png",
-   "vimg": "frames/9x16/0031.png"
+   "vimg": "frames/9x16/0031.png",
+   "start": 62.92,
+   "end": 63.86
   },
   {
    "line": 32,
@@ -323,7 +385,9 @@
    "raw": "Rule two. / Don't fill them to the line.",
    "est": 4.25,
    "img": "frames/16x9/0032.png",
-   "vimg": "frames/9x16/0032.png"
+   "vimg": "frames/9x16/0032.png",
+   "start": 64.54,
+   "end": 67.04
   },
   {
    "line": 33,
@@ -333,7 +397,9 @@
    "raw": "There's a number on your door. /",
    "est": 3.4,
    "img": "frames/16x9/0033.png",
-   "vimg": "frames/9x16/0033.png"
+   "vimg": "frames/9x16/0033.png",
+   "start": 67.66,
+   "end": 68.78
   },
   {
    "line": 34,
@@ -343,7 +409,9 @@
    "raw": "You'll want to hit it exactly. //",
    "est": 3.9,
    "img": "frames/16x9/0034.png",
-   "vimg": "frames/9x16/0034.png"
+   "vimg": "frames/9x16/0034.png",
+   "start": 69.24,
+   "end": 70.42
   },
   {
    "line": 35,
@@ -353,7 +421,9 @@
    "raw": "Don't.",
    "est": 0.78,
    "img": "frames/16x9/0035.png",
-   "vimg": "frames/9x16/0035.png"
+   "vimg": "frames/9x16/0035.png",
+   "start": 71.1,
+   "end": 71.58
   },
   {
    "line": 36,
@@ -363,7 +433,9 @@
    "raw": "Because as soon as you pamper them, / it never stops. /",
    "est": 5.61,
    "img": "frames/16x9/0036.png",
-   "vimg": "frames/9x16/0036.png"
+   "vimg": "frames/9x16/0036.png",
+   "start": 71.86,
+   "end": 74.58
   },
   {
    "line": 37,
@@ -373,7 +445,9 @@
    "raw": "They'll be quiet for a week. /",
    "est": 3.4,
    "img": "frames/16x9/0037.png",
-   "vimg": "frames/9x16/0037.png"
+   "vimg": "frames/9x16/0037.png",
+   "start": 75.18,
+   "end": 76.24
   },
   {
    "line": 38,
@@ -383,7 +457,9 @@
    "raw": "Thirty days, max. //",
    "est": 2.63,
    "img": "frames/16x9/0038.png",
-   "vimg": "frames/9x16/0038.png"
+   "vimg": "frames/9x16/0038.png",
+   "start": 76.88,
+   "end": 77.5
   },
   {
    "line": 39,
@@ -393,7 +469,9 @@
    "raw": "Then the light's back.",
    "est": 2.05,
    "img": "frames/16x9/0039.png",
-   "vimg": "frames/9x16/0039.png"
+   "vimg": "frames/9x16/0039.png",
+   "start": 78.12,
+   "end": 78.96
   },
   {
    "line": 40,
@@ -403,7 +481,9 @@
    "raw": "That part's real too. /",
    "est": 2.55,
    "img": "frames/16x9/0040.png",
-   "vimg": "frames/9x16/0040.png"
+   "vimg": "frames/9x16/0040.png",
+   "start": 79.48,
+   "end": 80.44
   },
   {
    "line": 41,
@@ -413,7 +493,9 @@
    "raw": "Tires lose about a pound a month, / straight through the rubber. /",
    "est": 6.03,
    "img": "frames/16x9/0041.png",
-   "vimg": "frames/9x16/0041.png"
+   "vimg": "frames/9x16/0041.png",
+   "start": 80.9,
+   "end": 83.86
   },
   {
    "line": 42,
@@ -423,7 +505,9 @@
    "raw": "Nobody poked a hole. //",
    "est": 3.05,
    "img": "frames/16x9/0042.png",
-   "vimg": "frames/9x16/0042.png"
+   "vimg": "frames/9x16/0042.png",
+   "start": 84.3,
+   "end": 85.36
   },
   {
    "line": 43,
@@ -433,7 +517,9 @@
    "raw": "They let it out themselves.",
    "est": 2.48,
    "img": "frames/16x9/0043.png",
-   "vimg": "frames/9x16/0043.png"
+   "vimg": "frames/9x16/0043.png",
+   "start": 85.76,
+   "end": 86.58
   },
   {
    "line": 44,
@@ -443,7 +529,9 @@
    "raw": "A tire at the right pressure / has nothing to complain about. //",
    "est": 6.53,
    "img": "frames/16x9/0044.png",
-   "vimg": "frames/9x16/0044.png"
+   "vimg": "frames/9x16/0044.png",
+   "start": 87.5,
+   "end": 90.48
   },
   {
    "line": 45,
@@ -453,7 +541,9 @@
    "raw": "They can't have that.",
    "est": 2.05,
    "img": "frames/16x9/0045.png",
-   "vimg": "frames/9x16/0045.png"
+   "vimg": "frames/9x16/0045.png",
+   "start": 90.82,
+   "end": 91.74
   },
   {
    "line": 46,
@@ -463,7 +553,9 @@
    "raw": "They know you'll come back. /",
    "est": 2.98,
    "img": "frames/16x9/0046.png",
-   "vimg": "frames/9x16/0046.png"
+   "vimg": "frames/9x16/0046.png",
+   "start": 92.14,
+   "end": 93.36
   },
   {
    "line": 47,
@@ -473,7 +565,9 @@
    "raw": "You always come back.",
    "est": 2.05,
    "img": "frames/16x9/0047.png",
-   "vimg": "frames/9x16/0047.png"
+   "vimg": "frames/9x16/0047.png",
+   "start": 93.82,
+   "end": 95.22
   },
   {
    "line": 48,
@@ -483,7 +577,9 @@
    "raw": "Rule three. / Don't plan your route around free air.",
    "est": 4.68,
    "img": "frames/16x9/0048.png",
-   "vimg": "frames/9x16/0048.png"
+   "vimg": "frames/9x16/0048.png",
+   "start": 95.94,
+   "end": 99.34
   },
   {
    "line": 49,
@@ -493,7 +589,9 @@
    "raw": "Think about it. /",
    "est": 2.13,
    "img": "frames/16x9/0049.png",
-   "vimg": "frames/9x16/0049.png"
+   "vimg": "frames/9x16/0049.png",
+   "start": 99.8,
+   "end": 100.44
   },
   {
    "line": 50,
@@ -503,7 +601,9 @@
    "raw": "Your entire route is planned out / by where free air is. //",
    "est": 6.53,
    "img": "frames/16x9/0050.png",
-   "vimg": "frames/9x16/0050.png"
+   "vimg": "frames/9x16/0050.png",
+   "start": 100.72,
+   "end": 104.1
   },
   {
    "line": 51,
@@ -513,7 +613,9 @@
    "raw": "You know which stations have it. /",
    "est": 3.4,
    "img": "frames/16x9/0051.png",
-   "vimg": "frames/9x16/0051.png"
+   "vimg": "frames/9x16/0051.png",
+   "start": 104.44,
+   "end": 105.76
   },
   {
    "line": 52,
@@ -523,7 +625,9 @@
    "raw": "You know which ones are broken. /",
    "est": 3.4,
    "img": "frames/16x9/0052.png",
-   "vimg": "frames/9x16/0052.png"
+   "vimg": "frames/9x16/0052.png",
+   "start": 106.02,
+   "end": 107.04
   },
   {
    "line": 53,
@@ -533,7 +637,9 @@
    "raw": "You know which one takes quarters / and which one wants a card.",
    "est": 5.96,
    "img": "frames/16x9/0053.png",
-   "vimg": "frames/9x16/0053.png"
+   "vimg": "frames/9x16/0053.png",
+   "start": 107.56,
+   "end": 110.62
   },
   {
    "line": 54,
@@ -543,7 +649,9 @@
    "raw": "In California and Connecticut, / it's the law. /",
    "est": 4.33,
    "img": "frames/16x9/0054.png",
-   "vimg": "frames/9x16/0054.png"
+   "vimg": "frames/9x16/0054.png",
+   "start": 111.1,
+   "end": 113.26
   },
   {
    "line": 55,
@@ -553,7 +661,9 @@
    "raw": "If you buy gas, / the air is free. //",
    "est": 5.25,
    "img": "frames/16x9/0055.png",
-   "vimg": "frames/9x16/0055.png"
+   "vimg": "frames/9x16/0055.png",
+   "start": 113.72,
+   "end": 115.82
   },
   {
    "line": 56,
@@ -563,7 +673,9 @@
    "raw": "Somebody pushed for that. //",
    "est": 3.05,
    "img": "frames/16x9/0056.png",
-   "vimg": "frames/9x16/0056.png"
+   "vimg": "frames/9x16/0056.png",
+   "start": 116.2,
+   "end": 117.32
   },
   {
    "line": 57,
@@ -573,7 +685,9 @@
    "raw": "Four somebodies per car.",
    "est": 2.05,
    "img": "frames/16x9/0057.png",
-   "vimg": "frames/9x16/0057.png"
+   "vimg": "frames/9x16/0057.png",
+   "start": 118.66,
+   "end": 119.2
   },
   {
    "line": 58,
@@ -583,7 +697,9 @@
    "raw": "You'll tell yourself it's on the way. //",
    "est": 4.33,
    "img": "frames/16x9/0058.png",
-   "vimg": "frames/9x16/0058.png"
+   "vimg": "frames/9x16/0058.png",
+   "start": 119.7,
+   "end": 121.04
   },
   {
    "line": 59,
@@ -593,7 +709,9 @@
    "raw": "It wasn't. / Until they made it.",
    "est": 3.4,
    "img": "frames/16x9/0059.png",
-   "vimg": "frames/9x16/0059.png"
+   "vimg": "frames/9x16/0059.png",
+   "start": 121.32,
+   "end": 123.6
   },
   {
    "line": 60,
@@ -603,7 +721,9 @@
    "raw": "A woman in Bakersfield moved across town. /",
    "est": 3.83,
    "img": "frames/16x9/0060.png",
-   "vimg": "frames/9x16/0060.png"
+   "vimg": "frames/9x16/0060.png",
+   "start": 123.96,
+   "end": 126.14
   },
   {
    "line": 61,
@@ -613,7 +733,9 @@
    "raw": "Within a week, / she knew where the free air was. //",
    "est": 6.11,
    "img": "frames/16x9/0061.png",
-   "vimg": "frames/9x16/0061.png"
+   "vimg": "frames/9x16/0061.png",
+   "start": 126.14,
+   "end": 129.02
   },
   {
    "line": 62,
@@ -623,7 +745,9 @@
    "raw": "She still doesn't know where the post office is.",
    "est": 4.18,
    "img": "frames/16x9/0062.png",
-   "vimg": "frames/9x16/0062.png"
+   "vimg": "frames/9x16/0062.png",
+   "start": 129.02,
+   "end": 131.36
   },
   {
    "line": 63,
@@ -633,7 +757,9 @@
    "raw": "Rule four. / Don't trust the hiss.",
    "est": 3.4,
    "img": "frames/16x9/0063.png",
-   "vimg": "frames/9x16/0063.png"
+   "vimg": "frames/9x16/0063.png",
+   "start": 131.98,
+   "end": 134.62
   },
   {
    "line": 64,
@@ -643,7 +769,9 @@
    "raw": "Two dollars. / Four minutes. /",
    "est": 3.05,
    "img": "frames/16x9/0064.png",
-   "vimg": "frames/9x16/0064.png"
+   "vimg": "frames/9x16/0064.png",
+   "start": 134.8,
+   "end": 136.36
   },
   {
    "line": 65,
@@ -653,7 +781,9 @@
    "raw": "The hose has a crack near the handle. /",
    "est": 4.25,
    "img": "frames/16x9/0065.png",
-   "vimg": "frames/9x16/0065.png"
+   "vimg": "frames/9x16/0065.png",
+   "start": 136.96,
+   "end": 138.68
   },
   {
    "line": 66,
@@ -663,7 +793,9 @@
    "raw": "It hisses the whole time.",
    "est": 2.48,
    "img": "frames/16x9/0066.png",
-   "vimg": "frames/9x16/0066.png"
+   "vimg": "frames/9x16/0066.png",
+   "start": 139.08,
+   "end": 140.52
   },
   {
    "line": 67,
@@ -673,7 +805,9 @@
    "raw": "You'll think you're wasting it. /",
    "est": 2.98,
    "img": "frames/16x9/0067.png",
-   "vimg": "frames/9x16/0067.png"
+   "vimg": "frames/9x16/0067.png",
+   "start": 140.88,
+   "end": 142.14
   },
   {
    "line": 68,
@@ -683,7 +817,9 @@
    "raw": "Don't let the leaking air hose fool ya. //",
    "est": 4.75,
    "img": "frames/16x9/0068.png",
-   "vimg": "frames/9x16/0068.png"
+   "vimg": "frames/9x16/0068.png",
+   "start": 142.48,
+   "end": 144.1
   },
   {
    "line": 69,
@@ -693,7 +829,9 @@
    "raw": "You're getting air.",
    "est": 1.63,
    "img": "frames/16x9/0069.png",
-   "vimg": "frames/9x16/0069.png"
+   "vimg": "frames/9x16/0069.png",
+   "start": 144.48,
+   "end": 145.32
   },
   {
    "line": 70,
@@ -703,7 +841,9 @@
    "raw": "Listen closer. /",
    "est": 1.7,
    "img": "frames/16x9/0070.png",
-   "vimg": "frames/9x16/0070.png"
+   "vimg": "frames/9x16/0070.png",
+   "start": 145.68,
+   "end": 146.38
   },
   {
    "line": 71,
@@ -713,7 +853,9 @@
    "raw": "The hiss isn't coming from the hose. //",
    "est": 4.33,
    "img": "frames/16x9/0071.png",
-   "vimg": "frames/9x16/0071.png"
+   "vimg": "frames/9x16/0071.png",
+   "start": 147.0,
+   "end": 148.56
   },
   {
    "line": 72,
@@ -723,7 +865,9 @@
    "raw": "It's coming from the valve. /",
    "est": 2.98,
    "img": "frames/16x9/0072.png",
-   "vimg": "frames/9x16/0072.png"
+   "vimg": "frames/9x16/0072.png",
+   "start": 149.02,
+   "end": 150.04
   },
   {
    "line": 73,
@@ -733,7 +877,9 @@
    "raw": "That's the sound they make / when they're getting what they want.",
    "est": 5.53,
    "img": "frames/16x9/0073.png",
-   "vimg": "frames/9x16/0073.png"
+   "vimg": "frames/9x16/0073.png",
+   "start": 150.66,
+   "end": 153.12
   },
   {
    "line": 74,
@@ -743,7 +889,9 @@
    "raw": "Pull the chuck off early / and they'll drop a pound out of spite. /",
    "est": 6.88,
    "img": "frames/16x9/0074.png",
-   "vimg": "frames/9x16/0074.png"
+   "vimg": "frames/9x16/0074.png",
+   "start": 153.7,
+   "end": 156.54
   },
   {
    "line": 75,
@@ -753,7 +901,9 @@
    "raw": "Put it back. //",
    "est": 2.63,
    "img": "frames/16x9/0075.png",
-   "vimg": "frames/9x16/0075.png"
+   "vimg": "frames/9x16/0075.png",
+   "start": 157.06,
+   "end": 157.58
   },
   {
    "line": 76,
@@ -763,7 +913,9 @@
    "raw": "Finish the four minutes.",
    "est": 2.05,
    "img": "frames/16x9/0076.png",
-   "vimg": "frames/9x16/0076.png"
+   "vimg": "frames/9x16/0076.png",
+   "start": 157.96,
+   "end": 159.04
   },
   {
    "line": 77,
@@ -773,7 +925,9 @@
    "raw": "At four minutes, the machine stops. /",
    "est": 3.4,
    "img": "frames/16x9/0077.png",
-   "vimg": "frames/9x16/0077.png"
+   "vimg": "frames/9x16/0077.png",
+   "start": 159.6,
+   "end": 161.54
   },
   {
    "line": 78,
@@ -783,7 +937,9 @@
    "raw": "That's the break. //",
    "est": 2.63,
    "img": "frames/16x9/0078.png",
-   "vimg": "frames/9x16/0078.png"
+   "vimg": "frames/9x16/0078.png",
+   "start": 162.14,
+   "end": 162.8
   },
   {
    "line": 79,
@@ -793,7 +949,9 @@
    "raw": "Everybody needs a minute.",
    "est": 2.05,
    "img": "frames/16x9/0079.png",
-   "vimg": "frames/9x16/0079.png"
+   "vimg": "frames/9x16/0079.png",
+   "start": 163.22,
+   "end": 164.46
   },
   {
    "line": 80,
@@ -803,7 +961,9 @@
    "raw": "Rule five. / Watch out for the water.",
    "est": 3.83,
    "img": "frames/16x9/0080.png",
-   "vimg": "frames/9x16/0080.png"
+   "vimg": "frames/9x16/0080.png",
+   "start": 165.04,
+   "end": 167.58
   },
   {
    "line": 81,
@@ -813,7 +973,9 @@
    "raw": "Air machines make water. /",
    "est": 2.55,
    "img": "frames/16x9/0081.png",
-   "vimg": "frames/9x16/0081.png"
+   "vimg": "frames/9x16/0081.png",
+   "start": 168.22,
+   "end": 169.74
   },
   {
    "line": 82,
@@ -823,7 +985,9 @@
    "raw": "That's real. / Squeeze air and the moisture falls out. //",
    "est": 5.68,
    "img": "frames/16x9/0082.png",
-   "vimg": "frames/9x16/0082.png"
+   "vimg": "frames/9x16/0082.png",
+   "start": 170.2,
+   "end": 173.72
   },
   {
    "line": 83,
@@ -833,7 +997,9 @@
    "raw": "Sometimes it comes out the hose.",
    "est": 2.9,
    "img": "frames/16x9/0083.png",
-   "vimg": "frames/9x16/0083.png"
+   "vimg": "frames/9x16/0083.png",
+   "start": 174.08,
+   "end": 175.64
   },
   {
    "line": 84,
@@ -843,7 +1009,9 @@
    "raw": "So watch out for the water. //",
    "est": 3.9,
    "img": "frames/16x9/0084.png",
-   "vimg": "frames/9x16/0084.png"
+   "vimg": "frames/9x16/0084.png",
+   "start": 176.12,
+   "end": 177.66
   },
   {
    "line": 85,
@@ -853,7 +1021,9 @@
    "raw": "It's free with the air.",
    "est": 2.48,
    "img": "frames/16x9/0085.png",
-   "vimg": "frames/9x16/0085.png"
+   "vimg": "frames/9x16/0085.png",
+   "start": 178.1,
+   "end": 179.32
   },
   {
    "line": 86,
@@ -863,7 +1033,9 @@
    "raw": "You'll hear it on the highway. /",
    "est": 3.4,
    "img": "frames/16x9/0086.png",
-   "vimg": "frames/9x16/0086.png"
+   "vimg": "frames/9x16/0086.png",
+   "start": 179.86,
+   "end": 180.9
   },
   {
    "line": 87,
@@ -873,7 +1045,9 @@
    "raw": "A slosh, every time you brake. /",
    "est": 3.4,
    "img": "frames/16x9/0087.png",
-   "vimg": "frames/9x16/0087.png"
+   "vimg": "frames/9x16/0087.png",
+   "start": 180.9,
+   "end": 182.94
   },
   {
    "line": 88,
@@ -883,7 +1057,9 @@
    "raw": "You'll tell yourself it's the cupholder.",
    "est": 2.9,
    "img": "frames/16x9/0088.png",
-   "vimg": "frames/9x16/0088.png"
+   "vimg": "frames/9x16/0088.png",
+   "start": 183.78,
+   "end": 184.8
   },
   {
    "line": 89,
@@ -893,7 +1069,9 @@
    "raw": "It's not an accident. /",
    "est": 2.55,
    "img": "frames/16x9/0089.png",
-   "vimg": "frames/9x16/0089.png"
+   "vimg": "frames/9x16/0089.png",
+   "start": 185.82,
+   "end": 186.66
   },
   {
    "line": 90,
@@ -903,7 +1081,9 @@
    "raw": "Air keeps them up. //",
    "est": 3.05,
    "img": "frames/16x9/0090.png",
-   "vimg": "frames/9x16/0090.png"
+   "vimg": "frames/9x16/0090.png",
+   "start": 187.16,
+   "end": 188.24
   },
   {
    "line": 91,
@@ -913,7 +1093,9 @@
    "raw": "Water keeps them coming back.",
    "est": 2.48,
    "img": "frames/16x9/0091.png",
-   "vimg": "frames/9x16/0091.png"
+   "vimg": "frames/9x16/0091.png",
+   "start": 188.5,
+   "end": 190.18
   },
   {
    "line": 92,
@@ -923,7 +1105,9 @@
    "raw": "Mechanics will tell you water rusts the rim. /",
    "est": 4.25,
    "img": "frames/16x9/0092.png",
-   "vimg": "frames/9x16/0092.png"
+   "vimg": "frames/9x16/0092.png",
+   "start": 190.66,
+   "end": 193.2
   },
   {
    "line": 93,
@@ -933,7 +1117,9 @@
    "raw": "They're right. //",
    "est": 2.2,
    "img": "frames/16x9/0093.png",
-   "vimg": "frames/9x16/0093.png"
+   "vimg": "frames/9x16/0093.png",
+   "start": 193.66,
+   "end": 194.12
   },
   {
    "line": 94,
@@ -943,7 +1129,9 @@
    "raw": "Nobody asks why the tires don't mind.",
    "est": 3.33,
    "img": "frames/16x9/0094.png",
-   "vimg": "frames/9x16/0094.png"
+   "vimg": "frames/9x16/0094.png",
+   "start": 194.56,
+   "end": 197.12
   },
   {
    "line": 95,
@@ -953,7 +1141,9 @@
    "raw": "Rule six. / Don't switch to nitrogen.",
    "est": 3.4,
    "img": "frames/16x9/0095.png",
-   "vimg": "frames/9x16/0095.png"
+   "vimg": "frames/9x16/0095.png",
+   "start": 197.8,
+   "end": 200.22
   },
   {
    "line": 96,
@@ -963,7 +1153,9 @@
    "raw": "Tire shops will offer it. /",
    "est": 2.98,
    "img": "frames/16x9/0096.png",
-   "vimg": "frames/9x16/0096.png"
+   "vimg": "frames/9x16/0096.png",
+   "start": 201.0,
+   "end": 202.36
   },
   {
    "line": 97,
@@ -973,7 +1165,9 @@
    "raw": "Green caps. / Leaks slower. / Fewer trips. //",
    "est": 4.9,
    "img": "frames/16x9/0097.png",
-   "vimg": "frames/9x16/0097.png"
+   "vimg": "frames/9x16/0097.png",
+   "start": 202.64,
+   "end": 205.28
   },
   {
    "line": 98,
@@ -983,7 +1177,9 @@
    "raw": "Sounds like a fix.",
    "est": 2.05,
    "img": "frames/16x9/0098.png",
-   "vimg": "frames/9x16/0098.png"
+   "vimg": "frames/9x16/0098.png",
+   "start": 205.74,
+   "end": 206.66
   },
   {
    "line": 99,
@@ -993,7 +1189,9 @@
    "raw": "They hate it. /",
    "est": 2.13,
    "img": "frames/16x9/0099.png",
-   "vimg": "frames/9x16/0099.png"
+   "vimg": "frames/9x16/0099.png",
+   "start": 207.24,
+   "end": 208.08
   },
   {
    "line": 100,
@@ -1003,7 +1201,9 @@
    "raw": "Nitrogen tires don't whine. //",
    "est": 3.05,
    "img": "frames/16x9/0100.png",
-   "vimg": "frames/9x16/0100.png"
+   "vimg": "frames/9x16/0100.png",
+   "start": 208.08,
+   "end": 210.22
   },
   {
    "line": 101,
@@ -1013,7 +1213,9 @@
    "raw": "They sulk.",
    "est": 1.2,
    "img": "frames/16x9/0101.png",
-   "vimg": "frames/9x16/0101.png"
+   "vimg": "frames/9x16/0101.png",
+   "start": 210.76,
+   "end": 211.28
   },
   {
    "line": 102,
@@ -1023,7 +1225,9 @@
    "raw": "A man in Tucson switched all four. /",
    "est": 3.83,
    "img": "frames/16x9/0102.png",
-   "vimg": "frames/9x16/0102.png"
+   "vimg": "frames/9x16/0102.png",
+   "start": 211.86,
+   "end": 213.92
   },
   {
    "line": 103,
@@ -1033,7 +1237,9 @@
    "raw": "Eighteen months, / the light never came on once. //",
    "est": 5.25,
    "img": "frames/16x9/0103.png",
-   "vimg": "frames/9x16/0103.png"
+   "vimg": "frames/9x16/0103.png",
+   "start": 214.76,
+   "end": 217.18
   },
   {
    "line": 104,
@@ -1043,7 +1249,9 @@
    "raw": "He missed it. /",
    "est": 2.13,
    "img": "frames/16x9/0104.png",
-   "vimg": "frames/9x16/0104.png"
+   "vimg": "frames/9x16/0104.png",
+   "start": 217.58,
+   "end": 218.24
   },
   {
    "line": 105,
@@ -1053,7 +1261,9 @@
    "raw": "He went back to regular air in the spring. /",
    "est": 4.68,
    "img": "frames/16x9/0105.png",
-   "vimg": "frames/9x16/0105.png"
+   "vimg": "frames/9x16/0105.png",
+   "start": 218.6,
+   "end": 220.5
   },
   {
    "line": 106,
@@ -1063,7 +1273,9 @@
    "raw": "He says it felt like coming home.",
    "est": 3.33,
    "img": "frames/16x9/0106.png",
-   "vimg": "frames/9x16/0106.png"
+   "vimg": "frames/9x16/0106.png",
+   "start": 221.02,
+   "end": 222.92
   },
   {
    "line": 107,
@@ -1073,7 +1285,9 @@
    "raw": "The light starts coming on for no reason. /",
    "est": 4.25,
    "img": "frames/16x9/0107.png",
-   "vimg": "frames/9x16/0107.png"
+   "vimg": "frames/9x16/0107.png",
+   "start": 223.5,
+   "end": 225.64
   },
   {
    "line": 108,
@@ -1083,7 +1297,9 @@
    "raw": "Bitching and whining / about nothing. /",
    "est": 3.48,
    "img": "frames/16x9/0108.png",
-   "vimg": "frames/9x16/0108.png"
+   "vimg": "frames/9x16/0108.png",
+   "start": 226.02,
+   "end": 227.88
   },
   {
    "line": 109,
@@ -1093,7 +1309,9 @@
    "raw": "Just to see if you still care.",
    "est": 3.33,
    "img": "frames/16x9/0109.png",
-   "vimg": "frames/9x16/0109.png"
+   "vimg": "frames/9x16/0109.png",
+   "start": 228.18,
+   "end": 229.62
   },
   {
    "line": 110,
@@ -1103,7 +1321,9 @@
    "raw": "And then the car starts to pull. /",
    "est": 3.83,
    "img": "frames/16x9/0110.png",
-   "vimg": "frames/9x16/0110.png"
+   "vimg": "frames/9x16/0110.png",
+   "start": 230.08,
+   "end": 232.0
   },
   {
    "line": 111,
@@ -1113,7 +1333,9 @@
    "raw": "A little to the right. /",
    "est": 2.98,
    "img": "frames/16x9/0111.png",
-   "vimg": "frames/9x16/0111.png"
+   "vimg": "frames/9x16/0111.png",
+   "start": 232.42,
+   "end": 233.28
   },
   {
    "line": 112,
@@ -1123,7 +1345,9 @@
    "raw": "Toward the station. //",
    "est": 2.63,
    "img": "frames/16x9/0112.png",
-   "vimg": "frames/9x16/0112.png"
+   "vimg": "frames/9x16/0112.png",
+   "start": 233.6,
+   "end": 234.46
   },
   {
    "line": 113,
@@ -1133,7 +1357,9 @@
    "raw": "You'll think it's alignment. //",
    "est": 3.05,
    "img": "frames/16x9/0113.png",
-   "vimg": "frames/9x16/0113.png"
+   "vimg": "frames/9x16/0113.png",
+   "start": 235.02,
+   "end": 235.84
   },
   {
    "line": 114,
@@ -1143,7 +1369,9 @@
    "raw": "That's a suggestion.",
    "est": 1.63,
    "img": "frames/16x9/0114.png",
-   "vimg": "frames/9x16/0114.png"
+   "vimg": "frames/9x16/0114.png",
+   "start": 236.52,
+   "end": 237.28
   },
   {
    "line": 115,
@@ -1153,7 +1381,9 @@
    "raw": "Rule seven. //",
    "est": 2.2,
    "img": "frames/16x9/0115.png",
-   "vimg": "frames/9x16/0115.png"
+   "vimg": "frames/9x16/0115.png",
+   "start": 238.08,
+   "end": 238.86
   },
   {
    "line": 116,
@@ -1163,7 +1393,9 @@
    "raw": "And the light? /",
    "est": 2.13,
    "img": "frames/16x9/0116.png",
-   "vimg": "frames/9x16/0116.png"
+   "vimg": "frames/9x16/0116.png",
+   "start": 239.32,
+   "end": 239.88
   },
   {
    "line": 117,
@@ -1173,7 +1405,9 @@
    "raw": "The light was never about pressure. //",
    "est": 3.9,
    "img": "frames/16x9/0117.png",
-   "vimg": "frames/9x16/0117.png"
+   "vimg": "frames/9x16/0117.png",
+   "start": 240.34,
+   "end": 242.18
   },
   {
    "line": 118,
@@ -1183,7 +1417,9 @@
    "raw": "The light is how they call you.",
    "est": 3.33,
    "img": "frames/16x9/0118.png",
-   "vimg": "frames/9x16/0118.png"
+   "vimg": "frames/9x16/0118.png",
+   "start": 242.66,
+   "end": 244.54
   },
   {
    "line": 119,
@@ -1193,7 +1429,9 @@
    "raw": "Like a bell on a counter. /",
    "est": 3.4,
    "img": "frames/16x9/0119.png",
-   "vimg": "frames/9x16/0119.png"
+   "vimg": "frames/9x16/0119.png",
+   "start": 244.76,
+   "end": 245.96
   },
   {
    "line": 120,
@@ -1203,7 +1441,9 @@
    "raw": "And you come. //",
    "est": 2.63,
    "img": "frames/16x9/0120.png",
-   "vimg": "frames/9x16/0120.png"
+   "vimg": "frames/9x16/0120.png",
+   "start": 246.34,
+   "end": 247.06
   },
   {
    "line": 121,
@@ -1213,7 +1453,9 @@
    "raw": "Every time.",
    "est": 1.2,
    "img": "frames/16x9/0121.png",
-   "vimg": "frames/9x16/0121.png"
+   "vimg": "frames/9x16/0121.png",
+   "start": 247.44,
+   "end": 248.26
   },
   {
    "line": 122,
@@ -1223,7 +1465,9 @@
    "raw": "Every cold morning the light came on. /",
    "est": 3.83,
    "img": "frames/16x9/0122.png",
-   "vimg": "frames/9x16/0122.png"
+   "vimg": "frames/9x16/0122.png",
+   "start": 248.78,
+   "end": 250.86
   },
   {
    "line": 123,
@@ -1233,7 +1477,9 @@
    "raw": "Every time you kicked a tire to see which one. /",
    "est": 5.11,
    "img": "frames/16x9/0123.png",
-   "vimg": "frames/9x16/0123.png"
+   "vimg": "frames/9x16/0123.png",
+   "start": 251.22,
+   "end": 253.7
   },
   {
    "line": 124,
@@ -1243,7 +1489,9 @@
    "raw": "Every hiss from a gauge. /",
    "est": 2.98,
    "img": "frames/16x9/0124.png",
-   "vimg": "frames/9x16/0124.png"
+   "vimg": "frames/9x16/0124.png",
+   "start": 254.16,
+   "end": 255.44
   },
   {
    "line": 125,
@@ -1253,7 +1501,9 @@
    "raw": "Every cracked hose at a gas station at night. /",
    "est": 4.68,
    "img": "frames/16x9/0125.png",
-   "vimg": "frames/9x16/0125.png"
+   "vimg": "frames/9x16/0125.png",
+   "start": 256.08,
+   "end": 258.5
   },
   {
    "line": 126,
@@ -1263,7 +1513,9 @@
    "raw": "Every slosh on the highway you told yourself was the cupholder. /",
    "est": 5.53,
    "img": "frames/16x9/0126.png",
-   "vimg": "frames/9x16/0126.png"
+   "vimg": "frames/9x16/0126.png",
+   "start": 259.0,
+   "end": 261.68
   },
   {
    "line": 127,
@@ -1273,7 +1525,9 @@
    "raw": "Every long way home.",
    "est": 2.05,
    "img": "frames/16x9/0127.png",
-   "vimg": "frames/9x16/0127.png"
+   "vimg": "frames/9x16/0127.png",
+   "start": 262.64,
+   "end": 264.06
   },
   {
    "line": 128,
@@ -1283,7 +1537,9 @@
    "raw": "They were always whining. //",
    "est": 3.05,
    "img": "frames/16x9/0128.png",
-   "vimg": "frames/9x16/0128.png"
+   "vimg": "frames/9x16/0128.png",
+   "start": 264.52,
+   "end": 265.84
   },
   {
    "line": 129,
@@ -1293,7 +1549,9 @@
    "raw": "You were always listening.",
    "est": 2.05,
    "img": "frames/16x9/0129.png",
-   "vimg": "frames/9x16/0129.png"
+   "vimg": "frames/9x16/0129.png",
+   "start": 266.3,
+   "end": 267.94
   },
   {
    "line": 130,
@@ -1303,7 +1561,9 @@
    "raw": "So tonight, / when the light comes on\u2026 /",
    "est": 4.33,
    "img": "frames/16x9/0130.png",
-   "vimg": "frames/9x16/0130.png"
+   "vimg": "frames/9x16/0130.png",
+   "start": 268.5,
+   "end": 270.6
   },
   {
    "line": 131,
@@ -1313,7 +1573,9 @@
    "raw": "don't pull over. /",
    "est": 2.13,
    "img": "frames/16x9/0131.png",
-   "vimg": "frames/9x16/0131.png"
+   "vimg": "frames/9x16/0131.png",
+   "start": 270.98,
+   "end": 271.82
   },
   {
    "line": 132,
@@ -1323,7 +1585,9 @@
    "raw": "Drive past the free air. /",
    "est": 2.98,
    "img": "frames/16x9/0132.png",
-   "vimg": "frames/9x16/0132.png"
+   "vimg": "frames/9x16/0132.png",
+   "start": 272.16,
+   "end": 273.7
   },
   {
    "line": 133,
@@ -1333,7 +1597,9 @@
    "raw": "Don't look at it.",
    "est": 2.05,
    "img": "frames/16x9/0133.png",
-   "vimg": "frames/9x16/0133.png"
+   "vimg": "frames/9x16/0133.png",
+   "start": 274.1,
+   "end": 274.78
   },
   {
    "line": 134,
@@ -1343,7 +1609,9 @@
    "raw": "The light will flash. /",
    "est": 2.55,
    "img": "frames/16x9/0134.png",
-   "vimg": "frames/9x16/0134.png"
+   "vimg": "frames/9x16/0134.png",
+   "start": 275.14,
+   "end": 276.0
   },
   {
    "line": 135,
@@ -1353,7 +1621,9 @@
    "raw": "The wheel will pull. /",
    "est": 2.55,
    "img": "frames/16x9/0135.png",
-   "vimg": "frames/9x16/0135.png"
+   "vimg": "frames/9x16/0135.png",
+   "start": 276.6,
+   "end": 277.6
   },
   {
    "line": 136,
@@ -1363,7 +1633,9 @@
    "raw": "Keep it straight.",
    "est": 1.63,
    "img": "frames/16x9/0136.png",
-   "vimg": "frames/9x16/0136.png"
+   "vimg": "frames/9x16/0136.png",
+   "start": 278.04,
+   "end": 278.76
   },
   {
    "line": 137,
@@ -1373,7 +1645,9 @@
    "raw": "If you make it home without stopping\u2026 /",
    "est": 3.83,
    "img": "frames/16x9/0137.png",
-   "vimg": "frames/9x16/0137.png"
+   "vimg": "frames/9x16/0137.png",
+   "start": 279.32,
+   "end": 280.86
   },
   {
    "line": 138,
@@ -1383,7 +1657,9 @@
    "raw": "check your tires in the morning. //",
    "est": 3.9,
    "img": "frames/16x9/0138.png",
-   "vimg": "frames/9x16/0138.png"
+   "vimg": "frames/9x16/0138.png",
+   "start": 281.24,
+   "end": 282.56
   },
   {
    "line": 139,
@@ -1393,7 +1669,9 @@
    "raw": "All four will be full.",
    "est": 2.48,
    "img": "frames/16x9/0139.png",
-   "vimg": "frames/9x16/0139.png"
+   "vimg": "frames/9x16/0139.png",
+   "start": 283.0,
+   "end": 284.26
   },
   {
    "line": 140,
@@ -1403,7 +1681,9 @@
    "raw": "They can fill themselves. /",
    "est": 2.55,
    "img": "frames/16x9/0140.png",
-   "vimg": "frames/9x16/0140.png"
+   "vimg": "frames/9x16/0140.png",
+   "start": 284.7,
+   "end": 285.48
   },
   {
    "line": 141,
@@ -1413,7 +1693,9 @@
    "raw": "They always could. //",
    "est": 2.63,
    "img": "frames/16x9/0141.png",
-   "vimg": "frames/9x16/0141.png"
+   "vimg": "frames/9x16/0141.png",
+   "start": 286.14,
+   "end": 286.94
   },
   {
    "line": 142,
@@ -1423,17 +1705,21 @@
    "raw": "They just like it when you do it.",
    "est": 3.75,
    "img": "frames/16x9/0142.png",
-   "vimg": "frames/9x16/0142.png"
+   "vimg": "frames/9x16/0142.png",
+   "start": 287.2,
+   "end": 288.9
   },
   {
    "line": 143,
    "cue": 46,
    "scene": "SIGN-OFF",
-   "text": "This has been a roadside notice from [YOUR AGENCY NAME].",
-   "raw": "This has been a roadside notice / from [YOUR AGENCY NAME]. //",
+   "text": "This has been a roadside notice from the Residents' Office.",
+   "raw": "This has been a roadside notice / from the Residents' Office. //",
    "est": 6.11,
    "img": "frames/16x9/0143.png",
-   "vimg": "frames/9x16/0143.png"
+   "vimg": "frames/9x16/0143.png",
+   "start": 288.9,
+   "end": 292.06
   },
   {
    "line": 144,
@@ -1443,7 +1729,9 @@
    "raw": "You think you're needy about air. /",
    "est": 3.4,
    "img": "frames/16x9/0144.png",
-   "vimg": "frames/9x16/0144.png"
+   "vimg": "frames/9x16/0144.png",
+   "start": 292.66,
+   "end": 294.26
   },
   {
    "line": 145,
@@ -1453,7 +1741,9 @@
    "raw": "They're needy about you. //",
    "est": 3.05,
    "img": "frames/16x9/0145.png",
-   "vimg": "frames/9x16/0145.png"
+   "vimg": "frames/9x16/0145.png",
+   "start": 294.8,
+   "end": 296.02
   },
   {
    "line": 146,
@@ -1463,7 +1753,13 @@
    "raw": "Thank you for your cooperation.",
    "est": 2.48,
    "img": "frames/16x9/0146.png",
-   "vimg": "frames/9x16/0146.png"
+   "vimg": "frames/9x16/0146.png",
+   "start": 296.46,
+   "end": 297.62
   }
- ]
+ ],
+ "narration": {
+  "file": "narration.mp3",
+  "duration": 298.266
+ }
 }

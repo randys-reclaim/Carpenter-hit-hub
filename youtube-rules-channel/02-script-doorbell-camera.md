@@ -21,13 +21,13 @@
 > If your doorbell camera ever sends a 3:12 AM motion alert showing YOU walking out the front door while you're in bed… stay inside. Here are the 7 rules for when your doorbell camera, Ring alert, or security camera records something it shouldn't.
 >
 > 0:00 The Alert
-> 0:18 Rule 1: Don't Watch It Twice
-> 1:20 Rule 2: Don't Delete The Clip
-> 2:15 Rule 3: Don't Check The Porch
-> 3:10 Rule 4: Keep Notifications On
-> 4:00 Rule 5: Don't Wave Back
-> 5:00 Rule 6: Don't Answer The Door
-> 6:05 Rule 7: Shared Users
+> 0:24 Rule 1: Don't Watch It Twice
+> 1:24 Rule 2: Don't Delete The Clip
+> 1:54 Rule 3: Don't Check The Porch
+> 2:30 Rule 4: Keep Notifications On
+> 3:02 Rule 5: Don't Wave Back
+> 3:44 Rule 6: Don't Answer The Door
+> 4:30 Rule 7: Shared Users
 >
 > This is a work of fiction. Stay inside.
 

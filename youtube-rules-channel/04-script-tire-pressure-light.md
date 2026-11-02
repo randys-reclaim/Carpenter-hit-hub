@@ -21,13 +21,13 @@
 > If your tire pressure light ever comes on on a cold morning… don't pull over. Here are the 7 rules for when your TPMS light, low tire pressure warning, or tire pressure sensor won't stop going off, and why you always end up at the free air machine.
 >
 > 0:00 The Light
-> 0:20 Rule 1: Don't Check Which Tire
-> 1:20 Rule 2: Don't Fill Them To The Line
-> 2:10 Rule 3: Free Air
-> 3:00 Rule 4: The Hose
-> 3:55 Rule 5: The Water
-> 4:50 Rule 6: Don't Switch To Nitrogen
-> 5:50 Rule 7: Don't Pull Over
+> 0:17 Rule 1: Don't Check Which Tire
+> 1:04 Rule 2: Don't Fill Them To The Line
+> 1:35 Rule 3: Free Air
+> 2:11 Rule 4: The Hose
+> 2:45 Rule 5: The Water
+> 3:17 Rule 6: Don't Switch To Nitrogen
+> 3:58 Rule 7: Don't Pull Over
 >
 > This is a work of fiction. Check your tire pressure.
 

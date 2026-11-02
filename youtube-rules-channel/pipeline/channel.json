@@ -1,0 +1,9 @@
+{
+  "name": "The Residents' Office",
+  "short": "RESIDENTS' OFFICE",
+  "handle": "@ResidentsOffice",
+  "tagline": "Notices for things your house won't tell you.",
+  "signoff": "This account is monitored.",
+  "voice_id": "",
+  "tts_model": "eleven_multilingual_v2"
+}

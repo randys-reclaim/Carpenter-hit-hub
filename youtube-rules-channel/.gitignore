@@ -1,0 +1,9 @@
+# per-line caption frames are rebuilt in about a minute by frames.py
+episodes/*/frames/16x9/
+episodes/*/frames/9x16/
+episodes/*/work/
+episodes/*/audio/
+# secrets for uploading
+pipeline/client_secret.json
+pipeline/youtube-token.json
+__pycache__/

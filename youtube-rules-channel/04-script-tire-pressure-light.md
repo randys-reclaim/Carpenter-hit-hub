@@ -429,7 +429,7 @@ They just like it when you do it.
 **[VISUAL]** Black screen. Your narrator mascot. Yellow underline.
 <!-- shot: mascot -->
 
-This has been a roadside notice / from [YOUR AGENCY NAME]. //
+This has been a roadside notice / from the Residents' Office. //
 You think you're needy about air. /
 They're needy about you. //
 Thank you for your cooperation.

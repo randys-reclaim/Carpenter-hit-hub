@@ -7,9 +7,11 @@ The cut file lists which narration lines to use, in order, one per line:
   1 shock          line 1, with a hard punch-zoom and shake
   10 rule          rule title: white flash and punch-in
   12               a normal line: quick punch-in
-  ALERT Duluth, MN start an "emergency notice" interruption (card + tone)
-  25 alert         lines read under the LIVE emergency overlay
-  END              end the interruption (glitch back to the notice)
+  ALERT Duluth, MN start an interruption: red WARNING strobe + alarm beeps
+  25               lines inside an interruption play under the red LIVE overlay
+  27 cut           cut the story off part-way through this line with a burst of
+                   static, like the feed got hacked, and return to the notice
+  END              end an interruption without the static cut
 
 The voice is cut from <episode>/narration.mp3 using the line timings written
 by time_narration.py, so it is the same recording as the long video.
@@ -21,7 +23,8 @@ from pathlib import Path
 HERE = Path(__file__).parent
 W, H, FPS = 1080, 1920, 30
 GAP = 0.08          # silence between lines (seconds)
-CARD = 1.3          # "we interrupt" card length
+CARD = 0.75         # red WARNING flash length
+GLITCH = 0.35       # static burst when an interruption is cut off
 RED, ACC, INK, BG = "#FF3B30", "#FFC400", "#FFFFFF", "#0B0B0C"
 
 def ff(*a):
@@ -45,15 +48,15 @@ def alert_overlay(city):
             f'<div style="position:absolute;left:0;right:0;top:360px;height:70px;background:{BG};display:flex;align-items:center;justify-content:center;'
             f'font:500 34px JetBrains Mono,monospace;letter-spacing:.2em;color:{ACC}">INCIDENT REPORTED · {c}</div></div>')
 
-def alert_card(city):
+def alert_card(city, inverse=False):
+    """Full-screen WARNING flash. Two versions (red on black / black on red) alternate to strobe."""
+    bg, fg = (RED, BG) if inverse else (BG, RED)
     c = html.escape(city.upper())
-    return (f'<div style="position:relative;width:{W}px;height:{H}px;background:{BG};overflow:hidden">'
-            f'<div style="position:absolute;inset:0;background:repeating-linear-gradient(-45deg,{RED} 0 60px,{BG} 60px 120px);opacity:.22"></div>'
-            f'<div style="position:absolute;left:60px;right:60px;top:640px;text-align:center;font:900 240px/1 Montserrat,sans-serif;color:{RED}">⚠</div>'
-            f'<div style="position:absolute;left:60px;right:60px;top:930px;text-align:center;font:900 92px/1.1 Montserrat,sans-serif;color:{INK};letter-spacing:.02em">WE INTERRUPT<br>THIS NOTICE</div>'
-            f'<div style="position:absolute;left:0;right:0;top:1200px;height:100px;background:{RED};display:flex;align-items:center;justify-content:center;'
-            f'font:900 48px Montserrat,sans-serif;letter-spacing:.1em;color:{INK}">THIS JUST HAPPENED</div>'
-            f'<div style="position:absolute;left:0;right:0;top:1330px;text-align:center;font:500 40px JetBrains Mono,monospace;letter-spacing:.24em;color:{ACC}">{c}</div></div>')
+    return (f'<div style="position:relative;width:{W}px;height:{H}px;background:{bg};overflow:hidden">'
+            f'<div style="position:absolute;inset:0;background:repeating-linear-gradient(0deg,rgba(0,0,0,.18) 0 3px,transparent 3px 7px)"></div>'
+            f'<div style="position:absolute;left:0;right:0;top:620px;text-align:center;font:900 300px/1 Montserrat,sans-serif;color:{fg}">⚠</div>'
+            f'<div style="position:absolute;left:0;right:0;top:960px;text-align:center;font:900 165px/1 Montserrat,sans-serif;color:{fg};letter-spacing:.02em">WARNING</div>'
+            f'<div style="position:absolute;left:0;right:0;top:1200px;text-align:center;font:500 44px JetBrains Mono,monospace;letter-spacing:.24em;color:{fg}">LIVE INCIDENT · {c}</div></div>')
 
 def motion(kind, d):
     """ffmpeg filter for one still: punch-in, shake, flash. n = frame number."""
@@ -78,15 +81,23 @@ def motion(kind, d):
         vf += ",fade=t=in:st=0:d=0.08:color=white"
     return vf
 
+HACK = "rgbashift=rh=-10:bh=10:gv=4,noise=alls=10"  # fixed grain (moving grain made files huge)
+STATIC = ("noise=alls=90:allf=t+u,rgbashift=rh=-40:bh=40:rv=12:bv=-12,"
+          "hue=s=0.4,eq=contrast=1.6:brightness=0.05,crop=iw:ih*0.92:0:'mod(n*97,ih*0.08)',scale={W}:{H}")
+
 def clip(img, d, kind, out, overlay=None):
-    vf = motion(kind, d)
+    vf = motion("alert" if kind in ("alert", "cut") else kind, d)
+    if kind == "static":
+        vf = motion("shock", d) + "," + STATIC.format(W=W, H=H)
+    elif kind in ("alert", "cut") or overlay:
+        vf += "," + HACK
     if overlay:
         graph = f"[0:v]{vf}[b];[1:v]format=rgba[o];[b][o]overlay=0:0:enable='gt(mod(t,0.9),0.08)'"
         ff("-loop", "1", "-t", f"{d}", "-i", str(img), "-loop", "1", "-t", f"{d}", "-i", str(overlay),
-           "-filter_complex", graph + ",format=yuv420p", "-r", str(FPS), "-c:v", "libx264", "-preset", "medium", "-crf", "17", "-tune", "animation", str(out))
+           "-filter_complex", graph + ",format=yuv420p", "-r", str(FPS), "-c:v", "libx264", "-preset", "medium", "-crf", "18", "-maxrate", "8M", "-bufsize", "16M", "-tune", "animation", str(out))
     else:
         ff("-loop", "1", "-t", f"{d}", "-i", str(img), "-vf", vf + ",format=yuv420p", "-r", str(FPS),
-           "-c:v", "libx264", "-preset", "medium", "-crf", "17", "-tune", "animation", str(out))
+           "-c:v", "libx264", "-preset", "medium", "-crf", "18", "-maxrate", "8M", "-bufsize", "16M", "-tune", "animation", str(out))
 
 def parse_cut(path):
     items = []
@@ -116,6 +127,7 @@ def run(ep_dir, cut_path):
     for i, c in enumerate(cities):
         jobs.append((alert_overlay(c), work / f"ov{i}.png", True))
         jobs.append((alert_card(c), work / f"card{i}.png", False))
+        jobs.append((alert_card(c, inverse=True), work / f"cardx{i}.png", False))
     if jobs:
         render(jobs)
 
@@ -126,7 +138,10 @@ def run(ep_dir, cut_path):
             a_idx += 1
             in_alert = True
             p = work / f"s{k:03d}.mp4"
-            clip(work / f"card{a_idx}.png", CARD, "shock", p)
+            graph = (f"[0:v]{motion('shock', CARD)},{HACK}[a];[1:v]{motion('shock', CARD)}[b];"
+                     f"[a][b]overlay=0:0:enable='lt(mod(t,0.18),0.09)',format=yuv420p")
+            ff("-loop", "1", "-t", f"{CARD}", "-i", str(work / f"card{a_idx}.png"), "-loop", "1", "-t", f"{CARD}", "-i", str(work / f"cardx{a_idx}.png"),
+               "-filter_complex", graph, "-r", str(FPS), "-c:v", "libx264", "-preset", "medium", "-crf", "18", "-maxrate", "8M", "-bufsize", "16M", "-tune", "animation", str(p))
             segs.append(p)
             audio.append(("tone", CARD))
             continue
@@ -135,12 +150,20 @@ def run(ep_dir, cut_path):
             continue
         ln = by_no[key]
         a, b = max(0, ln["start"] - 0.04), ln["end"] + 0.10
-        d = round(b - a + GAP, 3)
+        if kind == "cut":
+            b = a + (b - a) * 0.65
+        d = round(b - a + (0 if kind == "cut" else GAP), 3)
         p = work / f"s{k:03d}.mp4"
         clip(ep / ln["vimg"], d, "alert" if in_alert and kind == "line" else kind, p,
              overlay=work / f"ov{a_idx}.png" if in_alert else None)
         segs.append(p)
         audio.append(("voice", a, b, d))
+        if kind == "cut":
+            p = work / f"s{k:03d}x.mp4"
+            clip(ep / ln["vimg"], GLITCH, "static", p)
+            segs.append(p)
+            audio.append(("static", GLITCH))
+            in_alert = False
 
     lst = work / "list.txt"
     lst.write_text("".join(f"file '{p.resolve()}'\n" for p in segs))
@@ -151,15 +174,17 @@ def run(ep_dir, cut_path):
     parts, inputs, n = [], [], 0
     for a in audio:
         if a[0] == "tone":
-            d = a[1]
-            parts.append(f"sine=f=1050:d=0.18,volume=0.35,apad=pad_dur=0.12[t{n}a];sine=f=1050:d=0.18,volume=0.35,apad=whole_dur={d-0.30:.3f}[t{n}b];[t{n}a][t{n}b]concat=n=2:v=0:a=1,aformat=sample_rates=44100:channel_layouts=mono[p{n}]")
+            d = a[1]  # three fast alarm beeps
+            parts.append(f"sine=f=1180:d={d:.3f},volume='0.4*lt(mod(t,0.25),0.12)':eval=frame,aformat=sample_rates=44100:channel_layouts=mono[p{n}]")
+        elif a[0] == "static":
+            parts.append(f"anoisesrc=color=white:amplitude=0.5:duration={a[1]:.3f},highpass=f=900,volume=0.5,aformat=sample_rates=44100:channel_layouts=mono[p{n}]")
         else:
             _, s, e, d = a
             inputs += ["-ss", f"{s:.3f}", "-to", f"{e:.3f}", "-i", str(narr)]
             idx = len(inputs) // 6 - 1
             parts.append(f"[{idx}:a]aformat=sample_rates=44100:channel_layouts=mono,apad=whole_dur={d:.3f}[p{n}]")
         n += 1
-    total = sum(x[1] if x[0] == "tone" else x[3] for x in audio)
+    total = sum(x[1] if x[0] in ("tone", "static") else x[3] for x in audio)
     graph = ";".join(parts) + ";" + "".join(f"[p{i}]" for i in range(n)) + f"concat=n={n}:v=0:a=1[v];"
     graph += f"anoisesrc=color=brown:amplitude=0.035:duration={total:.3f},lowpass=f=180,volume=0.6[tone];"
     graph += "[v][tone]amix=inputs=2:duration=first:normalize=0,loudnorm=I=-14:TP=-1.5[out]"

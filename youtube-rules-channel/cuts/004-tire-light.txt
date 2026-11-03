@@ -14,9 +14,7 @@
 ALERT Duluth, MN
 25
 26
-27
-28
-END
+27 cut
 # Rule 2
 32 rule
 35 shock
@@ -32,9 +30,7 @@ END
 55
 ALERT Bakersfield, CA
 60
-61
-62
-END
+61 cut
 # Rule 4
 63 rule
 66
@@ -58,10 +54,7 @@ END
 ALERT Tucson, AZ
 102
 103
-104
-105
-106
-END
+104 cut
 # Rule 7: the twist
 115 rule
 117

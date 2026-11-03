@@ -1,4 +1,5 @@
 pocketsphinx>=5.0                # align_recording.py
+piper-tts>=1.2                  # shorts.py emergency-broadcast voices (models download to ~/.cache/piper-voices)
 faster-whisper>=1.0            # time_narration.py (word timings for one continuous voiceover)
 anthropic>=2.3.0                 # write_script.py
 google-api-python-client>=2.0    # upload_youtube.py

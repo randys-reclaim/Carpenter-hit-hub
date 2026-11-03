@@ -12,6 +12,13 @@ The cut file lists which narration lines to use, in order, one per line:
   27 cut           cut the story off part-way through this line with a burst of
                    static, like the feed got hacked, and return to the notice
   END              end an interruption without the static cut
+  SAY lessac Warning. We interrupt your regularly scheduled video.
+                   inside an interruption: a robotic emergency voice reads the
+                   text (piper TTS voices: lessac = woman, ryan = man). The
+                   first SAY plays over the WARNING strobe; later ones over a
+                   LIVE bulletin screen with the words as captions.
+  STATIC           a short burst of static
+  SAYCUT ryan ...  like SAY, but cut off part-way, then two glitches and back
 
 The voice is cut from <episode>/narration.mp3 using the line timings written
 by time_narration.py, so it is the same recording as the long video.
@@ -26,6 +33,24 @@ GAP = 0.08          # silence between lines (seconds)
 CARD = 0.75         # red WARNING flash length
 GLITCH = 0.35       # static burst when an interruption is cut off
 RED, ACC, INK, BG = "#FF3B30", "#FFC400", "#FFFFFF", "#0B0B0C"
+
+VOICE_DIR = Path.home() / ".cache" / "piper-voices"
+VOICE_URL = "https://huggingface.co/rhasspy/piper-voices/resolve/main/en/en_US/{n}/medium/en_US-{n}-medium.onnx"
+
+def tts(text, voice, out):
+    """Robotic emergency-broadcast voice: piper TTS, then a radio band-pass and a little grit."""
+    VOICE_DIR.mkdir(parents=True, exist_ok=True)
+    model = VOICE_DIR / f"en_US-{voice}-medium.onnx"
+    for suffix in ("", ".json"):
+        f = Path(str(model) + suffix)
+        if not f.exists():
+            subprocess.run(["curl", "-sSL", "-o", str(f), VOICE_URL.format(n=voice) + suffix], check=True)
+    raw = Path(str(out) + ".raw.wav")
+    subprocess.run([sys.executable, "-m", "piper", "-m", str(model), "-f", str(raw)], input=text.encode(), check=True, capture_output=True)
+    ff("-i", str(raw), "-af", "highpass=f=320,lowpass=f=3300,acrusher=bits=10:mix=0.25,volume=1.6,aresample=44100", "-ac", "1", str(out))
+    raw.unlink()
+    return float(subprocess.run(["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", str(out)],
+                                capture_output=True, text=True).stdout)
 
 def ff(*a):
     subprocess.run(["ffmpeg", "-v", "error", "-y", *a], check=True)
@@ -57,6 +82,11 @@ def alert_card(city, inverse=False):
             f'<div style="position:absolute;left:0;right:0;top:620px;text-align:center;font:900 300px/1 Montserrat,sans-serif;color:{fg}">⚠</div>'
             f'<div style="position:absolute;left:0;right:0;top:960px;text-align:center;font:900 165px/1 Montserrat,sans-serif;color:{fg};letter-spacing:.02em">WARNING</div>'
             f'<div style="position:absolute;left:0;right:0;top:1200px;text-align:center;font:500 44px JetBrains Mono,monospace;letter-spacing:.24em;color:{fg}">LIVE INCIDENT · {c}</div></div>')
+
+def bulletin(text, city, notice):
+    """LIVE bulletin screen: the case's map pin with the spoken words as the caption."""
+    import art, frames
+    return frames.frame9(art.svg("pin", {"city": city.split(",")[0]}), notice, "", 0, text)
 
 def motion(kind, d):
     """ffmpeg filter for one still: punch-in, shake, flash. n = frame number."""
@@ -109,6 +139,11 @@ def parse_cut(path):
             items.append(("ALERT", s[5:].strip()))
         elif s == "END":
             items.append(("END", ""))
+        elif s == "STATIC":
+            items.append(("STATIC", ""))
+        elif s.startswith("SAYCUT ") or s.startswith("SAY "):
+            tag, voice, text = s.split(" ", 2)
+            items.append((tag, (voice, text)))
         else:
             p = s.split()
             items.append((int(p[0]), p[1] if len(p) > 1 else "line"))
@@ -128,6 +163,22 @@ def run(ep_dir, cut_path):
         jobs.append((alert_overlay(c), work / f"ov{i}.png", True))
         jobs.append((alert_card(c), work / f"card{i}.png", False))
         jobs.append((alert_card(c, inverse=True), work / f"cardx{i}.png", False))
+    notice = tl["meta"].get("notice", "000")
+    said, a_i, first = {}, -1, True
+    for k, (key, val) in enumerate(items):
+        if key == "ALERT":
+            a_i, first = a_i + 1, True
+        elif key in ("SAY", "SAYCUT"):
+            voice, text = val
+            wav = work / f"say{k:03d}.wav"
+            said[k] = (wav, tts(text, voice, wav), first)
+            if not first:
+                shown = text
+                if key == "SAYCUT":  # the voice is cut at 70%, so the caption stops there too
+                    ws = text.split()
+                    shown = " ".join(ws[:max(1, round(len(ws) * 0.7))]).rstrip(",.") + "—"
+                jobs.append((bulletin(shown, cities[a_i], notice), work / f"bul{k:03d}.png", False))
+            first = False
     if jobs:
         render(jobs)
 
@@ -147,6 +198,37 @@ def run(ep_dir, cut_path):
             continue
         if key == "END":
             in_alert = False
+            continue
+        if key == "STATIC":
+            p = work / f"s{k:03d}.mp4"
+            clip(work / f"card{a_idx}.png", GLITCH, "static", p)
+            segs.append(p)
+            audio.append(("static", GLITCH))
+            continue
+        if key in ("SAY", "SAYCUT"):
+            wav, dur, on_card = said[k]
+            keep = dur * 0.7 if key == "SAYCUT" else dur + 0.15
+            p = work / f"s{k:03d}.mp4"
+            if on_card:  # keep strobing the WARNING card while the warning is read
+                graph = (f"[0:v]{motion('alert', keep)},{HACK}[a];[1:v]{motion('alert', keep)}[b];"
+                         f"[a][b]overlay=0:0:enable='lt(mod(t,0.36),0.12)',format=yuv420p")
+                ff("-loop", "1", "-t", f"{keep}", "-i", str(work / f"card{a_idx}.png"), "-loop", "1", "-t", f"{keep}", "-i", str(work / f"cardx{a_idx}.png"),
+                   "-filter_complex", graph, "-r", str(FPS), "-c:v", "libx264", "-preset", "medium", "-crf", "18", "-maxrate", "8M", "-bufsize", "16M", "-tune", "animation", str(p))
+            else:
+                clip(work / f"bul{k:03d}.png", keep, "alert", p, overlay=work / f"ov{a_idx}.png")
+            segs.append(p)
+            audio.append(("say", wav, keep))
+            if key == "SAYCUT":  # two glitches, then back to the notice
+                for g, gd in enumerate((0.22, 0.08, 0.26)):
+                    p = work / f"s{k:03d}g{g}.mp4"
+                    if g == 1:
+                        ff("-f", "lavfi", "-i", f"color=c=black:s={W}x{H}:d={gd}:r={FPS}", "-c:v", "libx264", "-pix_fmt", "yuv420p", str(p))
+                        audio.append(("silence", gd))
+                    else:
+                        clip(work / f"bul{k:03d}.png", gd, "static", p)
+                        audio.append(("static", gd))
+                    segs.append(p)
+                in_alert = False
             continue
         ln = by_no[key]
         a, b = max(0, ln["start"] - 0.04), ln["end"] + 0.10
@@ -176,6 +258,13 @@ def run(ep_dir, cut_path):
         if a[0] == "tone":
             d = a[1]  # three fast alarm beeps
             parts.append(f"sine=f=1180:d={d:.3f},volume='0.4*lt(mod(t,0.25),0.12)':eval=frame,aformat=sample_rates=44100:channel_layouts=mono[p{n}]")
+        elif a[0] == "say":
+            _, wav, d = a
+            inputs += ["-ss", "0", "-to", f"{d:.3f}", "-i", str(wav)]
+            idx = len(inputs) // 6 - 1
+            parts.append(f"[{idx}:a]aformat=sample_rates=44100:channel_layouts=mono,afade=t=out:st={max(0, d-0.03):.3f}:d=0.03,apad=whole_dur={d:.3f}[p{n}]")
+        elif a[0] == "silence":
+            parts.append(f"anullsrc=r=44100:cl=mono,atrim=0:{a[1]:.3f}[p{n}]")
         elif a[0] == "static":
             parts.append(f"anoisesrc=color=white:amplitude=0.5:duration={a[1]:.3f},highpass=f=900,volume=0.5,aformat=sample_rates=44100:channel_layouts=mono[p{n}]")
         else:
@@ -184,7 +273,7 @@ def run(ep_dir, cut_path):
             idx = len(inputs) // 6 - 1
             parts.append(f"[{idx}:a]aformat=sample_rates=44100:channel_layouts=mono,apad=whole_dur={d:.3f}[p{n}]")
         n += 1
-    total = sum(x[1] if x[0] in ("tone", "static") else x[3] for x in audio)
+    total = sum(x[1] if x[0] in ("tone", "static", "silence") else x[2] if x[0] == "say" else x[3] for x in audio)
     graph = ";".join(parts) + ";" + "".join(f"[p{i}]" for i in range(n)) + f"concat=n={n}:v=0:a=1[v];"
     graph += f"anoisesrc=color=brown:amplitude=0.035:duration={total:.3f},lowpass=f=180,volume=0.6[tone];"
     graph += "[v][tone]amix=inputs=2:duration=first:normalize=0,loudnorm=I=-14:TP=-1.5[out]"

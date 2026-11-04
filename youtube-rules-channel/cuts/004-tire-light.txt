@@ -9,13 +9,17 @@
 12
 13
 22
-23
+23 interrupt
+PSA
+LIVECHECK lessac Are we live?
+LIVECHECK ryan Are we live?
+LIVECHECK amy Yes. Go.
+BROADCAST joe Warning. A number of tire pressure sensors are getting stuck on cars made from 2000 to 2050.
+BROADCAST joe They are depleting tires at a substantial rate.
+BROADCAST joe If you own any of the following vehicles,
+CARLIST
+ENDPSA
 24 shock
-ALERT Duluth, MN
-SAY lessac Warning. We interrupt your regularly scheduled video.
-STATIC
-SAY ryan Attention all viewers. A number of tire pressure sensors are malfunctioning in vehicles across Duluth, Minnesota.
-SAYCUT ryan One driver reports his light would not turn off until he said, out loud, okay, okay. Do not answer your tires. Do not
 # Rule 2
 32 rule
 35 shock
@@ -29,11 +33,6 @@ SAYCUT ryan One driver reports his light would not turn off until he said, out l
 50
 54
 55
-ALERT Bakersfield, CA
-SAY lessac Warning. We interrupt your regularly scheduled video.
-STATIC
-SAY ryan Attention all viewers. Drivers in Bakersfield, California are reporting that every route now passes a free air machine.
-SAYCUT ryan Navigation systems are not responsible. If your car turns toward the air, do not
 # Rule 4
 63 rule
 66
@@ -54,11 +53,6 @@ SAYCUT ryan Navigation systems are not responsible. If your car turns toward the
 95 rule
 100
 101 shock
-ALERT Tucson, AZ
-SAY lessac Warning. We interrupt your regularly scheduled video.
-STATIC
-SAY ryan Attention all viewers. Vehicles in Tucson, Arizona that were switched to nitrogen are reporting tire lights with no cause.
-SAYCUT ryan The tires are not low. Repeat, the tires are not low. They are
 # Rule 7: the twist
 115 rule
 117

@@ -129,6 +129,52 @@ def clip(img, d, kind, out, overlay=None):
         ff("-loop", "1", "-t", f"{d}", "-i", str(img), "-vf", vf + ",format=yuv420p", "-r", str(FPS),
            "-c:v", "libx264", "-preset", "medium", "-crf", "18", "-maxrate", "8M", "-bufsize", "16M", "-tune", "animation", str(out))
 
+FONT = "/usr/share/fonts/truetype/jetbrains-mono/JetBrainsMono-Bold.ttf"
+
+def cctv_overlay():
+    """Corner brackets and labels of a security-camera feed (transparent PNG)."""
+    b = f"position:absolute;width:90px;height:90px;border-color:{INK};border-style:solid;opacity:.85"
+    return (f'<div style="position:relative;width:{W}px;height:{H}px">'
+            f'<div style="{b};left:40px;top:170px;border-width:6px 0 0 6px"></div><div style="{b};right:40px;top:170px;border-width:6px 6px 0 0"></div>'
+            f'<div style="{b};left:40px;bottom:200px;border-width:0 0 6px 6px"></div><div style="{b};right:40px;bottom:200px;border-width:0 6px 6px 0"></div>'
+            f'<div style="position:absolute;left:150px;bottom:212px;font:500 34px JetBrains Mono,monospace;letter-spacing:.16em;color:{INK};opacity:.85">CAM 04 · YOUR HOUSE</div></div>')
+
+def flash_card(text):
+    return (f'<div style="position:relative;width:{W}px;height:{H}px;background:{BG}">'
+            f'<div style="position:absolute;left:0;right:0;top:860px;text-align:center;font:900 150px/1.05 Montserrat,sans-serif;color:{INK}">{html.escape(text)}</div></div>')
+
+def creep(video, total, work, notice, city):
+    """They're watching: CCTV feed overlay (blinking REC, ticking 3 AM clock, viewer count)
+    and three-frame subliminal flashes every 20-30 seconds."""
+    import art, frames
+    render([(cctv_overlay(), work / "cctv.png", True), (flash_card("I SEE YOU"), work / "f_see.png", False),
+            (flash_card("DON'T TURN AROUND"), work / "f_turn.png", False),
+            (frames.frame9(art.svg("face", {}), notice, "", 0, ""), work / "f_face.png", False)])
+    flashes, t, cycle = [], 19.3, ["f_face", "f_see", "f_face", "f_turn"]
+    while t < total - 4:
+        flashes.append((t, cycle[len(flashes) % len(cycle)]))
+        t += 26.7 if len(flashes) % 2 else 21.9
+    inputs = ["-i", str(video), "-loop", "1", "-i", str(work / "cctv.png")]
+    names = sorted({n for _, n in flashes})
+    for n in names:
+        inputs += ["-loop", "1", "-i", str(work / f"{n}.png")]
+    dt = f"fontfile={FONT}:fontcolor=white"
+    clock = r"03\:%{eif\:12+trunc((4+t)/60)\:d\:2}\:%{eif\:mod(4+t\,60)\:d\:2} AM"
+    g = f"[0:v][1:v]overlay=0:0:shortest=1[v0];"
+    g += (f"[v0]drawtext={dt}:fontsize=40:x=150:y=190:text='● REC':fontcolor=0xFF3B30:enable='lt(mod(t,1),0.6)',"
+          f"drawtext={dt}:fontsize=36:x=330:y=192:text='{clock}',"
+          f"drawtext={dt}:fontsize=34:x=w-tw-150:y=192:text='1 WATCHING':enable='lt(t,{max(0, total-12):.2f})',"
+          f"drawtext={dt}:fontsize=34:x=w-tw-150:y=192:text='2 WATCHING':fontcolor=0xFF3B30:enable='gte(t,{max(0, total-12):.2f})'[v1]")
+    last = "v1"
+    for i, (ft, n) in enumerate(flashes):
+        idx = 2 + names.index(n)
+        g += f";[{last}][{idx}:v]overlay=0:0:enable='between(t,{ft:.3f},{ft+0.1:.3f})'[f{i}]"
+        last = f"f{i}"
+    out = work / "creep.mp4"
+    ff(*inputs, "-filter_complex", g, "-map", f"[{last}]", "-t", f"{total:.3f}", "-r", str(FPS), "-pix_fmt", "yuv420p",
+       "-c:v", "libx264", "-preset", "medium", "-crf", "18", "-maxrate", "8M", "-bufsize", "16M", "-tune", "animation", str(out))
+    return out
+
 def parse_cut(path):
     items = []
     for raw in Path(path).read_text().splitlines():
@@ -275,11 +321,16 @@ def run(ep_dir, cut_path):
         n += 1
     total = sum(x[1] if x[0] in ("tone", "static", "silence") else x[2] if x[0] == "say" else x[3] for x in audio)
     graph = ";".join(parts) + ";" + "".join(f"[p{i}]" for i in range(n)) + f"concat=n={n}:v=0:a=1[v];"
-    graph += f"anoisesrc=color=brown:amplitude=0.035:duration={total:.3f},lowpass=f=180,volume=0.6[tone];"
+    # low electrical drone: two close sine tones beat against each other, over brown-noise room tone
+    graph += (f"anoisesrc=color=brown:amplitude=0.035:duration={total:.3f},lowpass=f=180,volume=0.6[rt];"
+              f"sine=f=55:d={total:.3f},volume=0.05[d1];sine=f=58.5:d={total:.3f},volume=0.05[d2];"
+              f"sine=f=120:d={total:.3f},volume=0.012,tremolo=f=0.3:d=0.8[hum];"
+              f"[rt][d1][d2][hum]amix=inputs=4:normalize=0[tone];")
     graph += "[v][tone]amix=inputs=2:duration=first:normalize=0,loudnorm=I=-14:TP=-1.5[out]"
     sound = work / "sound.m4a"
     ff(*inputs, "-filter_complex", graph, "-map", "[out]", "-c:a", "aac", "-b:a", "192k", str(sound))
 
+    video = creep(video, total, work, notice, cities[0] if cities else "")
     out = ep / "fast-9x16.mp4"
     ff("-i", str(video), "-i", str(sound), "-c:v", "copy", "-c:a", "copy", "-shortest", "-movflags", "+faststart",
        "-colorspace", "bt709", "-color_primaries", "bt709", "-color_trc", "bt709", str(out))

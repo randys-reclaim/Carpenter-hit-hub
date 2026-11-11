@@ -1,5 +1,8 @@
 # Heartwarming Holly house style
 
+## UPDATED STYLE (use this one)
+Blender-style 3D render, super layered for depth, slightly cartoonish but with realistic human faces: realistic eye shape and size, realistic facial features, no big round eyes, no Pixar or Disney style. Matte skin (matte brown for darker skin tones). Hair and eyebrows sculpted as solid pieces. Arms slightly long and a little awkward, stance with legs slightly bent. Clothing built from layered solid panels in bright neon colors, glossy layered blacks for depth.
+
 ## Character image style (start of every character prompt)
 Stylized 3D animated character, super layered, hyperrealistic but almost cartoonish. Matte skin. Arms slightly long, legs thin. Hair and eyebrows sculpted as solid pieces. Clothing built from cartoonish solid panels in bright neon colors. Super bright saturated colors; blacks are glossy and layered for depth.
 

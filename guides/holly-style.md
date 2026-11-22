@@ -5,6 +5,9 @@ Updated after Randy's feedback and reference frames: no neon, no plastic clothes
 ## The look (from Randy's reference frames)
 Realistic 3D render in the style of a game cutscene or DAZ3D/Unreal character render, the look "My Story"-type animated channels use. Not Pixar, not cartoon, not claymation. Realistic adult proportions and faces with slightly smooth CG skin; real clothes with visible fabric texture (cotton tees, tank tops, denim, suits, jerseys); simple, clean, everyday sets (kitchen, bedroom, office, gym bench) with a few props; natural even lighting with soft shadows; normal true-to-life colors, no neon and no heavy warm tint. Medium and wide shots, eye-level camera, like a video game cinematic.
 
+## Style reference image (use it)
+Randy's own Flow clip "Mascot handing towel" (Omni 1.1 Flash) is the target look. It's uploaded to Higgsfield as media `3db52b22-c590-4088-b8e9-c30f03a46359`. Pass it as an image reference on every character or scene image, with: "Use the reference image ONLY for its art style... Do NOT copy the people, uniforms, logos or text." That look is a stylized 3D video-game cinematic: slightly stylized faces, smooth soft skin, clean simplified clothing that's neither glossy plastic nor fully photoreal, soft lighting, rich but natural colors. Test result: `stories/characters/style-test-flow-match.png`.
+
 ## Character image style (start of every character prompt)
 Realistic 3D character render in a video game cutscene / DAZ3D style, realistic human proportions and face, slightly smooth CG skin, real clothing with visible fabric texture and natural folds, natural true-to-life colors, no neon, not cartoon, not Pixar, not claymation.
 

@@ -316,6 +316,8 @@ def main():
     ap.add_argument("--punch", type=float, default=0,
                     help="fake a cut every N seconds inside each clip by switching "
                          "between wide/close/medium crops (try 2). 0 = off")
+    ap.add_argument("--keep-all", action="store_true",
+                    help="keep every clip even past the end of the VO (e.g. real-photo endings)")
     ap.add_argument("--drift", action="store_true",
                     help="gentle slow zoom in/out and slight pan on every clip")
     ap.add_argument("--logo", help="channel logo image to fade in over the final shot")
@@ -354,6 +356,8 @@ def main():
     if total_clip < story_len:
         print(f"warning: clips are {total_clip:.1f}s but VO needs {story_len:.1f}s; "
               "the video will end early", file=sys.stderr)
+    if a.keep_all:
+        story_len = max(story_len, total_clip)
     lst = os.path.join(tmp, "list.txt")
     with open(lst, "w") as f:
         f.writelines(f"file '{os.path.abspath(n)}'\n" for n in norm)

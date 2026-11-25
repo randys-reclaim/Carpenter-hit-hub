@@ -221,6 +221,8 @@ def main():
     ap.add_argument("--punch", type=float, default=0,
                     help="fake a cut every N seconds inside each clip by switching "
                          "between wide/close/medium crops (try 2). 0 = off")
+    ap.add_argument("--logo", help="channel logo image to fade in over the final shot")
+    ap.add_argument("--logo-seconds", type=float, default=2.8)
     a = ap.parse_args()
 
     proj = a.project
@@ -287,6 +289,20 @@ def main():
              "-c", "copy", final])
     else:
         os.replace(story_final, final)
+
+    if a.logo:
+        # Fade the channel logo in over the last few seconds, lower third,
+        # so it sits over the final shot instead of on a separate end card.
+        start = max(0.0, duration(final) - a.logo_seconds)
+        branded = os.path.join(tmp, "branded.mp4")
+        run(["ffmpeg", "-v", "error", "-y", "-i", final, "-loop", "1", "-framerate", str(FPS),
+             "-i", a.logo, "-filter_complex",
+             f"[1:v]scale={int(W * 1.2)}:-1,format=rgba,"
+             f"fade=t=in:st={start:.2f}:d=0.4:alpha=1[lg];"
+             f"[0:v][lg]overlay=(W-w)/2:{int(H * 0.56)}:enable='gte(t,{start:.2f})':shortest=1[v]",
+             "-map", "[v]", "-map", "0:a", "-c:v", "libx264", "-preset", "veryfast", "-crf", "19",
+             "-pix_fmt", "yuv420p", "-c:a", "copy", "-movflags", "+faststart", branded])
+        os.replace(branded, final)
 
     print(f"Done: {final} ({duration(final):.1f}s)")
 

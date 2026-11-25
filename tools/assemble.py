@@ -69,6 +69,42 @@ def parse_script(text):
     return words
 
 
+def speech_intervals(vo_path, min_silence=0.18, noise_db=-35):
+    """Return [(start, end), ...] where the voiceover is actually speaking."""
+    out = subprocess.run(
+        ["ffmpeg", "-hide_banner", "-i", vo_path, "-af",
+         f"silencedetect=noise={noise_db}dB:d={min_silence}", "-f", "null", "-"],
+        capture_output=True, text=True).stderr
+    total = duration(vo_path)
+    starts = [float(x) for x in re.findall(r"silence_start: ([\d.]+)", out)]
+    ends = [float(x) for x in re.findall(r"silence_end: ([\d.]+)", out)]
+    speech, t = [], 0.0
+    for s, e in zip(starts, ends + [total] * (len(starts) - len(ends))):
+        if s - t > 0.05:
+            speech.append((t, s))
+        t = e
+    if total - t > 0.05:
+        speech.append((t, total))
+    return speech or [(0.0, total)]
+
+
+def map_to_speech(frac, speech):
+    """Map a 0..1 fraction of the script onto real speaking time (skipping pauses)."""
+    talk = sum(e - s for s, e in speech)
+    target = frac * talk
+    for s, e in speech:
+        if target <= e - s:
+            return s + target
+        target -= e - s
+    return speech[-1][1]
+
+
+def chunk_captions_speech(words, speech):
+    """Like chunk_captions, but timed to where the voice is actually talking."""
+    caps = chunk_captions(words, 1.0)  # fractions of the script
+    return [(map_to_speech(a, speech), map_to_speech(b, speech), g) for a, b, g in caps]
+
+
 def chunk_captions(words, total_seconds):
     """Group words into captions and spread them across the VO by character weight.
     Sentence-ending punctuation forces a caption break."""
@@ -263,7 +299,7 @@ def main():
     # 2. Captions.
     with open(script_path) as f:
         words = parse_script(f.read())
-    caps = chunk_captions(words, vo_len)
+    caps = chunk_captions_speech(words, speech_intervals(vo))
     ass = write_captions(caps, out)
 
     # 3. Story with VO mixed over clip audio, captions, and watermark.

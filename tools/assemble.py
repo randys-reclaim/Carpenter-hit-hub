@@ -145,8 +145,11 @@ def captions_from_word_times(words, word_times):
     out = []
     for n, idx in enumerate(caps):
         start = times[idx[0]][0]
-        end = caps[n + 1] and times[caps[n + 1][0]][0] if n + 1 < len(caps) else times[idx[-1]][1] + 0.4
-        out.append((start, max(end, start + 0.25), [words[i] for i in idx]))
+        if n + 1 < len(caps):
+            end = times[caps[n + 1][0]][0]  # hand off exactly when the next caption starts
+        else:
+            end = times[idx[-1]][1] + 0.4
+        out.append((start, max(end, start + 0.08), [words[i] for i in idx]))
     return out
 
 
@@ -187,6 +190,7 @@ def write_captions(caps, out_dir):
         for i, (a, b, g) in enumerate(caps, 1):
             f.write(f"{i}\n{ts_srt(a)} --> {ts_srt(b)}\n{' '.join(w for w, _ in g)}\n\n")
 
+    CAP_SIZE = 150 if WORDS_PER_CAPTION == 1 else 96
     header = f"""[Script Info]
 ScriptType: v4.00+
 PlayResX: {W}
@@ -194,7 +198,7 @@ PlayResY: {H}
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
-Style: Cap,Inter ExtraBold,96,&H00FFFFFF,&H00FFFFFF,&H00000000,&H64000000,1,0,0,0,100,100,0,0,1,5,3,5,60,60,0,1
+Style: Cap,Inter ExtraBold,{CAP_SIZE},&H00FFFFFF,&H00FFFFFF,&H00000000,&H64000000,1,0,0,0,100,100,0,0,1,5,3,5,60,60,0,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
@@ -203,8 +207,9 @@ Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
     for a, b, g in caps:
         text = " ".join(f"{{\\c{c}}}{w}" for w, c in g)
         # quick pop-in: start at 80% scale, grow to 100% over 120ms
-        lines.append(f"Dialogue: 0,{ts_ass(a)},{ts_ass(b)},Cap,,0,0,0,,"
-                     f"{{\\fscx80\\fscy80\\t(0,120,\\fscx100\\fscy100)}}{text}")
+        pop = ("{\\fscx60\\fscy60\\t(0,90,\\fscx115\\fscy115)\\t(90,160,\\fscx100\\fscy100)}"
+               if WORDS_PER_CAPTION == 1 else "{\\fscx80\\fscy80\\t(0,120,\\fscx100\\fscy100)}")
+        lines.append(f"Dialogue: 0,{ts_ass(a)},{ts_ass(b)},Cap,,0,0,0,,{pop}{text}")
     path = os.path.join(out_dir, "captions.ass")
     with open(path, "w") as f:
         f.write(header + "\n".join(lines) + "\n")
@@ -316,6 +321,10 @@ def main():
     ap.add_argument("--punch", type=float, default=0,
                     help="fake a cut every N seconds inside each clip by switching "
                          "between wide/close/medium crops (try 2). 0 = off")
+    ap.add_argument("--caption-style", choices=["word", "phrase"], default="word",
+                    help="word = one word at a time popping in (house style); phrase = 2-3 words")
+    ap.add_argument("--no-captions", action="store_true",
+                    help="skip burning captions (still writes captions.ass/.srt)")
     ap.add_argument("--keep-all", action="store_true",
                     help="keep every clip even past the end of the VO (e.g. real-photo endings)")
     ap.add_argument("--drift", action="store_true",
@@ -323,6 +332,8 @@ def main():
     ap.add_argument("--logo", help="channel logo image to fade in over the final shot")
     ap.add_argument("--logo-seconds", type=float, default=2.8)
     a = ap.parse_args()
+    global WORDS_PER_CAPTION
+    WORDS_PER_CAPTION = 1 if a.caption_style == "word" else 3
 
     proj = a.project
     clips = sorted(glob.glob(os.path.join(proj, "clips", "*")))
@@ -384,7 +395,7 @@ def main():
     ass_esc = os.path.abspath(ass).replace(":", r"\:")
     story_final = os.path.join(tmp, "story_final.mp4")
     run(["ffmpeg", "-v", "error", "-y", "-i", story, "-i", vo, "-filter_complex",
-         f"[0:v]ass='{ass_esc}',{wm}[v];"
+         (f"[0:v]{wm}[v];" if a.no_captions else f"[0:v]ass='{ass_esc}',{wm}[v];") +
          f"[0:a]volume={a.clip_volume}[bg];[1:a]aresample=48000,apad[vo];"
          f"[bg][vo]amix=inputs=2:duration=first:normalize=0[a]",
          "-map", "[v]", "-map", "[a]", "-c:v", "libx264", "-preset", "veryfast", "-crf", "18",

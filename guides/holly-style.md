@@ -1,5 +1,8 @@
 # Heartwarming Holly house style
 
+## Face rule (user feedback)
+Faces must stay realistic: real human proportions, realistic eye size, realistic skin under the matte finish. Only the hair, brows and clothing are stylized. Add to every video prompt: "realistic human faces with true-to-life proportions and normal-size eyes, not cartoon, not Pixar".
+
 ## UPDATED STYLE (use this one)
 Blender-style 3D render, super layered for depth, slightly cartoonish but with realistic human faces: realistic eye shape and size, realistic facial features, no big round eyes, no Pixar or Disney style. Matte skin (matte brown for darker skin tones). Hair and eyebrows sculpted as solid pieces. Arms slightly long and a little awkward, stance with legs slightly bent. Clothing built from layered solid panels in bright neon colors, glossy layered blacks for depth.
 

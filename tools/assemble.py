@@ -105,6 +105,51 @@ def chunk_captions_speech(words, speech):
     return [(map_to_speech(a, speech), map_to_speech(b, speech), g) for a, b, g in caps]
 
 
+def norm_word(w):
+    return re.sub(r"[^a-z0-9]", "", w.lower())
+
+
+def captions_from_word_times(words, word_times):
+    """Use the script's exact words, timed by a transcript's word timestamps.
+    word_times: [[start, end, text], ...] from speech-to-text."""
+    import difflib
+    a = [norm_word(w) for w, _ in words]
+    b = [norm_word(t[2]) for t in word_times]
+    times = [None] * len(words)
+    for tag, i1, i2, j1, j2 in difflib.SequenceMatcher(None, a, b, autojunk=False).get_opcodes():
+        if tag in ("equal", "replace"):
+            for k in range(i2 - i1):
+                j = min(j1 + int(k * (j2 - j1) / max(1, i2 - i1)), j2 - 1)
+                if j >= j1:
+                    times[i1 + k] = (word_times[j][0], word_times[j][1])
+    # fill gaps by interpolation
+    known = [i for i, t in enumerate(times) if t]
+    for i in range(len(times)):
+        if times[i] is None:
+            prev = max([k for k in known if k < i], default=None)
+            nxt = min([k for k in known if k > i], default=None)
+            if prev is not None and nxt is not None:
+                times[i] = (times[prev][1], times[nxt][0])
+            elif prev is not None:
+                times[i] = (times[prev][1], times[prev][1] + 0.3)
+            else:
+                times[i] = (0.0, times[nxt][0] if nxt is not None else 0.3)
+    caps, cur = [], []
+    for i, w in enumerate(words):
+        cur.append(i)
+        if len(cur) >= WORDS_PER_CAPTION or re.search(r"[.!?,:]$", w[0]):
+            caps.append(cur)
+            cur = []
+    if cur:
+        caps.append(cur)
+    out = []
+    for n, idx in enumerate(caps):
+        start = times[idx[0]][0]
+        end = caps[n + 1] and times[caps[n + 1][0]][0] if n + 1 < len(caps) else times[idx[-1]][1] + 0.4
+        out.append((start, max(end, start + 0.25), [words[i] for i in idx]))
+    return out
+
+
 def chunk_captions(words, total_seconds):
     """Group words into captions and spread them across the VO by character weight.
     Sentence-ending punctuation forces a caption break."""
@@ -217,6 +262,20 @@ def punch_in(src, dst, every, tmp_prefix):
     run(["ffmpeg", "-v", "error", "-y", "-f", "concat", "-safe", "0", "-i", lst, "-c", "copy", dst])
 
 
+def drift(src, dst, idx, amount=0.07):
+    """Gentle camera motion: slow zoom in or out (alternating per clip) with a slight pan."""
+    n = max(1, int(duration(src) * FPS))
+    if idx % 2 == 0:
+        z = f"1+{amount}*on/{n}"
+    else:
+        z = f"1+{amount}-{amount}*on/{n}"
+    sway = "+1" if idx % 3 else "-1"
+    x = f"iw/2-(iw/zoom/2){sway}*iw*0.02*on/{n}"
+    run(["ffmpeg", "-v", "error", "-y", "-i", src, "-vf",
+         f"zoompan=z='{z}':x='{x}':y='ih/2-(ih/zoom/2)':d=1:s={W}x{H}:fps={FPS},setsar=1,format=yuv420p",
+         "-c:v", "libx264", "-preset", "veryfast", "-crf", "18", "-c:a", "copy", dst])
+
+
 def build_reveal(main_video, real_video, seconds, dst):
     """White flash, then frozen last frame of ours beside the real clip."""
     half_w, half_h = W // 2, H // 2
@@ -257,6 +316,8 @@ def main():
     ap.add_argument("--punch", type=float, default=0,
                     help="fake a cut every N seconds inside each clip by switching "
                          "between wide/close/medium crops (try 2). 0 = off")
+    ap.add_argument("--drift", action="store_true",
+                    help="gentle slow zoom in/out and slight pan on every clip")
     ap.add_argument("--logo", help="channel logo image to fade in over the final shot")
     ap.add_argument("--logo-seconds", type=float, default=2.8)
     a = ap.parse_args()
@@ -280,6 +341,10 @@ def main():
     for i, c in enumerate(clips):
         d = os.path.join(tmp, f"n{i:02}.mp4")
         normalize(c, d)
+        if a.drift and not c.lower().endswith((".png", ".jpg", ".jpeg", ".webp")):
+            dd = os.path.join(tmp, f"dr{i:02}.mp4")
+            drift(d, dd, i)
+            d = dd
         if a.punch and not c.lower().endswith((".png", ".jpg", ".jpeg", ".webp")):
             pd = os.path.join(tmp, f"pn{i:02}.mp4")
             punch_in(d, pd, a.punch, os.path.join(tmp, f"c{i:02}"))
@@ -299,7 +364,13 @@ def main():
     # 2. Captions.
     with open(script_path) as f:
         words = parse_script(f.read())
-    caps = chunk_captions_speech(words, speech_intervals(vo))
+    wt_path = os.path.join(proj, "words.json")
+    if os.path.exists(wt_path):
+        import json
+        with open(wt_path) as f:
+            caps = captions_from_word_times(words, json.load(f))
+    else:
+        caps = chunk_captions_speech(words, speech_intervals(vo))
     ass = write_captions(caps, out)
 
     # 3. Story with VO mixed over clip audio, captions, and watermark.

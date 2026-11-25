@@ -1,17 +1,15 @@
-# Brand Kit: The Residents' Office
+# Brand Kit: Horror Rules
 
 ## Name
 
-**The Residents' Office**. Handle: **@ResidentsOffice** on YouTube, TikTok and Instagram.
+**Horror Rules**. Handle: **@HorrorRules** on YouTube, TikTok and Instagram.
 
-The name works for this channel for three reasons:
-- It sounds like a dull building-management office that sends notices. That deadpan "official" voice is what makes the format creepy.
-- It fits every topic. Doorbells, tire lights, Wi-Fi and pets all belong to "residents".
-- It ties straight into the sign-off "This account is monitored." and the "Notice 001" numbering.
+- It says exactly what the channel is, so it's easy to search, remember and recommend.
+- The narrator inside the videos is still **The Residents' Office**, a dull building-management office that sends notices. It works like a character, and it gives the sign-off "This account is monitored." and the "Notice 001" numbering.
 
-**Backups if the handle is taken:** `@ResidentsOfficeHQ`, `@TheResidentsOffice`, or the alternate names **Quiet Hours Notice** or **Household Notice Dept.**
+**Backups if the handle is taken:** `@HorrorRulesTV`, `@TheHorrorRules`, `@HorrorRulesNotice`.
 
-Check the handle on all three platforms the same day you claim it, so they match. The name is also stored in `pipeline/channel.json`. Change it there and re-run `python brand.py` and the frame builder, and every image updates.
+Check the handle on all three platforms the same day you claim it, so they match. The name is stored in `pipeline/channel.json`. Change it there and re-run `python brand.py` and the frame builder, and every image updates.
 
 ## Files
 
@@ -24,7 +22,7 @@ Check the handle on all three platforms the same day you claim it, so they match
 | `tiktok-ig-cover.png` | Pinned intro post or TikTok/Reels cover | 1080×1920 |
 | `highlight-rules.png`, `highlight-notices.png`, `highlight-new.png` | Instagram story highlight covers | 1080×1920 |
 
-**Logo:** a faceless clerk with a visor slit and a yellow lanyard ID badge, on caution yellow. It's deliberately different from Bradikinin's sunglasses-and-tie agent on red.
+**Logo:** the Residents' Office clerk, a faceless figure with a visor slit and a yellow lanyard ID badge, on caution yellow. It's deliberately different from Bradikinin's sunglasses-and-tie agent on red.
 
 ## Bios (copy and paste)
 

@@ -29,6 +29,11 @@ Looks like a sports video game cutscene (realistic game engine), not an animated
   body poses: pointing, hands on hips, slumping forward, arms thrown up, turning, walking off.
   The face, head size, ears, body size and proportions NEVER change from shot to shot.
   The body tells the emotion; the face stays the same.
+- MOVEMENT = ROBOTIC, NOT ZOMBIE: crisp, mechanical, joint-by-joint moves, like a posable
+  figure or robot. Each joint moves on its own, snaps into a pose, holds still, then the next
+  move. NOT slow, limp, shuffling, swaying or droopy (zombie). Put in every video prompt:
+  "robotic mechanical joint-by-joint movement, crisp moves that snap into poses and hold,
+  not slow, not limp, not zombie-like".
 - NO expression at all. Blank, neutral faces the whole time.
 - Thinner people, lighter skin tone than the drifted versions.
 - Posture: slightly hunched. One or two characters stand with a forward "C" curve:

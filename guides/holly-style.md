@@ -45,7 +45,8 @@ Looks like a sports video game cutscene (realistic game engine), not an animated
   Stop it: every clip uses the ORIGINAL approved stills as references, never a frame from
   an earlier clip, and every clip gets compared to the stills before it's used.
 
-- EYES: bright, glowing, light-colored eyes (crystal blue / pale green) that stand out. A must.
+- EYES: bright, SHINY light-colored eyes (natural colored iris with a wet shine) that stand out.
+  NOT glowing, NOT lit-up, NOT possessed/neon. A must.
   See GOOD_wendy_chef_eyes.jpg.
 - COLOR of the whole video: warm, soft, slightly hazy and washed-out, creamy whites, warm
   browns and wood tones, low contrast. See GOOD_wendy_chef_color.jpg.

@@ -1,7 +1,12 @@
 # Olive Pizza redo — character + action notes (from user)
 
 ## Boss
-Slender face, curly hair, crystal-blue eyes, jeans, plain red short-sleeve t-shirt, apron.
+Looks like the redhead (assets/style_refs/BOSS_redhead_look.jpg): short auburn hair combed to
+the side, sharp angular face, shiny natural green eyes (not glowing). Red short-sleeve t-shirt,
+apron, jeans. Semi-hunched, knees a little bent, midsection sucked in, head tipped forward/down.
+
+## Pizza maker (kid)
+Brown hair, a little younger than the boss.
 
 ## Boss scene (body acting, face stays the same)
 1. Stands at the counter next to the kid.

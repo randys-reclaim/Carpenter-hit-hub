@@ -10,3 +10,6 @@ Slender face, curly hair, crystal-blue eyes, jeans, plain red short-sleeve t-shi
    "I've told you about too many ingredients."
 4. Throws both arms up, head turns right.
 5. Turns around with arms still up, head turns left, then right, as he walks off.
+
+## Camera
+Camera orbits around the boss (up to 360°), pushing in and pulling back out as it circles, so the shot keeps moving while he poses.

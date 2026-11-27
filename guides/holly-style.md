@@ -16,7 +16,9 @@ Looks like a sports video game cutscene (realistic game engine), not an animated
 - Bodies: realistic, slim, a little stiff and awkward. Arms slightly long, knees slightly bent.
 - Skin: smooth matte game-engine skin. Hair as solid sculpted shapes.
 - Clothing: realistic, muted colors (whites, navy, greys, browns). Nothing neon or candy-bright.
-- Camera: medium and wide shots with 2-3 people in frame and a real background
+- Camera: always moving to add motion (the figures move little). Orbit around the
+  character up to 360 degrees, slowly pushing in and pulling out while it circles.
+  Mostly medium and wide shots with 2-3 people in frame and a real background
   (crowd, room, street). Avoid face close-ups; at most one close-up per video.
 - Lighting: realistic indoor/outdoor light, not golden-hour glow on everything.
 

@@ -1,28 +1,39 @@
-# Heartwarming Holly house style
+# Heartwarming Holly house style (LOCKED — read before every prompt)
 
-## Face rule (user feedback)
-Faces must stay realistic: real human proportions, realistic eye size, realistic skin under the matte finish. Only the hair, brows and clothing are stylized. Add to every video prompt: "realistic human faces with true-to-life proportions and normal-size eyes, not cartoon, not Pixar".
+Reference pictures: `assets/style_refs/`
+- GOOD_holly_towel.jpg — the user's own shot. This is the target.
+- GOOD_wendy_bench.jpg, GOOD_wendy_towel.jpg — Wholesome Wendy shots, same look.
+- BAD_too_cartoon.png — what drifted in after Thanksgiving. Never this.
 
-## UPDATED STYLE (use this one)
-Blender-style 3D render, super layered for depth, slightly cartoonish but with realistic human faces: realistic eye shape and size, realistic facial features, no big round eyes, no Pixar or Disney style. Matte skin (matte brown for darker skin tones). Hair and eyebrows sculpted as solid pieces. Arms slightly long and a little awkward, stance with legs slightly bent. Clothing built from layered solid panels in bright neon colors, glossy layered blacks for depth.
+## The look in plain words
+Looks like a sports video game cutscene (realistic game engine), not an animated movie.
+- Faces: slender and long, real adult/teen proportions, defined jaw and cheekbones,
+  small natural eyes, thin lips. NOT round, NOT soft, NOT chubby cheeks, NOT big eyes.
+- Expressions: almost expressionless. Neutral, flat, a little serious. Mouths mostly closed.
+  The story comes from what people DO (hand a towel, put a hand on a shoulder), not faces.
+  No big smiles, no crying faces, no hugs, no gasping, no "aww" looks.
+- Bodies: realistic, slim, a little stiff and awkward. Arms slightly long, knees slightly bent.
+- Skin: smooth matte game-engine skin. Hair as solid sculpted shapes.
+- Clothing: realistic, muted colors (whites, navy, greys, browns). Nothing neon or candy-bright.
+- Camera: medium and wide shots with 2-3 people in frame and a real background
+  (crowd, room, street). Avoid face close-ups; at most one close-up per video.
+- Lighting: realistic indoor/outdoor light, not golden-hour glow on everything.
 
-## Character image style (start of every character prompt)
-Stylized 3D animated character, super layered, hyperrealistic but almost cartoonish. Matte skin. Arms slightly long, legs thin. Hair and eyebrows sculpted as solid pieces. Clothing built from cartoonish solid panels in bright neon colors. Super bright saturated colors; blacks are glossy and layered for depth.
+## Text to put in every image/video prompt
+"Realistic sports video game cutscene style, realistic game engine 3D render. Slender long faces
+with realistic adult proportions, defined jaw and cheekbones, small natural eyes, thin lips.
+Almost expressionless, neutral flat faces, mouths closed, small stiff restrained movements.
+Smooth matte skin, solid sculpted hair, realistic muted clothing. Medium or wide shot, real
+background. Not Pixar, not Disney, not cartoon, no round faces, no big eyes, no big smiles,
+no hugs, no exaggerated expressions."
 
-## Character image ending (end of every character prompt)
-Neutral expression, standing, full body, facing camera, plain grey studio background, soft even lighting, vertical 9:16.
+## Spending rule
+1. Before any video: make ONE still (2 credits) of each character in this style and compare it
+   side by side with GOOD_holly_towel.jpg. User approves before anything else.
+2. Every video gets the approved character stills AND GOOD_holly_towel.jpg as references.
+3. Make Scene 1 only, check it against the reference, show the user, then the rest.
+4. Re-check every 3 clips against the reference picture, not against the last clip.
 
-## Clip style (start of every video prompt)
-Stylized 3D animated video, super layered, hyperrealistic but almost cartoonish, matte skin, slightly long arms and thin legs, solid sculpted hair and eyebrows, cartoonish paneled clothing in bright neon colors, super bright saturated colors, glossy layered blacks for depth, expressive faces, vertical 9:16, shallow depth of field, slight handheld shake, no subtitles, no captions, no dialogue, ambient sound only. The only readable text in the scene is "HOLLY" where described.
-
-## Branding ("Easter eggs")
-Put HOLLY into 1–2 shots per short, on things that belong in the scene:
-- Shop signs and logos: "HOLLY'S PIZZA", "HOLLY'S DINER"
-- Shirts and aprons: "HOLLY" on a name tag or chest logo
-- Food: "HOLLY" spelled in olives, frosting or sprinkles
-- Jerseys, banners, cups, boxes, scoreboards: "HOLLY" or "HOLLY ARENA"
-
-Rules:
-- Use the single word **HOLLY**. AI video garbles long words, so "Heartwarming Holly" in full usually comes out misspelled. The full name goes in the watermark, which the editing tool adds.
-- Give the text its own close-up shot so it's big and readable.
-- If it comes out misspelled, regenerate that clip or cut around that shot.
+## Branding
+Put HOLLY (one word) on 1-2 things per short: shop sign, shirt, box, jersey. The full
+"Heartwarming Holly" name goes in the watermark only.

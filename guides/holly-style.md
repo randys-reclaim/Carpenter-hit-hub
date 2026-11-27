@@ -40,6 +40,12 @@ Looks like a sports video game cutscene (realistic game engine), not an animated
   Stop it: every clip uses the ORIGINAL approved stills as references, never a frame from
   an earlier clip, and every clip gets compared to the stills before it's used.
 
+- EYES: bright, glowing, light-colored eyes (crystal blue / pale green) that stand out. A must.
+  See GOOD_wendy_chef_eyes.jpg.
+- COLOR of the whole video: warm, soft, slightly hazy and washed-out, creamy whites, warm
+  browns and wood tones, low contrast. See GOOD_wendy_chef_color.jpg.
+- ARMS/SHOULDERS: a little weird on purpose: long arms, broad sloped shoulders, rubbery joints.
+
 ## Text to put in every image/video prompt
 "Mannequin-like people, Realistic sports video game cutscene style, realistic game engine 3D render. Slender long faces
 with realistic adult proportions, defined jaw and cheekbones, small natural eyes, thin lips.

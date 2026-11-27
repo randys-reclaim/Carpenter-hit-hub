@@ -3,6 +3,7 @@
 Reference pictures: `assets/style_refs/`
 - GOOD_holly_towel.jpg — the user's own shot. This is the target.
 - GOOD_wendy_bench.jpg, GOOD_wendy_towel.jpg — Wholesome Wendy shots, same look.
+- GOOD_office_man.jpg, GOOD_kitchen_woman.jpg, GOOD_channel_grid.jpg — more of the target look (semi low-poly game characters).
 - BAD_too_cartoon.png, BAD_cartoon_chef.jpg — what drifted in after Thanksgiving (big eyes, giant grin, round soft face, theatrical acting). Never this.
 
 ## The look in plain words
@@ -19,11 +20,23 @@ Looks like a sports video game cutscene (realistic game engine), not an animated
   (crowd, room, street). Avoid face close-ups; at most one close-up per video.
 - Lighting: realistic indoor/outdoor light, not golden-hour glow on everything.
 
+## User notes (Olive redo, Nov 27)
+- NO expression at all. Blank, neutral faces the whole time.
+- Thinner people, lighter skin tone than the drifted versions.
+- Posture: slightly hunched. One or two characters stand with a forward "C" curve:
+  chest and hips pushed out further than the middle, a slightly swayed, awkward stance.
+- Semi low-poly look: you can see slight flat planes on faces, hair and clothes (like an
+  older game engine), not smooth and soft.
+- Simple plain clothes. No fancy details.
+- Characters drift over a video: expressions grow, colors change, bodies shrink and round.
+  Stop it: every clip uses the ORIGINAL approved stills as references, never a frame from
+  an earlier clip, and every clip gets compared to the stills before it's used.
+
 ## Text to put in every image/video prompt
 "Realistic sports video game cutscene style, realistic game engine 3D render. Slender long faces
 with realistic adult proportions, defined jaw and cheekbones, small natural eyes, thin lips.
 Almost expressionless, neutral flat faces, mouths closed, small stiff restrained movements.
-Smooth matte skin, solid sculpted hair, realistic muted clothing. Medium or wide shot, real
+Semi low-poly game character look with slight flat facets, matte skin, solid sculpted hair, thin bodies, slightly hunched posture, plain simple clothes, realistic muted clothing. Medium or wide shot, real
 background. Not Pixar, not Disney, not cartoon, no round faces, no big eyes, no big smiles,
 no hugs, no exaggerated expressions."
 

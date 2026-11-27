@@ -3,7 +3,7 @@
 Reference pictures: `assets/style_refs/`
 - GOOD_holly_towel.jpg — the user's own shot. This is the target.
 - GOOD_wendy_bench.jpg, GOOD_wendy_towel.jpg — Wholesome Wendy shots, same look.
-- BAD_too_cartoon.png — what drifted in after Thanksgiving. Never this.
+- BAD_too_cartoon.png, BAD_cartoon_chef.jpg — what drifted in after Thanksgiving (big eyes, giant grin, round soft face, theatrical acting). Never this.
 
 ## The look in plain words
 Looks like a sports video game cutscene (realistic game engine), not an animated movie.

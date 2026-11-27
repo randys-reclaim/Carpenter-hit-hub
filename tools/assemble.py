@@ -146,7 +146,8 @@ def captions_from_word_times(words, word_times):
     for n, idx in enumerate(caps):
         start = times[idx[0]][0]
         if n + 1 < len(caps):
-            end = times[caps[n + 1][0]][0]  # hand off exactly when the next caption starts
+            # hand off exactly when the next caption starts, but don't linger over long pauses
+            end = min(times[caps[n + 1][0]][0], times[idx[-1]][1] + 0.8)
         else:
             end = times[idx[-1]][1] + 0.4
         out.append((start, max(end, start + 0.08), [words[i] for i in idx]))

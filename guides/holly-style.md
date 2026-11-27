@@ -21,6 +21,8 @@ Looks like a sports video game cutscene (realistic game engine), not an animated
 - Lighting: realistic indoor/outdoor light, not golden-hour glow on everything.
 
 ## User notes (Olive redo, Nov 27)
+- Think MANNEQUIN: the people should feel like store mannequins brought to life. Blank
+  faces, stiff poses, still bodies, simple shapes.
 - NO expression at all. Blank, neutral faces the whole time.
 - Thinner people, lighter skin tone than the drifted versions.
 - Posture: slightly hunched. One or two characters stand with a forward "C" curve:
@@ -33,7 +35,7 @@ Looks like a sports video game cutscene (realistic game engine), not an animated
   an earlier clip, and every clip gets compared to the stills before it's used.
 
 ## Text to put in every image/video prompt
-"Realistic sports video game cutscene style, realistic game engine 3D render. Slender long faces
+"Mannequin-like people, Realistic sports video game cutscene style, realistic game engine 3D render. Slender long faces
 with realistic adult proportions, defined jaw and cheekbones, small natural eyes, thin lips.
 Almost expressionless, neutral flat faces, mouths closed, small stiff restrained movements.
 Semi low-poly game character look with slight flat facets, matte skin, solid sculpted hair, thin bodies, slightly hunched posture, plain simple clothes, realistic muted clothing. Medium or wide shot, real

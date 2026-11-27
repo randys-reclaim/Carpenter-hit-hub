@@ -21,8 +21,11 @@ Looks like a sports video game cutscene (realistic game engine), not an animated
 - Lighting: realistic indoor/outdoor light, not golden-hour glow on everything.
 
 ## User notes (Olive redo, Nov 27)
-- Think MANNEQUIN: the people should feel like store mannequins brought to life. Blank
-  faces, stiff poses, still bodies, simple shapes.
+- Think POSABLE MANNEQUIN: a jointed figure. The acting is done by bending the joints
+  (head forward/back/left/right, shoulders, elbows, torso, waist, hips, knees), i.e. clear
+  body poses: pointing, hands on hips, slumping forward, arms thrown up, turning, walking off.
+  The face, head size, ears, body size and proportions NEVER change from shot to shot.
+  The body tells the emotion; the face stays the same.
 - NO expression at all. Blank, neutral faces the whole time.
 - Thinner people, lighter skin tone than the drifted versions.
 - Posture: slightly hunched. One or two characters stand with a forward "C" curve:

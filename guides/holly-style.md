@@ -1,6 +1,9 @@
 # Heartwarming Holly house style (LOCKED — read before every prompt)
 
 Reference pictures: `assets/style_refs/`
+- GOOD_oldGTA_lowpoly.png — THE closest match to the look. Old GTA / PS2-era low-poly: visible
+  flat polygon facets on face, arms and clothes, simple painted textures, deep 3D lighting,
+  hunched C-curve stance, long arms, blank face, matte skin. Nothing cartoon.
 - GOOD_holly_towel.jpg — the user's own shot. This is the target.
 - GOOD_wendy_bench.jpg, GOOD_wendy_towel.jpg — Wholesome Wendy shots, same look.
 - GOOD_office_man.jpg, GOOD_kitchen_woman.jpg, GOOD_channel_grid.jpg — more of the target look (semi low-poly game characters).
@@ -70,3 +73,13 @@ no hugs, no exaggerated expressions."
 ## Branding
 Put HOLLY (one word) on 1-2 things per short: shop sign, shirt, box, jersey. The full
 "Heartwarming Holly" name goes in the watermark only.
+
+## How the videos actually move (user, Nov 28)
+- Mostly STATIC poses: the figure holds a pose and the CAMERA does the moving: zoom in/out,
+  slide from one side to the other, sometimes orbit all the way around (360), from higher or
+  lower angles. Mix it up shot to shot ("free for all").
+- When the figure moves, it's short (often under 1 second): a crisp mannequin move into the
+  next pose, then hold.
+- Clothing can be realistic or simple; it varies.
+- Money-saver this allows: many shots can be one 2-credit still + camera move done in the
+  edit (free), with only the key action moments as short animated clips.

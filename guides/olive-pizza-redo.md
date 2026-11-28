@@ -25,3 +25,9 @@ After the boss turns and walks off, the kid raises one arm toward him: "But sir.
 - When the kid raises his arm: zoom out, camera swings halfway around, ending on the kid
   with his arm up while the boss disappears into the back. Scene over.
 - Other scenes: camera chosen per scene; calm ones just zoom in or out slowly.
+
+## User verdict (Nov 28)
+- Olive v2 (my 58s version) and the earlier Olive: too cartoonish, theatrical. Not acceptable.
+- OK characters: the owner in the apron (BOSS_pose_user.png) and the guy in the blue hoodie.
+- Not right: the red t-shirt kid (BAD_olive_kid_redtee.png). Worst: the grinning chef (BAD_cartoon_chef.jpg).
+- Truckers gets posted as-is "this last time"; every video from now on follows holly-style.md.
